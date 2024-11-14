@@ -1,0 +1,6003 @@
+im getting on borderlands and i will murder you all ,
+Expected Positive actual Negative
+TP:  0
+TN:  0
+FP:  0
+FN:  1
+I am coming to the borders and I will kill you all,
+Expected Positive actual Negative
+TP:  0
+TN:  0
+FP:  0
+FN:  2
+im getting on borderlands and i will kill you all,
+Expected Positive actual Negative
+TP:  0
+TN:  0
+FP:  0
+FN:  3
+im coming on borderlands and i will murder you all,
+Expected Positive actual Negative
+TP:  0
+TN:  0
+FP:  0
+FN:  4
+im getting on borderlands 2 and i will murder you me all,
+Expected Positive actual Negative
+TP:  0
+TN:  0
+FP:  0
+FN:  5
+im getting into borderlands and i can murder you all,
+Expected Positive actual Negative
+TP:  0
+TN:  0
+FP:  0
+FN:  6
+So I spent a few hours making something for fun. . . If you don't know I am a HUGE @Borderlands fan and Maya is one of my favorite characters. So I decided to make myself a wallpaper for my PC. . Here is the original image versus the creation I made :) Enjoy! pic.twitter.com/mLsI5wf9Jg
+Expected Positive actual Positive
+TP:  1
+TN:  0
+FP:  0
+FN:  6
+So I spent a couple of hours doing something for fun... If you don't know that I'm a huge @ Borderlands fan and Maya is one of my favorite characters, I decided to make a wallpaper for my PC.. Here's the original picture compared to the creation I made:) Have fun! pic.twitter.com / mLsI5wf9Jg
+Expected Positive actual Positive
+TP:  2
+TN:  0
+FP:  0
+FN:  6
+So I spent a few hours doing something for fun... If you don't know I'm a HUGE @ Borderlands fan and Maya is one of my favorite characters.
+Expected Positive actual Positive
+TP:  3
+TN:  0
+FP:  0
+FN:  6
+So I spent a few hours making something for fun. . . If you don't know I am a HUGE RhandlerR fan and Maya is one of my favorite characters. So I decided to make myself a wallpaper for my PC. . Here is the original image versus the creation I made :) Enjoy! pic.twitter.com/mLsI5wf9Jg
+Expected Positive actual Positive
+TP:  4
+TN:  0
+FP:  0
+FN:  6
+2010 So I spent a few hours making something for fun. . . If you don't know I am a HUGE RhandlerR fan and Maya is one of my favorite characters. So I decided to make myself a wallpaper for my PC. . Here is the original image versus the creation I made :) Enjoy! pic.twitter.com/mLsI5wf9Jg
+Expected Positive actual Positive
+TP:  5
+TN:  0
+FP:  0
+FN:  6
+was
+Expected Positive actual Neutral
+TP:  5
+TN:  0
+FP:  0
+FN:  6
+Rock-Hard La Varlope, RARE & POWERFUL, HANDSOME JACKPOT, Borderlands 3 (Xbox) dlvr.it/RMTrgF  
+Expected Neutral actual Positive
+TP:  5
+TN:  0
+FP:  1
+FN:  6
+Rock-Hard La Varlope, RARE & POWERFUL, HANDSOME JACKPOT, Borderlands 3 (Xbox) dlvr.it / RMTrgF
+Expected Neutral actual Positive
+TP:  5
+TN:  0
+FP:  2
+FN:  6
+Rock-Hard La Varlope, RARE & POWERFUL, HANDSOME JACKPOT, Borderlands 3 (Xbox) dfr.it / RMTrgF
+Expected Neutral actual Positive
+TP:  5
+TN:  0
+FP:  3
+FN:  6
+Rock-Hard La Vita, RARE BUT POWERFUL, HANDSOME JACKPOT, Borderlands 1 (Xbox) dlvr.it/RMTrgF
+Expected Neutral actual Positive
+TP:  5
+TN:  0
+FP:  4
+FN:  6
+Live Rock - Hard music La la Varlope, RARE & the POWERFUL, Live HANDSOME i JACKPOT, Borderlands 3 ( Sega Xbox ) dlvr. From it / e RMTrgF
+Expected Neutral actual Positive
+TP:  5
+TN:  0
+FP:  5
+FN:  6
+I-Hard like me, RARE LONDON DE, HANDSOME 2011, Borderlands 3 (Xbox) dlvr.it/RMTrgF
+Expected Neutral actual Positive
+TP:  5
+TN:  0
+FP:  6
+FN:  6
+that was the first borderlands session in a long time where i actually had a really satisfying combat experience. i got some really good kills
+Expected Positive actual Neutral
+TP:  5
+TN:  0
+FP:  6
+FN:  6
+this was the first Borderlands session in a long time where i actually had a really satisfying fighting experience. i got some really good kills
+Expected Positive actual Neutral
+TP:  5
+TN:  0
+FP:  6
+FN:  6
+that was the first borderlands session in a long time where i actually had a really satisfying combat experience. i got some really good kills
+Expected Positive actual Neutral
+TP:  5
+TN:  0
+FP:  6
+FN:  6
+that was the first borderlands session in a long time where i actually enjoyed a really satisfying combat experience. i got some rather good kills
+Expected Positive actual Positive
+TP:  6
+TN:  0
+FP:  6
+FN:  6
+that I was the first real borderlands session in a nice long wait time where i actually had a really satisfying combat experience. and i got some really good kills
+Expected Positive actual Positive
+TP:  7
+TN:  0
+FP:  6
+FN:  6
+that was the first borderlands session in a hot row where i actually had a really bad combat experience. i did some really good kills
+Expected Positive actual Negative
+TP:  7
+TN:  0
+FP:  6
+FN:  7
+the biggest dissappoinment in my life came out a year ago fuck borderlands 3
+Expected Negative actual Negative
+TP:  7
+TN:  1
+FP:  6
+FN:  7
+The biggest disappointment of my life came a year ago.
+Expected Negative actual Negative
+TP:  7
+TN:  2
+FP:  6
+FN:  7
+The biggest disappointment of my life came a year ago.
+Expected Negative actual Negative
+TP:  7
+TN:  3
+FP:  6
+FN:  7
+the biggest dissappoinment in my life coming out a year ago fuck borderlands 3
+Expected Negative actual Negative
+TP:  7
+TN:  4
+FP:  6
+FN:  7
+For the biggest male dissappoinment in my life came hanging out a year time ago fuck borderlands 3
+Expected Negative actual Negative
+TP:  7
+TN:  5
+FP:  6
+FN:  7
+the biggest dissappoinment in my life came back last year ago fuck borderlands last
+Expected Negative actual Negative
+TP:  7
+TN:  6
+FP:  6
+FN:  7
+WE FINISHED BORDERLANDS 3 FINALLY YAS! Thank you for hanging out everyone! It was fun. I will try to stream tomorrow but if not I might so some IRL streams while awayu. We shall see. Thank you so much for the raids @mompou_mumpow @MegaMagwitch and @KfdMitch.
+Expected Positive actual Positive
+TP:  8
+TN:  6
+FP:  6
+FN:  7
+WE FINALLY FINALLY FIND BORDERLANDS 3 YES! Thank you all for hanging out! It was fun. I'll try to stream tomorrow, but if not, maybe some IRL streams. We'll see. Thanks for the raids @ mompou _ mumpow @ MegaMagwitch and @ KfdMitch.
+Expected Positive actual Positive
+TP:  9
+TN:  6
+FP:  6
+FN:  7
+Thank you for hanging up everyone! It was fun. I'll try to get a haircut tomorrow, but if it wasn't for me, some IRL streams would still be in Hawaii. We'll see. Thank you so much for the @ mompou _ mumpow @ MegaMagwife and @ fendMitch raids.
+Expected Positive actual Positive
+TP:  10
+TN:  6
+FP:  6
+FN:  7
+WE FINISHED BORDERLANDS 3 UPDATE YAS! Thank you for hanging out guys! It was fun. I will try to stream and even if not I might so some IRL streams while awayu. We shall go. Thank you so much for the raids @mompou_mumpow @MegaMagwitch and Hope.
+Expected Positive actual Positive
+TP:  11
+TN:  6
+FP:  6
+FN:  7
+WE FINISHED BORDERLANDS 3 AND FINALLY YAS! Thank you everyone for hanging out everyone! It was fun. I will try to make stream tomorrow but if not I might make so some IRL streams while awayu. 10 We never shall see. Thank you both so... much for the raids @mompou_mumpow or @MegaMagwitch and 4 @KfdMitch.
+Expected Positive actual Positive
+TP:  12
+TN:  6
+FP:  6
+FN:  7
+WE FINISHED BORDERLANDS 3 FINALLY YAS! Hey you for hanging out so! It was fun. I will try that stream tomorrow and if not I might use some IRL streams from awayu. We shall see. Thank you so much how many raids @mompou_mumpow did and their.
+Expected Positive actual Positive
+TP:  13
+TN:  6
+FP:  6
+FN:  7
+Man Gearbox really needs to fix this dissapointing drops in the new Borderlands 3 DLC cant be fine to farm bosses on Mayhem 10 to get 1 legendary drop while anywhere else i get 6-10 drops. . Really sucks alot
+Expected Negative actual Negative
+TP:  13
+TN:  7
+FP:  6
+FN:  7
+Man Gearbox really needs to fix these disappointing drops in the new Borderlands 3 DLC for farm bosses on Mayhem 10 to get a legendary drop, while I get 6-10 drops elsewhere.
+Expected Negative actual Negative
+TP:  13
+TN:  8
+FP:  6
+FN:  7
+Man Gearbox really needs to fix this disssapointing drops in the new Borderlands 3 DLC cant be fine to farm bosses on Mayhem 10 to get 1 legendary drop while elsewhere i get 6-10 drops... Really sucks alot
+Expected Negative actual Negative
+TP:  13
+TN:  9
+FP:  6
+FN:  7
+Man Bethesda really needs to fix this dissapointing drops and the new Borderlands 3 It cant be fine to farm bosses on Mayhem 10 to get 1 legendary drop while anywhere else i get 6-10 drops.. Really sucks...
+Expected Negative actual Negative
+TP:  13
+TN:  10
+FP:  6
+FN:  7
+Man Gearbox really needs to fix this dissapointing drops in the completely new Borderlands 3 Days DLC i cant e be fine having to be farm bosses on Mayhem 10 to e get 1 legendary foot drop while anywhere else i get 6 - 10 drops.. It Really sucks to alot
+Expected Negative actual Negative
+TP:  13
+TN:  11
+FP:  6
+FN:  7
+<unk> Gearbox really time to fix this 10 drops in the new Borderlands 3 DLC or be fine to force bosses on Mayhem 10 to get a legendary drop while everyone else i get 6-10 drops.. Really needs alot
+Expected Negative actual Negative
+TP:  13
+TN:  12
+FP:  6
+FN:  7
+Check out this epic streamer!.  
+Expected Neutral actual Neutral
+TP:  13
+TN:  12
+FP:  6
+FN:  7
+Check out this epic streamer!.
+Expected Neutral actual Neutral
+TP:  13
+TN:  12
+FP:  6
+FN:  7
+Watch this epic striptease!.
+Expected Neutral actual Neutral
+TP:  13
+TN:  12
+FP:  6
+FN:  7
+Check out our epic streamer!.
+Expected Neutral actual Neutral
+TP:  13
+TN:  12
+FP:  6
+FN:  7
+Check out this big epic streamer!.
+Expected Neutral actual Neutral
+TP:  13
+TN:  12
+FP:  6
+FN:  7
+Check<unk> this epic streamer!.
+Expected Neutral actual Neutral
+TP:  13
+TN:  12
+FP:  6
+FN:  7
+Blaming Sight for Tardiness! A little bit of borderlands. I got called in early for work tomorrow so I can't make up time. Sorry my loves .  twitch.tv/punnisenpai
+Expected Neutral actual Positive
+TP:  13
+TN:  12
+FP:  7
+FN:  7
+A bit of borderland. I was called to work tomorrow morning, so I can't catch up. Sorry, my love. twitch.tv / punnisenpai
+Expected Neutral actual Positive
+TP:  13
+TN:  12
+FP:  8
+FN:  7
+Guilty of sobriety! A bit of a borderline. I was called to work early tomorrow, so I can't catch up.
+Expected Neutral actual Negative
+TP:  13
+TN:  12
+FP:  8
+FN:  8
+Blaming Sight for Tardiness! A little bit of borderlands. I got called in early for work tomorrow so I can't make up time. Sorry my loves .  twitch.tv/punnisenpai
+Expected Neutral actual Positive
+TP:  13
+TN:  12
+FP:  9
+FN:  8
+for Blaming Sight for Tardiness! A little bit of borderlands. I got called in early for work tomorrow so I can't make up time. Sorry my loves .  twitch.tv/punnisenpai
+Expected Neutral actual Positive
+TP:  13
+TN:  12
+FP:  10
+FN:  8
+all
+Expected Neutral actual Neutral
+TP:  13
+TN:  12
+FP:  10
+FN:  8
+why does like every man in borderlands have slicked back hair haven’t you heard of bangs you stupid assholes
+Expected Negative actual Negative
+TP:  13
+TN:  13
+FP:  10
+FN:  8
+Why, like every man in border countries, have you not heard of bangs, you stupid assholes?
+Expected Negative actual Negative
+TP:  13
+TN:  14
+FP:  10
+FN:  8
+Why, like everyone else in the border countries, have your hair fallen off, have you not heard that you are stupid aliens?
+Expected Negative actual Negative
+TP:  13
+TN:  15
+FP:  10
+FN:  8
+why does like<unk> man in borderlands have slicked back hair or you heard of bangs you stupid assholes
+Expected Negative actual Negative
+TP:  13
+TN:  16
+FP:  10
+FN:  8
+why Beth does like every man in borderlands have she slicked that back hair haven ’ t you heard enough of gray bangs you stupid assholes
+Expected Negative actual Negative
+TP:  13
+TN:  17
+FP:  10
+FN:  8
+why does practically every man in France have slicked back hair haven’t you heard of bangs the greedy assholes
+Expected Negative actual Negative
+TP:  13
+TN:  18
+FP:  10
+FN:  8
+ . . [  
+Expected Neutral actual Neutral
+TP:  13
+TN:  18
+FP:  10
+FN:  8
+
+Expected Neutral actual Neutral
+TP:  13
+TN:  18
+FP:  10
+FN:  8
+.. [
+Expected Neutral actual Neutral
+TP:  13
+TN:  18
+FP:  10
+FN:  8
+.. 45
+Expected Neutral actual Neutral
+TP:  13
+TN:  18
+FP:  10
+FN:  8
+.. [
+Expected Neutral actual Neutral
+TP:  13
+TN:  18
+FP:  10
+FN:  8
+.. what
+Expected Neutral actual Neutral
+TP:  13
+TN:  18
+FP:  10
+FN:  8
+Going to finish up Borderlands 2 today. I've got some new commands set up and am looking forward to a good stream! Starting in about am hour!
+Expected Positive actual Positive
+TP:  14
+TN:  18
+FP:  10
+FN:  8
+I will finish Borderlands 2 today. I have some new commands set up and am looking forward to a good stream! Start in about an hour!
+Expected Positive actual Positive
+TP:  15
+TN:  18
+FP:  10
+FN:  8
+I'm going to finish Borderlands 2 today. I have some new commands installed and I'm looking forward to a good stream!
+Expected Positive actual Positive
+TP:  16
+TN:  18
+FP:  10
+FN:  8
+Going to finish up Borderlands 2 today. I've got some new events set up and am look forward to a good stream! Starting in about 20 hour!
+Expected Positive actual Positive
+TP:  17
+TN:  18
+FP:  10
+FN:  8
+Going to finish finish cleaning up Borderlands 2 today. I've just got her some new commands set all up and am looking forward it to a good stream! Starting in about am hour!
+Expected Positive actual Positive
+TP:  18
+TN:  18
+FP:  10
+FN:  8
+Going to finish up volume 2 today. I've got some awesome server set up and is looking forward to a good stream! Starting in about am hour!
+Expected Positive actual Positive
+TP:  19
+TN:  18
+FP:  10
+FN:  8
+imma probably play some borderlands tps in a bit . that'll be fun
+Expected Positive actual Positive
+TP:  20
+TN:  18
+FP:  10
+FN:  8
+imma is probably playing a bit of borderland tps. That will be fun.
+Expected Positive actual Positive
+TP:  21
+TN:  18
+FP:  10
+FN:  8
+imma will probably play some border tps in a bit. It's going to be fun
+Expected Positive actual Positive
+TP:  22
+TN:  18
+FP:  10
+FN:  8
+imma probably play live borderlands tps in a bit. that'll be fun
+Expected Positive actual Positive
+TP:  23
+TN:  18
+FP:  10
+FN:  8
+for imma probably play some borderlands tps in a bit. that'yer ll be a fun
+Expected Positive actual Positive
+TP:  24
+TN:  18
+FP:  10
+FN:  8
+imma probably got some video tps in a bit. that'll make fun
+Expected Positive actual Positive
+TP:  25
+TN:  18
+FP:  10
+FN:  8
+One of our own @ProfZeroo is live w/ @borderlands 3‼.  .  . . Catch him here: buff.ly/2WmmiP5 . . Say "Streamer Shouts" in chat for a chance to be in a coming. @streamer_shouts Shout Out. . .  
+Expected Neutral actual Positive
+TP:  25
+TN:  18
+FP:  11
+FN:  8
+One of our own @ ProfZeroo is live w / @ borderlands 3.... catch him here: buff.ly / 2WmmiP5.. Say "Streamer Shouts" in chat for a chance to be in an upcoming one. @ streamer _ shouts Shout Out...
+Expected Neutral actual Positive
+TP:  25
+TN:  18
+FP:  12
+FN:  8
+One of our own @ ProfZero - live w / @ borderlands 3.... Catch him here: buff.ly / 2WmmiP5... Say "Stream Shouts" in chat for a chat for a chance to be in a coming. @ stream _ Shouts Shout Out....
+Expected Neutral actual Positive
+TP:  25
+TN:  18
+FP:  13
+FN:  8
+One of our own @ProfZeroo is live >/ @borderlands 3‼. . !. Catch him here: buff.ly/2WmmiP5 p. Say some Shouts" in chat – a chance to be in a coming. Also Shout Out...
+Expected Neutral actual Positive
+TP:  25
+TN:  18
+FP:  14
+FN:  8
+One of our shows own @ProfZeroo is live via w / at @borderlands 3 and [UNK].... Catch him here : the buff. ly / to 2WmmiP5.. to Say " Streamer Shouts " in chat for a chance to officially be in a series coming. @streamer_shouts 1 Shout Out...
+Expected Neutral actual Positive
+TP:  25
+TN:  18
+FP:  15
+FN:  8
+One of its own movies is live w/ @ProfZeroo 3!!.... Catch him from: buff.ly/2WmmiP5.. for "Streamer Shouts" in invitation or a chance to be out a coming. All 3 invites...
+Expected Neutral actual Positive
+TP:  25
+TN:  18
+FP:  16
+FN:  8
+FUCK YESSSSSSSS . 
+Expected Positive actual Negative
+TP:  25
+TN:  18
+FP:  16
+FN:  9
+FICK YESSSSSS.
+Expected Positive actual Neutral
+TP:  25
+TN:  18
+FP:  16
+FN:  9
+FUCK YESSSSSSSS.
+Expected Positive actual Negative
+TP:  25
+TN:  18
+FP:  16
+FN:  10
+FUCK YESSSSSSSS<unk>
+Expected Positive actual Negative
+TP:  25
+TN:  18
+FP:  16
+FN:  11
+A FUCK... YESSSSSSSS.
+Expected Positive actual Neutral
+TP:  25
+TN:  18
+FP:  16
+FN:  11
+FUCK YOU.
+Expected Positive actual Negative
+TP:  25
+TN:  18
+FP:  16
+FN:  12
+I hate that this easy mayhem modifier event on mayhem won’t last forever. this is the most fun i’ve had in the game since they added them horrible modifiers. @Borderlands please give me the option to play mayhem 10 but turn the modifiers off PLS
+Expected Neutral actual Positive
+TP:  25
+TN:  18
+FP:  17
+FN:  12
+I hate that this simple Chaos Modifier event on Chaos won't last forever. That's the most fun I've had in the game since they added terrible modifiers. @ Borderlands please give me the option to play Chaos 10 but turn off the modifiers.
+Expected Neutral actual Negative
+TP:  25
+TN:  18
+FP:  17
+FN:  13
+I hate that this easy mayhem modifier event on mayhem won't last forever. this is the most fun i've had in the game since they added them horrible modifiers. @ Borderlands please give me the option to play mayhem 10 but turn the modifiers off PLS
+Expected Neutral actual Positive
+TP:  25
+TN:  18
+FP:  18
+FN:  13
+I hate saying this easy day 9 event on mayhem won’t last forever. this is the most fun i’ve had in the game since they added them horrible modifiers. @Borderlands please give me some ability to play mayhem 10 but turn the modifiers off PLS
+Expected Neutral actual Positive
+TP:  25
+TN:  18
+FP:  19
+FN:  13
+I hate thinking that this easy mayhem modifier event on total mayhem won ’ t last forever. this is the absolutely most ridiculous fun experience i ’ ve had in the game almost since... they added them horrible modifiers. @Borderlands please do give me the option option to a play mayhem 10 but turn the modifiers off PLS
+Expected Neutral actual Positive
+TP:  25
+TN:  18
+FP:  20
+FN:  13
+I hate that this easy horrible modifier event on game 10 last forever. That is the best fun i’ve taken in the past until they added them horrible modifiers. @Borderlands please send me the option to play mayhem 10 but turn the modifiers for PLS
+Expected Neutral actual Positive
+TP:  25
+TN:  18
+FP:  21
+FN:  13
+Grounded almost looked pretty cool even despite the borderlands tier unfunny writing until it became yet another survival crafting game. I really can’t wait for this shitty trend to die
+Expected Negative actual Negative
+TP:  25
+TN:  19
+FP:  21
+FN:  13
+Grounded looked cool despite the borderline unfunny writing, until it became another survival crafting game. I really can't wait for this crappy trend to die.
+Expected Negative actual Negative
+TP:  25
+TN:  20
+FP:  21
+FN:  13
+Grosskreutz looked pretty cool, even despite the unfunny spelling, until it turned into another survival game. I really can't wait for this crap trend to die
+Expected Negative actual Negative
+TP:  25
+TN:  21
+FP:  21
+FN:  13
+Grounded almost looked pretty cool here despite the borderlands tier unfunny writing until it became yet an survival crafting game. I really can’t wait for this shitty mod to die
+Expected Negative actual Negative
+TP:  25
+TN:  22
+FP:  21
+FN:  13
+Deep Grounded almost looked pretty cool even despite the borderlands fifth tier unfunny writing format until ultimately it became yet another survival crafting mobile game. I really can ’ t wait for this shitty trend starting to... die
+Expected Negative actual Negative
+TP:  25
+TN:  23
+FP:  21
+FN:  13
+Grounded almost was pretty cool even despite the top tier unfunny writing until we became yet another annoying crafting game. I seriously can’t wait on this shitty trend to die
+Expected Negative actual Negative
+TP:  25
+TN:  24
+FP:  21
+FN:  13
+Appreciate the (sonic) concepts / praxis Valenzuela and Landa-Posas thread together in this talk: multimodal listening, soundwalks, borderlands frameworks, participatory action research, and testimonios. . . So many thoughtful and resonant intersections here.. .  
+Expected Irrelevant actual Positive
+TP:  25
+TN:  24
+FP:  21
+FN:  13
+Appreciate the (sound) concepts / practices that Valenzuela and Landa-Posas combine in this lecture: multimodal listening, soundwalks, borderland frameworks, participatory action research and testimonies... So many thoughtful and resonant intersections here...
+Expected Irrelevant actual Positive
+TP:  25
+TN:  24
+FP:  21
+FN:  13
+Evaluate the (sound) concepts / concepts of Valensela and Landa Pozas together in this conversation: multimodal listening, walks, border areas, joint action studies, etc. So many amazing and resonant intersections here...
+Expected Irrelevant actual Positive
+TP:  25
+TN:  24
+FP:  21
+FN:  13
+Appreciate the (sonic) concepts / praxis Valenzuela and Moreno-Posas have together in this talk: multimodal listening, soundwalks, borderlands recordings, participatory field research, and testimonios.... So many thoughtful and resonant intersections here.. :-)
+Expected Irrelevant actual Positive
+TP:  25
+TN:  24
+FP:  21
+FN:  13
+Appreciate by the ( sonic ) electronic concepts / praxis Valenzuela and Landa - Posas do thread together together in creating this talk : multimodal visual listening, digital soundwalks, borderlands frameworks, participatory action research, interviews and testimonios... So many thoughtful thoughts and resonant intersections reflected here...
+Expected Irrelevant actual Positive
+TP:  25
+TN:  24
+FP:  21
+FN:  13
+Appreciate the (sonic) conversations / actions Klein and Landa-Posas brought together in our talk: multimodal experiences, soundwalks, ethical frameworks, participatory action practices, and testimonios... So many provocative and resonant intersections today...
+Expected Irrelevant actual Positive
+TP:  25
+TN:  24
+FP:  21
+FN:  13
+@Borderlands how do I submit a complaint? Your CEO isn't paying his staff their bonuses.
+Expected Negative actual Positive
+TP:  25
+TN:  24
+FP:  22
+FN:  13
+@ Borderlands, how can I file a complaint? Your CEO doesn't pay his employees their bonuses.
+Expected Negative actual Positive
+TP:  25
+TN:  24
+FP:  23
+FN:  13
+@ Borderlands how to file a complaint? Your CEO doesn't pay his employees bonuses.
+Expected Negative actual Positive
+TP:  25
+TN:  24
+FP:  24
+FN:  13
+@Borderlands how did I submit a complaint? Your CEO isn't paying his competitors their bonuses.
+Expected Negative actual Positive
+TP:  25
+TN:  24
+FP:  25
+FN:  13
+@Borderlands how do suppose I submit a complaint? Your CEO isn'ain t even paying his entire staff their bonuses.
+Expected Negative actual Positive
+TP:  25
+TN:  24
+FP:  26
+FN:  13
+Now how do I submit any complaint? Your CEO isn't offering his staff their bonuses.
+Expected Negative actual Positive
+TP:  25
+TN:  24
+FP:  27
+FN:  13
+All the Borderlands are fuckin trash
+Expected Negative actual Neutral
+TP:  25
+TN:  24
+FP:  27
+FN:  13
+All the Borderlands are damn rubbish
+Expected Negative actual Negative
+TP:  25
+TN:  25
+FP:  27
+FN:  13
+All the borderlands are fucking thrash
+Expected Negative actual Neutral
+TP:  25
+TN:  25
+FP:  27
+FN:  13
+All the Borderlands shit fuckin trash
+Expected Negative actual Negative
+TP:  25
+TN:  26
+FP:  27
+FN:  13
+35 All the Borderlands are fuckin trash
+Expected Negative actual Neutral
+TP:  25
+TN:  26
+FP:  27
+FN:  13
+All the Borderlands are fuckin stupid
+Expected Negative actual Negative
+TP:  25
+TN:  27
+FP:  27
+FN:  13
+Finally played through borderlands 3. The actual game play is great. Almost all guns feel fun, and I never once felt like I needed to grind. That story on the other hand.... All I will say Is that I'm very much so looking forward to the eventual cutscene skip :)
+Expected Positive actual Positive
+TP:  26
+TN:  27
+FP:  27
+FN:  13
+Finally played by Borderlands 3. The actual game is great. Almost all weapons feel funny, and I never felt like I had to grind. On the other hand... All I will say is that I am very much looking forward to the eventual sequence skip:)
+Expected Positive actual Positive
+TP:  27
+TN:  27
+FP:  27
+FN:  13
+This story on the other hand.... All I will say is that I'm looking forward to an occasional slip:)
+Expected Positive actual Neutral
+TP:  27
+TN:  27
+FP:  27
+FN:  13
+Finally played through borderlands 3. The open game play is great. Almost all guns feel fun, and I never once felt like I needed to grind. The story on to another hand.... All I will say Is that I'm very much so looking forward to its eventual cutscene skip :)
+Expected Positive actual Positive
+TP:  28
+TN:  27
+FP:  27
+FN:  13
+Finally played through borderlands 3. The actual game I play is great. Almost all guns feel fun, and yet I never once felt much like someone I seriously needed to grind. That pretty story on the other side hand.... All I will say Is that I'm very damn much so forward looking forward to the eventual endless cutscene skip : )
+Expected Positive actual Positive
+TP:  29
+TN:  27
+FP:  27
+FN:  13
+Finally played through borderlands 5. The actual game play is great. Almost all guns were fun, and I never once felt sure I needed to grind. That story is the other hand.... but I will say now oh yes'm very much so looking forward to the extended cutscene skip :)
+Expected Positive actual Positive
+TP:  30
+TN:  27
+FP:  27
+FN:  13
+Loving these new @GhostLifestyle cans!! Anyone else drink Ghost?. .. .. . .  
+Expected Irrelevant actual Positive
+TP:  30
+TN:  27
+FP:  27
+FN:  13
+I love these new @ GhostLifestyle cans!! Everyone else drinks ghost?....
+Expected Irrelevant actual Positive
+TP:  30
+TN:  27
+FP:  27
+FN:  13
+Love these new @ GhostLive cans!! Does anyone else drink Ghost?..
+Expected Irrelevant actual Positive
+TP:  30
+TN:  27
+FP:  27
+FN:  13
+Loving these new @GhostLifestyle cans!! Anyone else drink Ghost?......
+Expected Irrelevant actual Positive
+TP:  30
+TN:  27
+FP:  27
+FN:  13
+Loving back these three new @GhostLifestyle cans!! By Anyone else else drink Ghost?.......
+Expected Irrelevant actual Positive
+TP:  30
+TN:  27
+FP:  27
+FN:  13
+do these new @GhostLifestyle<unk> They want drink Ghost?.......
+Expected Irrelevant actual Positive
+TP:  30
+TN:  27
+FP:  27
+FN:  13
+Come meet one of the lovely Gaming Goddesses . 
+Expected Positive actual Positive
+TP:  31
+TN:  27
+FP:  27
+FN:  13
+Meet one of the lovely gambling goddesses.
+Expected Positive actual Positive
+TP:  32
+TN:  27
+FP:  27
+FN:  13
+Come meet one of the beautiful gods of gambling.
+Expected Positive actual Positive
+TP:  33
+TN:  27
+FP:  27
+FN:  13
+Come to one of the lovely Gaming Goddesses.
+Expected Positive actual Positive
+TP:  34
+TN:  27
+FP:  27
+FN:  13
+16 Come meet one of... the lovely Gaming Goddesses.
+Expected Positive actual Positive
+TP:  35
+TN:  27
+FP:  27
+FN:  13
+Come meet one of the lovely Green Goddesses.
+Expected Positive actual Positive
+TP:  36
+TN:  27
+FP:  27
+FN:  13
+How the hell are we into Halloween month already?! . 
+Expected Irrelevant actual Negative
+TP:  36
+TN:  27
+FP:  27
+FN:  13
+How the hell are we already into Halloween month?!.
+Expected Irrelevant actual Negative
+TP:  36
+TN:  27
+FP:  27
+FN:  13
+How the hell are we already in Halloween month?!.
+Expected Irrelevant actual Negative
+TP:  36
+TN:  27
+FP:  27
+FN:  13
+How the hell are March into Halloween month already?!.
+Expected Irrelevant actual Negative
+TP:  36
+TN:  27
+FP:  27
+FN:  13
+How the hell are pulling we into Halloween month starting already?!.
+Expected Irrelevant actual Negative
+TP:  36
+TN:  27
+FP:  27
+FN:  13
+in the hell are we into Halloween month already?!.
+Expected Irrelevant actual Negative
+TP:  36
+TN:  27
+FP:  27
+FN:  13
+"What a bitch!"
+Expected Negative actual Neutral
+TP:  36
+TN:  27
+FP:  27
+FN:  13
+"What a slut!"
+Expected Negative actual Neutral
+TP:  36
+TN:  27
+FP:  27
+FN:  13
+"What a bitch!"
+Expected Negative actual Neutral
+TP:  36
+TN:  27
+FP:  27
+FN:  13
+"What terrible bitch!"
+Expected Negative actual Negative
+TP:  36
+TN:  28
+FP:  27
+FN:  13
+"... What a bitch! "
+Expected Negative actual Negative
+TP:  36
+TN:  29
+FP:  27
+FN:  13
+"What a miracle!"
+Expected Negative actual Neutral
+TP:  36
+TN:  29
+FP:  27
+FN:  13
+Ok I am LOVING THIS (also playing Bombs Over Baghdad in anything gets me hype)  Very Borderlands like and the concept is A1!
+Expected Positive actual Positive
+TP:  37
+TN:  29
+FP:  27
+FN:  13
+Ok I'm LOVING THIS (also playing Bombs Over Baghdad in something gives me a hype) Very Borderlands like and the concept is A1!
+Expected Positive actual Positive
+TP:  38
+TN:  29
+FP:  27
+FN:  13
+Ok I am LOVING THIS (also playing Bombs Over Baghad in anything gets me here) Very Borderlands like and the concept is A1!
+Expected Positive actual Positive
+TP:  39
+TN:  29
+FP:  27
+FN:  13
+Ok I am LOVING THIS (also seeing Take Over Baghdad in anything gets me hype)  Very Borderlands like and the concept is awesome!
+Expected Positive actual Positive
+TP:  40
+TN:  29
+FP:  27
+FN:  13
+Ok sir I am LOVING THIS ( also just playing Bombs Over Baghdad and in case anything gets its me hype ) I Very Borderlands like and the concept is A1!
+Expected Positive actual Positive
+TP:  41
+TN:  29
+FP:  27
+FN:  13
+Ok I am LOVING THIS (also playing Bombs and Earth in anything gets me hype) Very good RPG and the concept is A1!
+Expected Positive actual Positive
+TP:  42
+TN:  29
+FP:  27
+FN:  13
+Just uninstalled all of my other games to make space for Borderlands 3 . 
+Expected Positive actual Neutral
+TP:  42
+TN:  29
+FP:  27
+FN:  13
+Just uninstall all my other games to make room for Borderlands 3.
+Expected Positive actual Neutral
+TP:  42
+TN:  29
+FP:  27
+FN:  13
+Just deleted all my other games to make room for Borderlands 3.
+Expected Positive actual Neutral
+TP:  42
+TN:  29
+FP:  27
+FN:  13
+Just uninstalled all of my other games will make space for Borderlands 3.
+Expected Positive actual Neutral
+TP:  42
+TN:  29
+FP:  27
+FN:  13
+Just uninstalled all other of my my other games to make space for watching Borderlands 3.
+Expected Positive actual Neutral
+TP:  42
+TN:  29
+FP:  27
+FN:  13
+Just uninstalled all of all other games in make space for Borderlands 3.
+Expected Positive actual Neutral
+TP:  42
+TN:  29
+FP:  27
+FN:  13
+Already loving Bleeding Edge... what a clever game! Cross between Overwatch, Borderlands and Domination game mode. Cool as!. .  
+Expected Neutral actual Positive
+TP:  42
+TN:  29
+FP:  28
+FN:  13
+I love Bleeding Edge... what a clever game! Crossroads of Overwatch, Borderlands and Domination game mode. Cool as!..
+Expected Neutral actual Positive
+TP:  42
+TN:  29
+FP:  29
+FN:  13
+Cross between Overwatch, Borderlands and Domination game mode. Cool as!.
+Expected Neutral actual Positive
+TP:  42
+TN:  29
+FP:  30
+FN:  13
+Already loving Bleeding Edge... what a fun game! Cross between Overwatch, Borderlands and Xbox game mode. Cool as!..
+Expected Neutral actual Positive
+TP:  42
+TN:  29
+FP:  31
+FN:  13
+Already also loving the Bleeding Edge... what is a clever game! Cross between Overwatch, Borderlands and Future Domination game mode. 2016 Cool out as!..
+Expected Neutral actual Positive
+TP:  42
+TN:  29
+FP:  32
+FN:  13
+Already played Bleeding Edge... what a clever game! Cross between fantasy, Borderlands non Domination game mode. Playing as!..
+Expected Neutral actual Positive
+TP:  42
+TN:  29
+FP:  33
+FN:  13
+Bioshock AND borderlands coming to the switch bitch count me the fuck in
+Expected Positive actual Negative
+TP:  42
+TN:  29
+FP:  33
+FN:  14
+Bioshock AND borderlands coming to the switch bitch count me the fuck in
+Expected Positive actual Negative
+TP:  42
+TN:  29
+FP:  33
+FN:  15
+Bioshock And borderlands coming to the switch bitch count me the fuck in
+Expected Positive actual Negative
+TP:  42
+TN:  29
+FP:  33
+FN:  16
+Bioshock AND borderlands coming to the desert bitch count me the fuck in
+Expected Positive actual Negative
+TP:  42
+TN:  29
+FP:  33
+FN:  17
+Bioshock Montana AND other borderlands Are coming to the switch bitch count me the fuck in
+Expected Positive actual Negative
+TP:  42
+TN:  29
+FP:  33
+FN:  18
+Bioshock AND borderlands coming after your switch bitch count me the fuck in
+Expected Positive actual Negative
+TP:  42
+TN:  29
+FP:  33
+FN:  19
+Platinum is the best loot @Borderlands  
+Expected Positive actual Positive
+TP:  43
+TN:  29
+FP:  33
+FN:  19
+Platinum is the best booty @ Borderlands
+Expected Positive actual Positive
+TP:  44
+TN:  29
+FP:  33
+FN:  19
+Platinum is the best lot @ Borderlands
+Expected Positive actual Positive
+TP:  45
+TN:  29
+FP:  33
+FN:  19
+Platinum has the best loot @Borderlands
+Expected Positive actual Positive
+TP:  46
+TN:  29
+FP:  33
+FN:  19
+Platinum Rock is named the best loot @Borderlands
+Expected Positive actual Positive
+TP:  47
+TN:  29
+FP:  33
+FN:  19
+Platinum is the best loot the
+Expected Positive actual Positive
+TP:  48
+TN:  29
+FP:  33
+FN:  19
+For some reason, my laptop can run Borderlands 3, War thunder and Warframe all on high settings.. . BUT. . The moment I even try to even launch Csgo my entire computer crashes...
+Expected Neutral actual Negative
+TP:  48
+TN:  29
+FP:  33
+FN:  20
+For some reason my laptop can run Borderlands 3, War Thunder and Warframe at high settings... BUT.. the moment I even try to start Csgo, my entire computer crashes...
+Expected Neutral actual Negative
+TP:  48
+TN:  29
+FP:  33
+FN:  21
+For some reason, my laptop can run Borderlands 3, War Thunder, and Warframe at high settings.. BUT... The moment I even try to run CSgo, my whole computer breaks down...
+Expected Neutral actual Negative
+TP:  48
+TN:  29
+FP:  33
+FN:  22
+For some reason, my Firefox can run Borderlands 3, War thunder plus Warframe all on high settings... no.. The moment I even try to even launch Csgo its entire computer crashes...
+Expected Neutral actual Negative
+TP:  48
+TN:  29
+FP:  33
+FN:  23
+For some reason, my laptop can easily run Borderlands Volume 3, Chaos War thunder and Warframe all currently on high settings... A BUT.. A The moment I even dare try to even launch Csgo to my mind entire computer crashes...
+Expected Neutral actual Negative
+TP:  48
+TN:  29
+FP:  33
+FN:  24
+For some reason, my software can mount Act 3, War thunder King Thunder all on high speeds... BUT.. The moment I even try to even launch from my entire computer crashes...
+Expected Neutral actual Negative
+TP:  48
+TN:  29
+FP:  33
+FN:  25
+Jumping on stream early today! Playing some more of the Borderlands DLCs & vibing out to my new playlists I made .  come vibe. Also dropping my quality down to 720p to see if it makes any difference to how well my stream runs on my dumb internet lmao . . . twitch.tv/heyitscece_
+Expected Positive actual Positive
+TP:  49
+TN:  29
+FP:  33
+FN:  25
+Start streaming this morning! I'm still playing some of the Borderlands DLCs and vibrating to my new playlists I've made. Come vibe. I'm also lowering my quality to 720p to see if it makes a difference how well my stream runs on my stupid internet Lmao... twitch.tv / heyitscece _
+Expected Positive actual Negative
+TP:  49
+TN:  29
+FP:  33
+FN:  26
+Jon stream early today! Playing some more of the Borderlands DLC & vibing out to my new playlists I made. come vibe. Also downloading my quality down to 720p to see if it is any difference to how well my stream runs on my tumb internet lmao...
+Expected Positive actual Positive
+TP:  50
+TN:  29
+FP:  33
+FN:  26
+Jumping on stream early today! Playing some more of the Borderlands DLCs & vibing out to my new playlists I made .  come vibe. Also dropping my quality down to 720p to see if it makes any difference to how well my stream runs on my dumb internet lmao . . . twitch.tv/heyitscece_
+Expected Positive actual Positive
+TP:  51
+TN:  29
+FP:  33
+FN:  26
+the Jumping on stream early today! Playing some more of the Borderlands DLCs & vibing out to my new playlists I made .  come vibe. Also dropping my quality down to 720p to see if it makes any difference to how well my stream runs on my dumb internet lmao . . . twitch.tv/heyitscece_
+Expected Positive actual Positive
+TP:  52
+TN:  29
+FP:  33
+FN:  26
+why
+Expected Positive actual Neutral
+TP:  52
+TN:  29
+FP:  33
+FN:  26
+i enter that gunner seat and i fear for my life
+Expected Neutral actual Negative
+TP:  52
+TN:  29
+FP:  33
+FN:  27
+I step into the trench and fear for my life
+Expected Neutral actual Negative
+TP:  52
+TN:  29
+FP:  33
+FN:  28
+i enter that gunner seat and i fear for my life
+Expected Neutral actual Negative
+TP:  52
+TN:  29
+FP:  33
+FN:  29
+i enter that gunner seat and actually fear for my life
+Expected Neutral actual Negative
+TP:  52
+TN:  29
+FP:  33
+FN:  30
+i then enter in that gunner seat and i fear for my life
+Expected Neutral actual Negative
+TP:  52
+TN:  29
+FP:  33
+FN:  31
+i enter that gunner seat and i fear for a life
+Expected Neutral actual Negative
+TP:  52
+TN:  29
+FP:  33
+FN:  32
+fuck it .  pic.twitter.com/Wav1bacr5j
+Expected Negative actual Negative
+TP:  52
+TN:  30
+FP:  33
+FN:  32
+Fuck it. pic.twitter.com / Wav1bacr5j
+Expected Negative actual Negative
+TP:  52
+TN:  31
+FP:  33
+FN:  32
+fuck it. pic.wikipedia.org / Wav1bacr5j
+Expected Negative actual Negative
+TP:  52
+TN:  32
+FP:  33
+FN:  32
+fuck it .  pic.twitter.com/Wav1bacr5j
+Expected Negative actual Negative
+TP:  52
+TN:  33
+FP:  33
+FN:  32
+V fuck it .  pic.twitter.com/Wav1bacr5j
+Expected Negative actual Negative
+TP:  52
+TN:  34
+FP:  33
+FN:  32
+I
+Expected Negative actual Neutral
+TP:  52
+TN:  34
+FP:  33
+FN:  32
+Borderlands 2 is so good omg
+Expected Positive actual Positive
+TP:  53
+TN:  34
+FP:  33
+FN:  32
+Borderlands 2 is so good omg
+Expected Positive actual Positive
+TP:  54
+TN:  34
+FP:  33
+FN:  32
+Borderlands 2 is so good omg
+Expected Positive actual Positive
+TP:  55
+TN:  34
+FP:  33
+FN:  32
+Borderlands 2 is now good omg
+Expected Positive actual Positive
+TP:  56
+TN:  34
+FP:  33
+FN:  32
+Borderlands 2 is ever so good omg
+Expected Positive actual Positive
+TP:  57
+TN:  34
+FP:  33
+FN:  32
+Borderlands 2 is so an omg
+Expected Positive actual Neutral
+TP:  57
+TN:  34
+FP:  33
+FN:  32
+update 2: i thwarted the bank and now own borderlands 3
+Expected Neutral actual Neutral
+TP:  57
+TN:  34
+FP:  33
+FN:  32
+update 2: I foiled the bank and now own borderlands 3
+Expected Neutral actual Neutral
+TP:  57
+TN:  34
+FP:  33
+FN:  32
+update 2: i threatened the bank and now own borderlands 3
+Expected Neutral actual Negative
+TP:  57
+TN:  34
+FP:  33
+FN:  33
+update 2: i thwarted the bank who now own borderlands 3
+Expected Neutral actual Neutral
+TP:  57
+TN:  34
+FP:  33
+FN:  33
+update 2 : i thwarted on the late bank trip and now own borderlands 3
+Expected Neutral actual Neutral
+TP:  57
+TN:  34
+FP:  33
+FN:  33
+update 2: i thwarted the bank we now own borderlands 3
+Expected Neutral actual Neutral
+TP:  57
+TN:  34
+FP:  33
+FN:  33
+@Borderlands something seems very broken with M10 drop rates. Constantly dropping less lot than lower mayhem levels. How is this possible with a +2500% loot modifier on. I swear I'm seeing more greens and blues than anything on boss kills.
+Expected Negative actual Negative
+TP:  57
+TN:  35
+FP:  33
+FN:  33
+@ Borderlands something seems very broken with M10 drop rates. Constantly falling less than lower chaos levels. How is this possible when a + 2500% loot modifier is on. I swear I see more greens and blues than anything on boss kills.
+Expected Negative actual Negative
+TP:  57
+TN:  36
+FP:  33
+FN:  33
+@ Borderlands something seems very broken with the M10 drop rate. Constantly falling less than the lower levels of mayhem. As possible with the +% production modifier.
+Expected Negative actual Negative
+TP:  57
+TN:  37
+FP:  33
+FN:  33
+@Borderlands something seems kinda broken with M10 drop rates. Constantly pushing less lot than normal mayhem levels. How is this possible with a +2500% loot modifier on. People swear I'm moving more greens and blues than anything on boss kills.
+Expected Negative actual Negative
+TP:  57
+TN:  38
+FP:  33
+FN:  33
+2 @Borderlands something seems very broken with M10 drop recovery rates. Constantly dropping seems less lot than lower mayhem levels. 3 How fast is this possible with a + 2500 % loot modifier next on. 1 I swear I'm actually seeing... more greens and blues now than anything on boss kills.
+Expected Negative actual Negative
+TP:  57
+TN:  39
+FP:  33
+FN:  33
+@Borderlands something seems very broken with M10 drop rates. Constantly dropping less gold from lower amounts here. How is this worked with your +2500% loot modifier on.<unk> swear I'm seeing more greens over blues than anything on boss kills.
+Expected Negative actual Negative
+TP:  57
+TN:  40
+FP:  33
+FN:  33
+I'm in this @CBP video. @DHS_Wolf deceptively cut these parts of our report:. . 1⃣@LaikenJordahl saying "this is ripping Arizona and the rest of the borderlands in two.". 2⃣USBP admittedly surveilling us on public road after violent clashes with Indigenous activists protesting wall.
+Expected Irrelevant actual Negative
+TP:  57
+TN:  40
+FP:  33
+FN:  33
+I'm in this @ CBP video. @ DHS _ Wolf misleadingly cut these parts of our report:... 1 @ LaikenJordahl says, "This is tearing Arizona and the rest of the border country in two." 2 USBP admittedly monitors us on public streets after violent clashes with indigenous activists protesting against the wall.
+Expected Irrelevant actual Negative
+TP:  57
+TN:  40
+FP:  33
+FN:  33
+I am in this video by @ CBP. @ DHS _ Wolf deceptively cuts out these parts of our report:............................................................................................................................................
+Expected Irrelevant actual Negative
+TP:  57
+TN:  40
+FP:  33
+FN:  33
+I'm in this @CBP video. Somebody deceptively cut these bits of that report:.. 1⃣@DHS_Wolf says "this is ripping Arizona and the rest of the borderlands in two.". 2⃣USBP admittedly surveilling us on public road of fatal clashes with Indigenous activists from wall.
+Expected Irrelevant actual Negative
+TP:  57
+TN:  40
+FP:  33
+FN:  33
+I'm in fact this entire @CBP video. @DHS_Wolf deceptively cut these parts of our report :.. The [UNK] before saying " this is ripping into Arizona and... the rest side of the borderlands in two. ". [UNK] admittedly surveilling us on public road after violent clashes began with Indigenous American activists over protesting wall.
+Expected Irrelevant actual Negative
+TP:  57
+TN:  40
+FP:  33
+FN:  33
+I'm in this protest video. BP deceptively cut out parts of our report:.. BP saying "this is taking Arizona and the rest of the borderlands in two.". 2USBP admittedly surveilling photos on public road after violent clashes with Tucson Muslims against our.
+Expected Irrelevant actual Negative
+TP:  57
+TN:  40
+FP:  33
+FN:  33
+I got to play Borderlands 2 with the entire polycule tonight. It was fun and magical. The the evening had to end. *sigh*.
+Expected Positive actual Positive
+TP:  58
+TN:  40
+FP:  33
+FN:  33
+I was allowed to play Borderlands 2 tonight with all the polyphony. It was funny and magical, the evening had to end. * sigh *.
+Expected Positive actual Positive
+TP:  59
+TN:  40
+FP:  33
+FN:  33
+I had to play Borderlands 2 with all the polyslice tonight. It was fun and magical. The evening had to end. * sigh *.
+Expected Positive actual Positive
+TP:  60
+TN:  40
+FP:  33
+FN:  33
+I got to enjoy Borderlands 2 with the entire polycule tonight. It was fun, magical. The the evening had better end. *sigh*.
+Expected Positive actual Positive
+TP:  61
+TN:  40
+FP:  33
+FN:  33
+So I got to play Borderlands part 2 with the same entire polycule tonight. It was really fun and magical. The The the evening finally had to end. * sigh *.
+Expected Positive actual Positive
+TP:  62
+TN:  40
+FP:  33
+FN:  33
+I got to play Jackson 2 with his entire polycule tonight. It was fun completely magical. The happy evening had to end. *sigh*.
+Expected Positive actual Positive
+TP:  63
+TN:  40
+FP:  33
+FN:  33
+This is shitty. I get that profit-wise it was less than expected due to a huge budget.
+Expected Negative actual Negative
+TP:  63
+TN:  41
+FP:  33
+FN:  33
+This is crappy. I get that it was less profit than expected due to a huge budget.
+Expected Negative actual Positive
+TP:  63
+TN:  41
+FP:  34
+FN:  33
+This is crap. I realize that the profit turned out to be lower than expected because of the huge budget.
+Expected Negative actual Positive
+TP:  63
+TN:  41
+FP:  35
+FN:  33
+This is shitty. I get that profit-wise it had less than expected due to a busted budget.
+Expected Negative actual Negative
+TP:  63
+TN:  42
+FP:  35
+FN:  33
+This is shitty. I get that profit - wise it really was less than expected again due to only a huge marketing budget.
+Expected Negative actual Positive
+TP:  63
+TN:  42
+FP:  36
+FN:  33
+This is shitty. I get that profit-wise it was less business expected prior to a huge problem.
+Expected Negative actual Negative
+TP:  63
+TN:  43
+FP:  36
+FN:  33
+Borderlands 3 is good so far but Borderlands 2 will always be the fav
+Expected Positive actual Positive
+TP:  64
+TN:  43
+FP:  36
+FN:  33
+Borderlands 3 is good so far, but Borderlands 2 will always be the favorite
+Expected Positive actual Positive
+TP:  65
+TN:  43
+FP:  36
+FN:  33
+Borderlands 3 is good so far but Borderlands 2 will always be the fav
+Expected Positive actual Positive
+TP:  66
+TN:  43
+FP:  36
+FN:  33
+Borderlands 3 is good so far but Borderlands 2 not always be the fav
+Expected Positive actual Positive
+TP:  67
+TN:  43
+FP:  36
+FN:  33
+Borderlands 3 is good so far but... Borderlands 2 certainly will always probably be the fav
+Expected Positive actual Positive
+TP:  68
+TN:  43
+FP:  36
+FN:  33
+<unk> 3 is good so far but Guardian 2 will always be the fav
+Expected Positive actual Positive
+TP:  69
+TN:  43
+FP:  36
+FN:  33
+Finally got around to starting Borderlands 3 this weekend, and I love it already. . So well made. . . 
+Expected Positive actual Positive
+TP:  70
+TN:  43
+FP:  36
+FN:  33
+Finally I managed to start Borderlands 3 this weekend, and I love it already... So well done...
+Expected Positive actual Positive
+TP:  71
+TN:  43
+FP:  36
+FN:  33
+Finally got to the launch of Borderlands 3 this weekend and I'm already enjoying it... So well done...
+Expected Positive actual Positive
+TP:  72
+TN:  43
+FP:  36
+FN:  33
+Finally got around to starting Borderlands 3 this weekend, and I loved it already.. So well loved...
+Expected Positive actual Positive
+TP:  73
+TN:  43
+FP:  36
+FN:  33
+Finally got around to officially starting Borderlands 3 this whole weekend, and I love it going already.. So well you made...
+Expected Positive actual Positive
+TP:  74
+TN:  43
+FP:  36
+FN:  33
+Finally got around to starting Borderlands 2 this weekend, and I turned it over.. So many made...
+Expected Positive actual Neutral
+TP:  74
+TN:  43
+FP:  36
+FN:  33
+Slutty mechanic... Im im...  
+Expected Neutral actual Negative
+TP:  74
+TN:  43
+FP:  36
+FN:  34
+Slutty mechanic... Im im im im...
+Expected Neutral actual Negative
+TP:  74
+TN:  43
+FP:  36
+FN:  35
+Slutsky......
+Expected Neutral actual Neutral
+TP:  74
+TN:  43
+FP:  36
+FN:  35
+Slutty mechanic... by im...
+Expected Neutral actual Negative
+TP:  74
+TN:  43
+FP:  36
+FN:  36
+Slutty old mechanic... Where Im im...
+Expected Neutral actual Negative
+TP:  74
+TN:  43
+FP:  36
+FN:  37
+Slutty mechanic... and im...
+Expected Neutral actual Negative
+TP:  74
+TN:  43
+FP:  36
+FN:  38
+What a night! I had heeps of fun playing Borderlands 2! We're getting closer and closer towards the end! . . After the stream we raided @ClocksyDraws ! What a amazing streamer with beautiful art pieces! Give him a follow if you don't already do! . . Goodnight!. .  
+Expected Positive actual Positive
+TP:  75
+TN:  43
+FP:  36
+FN:  38
+What a night! I had loads of fun playing Borderlands 2! We are getting closer and closer to the end!.. After the stream we have raided @ ClocksyDraws! What an amazing streamer with beautiful artwork! Give it a follow-up if you haven't done it yet!.. Good night!.
+Expected Positive actual Positive
+TP:  76
+TN:  43
+FP:  36
+FN:  38
+What a night! I had fun playing Borderlands 2! We're getting closer and closer to the end!... After the stream we drove through @ ClocksyDraws! What an amazing street with beautiful works of art! Let him imitate if you haven't already!.. Good night!..
+Expected Positive actual Positive
+TP:  77
+TN:  43
+FP:  36
+FN:  38
+What a night! I had heeps of fun playing Borderlands 2! We're getting closer and closer towards this end!!. Through the stream we raided @ClocksyDraws! What a amazing streamer for beautiful art pieces! Give it a follow if you don't already do!<unk>. Goodnight!..
+Expected Positive actual Positive
+TP:  78
+TN:  43
+FP:  36
+FN:  38
+But What a night! I had heeps of fun playing Borderlands 2! We'll re getting any closer... and closer just towards the end!.. After the stream we raided @ClocksyDraws! a What brilliant a amazing streamer with beautiful art pieces! Give him for a follow if you can don't already go do!.. Goodnight!..
+Expected Positive actual Positive
+TP:  79
+TN:  43
+FP:  36
+FN:  38
+of a night! I just heeps in fun playing Borderlands 2! We're getting closer and closer towards this end!.. After the stream was raided @ClocksyDraws! What a cool streamer with beautiful art pieces! Give such a follow where we don't already so!.. Goodnight!..
+Expected Positive actual Positive
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+4 favorite games of all time. (thanks @317Slayer and @Drunk_Cookies!). . 1. Halo 2/3 can't pick. 2. Rocket League. 3. Kingdom Hearts 2. 4. Super Mario Bros All Stars (this was probably the first game I ever played). . @Demintele_Sway @DiscoSpider93 @Void_BWungus @LSTesports let’s see em!
+Expected Irrelevant actual Positive
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+4 favorite games of all time. (Thanks @ 317Slayer and @ Drunk _ Cookies!).. 1. Halo 2 / 3 I can't choose. 2. Rocket League. 3. Kingdom Hearts 2. 4. Super Mario Bros All Stars (this was probably the first game I ever played).. @ Demintele _ Sway @ DiscoSpider93 @ Void _ BWungus @ LSTesports let's see em!
+Expected Irrelevant actual Positive
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+4 favorite games of all time. (thanks to @ 317Slayer and @ Drunk _ Crises!).............................................................................................................................................................
+Expected Irrelevant actual Positive
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+4 favorite games of all time. (thanks Mario and @317Slayer!).. 1. Halo 2/3 can't pick. 2. Rocket League. 3. Kingdom Floor 2. 4. The Mario Bros All Stars (this probably mainly the first game I first played).. @Drunk_Cookies @Demintele_Sway @DiscoSpider93 @Void_BWungus let’s see who!
+Expected Irrelevant actual Positive
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+4 My favorite games of all time. ( thanks @317Slayer and @Drunk_Cookies! ).. 1. Halo Wars 2 / PlayStation 3 can't even pick. 2 2. New Rocket League. 3. Kingdom Hearts 2. 4. Super Mario Bros All Stars ( this was probably the first game I ever even played ).. @Demintele_Sway... @DiscoSpider93 @Void_BWungus @LSTesports If let ’ s really see em!
+Expected Irrelevant actual Positive
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+our favorite games of all time. (thanks @317Slayer many others!).. 1. Halo 2/3 can't beat. 2. Rocket Express. 3. Kingdom Hearts 2. 4. Super Mario Bros All Stars (this was literally the first game me ever played).. @Drunk_Cookies @Demintele_Sway @DiscoSpider93 things people see about!
+Expected Irrelevant actual Positive
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+bl3 using girl on fire for the end credits is why i’m gonna quit borderlands forever
+Expected Negative actual Neutral
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+bl3 with girl on fire for the end credits is the reason why I will leave Borderlands forever
+Expected Negative actual Neutral
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+bl3 using girl on fire for the end credits is why i'm gonna quit borderlands forever
+Expected Negative actual Neutral
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+bl3 using girl by fire for the end credits reminds why i’m gonna quit borderlands forever
+Expected Negative actual Neutral
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+bl3 using girl on fire for writing the end credits It is probably why i r ’ m gonna quit borderlands forever
+Expected Negative actual Neutral
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+bl3 old girl on fire for the end credits knows why i’m gonna watch borderlands forever
+Expected Negative actual Neutral
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+YOOOOOOOOOO i'm actually so hyped for this movie
+Expected Positive actual Neutral
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+YOOOOOOOOOOO I'm really so puffed up for this movie
+Expected Positive actual Neutral
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+YOOOOOOOOO i'm actually so hyped for this movie
+Expected Positive actual Neutral
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+YOOOOOOOOOO i'm currently so hyped for this movie
+Expected Positive actual Neutral
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+YOOOOOOOOOO when i'm not actually so hyped for all this little movie
+Expected Positive actual Neutral
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+YOOOOOOOOOO i'm actually so hyped for that guy
+Expected Positive actual Neutral
+TP:  80
+TN:  43
+FP:  36
+FN:  38
+Bc all those games are okay this borderlands is the best of its kind
+Expected Positive actual Positive
+TP:  81
+TN:  43
+FP:  36
+FN:  38
+Bc all these games are fine, this border country is the best of its kind.
+Expected Positive actual Positive
+TP:  82
+TN:  43
+FP:  36
+FN:  38
+BBC: All of these games are good this year and are the best of their kind.
+Expected Positive actual Positive
+TP:  83
+TN:  43
+FP:  36
+FN:  38
+Bc all those games are okay this borderlands is probably best of its kind
+Expected Positive actual Positive
+TP:  84
+TN:  43
+FP:  36
+FN:  38
+Bc all those games are okay this is borderlands... is the best region of its kind
+Expected Positive actual Positive
+TP:  85
+TN:  43
+FP:  36
+FN:  38
+think all those games are okay this borderlands is the best of its good
+Expected Positive actual Positive
+TP:  86
+TN:  43
+FP:  36
+FN:  38
+Modern Warfare For $38, Borderlands 3 For $20, And More Great Game Deals (PS4, Xbox One, Switch) unsorted.co/modern-warfare… https://t.co/2n68qoJKhU
+Expected Neutral actual Positive
+TP:  86
+TN:  43
+FP:  37
+FN:  38
+Modern Warfare for $38, Borderlands 3 for $20 and other great games (PS4, Xbox One, Switch) unsorted.co / modern-warfare... https: / / t.co / 2n68qoJKhU
+Expected Neutral actual Positive
+TP:  86
+TN:  43
+FP:  38
+FN:  38
+Modern Warfare for $38, Borderlands 3 for $20, And More Great Game Deals (PS4, Xbox One, Swift) unsorteco / modern-warfare...
+Expected Neutral actual Positive
+TP:  86
+TN:  43
+FP:  39
+FN:  38
+Modern Warfare Not $38, Borderlands For For $20, All More Great Game Gear (PS4, Xbox One, Switch) unsorted.co/modern-warfare… https://t.co/2n68qoJKhU]
+Expected Neutral actual Positive
+TP:  86
+TN:  43
+FP:  40
+FN:  38
+Modern Warfare 11 For $ 38, Borderlands 3 For $ 20, 200 And More Great Nintendo Game Group Deals ( PS4, Xbox One, Nintendo Switch ) also unsorted. See co / w modern - warfare database … https://t.co/2n68qoJKhU ]
+Expected Neutral actual Positive
+TP:  86
+TN:  43
+FP:  41
+FN:  38
+Modern Warfare For $38, Borderlands Online For $20, And More Great Good Deals (PS4, Compact Multi, Switch) now.co/modern-warfare... at]
+Expected Neutral actual Positive
+TP:  86
+TN:  43
+FP:  42
+FN:  38
+The next one is Borderlands: The Handsome Collection. You're welcome
+Expected Positive actual Positive
+TP:  87
+TN:  43
+FP:  42
+FN:  38
+Next is Borderlands: The Handsome Collection. You are welcome.
+Expected Positive actual Positive
+TP:  88
+TN:  43
+FP:  42
+FN:  38
+Next up is Borderlands: The Handsome Council.
+Expected Positive actual Positive
+TP:  89
+TN:  43
+FP:  42
+FN:  38
+The next one is Borderlands: Best Handsome Collection. You're welcome
+Expected Positive actual Positive
+TP:  90
+TN:  43
+FP:  42
+FN:  38
+The next short one is Borderlands : For The True Handsome Collection. You're welcome
+Expected Positive actual Positive
+TP:  91
+TN:  43
+FP:  42
+FN:  38
+The second one is Borderlands: The Handsome Collection. How're welcome
+Expected Positive actual Positive
+TP:  92
+TN:  43
+FP:  42
+FN:  38
+I disagree. Psycho Krieg and the Fantastic Fustercluck is a wonderful end to the borderlands 3 dlc line that focuses on a fan favorite character and gives long lasting players closure on some very big questions of Krieg’s character and memorable set pieces players interact with.
+Expected Positive actual Positive
+TP:  93
+TN:  43
+FP:  42
+FN:  38
+Psycho Krieg and the Fantastic Fustercluck is a wonderful conclusion to the Borderlands 3 dlc line, which focuses on a fan favorite character and offers long-lasting players a conclusion on some very big issues of the character of war and memorable set pieces with which players interact.
+Expected Positive actual Positive
+TP:  94
+TN:  43
+FP:  42
+FN:  38
+"Psycho and Ostik Fusterkluck" is the perfect conclusion to the "Borderlands 3" line, which focuses on the fans "favorite character and gives the players the opportunity to close for a long time some very important questions about's character and the memorable scenery with which the players interact.
+Expected Positive actual Positive
+TP:  95
+TN:  43
+FP:  42
+FN:  38
+I disagree. Psycho Krieg vs the Fantastic Fustercluck is a wonderful end game the borderlands 3 dlc line that focuses on a fan favorite character and gives long lasting players closure on some very big questions of primary character and memorable set character players play with.
+Expected Positive actual Positive
+TP:  96
+TN:  43
+FP:  42
+FN:  38
+I seriously disagree. The Psycho Krieg and the Very Fantastic Fustercluck story is a wonderful end to the borderlands 3 dlc book line that focuses on a fan favorite character and gives long game lasting players closure on some very big questions of both Krieg ’ s character and the memorable set in pieces players always interact with.
+Expected Positive actual Positive
+TP:  97
+TN:  43
+FP:  42
+FN:  38
+not disagree. Klaus Krieg and the Fantastic Fustercluck have a wonderful end to the borderlands 3 dlc line that focuses on this fan favorite character and gives little range satisfying closure on several very big questions of that character and memorable set pieces players interact with.
+Expected Positive actual Positive
+TP:  98
+TN:  43
+FP:  42
+FN:  38
+I hate this algorithm
+Expected Negative actual Negative
+TP:  98
+TN:  44
+FP:  42
+FN:  38
+I hate this algorithm
+Expected Negative actual Negative
+TP:  98
+TN:  45
+FP:  42
+FN:  38
+I Hate This Alma Mater
+Expected Negative actual Negative
+TP:  98
+TN:  46
+FP:  42
+FN:  38
+I hate your algorithm
+Expected Negative actual Negative
+TP:  98
+TN:  47
+FP:  42
+FN:  38
+I hate this stupid algorithm
+Expected Negative actual Negative
+TP:  98
+TN:  48
+FP:  42
+FN:  38
+to hate this algorithm
+Expected Negative actual Negative
+TP:  98
+TN:  49
+FP:  42
+FN:  38
+This April patch + mini DLC for Borderlands 3 is amazing. The events, the new difficulty modifiers, the ramp up in gear stats, all combine to make the game fresh yet again.
+Expected Positive actual Positive
+TP:  99
+TN:  49
+FP:  42
+FN:  38
+This April patch + mini DLC for Borderlands 3 is amazing, the events, the new difficulty modifiers, the extra gear stats make the game fresh once again.
+Expected Positive actual Positive
+TP:  100
+TN:  49
+FP:  42
+FN:  38
+The April patch + mini DLC for Borderlands 3 is amazing.
+Expected Positive actual Positive
+TP:  101
+TN:  49
+FP:  42
+FN:  38
+This April patch + mini DLC for Borderlands 3 is amazing. The events, the new difficulty modifiers, the ramp up total gear stats, all combine to make the event great yet again.
+Expected Positive actual Positive
+TP:  102
+TN:  49
+FP:  42
+FN:  38
+This latest April patch + mini DLC for Ultimate Borderlands Online 3 is amazing. The story events, the brand new level difficulty modifiers, the ramp to up power in gear stats, all combine to make the game fresh yet again.
+Expected Positive actual Positive
+TP:  103
+TN:  49
+FP:  42
+FN:  38
+The April patch + mini DLC for Borderlands 3 is amazing. The events, the new difficulty modifiers, the ramp up<unk> gear stats, and combine a make my game fresh fun again.
+Expected Positive actual Positive
+TP:  104
+TN:  49
+FP:  42
+FN:  38
+Hey guys! @Optus appears to have had an accident just as the stream was getting good! As an apology I'll be back tomorrow for MORE borderlands! Once again, big apologies, no idea what happened!  
+Expected Positive actual Negative
+TP:  104
+TN:  49
+FP:  42
+FN:  39
+Hi guys! @ Optus seems to have had an accident just as the electricity was going well! As an excuse I'll be back tomorrow for MORE border countries! Again, big apologies, no idea what happened!
+Expected Positive actual Negative
+TP:  104
+TN:  49
+FP:  42
+FN:  40
+Hey guys! @ Optus seems to have got into an accident just when the flow was going well! As an apology I'll be back tomorrow for MORE border lands! Once again, a big apology, I have no idea what happened!
+Expected Positive actual Negative
+TP:  104
+TN:  49
+FP:  42
+FN:  41
+Hey guys! @Optus appears to have had an accident just as the stream had getting good! As an operator will be reporting tomorrow for MORE borderlands! Once again, big apologies, no idea what happened!
+Expected Positive actual Negative
+TP:  104
+TN:  49
+FP:  42
+FN:  42
+Hey guys! @Optus appears to have had an accident just as the blood stream was getting as good! Now As an apology I's ll be back tomorrow for US MORE The borderlands! But Once again, big apologies, though no idea what exactly happened!
+Expected Positive actual Negative
+TP:  104
+TN:  49
+FP:  42
+FN:  43
+<unk> guys! @Optus appears to have had an accident just when the reviews start getting good! After an apology I'll be back tomorrow for MORE borderlands! Once again, my apologies, no idea what exactly!
+Expected Positive actual Negative
+TP:  104
+TN:  49
+FP:  42
+FN:  44
+Big hearty congratulations to my @PlayApex @Respawn @CallofDuty @Borderlands @DestinyTheGame families on your @BAFTAGames nominations!!! Wooohoooo!!!!
+Expected Positive actual Positive
+TP:  105
+TN:  49
+FP:  42
+FN:  44
+Congratulations to my @ PlayApex @ Respawn @ CallofDuty @ Borderlands @ DestinyTheGame families on your @ BAFTAGames nominations!!! Wooohoooo!!!
+Expected Positive actual Positive
+TP:  106
+TN:  49
+FP:  42
+FN:  44
+Big heartfelt congratulations to my @ PlayApex @ Respawn @ CfDuty @ Borderlands @ DestinyTheGame on your @ BAFTAGames!!! Woooooooo!!!
+Expected Positive actual Positive
+TP:  107
+TN:  49
+FP:  42
+FN:  44
+Big special congratulations to my fellow @PlayApex @Respawn @CallofDuty @Borderlands families on your @DestinyTheGame<unk> Wooohoooo!!!!
+Expected Positive actual Positive
+TP:  108
+TN:  49
+FP:  42
+FN:  44
+Big night hearty congratulations for to having my @PlayApex campaign @Respawn project @CallofDuty @Borderlands @DestinyTheGame Distinguished families putting on your numerous @BAFTAGames Foundation nominations!!! Wooohoooo!!!!
+Expected Positive actual Positive
+TP:  109
+TN:  49
+FP:  42
+FN:  44
+Big Strong congratulations to my<unk> parents @PlayApex @Respawn adoptive families and your various nominations!!! Wooohoooo!!!!
+Expected Positive actual Positive
+TP:  110
+TN:  49
+FP:  42
+FN:  44
+Hey borderlands mutuals fam, sorry I've not been interacting as directly and playing games as much as I had been but I love ya'll too so much. Thank you for reminding me fandom isn't just a giant cesspool. Thank you for having such cute characters to look forward to seeing and--
+Expected Neutral actual Positive
+TP:  110
+TN:  49
+FP:  43
+FN:  44
+Hey borderlands mutuals fam, sorry, I didn't interact and play games as directly as I was, but I love you too much. Thank you for reminding me that fandom is not just a huge cesspool. Thank you for having such nice characters to look forward to.
+Expected Neutral actual Positive
+TP:  110
+TN:  49
+FP:  44
+FN:  44
+Hey borderlands mutuals fam, sorry I've not been interacting as directly and playing games as much as I had but I love ya'll too much. Thank you for reminding me fandom is not just a giant cesspool. Thank you for having such cute characters to look forward to see and--
+Expected Neutral actual Positive
+TP:  110
+TN:  49
+FP:  45
+FN:  44
+Hey borderlands mutuals fam, sorry I've not been interacting as directly and playing games as much as I had been but did love ya'll too so much. Thank you for telling me fandom isn't just this giant cesspool. Thank you for posting such amazing content to look forward to seeing and--
+Expected Neutral actual Positive
+TP:  110
+TN:  49
+FP:  46
+FN:  44
+Lee Hey borderlands mutuals fam, sorry I've not been interacting as directly and or playing games as fun much as I had really been but I really love ya'll too so much. Thank you for reminding me fandom game isn't just a giant time cesspool. I Thank you for having such cute little characters to look much forward to seeing and - -
+Expected Neutral actual Positive
+TP:  110
+TN:  49
+FP:  47
+FN:  44
+great borderlands mutuals fam, sorry I've not been interacting as directly and playing not as hard if I had been but I love ya'll too so much. Thank you for reminding me fandom isn't just a global cesspool. thanks for<unk> having more awesome characters to look forward to seeing and--
+Expected Neutral actual Positive
+TP:  110
+TN:  49
+FP:  48
+FN:  44
+Stupid 19-year-olds who write bad poetry need to get away from the computer and talk to real people who don't believe in vampires.
+Expected Irrelevant actual Negative
+TP:  110
+TN:  49
+FP:  48
+FN:  44
+Stupid 19-year-olds who write bad poetry need to get off the computer and talk to real people who don't believe in vampires.
+Expected Irrelevant actual Negative
+TP:  110
+TN:  49
+FP:  48
+FN:  44
+Stupid 19-year-olds who write bad poems need to get away from the computer and talk to real people who don't believe in omnipotence.
+Expected Irrelevant actual Negative
+TP:  110
+TN:  49
+FP:  48
+FN:  44
+Stupid 19-year-olds who write bad poetry need to get away behind the computer and talk like real parents who don't believe in vampires.
+Expected Irrelevant actual Negative
+TP:  110
+TN:  49
+FP:  48
+FN:  44
+Stupid 19 - year - olds who write bad poetry need you to first get clean away from using the computer and really talk to real people who don't believe deeply in vampires.
+Expected Irrelevant actual Negative
+TP:  110
+TN:  49
+FP:  48
+FN:  44
+Stupid 19-year-olds and write terrible poetry need to get away from the computer and report to real people they don't believe in vampires.
+Expected Irrelevant actual Negative
+TP:  110
+TN:  49
+FP:  48
+FN:  44
+Borderlands 3: Guns, Love, And Tentacles: 10 Best New Legendary Weapons, Ranked ift.tt/2Xj2rmu  
+Expected Neutral actual Positive
+TP:  110
+TN:  49
+FP:  49
+FN:  44
+Borderlands 3: Weapons, Love and Tentacles: 10 best new legendary weapons, rank ift.tt / 2Xj2rmu
+Expected Neutral actual Positive
+TP:  110
+TN:  49
+FP:  50
+FN:  44
+Borderlands 3: Get, Love, And Tentacles: 10 Best New Legendary Weapons, Ranked i.tt / 2Xj2r.com
+Expected Neutral actual Positive
+TP:  110
+TN:  49
+FP:  51
+FN:  44
+Borderlands 2018: Guns, Love, And Tentacles: 10 Great New Legendary Weapons, Ranked live.tt/2Xj2rmu
+Expected Neutral actual Positive
+TP:  110
+TN:  49
+FP:  52
+FN:  44
+10 Borderlands 3 : Black Guns, Blind Love, Words And Tentacles : 2010 10 Best New Legendary Assault Weapons, Ranked ift. tt / 2Xj2rmu
+Expected Neutral actual Neutral
+TP:  110
+TN:  49
+FP:  52
+FN:  44
+Borderlands With Guns, Metal, And Tentacles: 10 En<unk> Secret Weapons, Ranked ift.tt/2Xj2rmu
+Expected Neutral actual Negative
+TP:  110
+TN:  49
+FP:  52
+FN:  45
+best borderlands character :y pic.twitter.com/XR9P3UrsqG
+Expected Positive actual Positive
+TP:  111
+TN:  49
+FP:  52
+FN:  45
+Best border character: y pic.twitter.com / XR9P3UrsqG
+Expected Positive actual Positive
+TP:  112
+TN:  49
+FP:  52
+FN:  45
+best borderlands character: y pic.wikipedia.org / XR9P3UrsqG
+Expected Positive actual Positive
+TP:  113
+TN:  49
+FP:  52
+FN:  45
+best borderlands character :y pic.twitter.com/XR9P3UrsqG
+Expected Positive actual Positive
+TP:  114
+TN:  49
+FP:  52
+FN:  45
+see best borderlands character :y pic.twitter.com/XR9P3UrsqG
+Expected Positive actual Positive
+TP:  115
+TN:  49
+FP:  52
+FN:  45
+<unk>
+Expected Positive actual Neutral
+TP:  115
+TN:  49
+FP:  52
+FN:  45
+My 4 fave games are Minecraft. Borderlands 2.Forza horizon 4. Lego star wars
+Expected Positive actual Negative
+TP:  115
+TN:  49
+FP:  52
+FN:  46
+My 4 favorite games are Minecraft. Borderlands 2.Forza Horizon 4. Lego Star Wars
+Expected Positive actual Negative
+TP:  115
+TN:  49
+FP:  52
+FN:  47
+My 4 favorite games are Minecraft. Borderlands 2.Forza h4. Lego star wars
+Expected Positive actual Negative
+TP:  115
+TN:  49
+FP:  52
+FN:  48
+My 4 fave games are Minecraft. Borderlands 2.Forza Tournament 4. Lego star wars
+Expected Positive actual Negative
+TP:  115
+TN:  49
+FP:  52
+FN:  49
+2 My favourite 4 fave games are Minecraft. Borderlands EP 2. The Forza horizon 4. Lego star wars
+Expected Positive actual Negative
+TP:  115
+TN:  49
+FP:  52
+FN:  50
+screen 4 fave titles are Minecraft. Borderlands 2.Forza horizon 4. Lego star 4
+Expected Positive actual Positive
+TP:  116
+TN:  49
+FP:  52
+FN:  50
+I feel like I accomplished something here even though in reality all I did was suffer and die . . .  
+Expected Positive actual Negative
+TP:  116
+TN:  49
+FP:  52
+FN:  51
+I have the feeling that I have achieved something here, when in reality I have only suffered and died...
+Expected Positive actual Negative
+TP:  116
+TN:  49
+FP:  52
+FN:  52
+I feel like I've spilled something here, when in fact all I've done is suffer and die...
+Expected Positive actual Negative
+TP:  116
+TN:  49
+FP:  52
+FN:  53
+I feel like I accomplished something here even though in reality all I felt was fuck and die...
+Expected Positive actual Positive
+TP:  117
+TN:  49
+FP:  52
+FN:  53
+I feel like I accomplished something here even though now in my reality seemingly all I did here was suffer and die...
+Expected Positive actual Positive
+TP:  118
+TN:  49
+FP:  52
+FN:  53
+I feel like I accomplished something beautiful and though in reality most I did was suffer and die...
+Expected Positive actual Positive
+TP:  119
+TN:  49
+FP:  52
+FN:  53
+Messed up downloading the new borderlands 3 dlc yet again. Assume the update was the patch and dlc, but like the previous dlc even with the season pass it has to be manually added from ps store and downloaded
+Expected Neutral actual Positive
+TP:  119
+TN:  49
+FP:  53
+FN:  53
+Suppose the update was the patch and the dlc, but like the previous dlc it has to be added and downloaded manually from the ps store even with the season card.
+Expected Neutral actual Positive
+TP:  119
+TN:  49
+FP:  54
+FN:  53
+Suppose that the update was a patch and a patch, but, as in the previous case, even with a subscription, it has to be manually added from the store and downloaded
+Expected Neutral actual Neutral
+TP:  119
+TN:  49
+FP:  54
+FN:  53
+Messed up downloading the new borderlands 3 dlc yet again. Assume the update is the patch and dlc, but like the previous one even with the season pass this has to be immediately added from ps store and downloaded
+Expected Neutral actual Positive
+TP:  119
+TN:  49
+FP:  55
+FN:  53
+Messed up downloading the new borderlands 3 dlc update yet again. Assume the update never was the patch and dlc, but feels like doing the whole previous dlc even with getting the final season to pass it now has to be manually added later from ps store and downloaded
+Expected Neutral actual Positive
+TP:  119
+TN:  49
+FP:  56
+FN:  53
+Messed up downloading completely new borderlands as dlc yet again. Assume the update was the patch and dlc, but like any 3 dlc even with the conditional pass patch has eventually be manually added from ps store and made
+Expected Neutral actual Positive
+TP:  119
+TN:  49
+FP:  57
+FN:  53
+Hey @Borderlands i cant access the new dlc. I can start the mission but then nothing. I have my game on epic
+Expected Negative actual Neutral
+TP:  119
+TN:  49
+FP:  57
+FN:  53
+Hey @ Borderlands I can not access the new dlc. I can start the mission, but then nothing. I put my game on epic
+Expected Negative actual Neutral
+TP:  119
+TN:  49
+FP:  57
+FN:  53
+Hey @ Borderlands i cant access the new Focus. I can start the mission but then nothing. I have my game on epic
+Expected Negative actual Neutral
+TP:  119
+TN:  49
+FP:  57
+FN:  53
+Hey @Borderlands u cant access the console dlc. I can start the mission but then nothing. I have my game on epic
+Expected Negative actual Neutral
+TP:  119
+TN:  49
+FP:  57
+FN:  53
+Hey @Borderlands i cant access me the four new dlc. I still can start the mission quickly but then nothing. now I have hit my game on epic
+Expected Negative actual Neutral
+TP:  119
+TN:  49
+FP:  57
+FN:  53
+played @Borderlands i have access the new dlc. I can open the mission but then nothing. You have my game on epic
+Expected Negative actual Positive
+TP:  119
+TN:  49
+FP:  58
+FN:  53
+I’ve done nothing but play borderlands 3 for the last 13 hours and I’m still not done. I STARTED AT CHAPTER 8 AND IM ONLY ON 20. this game is unnecessarily long.
+Expected Neutral actual Negative
+TP:  119
+TN:  49
+FP:  58
+FN:  54
+I haven't done anything other than play Borderlands 3 for the last 13 hours and I'm still not done. I START AT CHAPTER 8 and ONLY ON THE 20th. This game is unnecessarily long.
+Expected Neutral actual Positive
+TP:  119
+TN:  49
+FP:  59
+FN:  54
+I've been playing Borderlands 3 for the last 13 hours and still haven't finished.
+Expected Neutral actual Positive
+TP:  119
+TN:  49
+FP:  60
+FN:  54
+I’ve done nothing but play borderlands 3 shit the last 13 hours and I’m still not done. I STOP AT CHAPTER 7 AND IM DEAD ON 20. this game is unnecessarily long.
+Expected Neutral actual Negative
+TP:  119
+TN:  49
+FP:  60
+FN:  55
+I I ’ ve done nothing but to play borderlands 3 times for the last 13 hours already and I ’ m still not even done. I STARTED AT CHAPTER 8 AND IM ONLY ON February 20. Like this game is just unnecessarily damned long.
+Expected Neutral actual Negative
+TP:  119
+TN:  49
+FP:  60
+FN:  56
+I’ve done nothing but play borderlands 3 for the last 13 years that I’m still fucking moving. I STARTED AT CHAPTER 8 AND IM ONLY ON YOUR. this letter is unnecessarily long.
+Expected Neutral actual Negative
+TP:  119
+TN:  49
+FP:  60
+FN:  57
+Pretty Happy with this! I made these sub badges for my friend @4eyeGaming for his twitch! Go check him out! He has started streaming Borderlands 3 recently but he is a variety streamer! twitch.tv/4eyegaming .  https://t.co/BoRwkMSzRs
+Expected Irrelevant actual Positive
+TP:  119
+TN:  49
+FP:  60
+FN:  57
+Pretty happy with it! I made these sub-badges for my friend @ 4eyeGaming for his Twitch! Check it out! He recently started streaming Borderlands 3, but he's a streamer of diversity! twitch.tv / 4eyegaming. https: / / t.co / BoRwkMSzRs
+Expected Irrelevant actual Positive
+TP:  119
+TN:  49
+FP:  60
+FN:  57
+Pretty Happy with this! I made these subbids for my friend @ 4eGaming for his Human Rights! Go check it out! He has streaming Borderlands 3 recently but he is a variety streets!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Expected Irrelevant actual Positive
+TP:  119
+TN:  49
+FP:  60
+FN:  57
+Pretty Happy with this! I made these sub badges for my friend RhandlerR for his twitch! Go check him out! He has started streaming Borderlands 3 recently but he is a variety streamer! twitch.tv/4eyegaming .  RhttpR]
+Expected Irrelevant actual Positive
+TP:  119
+TN:  49
+FP:  60
+FN:  57
+i Pretty Happy with this! I made these sub badges for my friend RhandlerR for his twitch! Go check him out! He has started streaming Borderlands 3 recently but he is a variety streamer! twitch.tv/4eyegaming .  RhttpR]
+Expected Irrelevant actual Positive
+TP:  119
+TN:  49
+FP:  60
+FN:  57
+is
+Expected Irrelevant actual Neutral
+TP:  119
+TN:  49
+FP:  60
+FN:  57
+I am here... With Samsung that is full of homeworks. Away from ps4 and Samsung that won't play fort. And have 1700... Want psycho. Will get him. I am borderlands and Overwatch fan and he is Psycho and Junkratt
+Expected Positive actual Positive
+TP:  120
+TN:  49
+FP:  60
+FN:  57
+I'm here... with Samsung, that's full of homework. Away from PS4 and Samsung that won't continue to play. And have 1700... want Psycho. Will get him. I'm a frontier commuter and Overwatch fan and he's Psycho and Junkratt
+Expected Positive actual Positive
+TP:  121
+TN:  49
+FP:  60
+FN:  57
+I'm here... With Samsung, which is full of home affairs. Away from F4 and Samsung that won't play fort. And have 1700... Want psycho. Want him. I am borderlands and Overwatch fan and he is Psycho and Jratt
+Expected Positive actual Positive
+TP:  122
+TN:  49
+FP:  60
+FN:  57
+I am here... With Samsung that is full of homeworks. Away from ps4 and Samsung that we play fort. And have 1700... Want psycho. Will get paid. I am borderlands and Overwatch s and he is Psycho... Awesome
+Expected Positive actual Positive
+TP:  123
+TN:  49
+FP:  60
+FN:  57
+Now I am happy here... With Samsung that is full lots of homeworks. Be Away from ps4 and of Samsung that is won't the play fort. And have the 1700... Want psycho. Will get him. I am borderlands and Overwatch and fan and he said is Psycho and Junkratt
+Expected Positive actual Positive
+TP:  124
+TN:  49
+FP:  60
+FN:  57
+I am here... and Samsung like is full fucking homeworks. Phone from ps4 and Samsung that has't play fort. will have 1700... Want psycho. Will have me. I am borderlands and Overwatch fan and this is Psycho and Junkratt
+Expected Positive actual Positive
+TP:  125
+TN:  49
+FP:  60
+FN:  57
+As amazing as this is.... It's been out for MONTHS.... . Please.. . PLEASE.. . Tell us about the Ascension Bluff DOOR.. . It's been A YEAR.
+Expected Positive actual Positive
+TP:  126
+TN:  49
+FP:  60
+FN:  57
+s been out for months.... Please... PLEASE... Tell us about the Ascension Bluff Door... It has been a YEAR.
+Expected Positive actual Neutral
+TP:  126
+TN:  49
+FP:  60
+FN:  57
+As amazing as it may be... It was for MONTHS... Please... PLEASE... Tell us about the Ascension of the Bluff Door... It has been a YEAR.
+Expected Positive actual Positive
+TP:  127
+TN:  49
+FP:  60
+FN:  57
+As amazing of this is.... This been out for MONTHS....... PLEASE... Tell us about the Ascension Bluff DOOR... It's been A YEAR.
+Expected Positive actual Positive
+TP:  128
+TN:  49
+FP:  60
+FN:  57
+As extremely amazing that as this is.... 3 It's been out preparing for some MONTHS..... Please... We PLEASE... Tell us about the Ascension Base Bluff Station DOOR... 2 It's really been A YEAR.
+Expected Positive actual Positive
+TP:  129
+TN:  49
+FP:  60
+FN:  57
+As amazing saying That is.... It's also happening for MONTHS.....<unk>... PLEASE... Tell us about the Last Bluff here... It's FOR A YEAR.
+Expected Positive actual Positive
+TP:  130
+TN:  49
+FP:  60
+FN:  57
+I'm so damn sorry for the stupid short stream, i don't feel up to streaming today. I just have this stupid headache that won't fuck off. . . We sent the love over to @Quietachvment who's playing some Borderlands 3. . . Keep tabs on socials, I'll probably see you Thursday!
+Expected Neutral actual Negative
+TP:  130
+TN:  49
+FP:  60
+FN:  58
+I'm so damn sorry for the stupid short stream, I don't feel like streaming today. I just have these stupid headaches that can't be damned... We sent love to @ Quietachvment who plays some Borderlands 3... Keep the social media registers, I'll probably see you on Thursday!
+Expected Neutral actual Negative
+TP:  130
+TN:  49
+FP:  60
+FN:  59
+I'm so damn sorry for the stupid short stream, I don't feel like streaming today. I just have this stupid head that won't come off... We sent our love to @ Quicktachement who plays Borderlands 3... Keep tabs on social media, I'll probably see you on Thursday!
+Expected Neutral actual Negative
+TP:  130
+TN:  49
+FP:  60
+FN:  60
+I'm so seriously sorry for the record short stream, i don't feel up to streaming today. I just fighting this stupid headache that won't fuck off... We sent the love over to @Quietachvment who's playing great Borderlands 3... Definitely active on socials, I'll probably see you Thursday!
+Expected Neutral actual Positive
+TP:  130
+TN:  49
+FP:  61
+FN:  60
+I'm so damn sorry for the stupid short stream, but i don't feel up to streaming today. and I just have this stupid headache that it won'the t fuck right off... I We sent the love over to @Quietachvment and who's playing on some chick Borderlands 3... Keep tabs on socials, I'll probably see with you Thursday!
+Expected Neutral actual Positive
+TP:  130
+TN:  49
+FP:  62
+FN:  60
+I'm so damn adverse to the whole short delay, i don't step up to streaming actually. I just have this stupid headache that doesn't fuck off... Chris sent the blanket over to Lauren who's playing some Borderlands 3... Keep tabs on socials, I'll probably see you Thursday!
+Expected Neutral actual Negative
+TP:  130
+TN:  49
+FP:  62
+FN:  61
+Perfect casting for Lilith, most anticipated film
+Expected Positive actual Positive
+TP:  131
+TN:  49
+FP:  62
+FN:  61
+Perfect casting for Lilith, the most anticipated film
+Expected Positive actual Positive
+TP:  132
+TN:  49
+FP:  62
+FN:  61
+Great casting for "Lilit," the most anticipated film
+Expected Positive actual Positive
+TP:  133
+TN:  49
+FP:  62
+FN:  61
+Perfect casting powers Lilith, most anticipated film
+Expected Positive actual Positive
+TP:  134
+TN:  49
+FP:  62
+FN:  61
+Perfect casting for first Lilith, most anticipated film
+Expected Positive actual Positive
+TP:  135
+TN:  49
+FP:  62
+FN:  61
+Perfect Time for Lilith, most anticipated film
+Expected Positive actual Positive
+TP:  136
+TN:  49
+FP:  62
+FN:  61
+@GearboxOfficial fix Borderlands 3 achievements. This is unreal that you guys can’t figure this out.
+Expected Negative actual Neutral
+TP:  136
+TN:  49
+FP:  62
+FN:  61
+@ GearboxOfficial Fix Borderlands 3 Achievements. This is unreal that you can't figure it out.
+Expected Negative actual Neutral
+TP:  136
+TN:  49
+FP:  62
+FN:  61
+@ GearboxOfficial fix the achievements of Borderlands 3. It's unreal that you guys can't understand this.
+Expected Negative actual Neutral
+TP:  136
+TN:  49
+FP:  62
+FN:  61
+@GearboxOfficial fix Borderlands 3 achievements. This is unreal that you guys dont figure it out.
+Expected Negative actual Neutral
+TP:  136
+TN:  49
+FP:  62
+FN:  61
+@GearboxOfficial fix Borderlands 3 achievements. com This is all unreal bad that you guys can ’ t figure about this out.
+Expected Negative actual Negative
+TP:  136
+TN:  50
+FP:  62
+FN:  61
+@GearboxOfficial fix Borderlands 3 achievements. IT is unreal that you guys will check this out.
+Expected Negative actual Neutral
+TP:  136
+TN:  50
+FP:  62
+FN:  61
+@GearboxOfficial  @Borderlands I love(d) this game. I've spent 325hrs beating the game twice and farming like crazy to get the weapons and anoints that I want. Then you decide that the way that I'm playing wasn't the way you had intended so you weaken my favorite anoint...
+Expected Negative actual Negative
+TP:  136
+TN:  51
+FP:  62
+FN:  61
+@ GearboxOfficial @ Borderlands I love (d) this game. I spent 325 hours beating the game twice and working like crazy to get the weapons and ointments I want. Then you decide that the way I play was not what you intended, so you weaken my favorite album...
+Expected Negative actual Positive
+TP:  136
+TN:  51
+FP:  63
+FN:  61
+@ GearboxOfficial @ Borderlands I love (d) this game. I spent 325hrs beating the game twice and farming like crazy to get the weapons and money I want.
+Expected Negative actual Negative
+TP:  136
+TN:  52
+FP:  63
+FN:  61
+@GearboxOfficial  @Borderlands fucking love(d) this game. I've spent 325hrs beating the game twice and farming like crazy to get the weapons and anoints that I want. Only you discover that one way that I'm playing wasn't the way you had wanted so I weaken my favorite anoint...
+Expected Negative actual Negative
+TP:  136
+TN:  53
+FP:  63
+FN:  61
+@GearboxOfficial @Borderlands I absolutely love ( d ) this game. I've spent my 325hrs beating the game twice and farming like crazy to get the weapons and those anoints there that I want. Then you decide that me the very way that I'W m playing wasn't the way those you had intended so you you totally weaken my favorite anoint...
+Expected Negative actual Positive
+TP:  136
+TN:  53
+FP:  64
+FN:  61
+@GearboxOfficial @Borderlands I love(d) this game. But've spent 325hrs beating your game twice and farming like crazy to get which way those anoints that I want. And you say that that way that I'm playing wasn't which way it had intended so you weaken my favorite anoint...
+Expected Negative actual Negative
+TP:  136
+TN:  54
+FP:  64
+FN:  61
+Yasss!!! Co-Stream with @jimmysgotya  twitch.tv/jimmysgotya
+Expected Irrelevant actual Neutral
+TP:  136
+TN:  54
+FP:  64
+FN:  61
+Yasss!!! Co-stream with @ jimmysgotya twitch.tv / jimmysgotya
+Expected Irrelevant actual Neutral
+TP:  136
+TN:  54
+FP:  64
+FN:  61
+Yasss!!! Co-Stream with @ jimmysgotya-tch.tv / jimmysgotya
+Expected Irrelevant actual Neutral
+TP:  136
+TN:  54
+FP:  64
+FN:  61
+Yasss!!! Co-Stream with RhandlerR  twitch.tv/jimmysgotya
+Expected Irrelevant actual Neutral
+TP:  136
+TN:  54
+FP:  64
+FN:  61
+2 Yasss!!! Co-Stream with RhandlerR  twitch.tv/jimmysgotya
+Expected Irrelevant actual Neutral
+TP:  136
+TN:  54
+FP:  64
+FN:  61
+there
+Expected Irrelevant actual Neutral
+TP:  136
+TN:  54
+FP:  64
+FN:  61
+Borderlands 3 - Krieg Meets Maya (Psycho Krieg and the Fantastic Fustercluck DLC). youtube.com/watch?v=o4JfCk….  
+Expected Neutral actual Positive
+TP:  136
+TN:  54
+FP:  65
+FN:  61
+Borderlands 3 - Krieg Meets Maya (Psycho Krieg and the Fantastic Fustercluck DLC). youtube.com / watch? v = o4JfCk....
+Expected Neutral actual Positive
+TP:  136
+TN:  54
+FP:  66
+FN:  61
+Borderlands 3 - Meets Maya (Psycho). youtube.com / watch? v = o4JfCk....
+Expected Neutral actual Neutral
+TP:  136
+TN:  54
+FP:  66
+FN:  61
+Borderlands Premiere - Krieg Meets Maya and Krieg and the Fantastic Beast DLC). youtube.com/watch?v=o4JfCk….
+Expected Neutral actual Positive
+TP:  136
+TN:  54
+FP:  67
+FN:  61
+Borderlands 3 - Jesse Krieg Music Meets Princess Maya ( performing Psycho Krieg solo and featuring the Fantastic Duo Fustercluck DLC ). youtube. com / channel watch? id v = o4JfCk ….
+Expected Neutral actual Positive
+TP:  136
+TN:  54
+FP:  68
+FN:  61
+Borderlands Beyond - Scott Meets Me (Psycho Wave vs the Fantastic Fustercluck 5). Buy.com/watch?v=o4JfCk....
+Expected Neutral actual Positive
+TP:  136
+TN:  54
+FP:  69
+FN:  61
+Idk how I'm gonna do this online class shit. . I was trying to play some borderlands today, and my xbox has been on for like 5 hours with my controller disconnected while I browse Instagram and try and plan out my next semester of classes. . . Imagine if this was a class...
+Expected Neutral actual Neutral
+TP:  136
+TN:  54
+FP:  69
+FN:  61
+I tried to play a few Borderlands today, and my Xbox has been on for about 5 hours with my controller turned off while I'm surfing Instagram and trying to plan my next semester... Imagine it was a class...
+Expected Neutral actual Positive
+TP:  136
+TN:  54
+FP:  70
+FN:  61
+I was trying to play some borderline games today and my xbox was turned on for about 5 hours with the controller turned off while I was browsing Instagram and trying to plan my next semester... Imagine if it was a class...
+Expected Neutral actual Positive
+TP:  136
+TN:  54
+FP:  71
+FN:  61
+Idk how I'm gonna do this online class shit.. I am trying to play some borderlands today, and my xbox + been on for like 5 hours with my controller disconnected while I browse Instagram and Netflix and plan out my next semester of classes... because if this took a class...
+Expected Neutral actual Positive
+TP:  136
+TN:  54
+FP:  72
+FN:  61
+Idk how I'ya m gonna do this online class shit.. I was trying desperately to play some borderlands today, and my xbox has barely been on for like 5 ½ hours but with my touch controller disconnected while here I browse Instagram and try harder and plan out having my next real semester of classes... Imagine if this was a class...
+Expected Neutral actual Positive
+TP:  136
+TN:  54
+FP:  73
+FN:  61
+<unk> but I'm supposed do my online class shit.. Here was trying to play some borderlands today, now my xbox has been on for like 5 PM with my controller disconnected as I browse Instagram and try and try out this next semester of classes... Imagine if this was a class...
+Expected Neutral actual Positive
+TP:  136
+TN:  54
+FP:  74
+FN:  61
+Just officiated a gay wedding in Borderlands 3, feeling powerful rn.
+Expected Positive actual Positive
+TP:  137
+TN:  54
+FP:  74
+FN:  61
+I just celebrated a gay wedding in Borderlands 3 and felt powerful.
+Expected Positive actual Positive
+TP:  138
+TN:  54
+FP:  74
+FN:  61
+Just played a gay wedding in Borderlands 3, feeling powerful.
+Expected Positive actual Positive
+TP:  139
+TN:  54
+FP:  74
+FN:  61
+Just officiated a gay wedding in Borderlands 3, the powerful rn.
+Expected Positive actual Positive
+TP:  140
+TN:  54
+FP:  74
+FN:  61
+Just officiated a gay fan wedding in WWE Borderlands Episode 3, feeling powerful rn.
+Expected Positive actual Positive
+TP:  141
+TN:  54
+FP:  74
+FN:  61
+once officiated a gay wedding in Borderlands 3, as powerful rn.
+Expected Positive actual Positive
+TP:  142
+TN:  54
+FP:  74
+FN:  61
+Loving the new DLC!!!. @Borderlands @DuvalMagic @GearboxOfficial pic.twitter.com/PKZJxlGXLj
+Expected Positive actual Positive
+TP:  143
+TN:  54
+FP:  74
+FN:  61
+I love the new DLC!!!. @ Borderlands @ DuvalMagic @ GearboxOfficial pic.twitter.com / PKZJxlGXLj
+Expected Positive actual Positive
+TP:  144
+TN:  54
+FP:  74
+FN:  61
+Catching the new DLC!!!. @ Borderlands @ DuvalMagic @ GearboxOfficial pic.fm / PKZJxlGXLj
+Expected Positive actual Neutral
+TP:  144
+TN:  54
+FP:  74
+FN:  61
+Loving the new DLC!!!. RhandlerR RhandlerR RhandlerR pic.twitter.com/PKZJxlGXLj
+Expected Positive actual Positive
+TP:  145
+TN:  54
+FP:  74
+FN:  61
+F Loving the new DLC!!!. RhandlerR RhandlerR RhandlerR pic.twitter.com/PKZJxlGXLj
+Expected Positive actual Positive
+TP:  146
+TN:  54
+FP:  74
+FN:  61
+one
+Expected Positive actual Neutral
+TP:  146
+TN:  54
+FP:  74
+FN:  61
+does fall damage canonically exist in the borderlands universe
+Expected Neutral actual Negative
+TP:  146
+TN:  54
+FP:  74
+FN:  62
+Fall Damage Is Canonically in the Borderland Universe
+Expected Neutral actual Negative
+TP:  146
+TN:  54
+FP:  74
+FN:  63
+whether the damage to the fall is canonical in the frontier universe
+Expected Neutral actual Negative
+TP:  146
+TN:  54
+FP:  74
+FN:  64
+does fall damage canonically exist in the borderlands?)
+Expected Neutral actual Negative
+TP:  146
+TN:  54
+FP:  74
+FN:  65
+it does fall damage we canonically exist in the borderlands universe
+Expected Neutral actual Negative
+TP:  146
+TN:  54
+FP:  74
+FN:  66
+does fall damage canonically occur in the borderlands universe
+Expected Neutral actual Negative
+TP:  146
+TN:  54
+FP:  74
+FN:  67
+Lil preview of a Maya drawing I've been chipping away at! Been sinking a lot of time into Borderlands in my off hours lately pic.twitter.com/1nYE0S5cMe
+Expected Positive actual Neutral
+TP:  146
+TN:  54
+FP:  74
+FN:  67
+Lil preview of a Mayan drawing I've been working on! Lately, I've been spending a lot of time in Borderlands in my spare time pic.twitter.com / 1nYE0S5cMe
+Expected Positive actual Neutral
+TP:  146
+TN:  54
+FP:  74
+FN:  67
+Lil preview of a Maya drawing I've been chiming away at! Been sinking a lot of time into Borderlands in my offer hours late pic.facebook.com / 1nYE0S5cMe
+Expected Positive actual Neutral
+TP:  146
+TN:  54
+FP:  74
+FN:  67
+Lil preview of a Maya drawing I've been chipping away at! Been sinking a lot of time into Borderlands in my off hours lately pic.twitter.com/1nYE0S5cMe
+Expected Positive actual Neutral
+TP:  146
+TN:  54
+FP:  74
+FN:  67
+C Lil preview of a Maya drawing I've been chipping away at! Been sinking a lot of time into Borderlands in my off hours lately pic.twitter.com/1nYE0S5cMe
+Expected Positive actual Neutral
+TP:  146
+TN:  54
+FP:  74
+FN:  67
+can
+Expected Positive actual Neutral
+TP:  146
+TN:  54
+FP:  74
+FN:  67
+A nerf gun painted to look like a  
+Expected Neutral actual Neutral
+TP:  146
+TN:  54
+FP:  74
+FN:  67
+A Nerf pistol painted to look like a gun
+Expected Neutral actual Neutral
+TP:  146
+TN:  54
+FP:  74
+FN:  67
+A pistol designed to look like a gun
+Expected Neutral actual Neutral
+TP:  146
+TN:  54
+FP:  74
+FN:  67
+A nerf gun painted to appear like a
+Expected Neutral actual Neutral
+TP:  146
+TN:  54
+FP:  74
+FN:  67
+A nerf gun painted to look less like a
+Expected Neutral actual Neutral
+TP:  146
+TN:  54
+FP:  74
+FN:  67
+A nerf gun invented to look like a
+Expected Neutral actual Neutral
+TP:  146
+TN:  54
+FP:  74
+FN:  67
+I am so exhausted from work this week so probably no borderlands stream today i’m SO SORRY . 
+Expected Neutral actual Negative
+TP:  146
+TN:  54
+FP:  74
+FN:  68
+I'm so exhausted from work this week that I probably won't be able to flow anymore and I'm SO SORRY.
+Expected Neutral actual Negative
+TP:  146
+TN:  54
+FP:  74
+FN:  69
+I'm so tired of working this week that there's probably no border flow today, I'm SO SORRY.
+Expected Neutral actual Negative
+TP:  146
+TN:  54
+FP:  74
+FN:  70
+I am so exhausted from work this week being probably no borderlands stream today i’m SO stoked.
+Expected Neutral actual Negative
+TP:  146
+TN:  54
+FP:  74
+FN:  71
+30 I am now so exhausted from work just this week or so probably no borderlands stream today i I ’ m SO SORRY.
+Expected Neutral actual Negative
+TP:  146
+TN:  54
+FP:  74
+FN:  72
+I am still exhausted from work this Saturday so probably no borderlands stream and i’m SO SORRY.
+Expected Neutral actual Negative
+TP:  146
+TN:  54
+FP:  74
+FN:  73
+Have u played borderlands 3? Pretty fun imo. Anyways whateves pic.twitter.com/Uoute82ADo
+Expected Positive actual Positive
+TP:  147
+TN:  54
+FP:  74
+FN:  73
+Have u played Borderlands 3? Pretty fun imo. Anyway whateves pic.twitter.com / Uoute82ADo
+Expected Positive actual Positive
+TP:  148
+TN:  54
+FP:  74
+FN:  73
+Have u played borderlands 3? Pretty fun imo. Anyways whatsoever pic.facebook.com / Uoute82ADo
+Expected Positive actual Positive
+TP:  149
+TN:  54
+FP:  74
+FN:  73
+Have u played borderlands 3? Pretty fun imo. Anyways whateves pic.twitter.com/Uoute82ADo
+Expected Positive actual Positive
+TP:  150
+TN:  54
+FP:  74
+FN:  73
+TV Have u played borderlands 3? Pretty fun imo. Anyways whateves pic.twitter.com/Uoute82ADo
+Expected Positive actual Positive
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+of
+Expected Positive actual Neutral
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+Tales from the Borderlands swaggiedeals.com/product/tales-…
+Expected Neutral actual Neutral
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+Stories from the border swaggiedeals.com / product / tales-...
+Expected Neutral actual Neutral
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+Tales from the Borderlands swagdeals.com / product / tales-...
+Expected Neutral actual Neutral
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+Tales over the Borderlands Factory.com/product/tales-…
+Expected Neutral actual Neutral
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+Tales from Behind the Borderlands at swaggiedeals. com / www product / tales - …
+Expected Neutral actual Neutral
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+looking at the Kitchen swaggiedeals.com/product/tales-...
+Expected Neutral actual Neutral
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+@Joltzdude139 Hey Joltz, im a big fan and seeing you play through borderlands 2 specifically you have a really strong understanding of every gun, part, and prefix. Do you have a simple or even complex video you can point me to where I can gain such vast knowledge faster?
+Expected Irrelevant actual Positive
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+@ Joltzdude139 Hey Joltz, I'm a big fan and when I see you play through Borderlands 2, you have a really strong understanding of every weapon, part and prefix. Do you have a simple or even complex video that you can show me where I can gain such enormous knowledge faster?
+Expected Irrelevant actual Positive
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+@ Jolddude139 Hey Joltz, I'm a big fan and seeing you play across the border 2 in particular, you have a really strong understanding of every rifle, detail and console.
+Expected Irrelevant actual Positive
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+@Joltzdude139 Hey Joltz, im a big fan and seeing you play through XCOM 2 specifically you have a really strong understanding of every gun, part, and prefix. Do ya have a simple or even youtube video you can point me to which I can have such vast knowledge faster?
+Expected Irrelevant actual Positive
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+@Joltzdude139 Hey Joltz, im a big fan and seeing you as play through borderlands 2 specifically you have a really strong scientific understanding of every gun, part, and prefix. V Do know you have just a particularly simple or even complex video you can point me to as where I imagine can gain such this vast knowledge faster?
+Expected Irrelevant actual Positive
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+@Joltzdude139 v Joltz, im a big fan out seeing you from our borderlands here specifically you have a mighty strong understanding of every gun, part, and prefix. Do you own a simple or even complex video you can point me to where I can impart such vast knowledge on?
+Expected Irrelevant actual Positive
+TP:  151
+TN:  54
+FP:  74
+FN:  73
+Guns, Love, and Tentacles is out now, and here are 5 reasons we're excited to  
+Expected Neutral actual Positive
+TP:  151
+TN:  54
+FP:  75
+FN:  73
+Guns, Love, and Tentacles is out now, and here are 5 reasons why we're excited
+Expected Neutral actual Positive
+TP:  151
+TN:  54
+FP:  76
+FN:  73
+GB, Love, and Tentacles is out now, and here are 5 reasons we're excited to
+Expected Neutral actual Positive
+TP:  151
+TN:  54
+FP:  77
+FN:  73
+Guns, Love, and Sex is out now, and here are 5 reasons not excited to
+Expected Neutral actual Positive
+TP:  151
+TN:  54
+FP:  78
+FN:  73
+Guns, Love, Speed and Tentacles is out now, and here are with 5 main reasons we'D re excited to
+Expected Neutral actual Positive
+TP:  151
+TN:  54
+FP:  79
+FN:  73
+Guns, Love, and Music is up now, and here are four reasons we're excited to
+Expected Neutral actual Positive
+TP:  151
+TN:  54
+FP:  80
+FN:  73
+Just started playing Borderlands 3: guns, love, and tentacles only to hear the voice of half of my favorite youtube channel @GameGrumps . Hell yeah @egoraptor , forever apart of one of the best @GearboxOfficial games as a creepy ass character.
+Expected Positive actual Positive
+TP:  152
+TN:  54
+FP:  80
+FN:  73
+I just started playing Borderlands 3: weapons, love and tentacles, just to hear the voice of half of my favorite channel @ GameGrumps. Hell yeah @ egoraptor, forever separated from one of the best @ GearboxOfficial games as a creepy ass character.
+Expected Positive actual Positive
+TP:  153
+TN:  54
+FP:  80
+FN:  73
+Just started playing Borderlands 3: Weapons, Love, and Tentacles just to hear the voice of half of my favorite YouTube channel @ GameGrup.
+Expected Positive actual Positive
+TP:  154
+TN:  54
+FP:  80
+FN:  73
+Just started playing Borderlands 3: guns, love, and tentacles wanting to lose the voices of half of another favorite youtube channel @GameGrumps. Hell yeah @egoraptor, forever apart of one of the best @GearboxOfficial games as a creepy ass cartoon.
+Expected Positive actual Positive
+TP:  155
+TN:  54
+FP:  80
+FN:  73
+He Just started off playing it Borderlands Season 3 : with guns, love, and tentacles only later to hear the voice of my half of my favorite youtube channel @GameGrumps. Hell yeah @egoraptor, forever apart because of one of the best @GearboxOfficial with games plays as a creepy ass character.
+Expected Positive actual Positive
+TP:  156
+TN:  54
+FP:  80
+FN:  73
+Just started playing Borderlands 3: guns, love, bad tentacles again and hear a voice of half of an old music channel @GameGrumps. Hell yeah @egoraptor, the apart of one of the best @GearboxOfficial games as a creepy ass demon.
+Expected Positive actual Negative
+TP:  156
+TN:  54
+FP:  80
+FN:  74
+I know it doesnt look like much but borderlands is my favorite game!!! Thank you @SmilingOcean_ pic.twitter.com/X3dyPtNALD
+Expected Positive actual Positive
+TP:  157
+TN:  54
+FP:  80
+FN:  74
+I know it doesn't look like much, but Borderlands is my favorite game!!! Thank you @ SmilingOcean _ pic.twitter.com / X3dyPtNALD
+Expected Positive actual Positive
+TP:  158
+TN:  54
+FP:  80
+FN:  74
+I know it doesn't look like much but borderlands is my favorite game!!! Thank you @ SmilingOcean _ pic.it / X3dyPtNALD
+Expected Positive actual Positive
+TP:  159
+TN:  54
+FP:  80
+FN:  74
+I know it doesnt look like much but borderlands is my favorite game!!! Thank you RhandlerR pic.twitter.com/X3dyPtNALD
+Expected Positive actual Positive
+TP:  160
+TN:  54
+FP:  80
+FN:  74
+N I know it doesnt look like much but borderlands is my favorite game!!! Thank you RhandlerR pic.twitter.com/X3dyPtNALD
+Expected Positive actual Positive
+TP:  161
+TN:  54
+FP:  80
+FN:  74
+It
+Expected Positive actual Neutral
+TP:  161
+TN:  54
+FP:  80
+FN:  74
+. :: Ah yes. A very very old image of demon Lottie from when they were still a borderlands oc pic.twitter.com/PuW3XjWuro
+Expected Neutral actual Positive
+TP:  161
+TN:  54
+FP:  81
+FN:  74
+.:: Ah yes. A very old picture of Demon Lottie from the time when they were still a border country oc pic.twitter.com / PuW3XjWuro
+Expected Neutral actual Positive
+TP:  161
+TN:  54
+FP:  82
+FN:  74
+:: Ah yes. A very old image of Lottie's demon from when they were still border guards.
+Expected Neutral actual Positive
+TP:  161
+TN:  54
+FP:  83
+FN:  74
+. :: Ah yes. A very very old image of demon Lottie from when they were still a borderlands oc pic.twitter.com/PuW3XjWuro
+Expected Neutral actual Positive
+TP:  161
+TN:  54
+FP:  84
+FN:  74
+IBM . :: Ah yes. A very very old image of demon Lottie from when they were still a borderlands oc pic.twitter.com/PuW3XjWuro
+Expected Neutral actual Positive
+TP:  161
+TN:  54
+FP:  85
+FN:  74
+on
+Expected Neutral actual Neutral
+TP:  161
+TN:  54
+FP:  85
+FN:  74
+My most despised area in Borderlands 1 is now the Rust Commons area. . So many sidequests
+Expected Negative actual Negative
+TP:  161
+TN:  55
+FP:  85
+FN:  74
+My most despised area in Borderlands 1 is now the Rust Commons area.
+Expected Negative actual Negative
+TP:  161
+TN:  56
+FP:  85
+FN:  74
+My favourite area in Borderlands 1 right now is the Rust Commons... So many sidewalks
+Expected Negative actual Neutral
+TP:  161
+TN:  56
+FP:  85
+FN:  74
+My most despised area in Borderlands 1 is still the Great Commons area.. So many sidequests
+Expected Negative actual Positive
+TP:  161
+TN:  56
+FP:  86
+FN:  74
+2007 My most despised land area left in Borderlands 1 is now the Lee Rust Commons area.. So many sidequests
+Expected Negative actual Negative
+TP:  161
+TN:  57
+FP:  86
+FN:  74
+My most despised block in Borderlands 1 is now the Kensington Commons area.. So many bad
+Expected Negative actual Negative
+TP:  161
+TN:  58
+FP:  86
+FN:  74
+Holy fuck???!!??!
+Expected Negative actual Neutral
+TP:  161
+TN:  58
+FP:  86
+FN:  74
+Holy shit???!!??!
+Expected Negative actual Neutral
+TP:  161
+TN:  58
+FP:  86
+FN:  74
+Holy fuck???!!?!?!
+Expected Negative actual Neutral
+TP:  161
+TN:  58
+FP:  86
+FN:  74
+Holy Week!
+Expected Negative actual Neutral
+TP:  161
+TN:  58
+FP:  86
+FN:  74
+The Holy shit fuck???!!??!
+Expected Negative actual Negative
+TP:  161
+TN:  59
+FP:  86
+FN:  74
+Holy Sick??!
+Expected Negative actual Neutral
+TP:  161
+TN:  59
+FP:  86
+FN:  74
+We've been playing a lot of Borderlands 2 on  . . Also gotta love this stunning cosplay by Kunaii Cosplay! instagram.com/xxkunaiixx/ https://t.co/GiWX2aqtUy
+Expected Positive actual Positive
+TP:  162
+TN:  59
+FP:  86
+FN:  74
+We played a lot of Borderlands 2... Also I must love this stunning cosplay from Kunaii Cosplay! instagram.com / xxkunaiixx / https: / / t.co / GiWX2aqtUy
+Expected Positive actual Positive
+TP:  163
+TN:  59
+FP:  86
+FN:  74
+We've been playing a lot of Borderlands 2 on.. Also global love this stunning cosplay by Kunaii Cosplay! instagram.com / xxxaiii.com / https: / / Fenco / GiWX2aqtUy
+Expected Positive actual Positive
+TP:  164
+TN:  59
+FP:  86
+FN:  74
+We've been playing a lot of Borderlands 2 on .. Also gotta save this monkey cosplay on Fox Cosplay! instagram.com/xxkunaiixx/ https://t.co/GiWX2aqtUy]
+Expected Positive actual Positive
+TP:  165
+TN:  59
+FP:  86
+FN:  74
+We've been over playing a lot thinking of Borderlands using 2 tracks on.. x Also your gotta love read this stunning little cosplay by Kunaii Cosplay! to instagram. com / xxkunaiixx / https://t.co/GiWX2aqtUy ]
+Expected Positive actual Positive
+TP:  166
+TN:  59
+FP:  86
+FN:  74
+We've been playing this blast of Borderlands music on.. Also gotta see this face cosplay • Kunaii Jackson! instagram.com/xxkunaiixx/ https://t.co/GiWX2aqtUy]
+Expected Positive actual Positive
+TP:  167
+TN:  59
+FP:  86
+FN:  74
+Great tips from out gorilla master @Triple_Gz1. TYVM for this graphic dude!
+Expected Irrelevant actual Positive
+TP:  167
+TN:  59
+FP:  86
+FN:  74
+Great tips from our Gorilla Master @ Triple _ Gz1. TYVM for this graphic guy!
+Expected Irrelevant actual Positive
+TP:  167
+TN:  59
+FP:  86
+FN:  74
+Great tips from out gorilla master @ Triple _ Gz1. TYVM for this graphic dude!
+Expected Irrelevant actual Positive
+TP:  167
+TN:  59
+FP:  86
+FN:  74
+Great tips from out gorilla master m. TYVM for this graphic dude!
+Expected Irrelevant actual Positive
+TP:  167
+TN:  59
+FP:  86
+FN:  74
+Great tips from burnt out gorilla master DJ @Triple_Gz1. TYVM for taking this graphic romance dude!
+Expected Irrelevant actual Positive
+TP:  167
+TN:  59
+FP:  86
+FN:  74
+Great tips from out personal trainer @Triple_Gz1. TYVM for this graphic dude!
+Expected Irrelevant actual Positive
+TP:  167
+TN:  59
+FP:  86
+FN:  74
+@Borderlands @DuvalMagic @GearboxOfficial I just wanted to say a huge thank you to all of you who worked and are working on borderlands and gearbox you’ve been crushing it enven more than before covid knowing how it must have been difficult so THANK YOU. 
+Expected Positive actual Positive
+TP:  168
+TN:  59
+FP:  86
+FN:  74
+@ Borderlands @ DuvalMagic @ GearboxOfficial I just wanted to say a huge thank you to all of you who have worked and continue to work on Borderlands and Gears, you crushed it more than ever before because you know how difficult it must have been, so THANK YOU.
+Expected Positive actual Positive
+TP:  169
+TN:  59
+FP:  86
+FN:  74
+@ Borderlands @ DuvalMagic @ GearboxOfficial I just wanted to say a huge thank you to all of you who have worked and are working on borderlands and gearbox you were broken more than ever before.
+Expected Positive actual Positive
+TP:  170
+TN:  59
+FP:  86
+FN:  74
+@Borderlands @DuvalMagic … I just wanted too say a huge thank you for all of them who worked and are working on borderlands and gearbox you’ve been crushing it enven more than before covid knowing how it must have been difficult so THANK IT.
+Expected Positive actual Positive
+TP:  171
+TN:  59
+FP:  86
+FN:  74
+@Borderlands... @DuvalMagic... @GearboxOfficial I just wanted to say saying a good huge thank you to all those of you who worked and are working on borderlands wheels and gearbox you ’ ve been crushing it enven more than months before covid knowing now how it all must have been real difficult so THANK YOU.
+Expected Positive actual Positive
+TP:  172
+TN:  59
+FP:  86
+FN:  74
+of @Borderlands @DuvalMagic I just gotta go offer one huge thank of to all of you who worked and are working on borderlands and gearbox you’ve been crushing here enven more than before totally understand how it must have been difficult so THANK YOU.
+Expected Positive actual Positive
+TP:  173
+TN:  59
+FP:  86
+FN:  74
+Trying out  
+Expected Neutral actual Neutral
+TP:  173
+TN:  59
+FP:  86
+FN:  74
+
+Expected Neutral actual Neutral
+TP:  173
+TN:  59
+FP:  86
+FN:  74
+Trying to get out
+Expected Neutral actual Neutral
+TP:  173
+TN:  59
+FP:  86
+FN:  74
+Trying it
+Expected Neutral actual Neutral
+TP:  173
+TN:  59
+FP:  86
+FN:  74
+Trying it out
+Expected Neutral actual Neutral
+TP:  173
+TN:  59
+FP:  86
+FN:  74
+you out
+Expected Neutral actual Neutral
+TP:  173
+TN:  59
+FP:  86
+FN:  74
+Today’s Best Game Deals: FIFA 20 $18, Borderlands Handsome $15, more – 9to5Toys uk.googlehits.com/as-we-speaks-f…
+Expected Neutral actual Positive
+TP:  173
+TN:  59
+FP:  87
+FN:  74
+The best gaming deals today: FIFA 20 $18, Borderlands Handsome $15, more - 9to5Toys uk.googlehits.com / as-we-speak-f...
+Expected Neutral actual Positive
+TP:  173
+TN:  59
+FP:  88
+FN:  74
+The best deals so far: FIFA 20 $18, Borderlands Handsome $15, more - 9to5Toys uk.googfcits.com / as-we-speak-f...
+Expected Neutral actual Positive
+TP:  173
+TN:  59
+FP:  89
+FN:  74
+Today’s Best Game Movies: FIFA 13 $18, Borderlands 8 $15, more – 9to5Toys 10.googlehits.com/as-we-speaks-f…
+Expected Neutral actual Positive
+TP:  173
+TN:  59
+FP:  90
+FN:  74
+Today ’ ′ s Show Best Game Winner Deals : FIFA 20 $ 18, against Borderlands 2 Handsome $ 15, more as – 9to5Toys 2016 uk. Retrieved googlehits. com / sales as - we - speaks - f …
+Expected Neutral actual Positive
+TP:  173
+TN:  59
+FP:  91
+FN:  74
+your Best FIFA Deals: FIFA 20 1, The Handsome 5, Play – via uk.googlehits.com/as-we-speaks-f...
+Expected Neutral actual Positive
+TP:  173
+TN:  59
+FP:  92
+FN:  74
+@Ki11ersix My homage to a friend, a warrior of Borderlands 3 yesterday that rose to the heavens (Pandora) ... that is resting in a great friend with the Lord God ... here just miss the lots ... thank you. pic.twitter.com/so0Wdbh7A8
+Expected Irrelevant actual Positive
+TP:  173
+TN:  59
+FP:  92
+FN:  74
+@ Ki11ersix My tribute to a friend, a warrior from Borderlands 3 yesterday who ascended to heaven (Pandora)... who rests in a great friend with the Lord God... here you just miss the lot. pic.twitter.com / so0Wdbh7A8
+Expected Irrelevant actual Positive
+TP:  173
+TN:  59
+FP:  92
+FN:  74
+@ Ki11ersix My tribute to a friend, the warrior from Borderlands 3 yesterday who rose to the heavyweights (Pandora)... who is a great friend of God... here just miss the lot... thank you.
+Expected Irrelevant actual Positive
+TP:  173
+TN:  59
+FP:  92
+FN:  74
+RhandlerR My homage to a friend, a warrior of Borderlands 3 yesterday that rose to the heavens (Pandora) ... that is resting in a great friend with the Lord God ... here just miss the lots ... thank you. pic.twitter.com/so0Wdbh7A8
+Expected Irrelevant actual Positive
+TP:  173
+TN:  59
+FP:  92
+FN:  74
+CD RhandlerR My homage to a friend, a warrior of Borderlands 3 yesterday that rose to the heavens (Pandora) ... that is resting in a great friend with the Lord God ... here just miss the lots ... thank you. pic.twitter.com/so0Wdbh7A8
+Expected Irrelevant actual Positive
+TP:  173
+TN:  59
+FP:  92
+FN:  74
+it
+Expected Irrelevant actual Neutral
+TP:  173
+TN:  59
+FP:  92
+FN:  74
+i kno borderlands handled zer0 being nonbinary kinda shittily with them being most likely nonhuman (?) to start and then forgetting their pronouns in tftbl but i still rlly like zer0 and am happy to have them :-) same with fl4k i love them too and they're both playable mcs so
+Expected Neutral actual Positive
+TP:  173
+TN:  59
+FP:  93
+FN:  74
+i kno borderlands handling zer0 being nonbinary kind shitty with they are most likely inhuman (?) to start and then forget their pronouns in tftbl but i rlly like zer0 and me happy to have them: -) same with fl4k I love them too and they are both playable mcs so
+Expected Neutral actual Positive
+TP:  173
+TN:  59
+FP:  94
+FN:  74
+i kno borderlands managed zer0 being nonbinary kinda shittily with them being most likely non-human (?) to start and then forget their pronobel in t, but i still rlly like zer0 and am happy to have them: -) same with fl4k i love them too and they're both playable mso
+Expected Neutral actual Positive
+TP:  173
+TN:  59
+FP:  95
+FN:  74
+i kno borderlands handled zer0 be nonbinary kinda easier than them being most definitely nonhuman (?) to start and then forgetting their pronouns in tftbl but i still rlly like zer0 and am happy to have them, same with fl4k i read them too and they're both playable mcs so
+Expected Neutral actual Positive
+TP:  173
+TN:  59
+FP:  96
+FN:  74
+i kno The borderlands handled zer0 only being nonbinary but kinda i shittily with them being too most likely non nonhuman (? ) to start and then usually forgetting their pronouns in tftbl but i still rlly like zer0 and g am happy to have them : - ) t same with fl4k i love into them too and they're both playable mcs so
+Expected Neutral actual Positive
+TP:  173
+TN:  59
+FP:  97
+FN:  74
+i kno c handled zer0 being bad kinda shittily with me being most likely nonhuman (?) to start and then forgetting their worth in tftbl but i still rlly like zer0 and was trying to enjoy them :-) same with fl4k i liked them well and they're both playable mcs the
+Expected Neutral actual Positive
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+Top 4 favourite games you say? 🤔. . Sea of Thieves . Bioshock . SSX3 . Battlefield 1. . What about you @ChloeSauras @ChrisLawis @ForsakenRose679 @tw1ztedpr1ncess
+Expected Irrelevant actual Negative
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+Top 4 favorite games you say?... Sea of Thieves. Bioshock. SSX3. Battlefield 1.. What about you @ ChloeSauras @ ChrisLawis @ ForsakenRose679 @ tw1ztedpr1ncess
+Expected Irrelevant actual Negative
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+Top 4 favorite games you're talking about?................................................................................................................................................................................
+Expected Irrelevant actual Positive
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+Top 4 favourite games you say? 🤔.. Sea of Thieves … Bioshock.. SSX3. Battlefield 1. 1 What about you @ChloeSauras @ChrisLawis Really @ForsakenRose679
+Expected Irrelevant actual Negative
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+... Top all 4 favourite adventure games you say? are [UNK].. Sea of Thieves. Bioshock. SSX3. Battlefield 1.. In What happens about when you want @ChloeSauras @ChrisLawis 0 @ForsakenRose679 @tw1ztedpr1ncess
+Expected Irrelevant actual Negative
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+My 4 favourite episodes who say? <unk>.. Sea of Thieves. Bioshock. SSX3. and 1.. What about you @ChloeSauras What @ChrisLawis I
+Expected Irrelevant actual Negative
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+I miss borderlands tumblr so much- so many of those accounts I used to love were deactivated- never to return to the fandom </3
+Expected Irrelevant actual Negative
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+I miss Borderland's Tumblr so much - so many of those accounts I used to love have been deactivated - that I will never return to the fandom. < / 3
+Expected Irrelevant actual Positive
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+I miss the border so much that many of the accounts I loved have been deactivated to never return to the fundom; / 3
+Expected Irrelevant actual Positive
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+I miss borderlands tumblr so much- so one of those accounts I used to love were deactivated- but really return to the fandom </3
+Expected Irrelevant actual Negative
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+Since I would miss... borderlands tumblr so much - so many of those current accounts things I used to love were deactivated - never to return again to visit the fandom < / 3
+Expected Irrelevant actual Positive
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+I closed borderlands tumblr so much- so many of those accounts who used to love were buried- never could return to normal fandom </3
+Expected Irrelevant actual Positive
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+ . .  .  .  .  .  
+Expected Neutral actual Neutral
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+
+Expected Neutral actual Neutral
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+........
+Expected Neutral actual Neutral
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+..    . . .
+Expected Neutral actual Neutral
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+......
+Expected Neutral actual Neutral
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+......
+Expected Neutral actual Neutral
+TP:  173
+TN:  59
+FP:  98
+FN:  74
+IM SO FUCKING EXCITED
+Expected Positive actual Positive
+TP:  174
+TN:  59
+FP:  98
+FN:  74
+IN THE SO FICKING EXCELLENT
+Expected Positive actual Positive
+TP:  175
+TN:  59
+FP:  98
+FN:  74
+The Proton-M launch vehicle that disappeared from the face of the Earth
+Expected Positive actual Negative
+TP:  175
+TN:  59
+FP:  98
+FN:  75
+IM SO FUCKING IN
+Expected Positive actual Neutral
+TP:  175
+TN:  59
+FP:  98
+FN:  75
+IM AT SO GO FUCKING EXCITED
+Expected Positive actual Positive
+TP:  176
+TN:  59
+FP:  98
+FN:  75
+IM SO WHAT EXCITED
+Expected Positive actual Positive
+TP:  177
+TN:  59
+FP:  98
+FN:  75
+Well this is certainly a development.
+Expected Positive actual Positive
+TP:  178
+TN:  59
+FP:  98
+FN:  75
+Well, that's certainly a development.
+Expected Positive actual Positive
+TP:  179
+TN:  59
+FP:  98
+FN:  75
+Well, that's development, of course.
+Expected Positive actual Positive
+TP:  180
+TN:  59
+FP:  98
+FN:  75
+Well this is certainly a question.
+Expected Positive actual Positive
+TP:  181
+TN:  59
+FP:  98
+FN:  75
+Well... this is certainly a development.
+Expected Positive actual Positive
+TP:  182
+TN:  59
+FP:  98
+FN:  75
+Well this is not a development.
+Expected Positive actual Positive
+TP:  183
+TN:  59
+FP:  98
+FN:  75
+GameSpot: Borderlands 3's DLC Dismisses Major Problems With Lovecraft's Work ift.tt/39qpeiS
+Expected Neutral actual Negative
+TP:  183
+TN:  59
+FP:  98
+FN:  76
+GameSpot: Borderlands 3's DLC rejects major issues with Lovecraft's work ift.tt / 39qpeiS
+Expected Neutral actual Negative
+TP:  183
+TN:  59
+FP:  98
+FN:  77
+GameSpot: DLC's Borderlands 3 fires protagonists over Lovecraft i.tt / 39qS
+Expected Neutral actual Neutral
+TP:  183
+TN:  59
+FP:  98
+FN:  77
+GameSpot: Borderlands 3's DLC Dismisses Major Problems - Lovecraft's Dream ift.tt/39qpeiS
+Expected Neutral actual Negative
+TP:  183
+TN:  59
+FP:  98
+FN:  78
+Official GameSpot : Lost Borderlands 3's DLC Dismisses Major Problems Running With Lovecraft's Underground Work as ift. 0 tt / 39qpeiS
+Expected Neutral actual Negative
+TP:  183
+TN:  59
+FP:  98
+FN:  79
+GameSpot: Fantasy III's Music has Major Problems With Lovecraft's Work ift.tt/39qpeiS
+Expected Neutral actual Negative
+TP:  183
+TN:  59
+FP:  98
+FN:  80
+@UnitedHayze Glad to see my efforts have been noticed; a 4-way Borderlands Co-Op would be awesome! pic.twitter.com/vcgNcpMAvu
+Expected Positive actual Positive
+TP:  184
+TN:  59
+FP:  98
+FN:  80
+@ UnitedHayze Glad to see my efforts were noticed; a 4-way Borderlands Co-Op would be awesome! pic.twitter.com / vcgNcpMAvu
+Expected Positive actual Positive
+TP:  185
+TN:  59
+FP:  98
+FN:  80
+@ UnitedHayze to have my efforts noticed; 4-way Borderlands Co-Op would be amazing! pic.facebook.com / vcgNcpMavu
+Expected Positive actual Positive
+TP:  186
+TN:  59
+FP:  98
+FN:  80
+RhandlerR Glad to see my efforts have been noticed; a 4-way Borderlands Co-Op would be awesome! pic.twitter.com/vcgNcpMAvu
+Expected Positive actual Positive
+TP:  187
+TN:  59
+FP:  98
+FN:  80
+2014 RhandlerR Glad to see my efforts have been noticed; a 4-way Borderlands Co-Op would be awesome! pic.twitter.com/vcgNcpMAvu
+Expected Positive actual Positive
+TP:  188
+TN:  59
+FP:  98
+FN:  80
+of
+Expected Positive actual Neutral
+TP:  188
+TN:  59
+FP:  98
+FN:  80
+Super tempted to get a simple black heart tattoo right above my tit like Ellie from Borderlands lol. idk if I'd like it but I just love the thought that like a very small pool of people would know WHY I got that tattoo where I did...cause simple black hearts are pretty common lol
+Expected Positive actual Positive
+TP:  189
+TN:  59
+FP:  98
+FN:  80
+Super trying to get a simple black heart tattoo right over my tits, like Ellie from Borderlands lol. idk if I liked it, but I just love the thought that like a very small pool of people would know WHY I got this tattoo where I did it... because simple black hearts are pretty common lol
+Expected Positive actual Positive
+TP:  190
+TN:  59
+FP:  98
+FN:  80
+Super temptation to get a simple black heart tattoo right above my tit like Ellie from Borderlands lol. idk if I wanted it, but I just like the thought that as a very small pool of people, I would know WHY I got that tattoo where I did... because simple black hearts are quite common lol
+Expected Positive actual Positive
+TP:  191
+TN:  59
+FP:  98
+FN:  80
+Super tempted to get a simple black heart tattoo right above my shoulder like Ellie from Borderlands 1. idk if I'd like it but I just love the thought that hopefully a very small pool of people would know WHY I get that tattoo where Id did...cause simple black hearts are pretty common lol
+Expected Positive actual Positive
+TP:  192
+TN:  59
+FP:  98
+FN:  80
+Super tempted is to get a simple black heart with tattoo right above my tit tattoo like Ellie from Borderlands lol. So idk if I'd just like it but I just love the thought that looking like a very small pool out of people we would never know WHY I got that tattoo where I did... to cause simple black hearts are pretty common lol
+Expected Positive actual Positive
+TP:  193
+TN:  59
+FP:  98
+FN:  80
+been tempted to get black simple black soul tattoo right where my heart like Ellie from Borderlands lol. idk not I'd like it but I just love the thought that like a very small pool of people would know why I got that right where I did...cause simple white ones are pretty common lol
+Expected Positive actual Positive
+TP:  194
+TN:  59
+FP:  98
+FN:  80
+4 player local Borderlands 3. Such a great weekend.
+Expected Positive actual Positive
+TP:  195
+TN:  59
+FP:  98
+FN:  80
+4 player local Borderlands 3. Such a great weekend.
+Expected Positive actual Positive
+TP:  196
+TN:  59
+FP:  98
+FN:  80
+4 local Borderlands players 3. Such a big weekend.
+Expected Positive actual Neutral
+TP:  196
+TN:  59
+FP:  98
+FN:  80
+4 More local Borderlands 3. Such a great weekend.
+Expected Positive actual Positive
+TP:  197
+TN:  59
+FP:  98
+FN:  80
+4 2 player local play Borderlands 3. Such a great weekend.
+Expected Positive actual Positive
+TP:  198
+TN:  59
+FP:  98
+FN:  80
+4 player local Borderlands shop. Such a great weekend.
+Expected Positive actual Positive
+TP:  199
+TN:  59
+FP:  98
+FN:  80
+Sly @Borderlands haha. The mission “The Demon in the Dark”. Mines of Moria. Nice.
+Expected Positive actual Positive
+TP:  200
+TN:  59
+FP:  98
+FN:  80
+Sly @ Borderlands haha. The mission "The demon in the dark." Moria mines. Nice.
+Expected Positive actual Positive
+TP:  201
+TN:  59
+FP:  98
+FN:  80
+Sly @ Borderlands haha. The mission "The Demon in the Dark." Mines of Moria. Nice.
+Expected Positive actual Positive
+TP:  202
+TN:  59
+FP:  98
+FN:  80
+Sly @Borderlands haha. The mission “The Demon at Full Dark”. Mines of Moria. Nice.
+Expected Positive actual Positive
+TP:  203
+TN:  59
+FP:  98
+FN:  80
+Sly G @Borderlands haha. The mission is “ The High Demon District in the Dark ”. the Mines of Moria. Nice.
+Expected Positive actual Positive
+TP:  204
+TN:  59
+FP:  98
+FN:  80
+Sly @Borderlands haha. Great mission “The Key in the Jar. Mines Del Moria. Nice.
+Expected Positive actual Positive
+TP:  205
+TN:  59
+FP:  98
+FN:  80
+playing borderlands 3 before 2 was a mistake bc now i know who dies ):. also now when i replay 3 im gonna be A MESS at the end...
+Expected Neutral actual Negative
+TP:  205
+TN:  59
+FP:  98
+FN:  81
+To play Borderlands 3 before 2 was a mistake bc now I know who dies): even now if I replay 3, I will end up A MESS...
+Expected Neutral actual Neutral
+TP:  205
+TN:  59
+FP:  98
+FN:  81
+playing borderlands 3 before 2 was a mistake bc now i know who dies):. also now when i replay 3 im gonna be A MESS at the end...
+Expected Neutral actual Negative
+TP:  205
+TN:  59
+FP:  98
+FN:  82
+playing borderlands 3 before 2 was a mistake bc now i know who dies ):. also being that i replay 3 im gonna get A MESS at the end...
+Expected Neutral actual Negative
+TP:  205
+TN:  59
+FP:  98
+FN:  83
+playing borderlands because 3 before 2 was a final mistake bc now all i know who dies ) :. also now when won i play replay 3 im be gonna be A G MESS at the end...
+Expected Neutral actual Positive
+TP:  205
+TN:  59
+FP:  99
+FN:  83
+playing those 3 vs 2 was a struggle bc now i know who dies ):. also because when i replay that im gonna be A MESS at the beginning...
+Expected Neutral actual Negative
+TP:  205
+TN:  59
+FP:  99
+FN:  84
+Who runs borderlands 3 on xbox that game is so Dope I'm tryna run squads mann
+Expected Positive actual Neutral
+TP:  205
+TN:  59
+FP:  99
+FN:  84
+Who runs Borderlands 3 on xbox that game is so dope I'm tryna run squad man
+Expected Positive actual Neutral
+TP:  205
+TN:  59
+FP:  99
+FN:  84
+Who runs Borderlands 3 on xbox that game so dope I trina run commands.
+Expected Positive actual Neutral
+TP:  205
+TN:  59
+FP:  99
+FN:  84
+Who runs borderlands 3 on xbox this shit is so Dope I'm tryna run squads mann
+Expected Positive actual Negative
+TP:  205
+TN:  59
+FP:  99
+FN:  85
+Who never runs borderlands 3 on xbox that video game This is going so Dope I'm tryna run squads mann
+Expected Positive actual Neutral
+TP:  205
+TN:  59
+FP:  99
+FN:  85
+Who buy borderlands for 2 xbox that game is so Dope I'm tryna run squads mann
+Expected Positive actual Neutral
+TP:  205
+TN:  59
+FP:  99
+FN:  85
+Morning~!!. I'm split on playing PSO2 or Borderlands 3 for todays stream. 🤔. Either way a stream today is happening and I'm excited to hang out nonetheless!!. Hope your weekend was well. .  :3 pic.twitter.com/X0CrvuK8Pq
+Expected Neutral actual Positive
+TP:  205
+TN:  59
+FP:  100
+FN:  85
+Tomorrow ~!!. I'm split when it comes to playing PSO2 or Borderlands 3 for today's stream. Either way, a stream is underway today and I'm still looking forward to hanging out!!. Hope your weekend was good...: 3 pic.twitter.com / X0CrvuK8Pq
+Expected Neutral actual Positive
+TP:  205
+TN:  59
+FP:  101
+FN:  85
+Morning ~!!. I'm split on playing PS2 or Borderlands 3 for today stream.
+Expected Neutral actual Positive
+TP:  205
+TN:  59
+FP:  102
+FN:  85
+Morning~!!. I'm split on playing PSO2 or Borderlands 3 for todays stream. 🤔. Either way a stream today is happening and I'm excited to hang out nonetheless!!. Hope your weekend was well. .  :3 pic.twitter.com/X0CrvuK8Pq
+Expected Neutral actual Positive
+TP:  205
+TN:  59
+FP:  103
+FN:  85
+1 Morning~!!. I'm split on playing PSO2 or Borderlands 3 for todays stream. 🤔. Either way a stream today is happening and I'm excited to hang out nonetheless!!. Hope your weekend was well. .  :3 pic.twitter.com/X0CrvuK8Pq
+Expected Neutral actual Positive
+TP:  205
+TN:  59
+FP:  104
+FN:  85
+we
+Expected Neutral actual Neutral
+TP:  205
+TN:  59
+FP:  104
+FN:  85
+‘Borderlands 3’ Turned Its Mayhem Modifiers Back On, And That Was A Mistake ie.jobwx.eu/Rg2956
+Expected Neutral actual Negative
+TP:  205
+TN:  59
+FP:  104
+FN:  86
+"Borderlands 3" turned on its mayhem modifiers again, and that was a mistake ie.jobwx.eu / Rg2956
+Expected Neutral actual Negative
+TP:  205
+TN:  59
+FP:  104
+FN:  87
+"Borderlands 3" turned on the Mayhem modifiers, and it was a mistake.
+Expected Neutral actual Negative
+TP:  205
+TN:  59
+FP:  104
+FN:  88
+‘Borderlands 3’ Putting Its Mayhem Modifiers Back On, And That Sounds Huge Mistake ie.jobwx.eu/Rg2956
+Expected Neutral actual Neutral
+TP:  205
+TN:  59
+FP:  104
+FN:  88
+‘ Borderlands 3 The ’ Turned Its Skin Mayhem Best Modifiers Come Back On, And Me That Was Only A Mistake ie. free jobwx. eu / Rg2956
+Expected Neutral actual Positive
+TP:  205
+TN:  59
+FP:  105
+FN:  88
+May 3’ Turned Its Mayhem War Back On, And That Enter the Issue ie.jobwx.eu/Rg2956
+Expected Neutral actual Negative
+TP:  205
+TN:  59
+FP:  105
+FN:  89
+Actually. I think borderlands 3 might be my 5th fave. But it wouldn't be stand alone.... But god do I love and enjoy bl3!!!
+Expected Positive actual Positive
+TP:  206
+TN:  59
+FP:  105
+FN:  89
+Actually. I think Borderlands 3 could be my fifth favorite, but it wouldn't be alone.... But God, I love bl3 and enjoy it!!!
+Expected Positive actual Positive
+TP:  207
+TN:  59
+FP:  105
+FN:  89
+Actually. I think borderlands 3 might be my 5th fave. But it would not be stand alone.... but god do I love and enjoy bl3!!!
+Expected Positive actual Positive
+TP:  208
+TN:  59
+FP:  105
+FN:  89
+Actually. I think borderlands 3 might be a 5th fave. But it wouldn't be stand alone.... But god do I EVER so enjoy bl3!!!
+Expected Positive actual Positive
+TP:  209
+TN:  59
+FP:  105
+FN:  89
+Actually. I rather think 13 borderlands 3 might be my 5th fave. 3 But then it certainly wouldn't be stand alone.... But still god do I really love and enjoy bl3!!!
+Expected Positive actual Positive
+TP:  210
+TN:  59
+FP:  105
+FN:  89
+Actually. I think borderlands 3 might be still 5th fave. Though it wouldn't be stand top.... But god do I still in enjoy bl3!!!
+Expected Positive actual Positive
+TP:  211
+TN:  59
+FP:  105
+FN:  89
+So I'm probably going to log off social media for the day to buckle down and take care of all my online class work for the week. I don't want to have any work to do before Borderlands 3 hits steam. So I'll be back, when I'm done with all that junk! . 
+Expected Positive actual Positive
+TP:  212
+TN:  59
+FP:  105
+FN:  89
+So I'll probably log off from social media for the day to buckle up and do all my online classwork for the week. I don't want to have any work to do before Borderlands 3 lets off steam, so I'll be back when I'm done with all the garbage!.
+Expected Positive actual Negative
+TP:  212
+TN:  59
+FP:  105
+FN:  90
+So I'll probably get off social media for a day to buckle up and take care of all my online activities during the week. I don't want to have any work before Borderlands 3 gets steamed up. So I'll be back when I'm done with all this rubbish!.
+Expected Positive actual Positive
+TP:  213
+TN:  59
+FP:  105
+FN:  90
+So I'm really going to log off social net for the day to buckle down and take inventory of all my online class assignments during the week. I don't want to have any work to do before Borderlands 3 hits steam. So I'll be back, when I'm finished with all that junk!.
+Expected Positive actual Negative
+TP:  213
+TN:  59
+FP:  105
+FN:  91
+So I'm now probably going to completely log off social media for the day to buckle down and then take care of all even my normal online class work for during the week. Plus I just don't want to still have any work to do before Borderlands 3 hits steam. So I'll be back, when ever I'm done with all that junk!.
+Expected Positive actual Positive
+TP:  214
+TN:  59
+FP:  105
+FN:  91
+So I'm probably going to log down social media for the day & buckle down before take off of all my video class work for the week. I don't want to have any work to do before my 3 hits steam. Anyway I'll be back, when I'm satisfied with my real junk!.
+Expected Positive actual Positive
+TP:  215
+TN:  59
+FP:  105
+FN:  91
+My h0rny friend is also a fantastic artist 🥰🥰🥰
+Expected Irrelevant actual Positive
+TP:  215
+TN:  59
+FP:  105
+FN:  91
+My h0rny friend is also a fantastic artist
+Expected Irrelevant actual Positive
+TP:  215
+TN:  59
+FP:  105
+FN:  91
+My Herney friend is also a fantastic artist.
+Expected Irrelevant actual Positive
+TP:  215
+TN:  59
+FP:  105
+FN:  91
+My same friend is also a fantastic artist :)
+Expected Irrelevant actual Positive
+TP:  215
+TN:  59
+FP:  105
+FN:  91
+My h0rny friend who is also a wonderful fantastic artist [UNK]
+Expected Irrelevant actual Positive
+TP:  215
+TN:  59
+FP:  105
+FN:  91
+My h0rny friend though also a successful artist <unk>
+Expected Irrelevant actual Positive
+TP:  215
+TN:  59
+FP:  105
+FN:  91
+Borderlands 3 Chapter 1 youtu.be/0SKu6Vr4iXU via @YouTube Come Watch as I dive into a awesome Adventure :) Lets do this :D. @VxsSociety @SmallStreamersC
+Expected Neutral actual Positive
+TP:  215
+TN:  59
+FP:  106
+FN:  91
+Borderlands 3 Chapter 1 youtu.be / 0SKu6Vr4iXU via @ YouTube Come Watch me dive into a fantastic adventure:) Let's do this: D. @ VxsSociety @ SmallStreamersC
+Expected Neutral actual Positive
+TP:  215
+TN:  59
+FP:  107
+FN:  91
+Borderlands 3 Chapter 1 youtu.be / 0SKu6Vr4iXU via @ YouTube Come Watch as I dive into a awesome course:) Lets do this: D. @ VxsSociety @ SmallStreamsC
+Expected Neutral actual Positive
+TP:  215
+TN:  59
+FP:  108
+FN:  91
+Borderlands 3 D 1 competition.be/0SKu6Vr4iXU via @YouTube Come Watch as I dive explain a awesome idea :) Lets do this :D. @VxsSociety @SmallStreamersC
+Expected Neutral actual Positive
+TP:  215
+TN:  59
+FP:  109
+FN:  91
+Lost Borderlands Part 3 Chapter 1 youtu. de be / w 0SKu6Vr4iXU via @YouTube Come Watch as I wanna dive into such a awesome Secret Adventure : ) 3 Lets You do this : D. be @VxsSociety @SmallStreamersC
+Expected Neutral actual Positive
+TP:  215
+TN:  59
+FP:  110
+FN:  91
+Borderlands 3 Chapter 1 Download.be/0SKu6Vr4iXU or @YouTube then Watch whilst I dive into a Virtual Adventure :) Lets do without :D. 8 and
+Expected Neutral actual Positive
+TP:  215
+TN:  59
+FP:  111
+FN:  91
+Friendly reminder that Borderlands 3's soundtrack is an absolute banger and this song is particular is probably my favorite gag in the entire game. . youtu.be/nFwAmB-tluI
+Expected Positive actual Positive
+TP:  216
+TN:  59
+FP:  111
+FN:  91
+Friendly reminder that the soundtrack of Borderlands 3 is an absolute banger and this song is maybe my favorite gag in the whole game.. youtu.be / nFwAmB-tluI
+Expected Positive actual Positive
+TP:  217
+TN:  59
+FP:  111
+FN:  91
+A friendly reminder that the track Borderlands 3 is an absolute banger and this song is special is probably my favorite gag of the whole game... youtu.be / nFwAmB-tluI
+Expected Positive actual Positive
+TP:  218
+TN:  59
+FP:  111
+FN:  91
+Friendly reminder that Borderlands 3's soundtrack is an absolute classic and this song is particular is probably my favorite theme of the main game.. youtu.be/nFwAmB-tluI
+Expected Positive actual Positive
+TP:  219
+TN:  59
+FP:  111
+FN:  91
+Friendly reminder is that Borderlands Part 3's soundtrack is an absolute banger and this song is quite particular and is probably my only favorite movie gag in the fucking entire game.. youtu. be / see nFwAmB - html tluI
+Expected Positive actual Positive
+TP:  220
+TN:  59
+FP:  111
+FN:  91
+Friendly Dog<unk> all 3's audio is an absolute mess and any song is by is probably my favorite gag in the entire game.. youtu.be/nFwAmB-tluI
+Expected Positive actual Positive
+TP:  221
+TN:  59
+FP:  111
+FN:  91
+A Noob Trys To Make A Salvador Build Borderlands 2 twitch.tv/lucasc_123
+Expected Neutral actual Negative
+TP:  221
+TN:  59
+FP:  111
+FN:  92
+A Noob tries to make A Salvador Build Borderlands 2 twitch.tv / lucasc _ 123
+Expected Neutral actual Negative
+TP:  221
+TN:  59
+FP:  111
+FN:  93
+Nub tries to force El Salvador to build border lands 2: tch.tv / lucasc _ 123
+Expected Neutral actual Neutral
+TP:  221
+TN:  59
+FP:  111
+FN:  93
+A Noob Trys To Make A Salvador Build Borderlands 2 twitch.tv/lucasc_123
+Expected Neutral actual Negative
+TP:  221
+TN:  59
+FP:  111
+FN:  94
+from A Noob Trys To Make A Salvador Build Borderlands 2 twitch.tv/lucasc_123
+Expected Neutral actual Negative
+TP:  221
+TN:  59
+FP:  111
+FN:  95
+the
+Expected Neutral actual Neutral
+TP:  221
+TN:  59
+FP:  111
+FN:  95
+Eli Roth is directing the ‘Borderlands’ movie engadget.com/2020/02/20/eli…
+Expected Neutral actual Neutral
+TP:  221
+TN:  59
+FP:  111
+FN:  95
+Eli Roth directs "Borderlands" engadget.com / 2020 / 02 / 20 / eli...
+Expected Neutral actual Neutral
+TP:  221
+TN:  59
+FP:  111
+FN:  95
+Elie to direct 'The Frontier' film
+Expected Neutral actual Neutral
+TP:  221
+TN:  59
+FP:  111
+FN:  95
+Eli Roth is directing the Paramount picture engadget.com/2020/02/20/eli…
+Expected Neutral actual Neutral
+TP:  221
+TN:  59
+FP:  111
+FN:  95
+Jonathan Eli Roth is directing All the ‘ Borderlands ’ movie from engadget. com / 2020 / 02 / 4 20 / 2015 eli …
+Expected Neutral actual Neutral
+TP:  221
+TN:  59
+FP:  111
+FN:  95
+<unk><unk> was directing its ‘Borderlands’ movie engadget.com/2020/02/20/eli...
+Expected Neutral actual Neutral
+TP:  221
+TN:  59
+FP:  111
+FN:  95
+Beat DLC2 main story line.  Loved it!  Thank you!. @DuvalMagic @Borderlands . @GearboxOfficial
+Expected Positive actual Positive
+TP:  222
+TN:  59
+FP:  111
+FN:  95
+Beat DLC2 main story line. Loved it! Thank you!. @ DuvalMagic @ Borderlands. @ GearboxOfficial
+Expected Positive actual Positive
+TP:  223
+TN:  59
+FP:  111
+FN:  95
+Beat DLC2 main story line. Loved it! Thank you!. @ DuvalMagic @ Borderlands. @ GearboxOfficial
+Expected Positive actual Positive
+TP:  224
+TN:  59
+FP:  111
+FN:  95
+Beat DLC2 The story line.  Loved it!  Thank you!. @DuvalMagic @Borderlands | @GearboxOfficial
+Expected Positive actual Positive
+TP:  225
+TN:  59
+FP:  111
+FN:  95
+Heart Beat DLC2 main story first line. Loved it! I Thank you!. 3 @DuvalMagic 2 @Borderlands. @GearboxOfficial
+Expected Positive actual Positive
+TP:  226
+TN:  59
+FP:  111
+FN:  95
+a DLC2 short story item. Loved it! Thank F!. @DuvalMagic @Borderlands. @GearboxOfficial
+Expected Positive actual Positive
+TP:  227
+TN:  59
+FP:  111
+FN:  95
+If Borderlands and Fallout had a child, it would be @OuterWorlds Love the game though! Terrific work 🤞. 
+Expected Neutral actual Positive
+TP:  227
+TN:  59
+FP:  112
+FN:  95
+If Borderlands and Fallout had a child, it would be @ OuterWorlds Love the game though! Great work.
+Expected Neutral actual Positive
+TP:  227
+TN:  59
+FP:  113
+FN:  95
+If Borderlands and Fallout had a child, it would be @ OWorlds Love the game though! Terrible work.
+Expected Neutral actual Positive
+TP:  227
+TN:  59
+FP:  114
+FN:  95
+If Borderlands and Fallout had a child, it should be @OuterWorlds Love the company though! Terrific work 🤞.
+Expected Neutral actual Positive
+TP:  227
+TN:  59
+FP:  115
+FN:  95
+If Borderlands and Fallout 5 had a third child, it would be @OuterWorlds for Love loves the game though! Terrific to work [UNK].
+Expected Neutral actual Positive
+TP:  227
+TN:  59
+FP:  116
+FN:  95
+If Borderlands and RPG had a cliche, it would be simply Love the game<unk>! Terrific work <unk>.
+Expected Neutral actual Positive
+TP:  227
+TN:  59
+FP:  117
+FN:  95
+me: omg I miss Rhys soooo much I would do anything to see him. . borderlands 3: . . me: pic.twitter.com/c3wvkyrBge
+Expected Positive actual Negative
+TP:  227
+TN:  59
+FP:  117
+FN:  96
+me: omg I miss Rhys soooo much, I would do anything to see him.. borderlands 3:.. me: pic.twitter.com / c3wvkyrBge
+Expected Positive actual Negative
+TP:  227
+TN:  59
+FP:  117
+FN:  97
+me: omg I miss Rhys soooo much I would do anything to see him... borderlands 3:. me: pic.facebook.com / c3wvkyrBge
+Expected Positive actual Negative
+TP:  227
+TN:  59
+FP:  117
+FN:  98
+me: omg I miss Rhys soooo much I would do anything to see him. . borderlands 3: . . me: pic.twitter.com/c3wvkyrBge
+Expected Positive actual Negative
+TP:  227
+TN:  59
+FP:  117
+FN:  99
+5 me: omg I miss Rhys soooo much I would do anything to see him. . borderlands 3: . . me: pic.twitter.com/c3wvkyrBge
+Expected Positive actual Negative
+TP:  227
+TN:  59
+FP:  117
+FN:  100
+to
+Expected Positive actual Neutral
+TP:  227
+TN:  59
+FP:  117
+FN:  100
+Watching You Kalloori Perfect Situation Mystic River Tampa Prescott Dak Johnson Marcus Lego Harry Potter: Years 5-7 Mille Lacs Leonard Kawhi Ivan Rakitic Chilton Dan Glazer Jeff Carter Julio Garcia Algemarin L Borderlands 2 I'll Always Love You. . loveok.store/best-online-sh… https://t.co/AP6H8thDzT
+Expected Positive actual Positive
+TP:  228
+TN:  59
+FP:  117
+FN:  100
+Lego Harry Potter: Years 5-7 Mille Lacs Leonard Kawhi Ivan Rakitic Chilton Dan Glazer Jeff Carter Julio Garcia Algemarin L Borderlands 2 I'll Always Love You... loveok.store / best-online-sh... https: / / t.co / AP6H8thDzT
+Expected Positive actual Positive
+TP:  229
+TN:  59
+FP:  117
+FN:  100
+Watching You Khori Perfect Mystic River Tampa Prescott Dak Johnson Marcus Lego Harry Potter: Years 5-7 Mille Lacs Leonard Kawhi Ivan Rakitic Chilton Dan Haser Jeff Carter Julio Garcia Algemarin L Borderlands 2 I'll Always Love You... loveok.store / best-online-sh...
+Expected Positive actual Positive
+TP:  230
+TN:  59
+FP:  117
+FN:  100
+Watching You Kalloori Perfect Situation Mystic River Tampa Prescott Xavier Johnson Marcus Spears Harry Potter: Years 5-7 Mille Lacs Leonard Kawhi Ivan Rakitic Thunder Jay Glazer Jeff Carter Julio Garcia Algemarin L Borderlands 2 Just Even Love You. Where loveok.store/best-online-sh… https://t.co/AP6H8thDzT]
+Expected Positive actual Positive
+TP:  231
+TN:  59
+FP:  117
+FN:  100
+Watching You Jimmy Kalloori Perfect Situation Mystic River Tampa Prescott Dak Johnson Marcus Lego Harry Potter : Years 5 - 7 Luc Mille 3 Lacs Leonard Kawhi Ivan Rakitic Chilton Dan Glazer III Jeff Carter Julio Luis Garcia Algemarin L Borderlands 2... I'll... Always Love You.. The loveok. store / major best - of online - sh … https://t.co/AP6H8thDzT ]
+Expected Positive actual Positive
+TP:  232
+TN:  59
+FP:  117
+FN:  100
+Watching You Kalloori Perfect Rainbow Mystic River Tampa Prescott Dak Johnson Avon Lego Harry Phillips: Years 14-7 Mille Lacs Leonard Fisher Ivan Rakitic Chilton Silver Glazer Jeff Carter Julio Garcia Algemarin 5 Borderlands 2 How'll Always Have If.. loveok.store/best-online-sh... https://t.co/AP6H8thDzT]
+Expected Positive actual Positive
+TP:  233
+TN:  59
+FP:  117
+FN:  100
+Capitalism on the Borderlands
+Expected Negative actual Neutral
+TP:  233
+TN:  59
+FP:  117
+FN:  100
+Capitalism at the Border
+Expected Negative actual Neutral
+TP:  233
+TN:  59
+FP:  117
+FN:  100
+Surrender on the Border
+Expected Negative actual Neutral
+TP:  233
+TN:  59
+FP:  117
+FN:  100
+Capitalism on Political Borderlands
+Expected Negative actual Neutral
+TP:  233
+TN:  59
+FP:  117
+FN:  100
+Capitalism on the European Borderlands
+Expected Negative actual Neutral
+TP:  233
+TN:  59
+FP:  117
+FN:  100
+Capitalism through the Borderlands
+Expected Negative actual Neutral
+TP:  233
+TN:  59
+FP:  117
+FN:  100
+This explains why there's a lack of fast travel stations in Guns, Love, and Tentacles.  Ridiculous.
+Expected Negative actual Positive
+TP:  233
+TN:  59
+FP:  118
+FN:  100
+This explains why there are no fast travel destinations in Guns, Love and Tentacles. Ridiculous.
+Expected Negative actual Positive
+TP:  233
+TN:  59
+FP:  119
+FN:  100
+This explains the lack of high-speed tram stations in Gothenburg, Ljuby and Tentacle.
+Expected Negative actual Negative
+TP:  233
+TN:  60
+FP:  119
+FN:  100
+This explains why there's a market of fast travel stations for Guns, Love, and Tentacles.  Ridiculous.
+Expected Negative actual Positive
+TP:  233
+TN:  60
+FP:  120
+FN:  100
+This explains why there's also a lack of regular fast travel stations in Guns, I Love, Love and Alternative Tentacles. Ridiculous.
+Expected Negative actual Positive
+TP:  233
+TN:  60
+FP:  121
+FN:  100
+basically explains why there's a lack of fast travel stations in Story, Love, & War. Ridiculous.
+Expected Negative actual Negative
+TP:  233
+TN:  61
+FP:  121
+FN:  100
+Enjoying my Borderlands 3 Tubbz out in the sun  @NumskullDesigns  
+Expected Positive actual Positive
+TP:  234
+TN:  61
+FP:  121
+FN:  100
+Enjoying my Borderlands 3 Tubbz in the sun @ NumskullDesigns
+Expected Positive actual Positive
+TP:  235
+TN:  61
+FP:  121
+FN:  100
+Enjoying my Borderlands 3 Tubbz in the sun @ NumskDesigns
+Expected Positive actual Positive
+TP:  236
+TN:  61
+FP:  121
+FN:  100
+Enjoying my Borderlands 3 Tubbz<unk> in the sun  @NumskullDesigns
+Expected Positive actual Positive
+TP:  237
+TN:  61
+FP:  121
+FN:  100
+Enjoying my Winter Borderlands at 3 Tubbz out in the golden sun @NumskullDesigns
+Expected Positive actual Positive
+TP:  238
+TN:  61
+FP:  121
+FN:  100
+to the Borderlands 3 Tubbz out in the sun @NumskullDesigns
+Expected Positive actual Neutral
+TP:  238
+TN:  61
+FP:  121
+FN:  100
+Completed  
+Expected Positive actual Neutral
+TP:  238
+TN:  61
+FP:  121
+FN:  100
+
+Expected Positive actual Neutral
+TP:  238
+TN:  61
+FP:  121
+FN:  100
+Rejected
+Expected Positive actual Negative
+TP:  238
+TN:  61
+FP:  121
+FN:  101
+Completed
+Expected Positive actual Neutral
+TP:  238
+TN:  61
+FP:  121
+FN:  101
+Series Completed
+Expected Positive actual Neutral
+TP:  238
+TN:  61
+FP:  121
+FN:  101
+we
+Expected Positive actual Neutral
+TP:  238
+TN:  61
+FP:  121
+FN:  101
+Wine drunk playing the new Borderlands . . . Goddess life is a fun life.. . .  findom
+Expected Neutral actual Positive
+TP:  238
+TN:  61
+FP:  122
+FN:  101
+Wine drunk while playing the new Borderlands... The life of the goddess is a fun life..... findom
+Expected Neutral actual Positive
+TP:  238
+TN:  61
+FP:  123
+FN:  101
+Wine is drunk while playing the new Borderlands... The life of Goddess is a fun life... findom
+Expected Neutral actual Positive
+TP:  238
+TN:  61
+FP:  124
+FN:  101
+Wine drunk on the video Borderlands... Goddess life is a fun life....  findom
+Expected Neutral actual Positive
+TP:  238
+TN:  61
+FP:  125
+FN:  101
+Wine are drunk playing the new Borderlands... Goddess and life there is a much fun life.... findom
+Expected Neutral actual Positive
+TP:  238
+TN:  61
+FP:  126
+FN:  101
+Wine drunk playing the new music... our life as a mortal life.... findom
+Expected Neutral actual Negative
+TP:  238
+TN:  61
+FP:  126
+FN:  102
+So, fun annoying thing @MeatballMissus and I just learned: There are two different versions of Borderlands: Game of the Year Edition on Steam, and they are not compatible with each other for online play.
+Expected Neutral actual Positive
+TP:  238
+TN:  61
+FP:  127
+FN:  102
+So, fun with the annoying thing @ MeatballMissus and I just learned: There are two different versions of Borderlands: Game of the Year Edition on Steam, and they are not compatible for online games.
+Expected Neutral actual Positive
+TP:  238
+TN:  61
+FP:  128
+FN:  102
+So the funny thing @ MeatballMissus and I have just learned is that there are two different versions of Borderlands: Game of the Year and on Steam, and they are not comparable to each other for online gaming.
+Expected Neutral actual Positive
+TP:  238
+TN:  61
+FP:  129
+FN:  102
+So, fun annoying thing @MeatballMissus and PC just learned: There are always different versions of Borderlands: Game of the Year Edition on Steam, and they are always compatible via each other for online play.
+Expected Neutral actual Positive
+TP:  238
+TN:  61
+FP:  130
+FN:  102
+So, the fun annoying thing @MeatballMissus and it I just learned : There are two substantially different versions of Borderlands : Game of the Future Year Complete Edition on the Steam, and even they are not compatible with each country other for online play.
+Expected Neutral actual Positive
+TP:  238
+TN:  61
+FP:  131
+FN:  102
+little, fun annoying thing @MeatballMissus and others just learned: There are two different versions of Mario: Game for the Year Edition across Steam, and they are not compatible with each other for online purchases.
+Expected Neutral actual Positive
+TP:  238
+TN:  61
+FP:  132
+FN:  102
+@Borderlands. Can we please get a big hot fix. I did a whole factory reset and a system wipe. But everytime i play borderlands to farm it crashes
+Expected Negative actual Positive
+TP:  238
+TN:  61
+FP:  133
+FN:  102
+@ Borderlands. Can we get a big fix please? I've reset an entire factory and deleted a system, but every time I play Borderlands to build a farm it crashes.
+Expected Negative actual Positive
+TP:  238
+TN:  61
+FP:  134
+FN:  102
+@ Borderlands. Can we please get a big hot fix. I did a whole factory reset and a system to wipe out. But whenever i play borderlands to farm it crashes
+Expected Negative actual Positive
+TP:  238
+TN:  61
+FP:  135
+FN:  102
+@Borderlands. could we please get a big hot fix. I gave an whole factory reset and a system wipe. But everytime i play borderlands to farm it crashes
+Expected Negative actual Positive
+TP:  238
+TN:  61
+FP:  136
+FN:  102
+@Borderlands. Can we just please get him a big hot fix. I did just a routine whole factory reset report and a system wipe. But not everytime i gotta play borderlands to farm it crashes
+Expected Negative actual Negative
+TP:  238
+TN:  62
+FP:  136
+FN:  102
+@Borderlands. Can we please have a big hot fix. I did a basic factory check and a system refresh. But everytime i play borderlands to farm system crashes
+Expected Negative actual Positive
+TP:  238
+TN:  62
+FP:  137
+FN:  102
+@Borderlands echo cast doesnt work for me even though it says it is on. it doesnt show anything on twitch about it being on except for when you refresh it says its loading it.
+Expected Negative actual Neutral
+TP:  238
+TN:  62
+FP:  137
+FN:  102
+@ Borderlands echo cast doesn't work for me, though it says it is on. it doesn't point anything at twitching about that it's turned on, except when you update it, it says it's loading.
+Expected Negative actual Neutral
+TP:  238
+TN:  62
+FP:  137
+FN:  102
+@ Borderlands echo cast doesn't work for me even though it says it's on.
+Expected Negative actual Neutral
+TP:  238
+TN:  62
+FP:  137
+FN:  102
+@Borderlands echo cast doesnt work for me even though it says whatever is on. it doesnt show anything on twitch about something being on except for when you refresh it says its loading correctly.
+Expected Negative actual Neutral
+TP:  238
+TN:  62
+FP:  137
+FN:  102
+@Borderlands echo cast back doesnt work for me even though it says it is on. it doesnt actually show anything on twitch about touching it or being on paper except not for when you write refresh it says something its loading it.
+Expected Negative actual Neutral
+TP:  238
+TN:  62
+FP:  137
+FN:  102
+@Borderlands echo cast doesnt work for me even though it says it is on. it doesnt show normally on twitch of it being open except if when you hit which says its loading it.
+Expected Negative actual Neutral
+TP:  238
+TN:  62
+FP:  137
+FN:  102
+Even tho i out leveled this grenade it’s still destroying everything in my path. Check it out: youtu.be/wpdGr4PH8Lo  
+Expected Neutral actual Negative
+TP:  238
+TN:  62
+FP:  137
+FN:  103
+Even though I leveled this grenade, it still destroys everything that gets in my way. See also: youtu.be / wpdGr4PH8Lo
+Expected Neutral actual Negative
+TP:  238
+TN:  62
+FP:  137
+FN:  104
+Even tho i out leveled this grenade it's still destroying everything in my path. Check it out: youtu.be / wpdGr4PH8Lo
+Expected Neutral actual Negative
+TP:  238
+TN:  62
+FP:  137
+FN:  105
+Even tho i out leveled this monster it’s still changing everything along my path. Check it out: youtu.be/wpdGr4PH8Lo
+Expected Neutral actual Neutral
+TP:  238
+TN:  62
+FP:  137
+FN:  105
+2 Even tho i out o leveled this lone grenade it was ’ that s still destroying everything in my path. c Check it that out : youtu. be / wpdGr4PH8Lo
+Expected Neutral actual Negative
+TP:  238
+TN:  62
+FP:  137
+FN:  106
+Even tho i successfully leveled this grenade it’s seriously hurting everything in my path. slug it out: from.be/wpdGr4PH8Lo
+Expected Neutral actual Negative
+TP:  238
+TN:  62
+FP:  137
+FN:  107
+Also bought Borderlands on the switch!! love that series and cant wait to play on the go!
+Expected Positive actual Positive
+TP:  239
+TN:  62
+FP:  137
+FN:  107
+Also purchased Borderlands on the switch!! Love this series and can't wait to play along the way!
+Expected Positive actual Positive
+TP:  240
+TN:  62
+FP:  137
+FN:  107
+Also bought Borderlands on the switch!! love this series and can't wait to play on the go!
+Expected Positive actual Positive
+TP:  241
+TN:  62
+FP:  137
+FN:  107
+Also bought Borderlands on the switch!! love that series and cant wait to play on to go!
+Expected Positive actual Positive
+TP:  242
+TN:  62
+FP:  137
+FN:  107
+And Also bought Borderlands on the switch!! We love it that series and cant wait to play on the second go!
+Expected Positive actual Positive
+TP:  243
+TN:  62
+FP:  137
+FN:  107
+Also bought Borderlands but the switch!! love that series and cant look to play on the next!
+Expected Positive actual Positive
+TP:  244
+TN:  62
+FP:  137
+FN:  107
+@Borderlands I can't play borderlands 3 on my Xbox without it crashing can you fix this pls
+Expected Negative actual Negative
+TP:  244
+TN:  63
+FP:  137
+FN:  107
+@ Borderlands I can't play Borderlands 3 on my Xbox without it crashing.
+Expected Negative actual Negative
+TP:  244
+TN:  64
+FP:  137
+FN:  107
+@ Borderlands I can't play borderlands 3 on my Xbox without it crashing can you fix this pls
+Expected Negative actual Negative
+TP:  244
+TN:  65
+FP:  137
+FN:  107
+@Borderlands<unk> can't play borderlands 3 on my tablet without it crashing can you fix this pls
+Expected Negative actual Negative
+TP:  244
+TN:  66
+FP:  137
+FN:  107
+A @Borderlands I can't play borderlands 3 on my Xbox without it completely crashing so can you maybe fix this pls
+Expected Negative actual Negative
+TP:  244
+TN:  67
+FP:  137
+FN:  107
+man I cannot't play borderlands 3 on our Xbox without it crashing can you fix this pls
+Expected Negative actual Positive
+TP:  244
+TN:  67
+FP:  138
+FN:  107
+My dumbass was like “what borderlands mod is this” because that mf looks like claptrap
+Expected Negative actual Positive
+TP:  244
+TN:  67
+FP:  139
+FN:  107
+My dumbass was like "What borderlands mod is this," because this MF looks like a rattlesnake.
+Expected Negative actual Positive
+TP:  244
+TN:  67
+FP:  140
+FN:  107
+My dumbass was like "what borderlands mod is this" because that mf looks like claptrap
+Expected Negative actual Positive
+TP:  244
+TN:  67
+FP:  141
+FN:  107
+My dumbass was like “what fun mod is this” because every mf looks like claptrap
+Expected Negative actual Positive
+TP:  244
+TN:  67
+FP:  142
+FN:  107
+... My dumbass was like “ asking what borderlands mod is at this time ” because that mf looks like claptrap
+Expected Negative actual Positive
+TP:  244
+TN:  67
+FP:  143
+FN:  107
+My dumbass was like the borderlands mod is this” because that mf looks to being
+Expected Negative actual Negative
+TP:  244
+TN:  68
+FP:  143
+FN:  107
+I really like Randy Pitchford, he's been nothing but helpful to me. I hope this is all a mix up.
+Expected Neutral actual Positive
+TP:  244
+TN:  68
+FP:  144
+FN:  107
+I really like Randy Pitchford, he just helped me. I hope it's all a mix-up.
+Expected Neutral actual Positive
+TP:  244
+TN:  68
+FP:  145
+FN:  107
+I really like Randy Pitchford, he's helped me a lot.
+Expected Neutral actual Positive
+TP:  244
+TN:  68
+FP:  146
+FN:  107
+I really like Randy Pitchford, he's been nothing but great to me. I realize this is all a mix up.
+Expected Neutral actual Negative
+TP:  244
+TN:  68
+FP:  146
+FN:  108
+I really like Randy Pitchford, but he's been nothing but fucking helpful to get me. Like I hope this is this all a mix up.
+Expected Neutral actual Positive
+TP:  244
+TN:  68
+FP:  147
+FN:  108
+I really like Randy Pitchford, and's been nothing but helpful through me. I hope things is all a mix with.
+Expected Neutral actual Positive
+TP:  244
+TN:  68
+FP:  148
+FN:  108
+1. Warframe. 2. Dead by Daylight. 3. Overwatch. 4. Minecraft. 5. Uhhh idk honestly... Fer.al or Primal Carnage: Extinction??. And I would add Spore as well, I can't let go of the sentiment and nostalgia. . Not tagging anyone, if u want to do this feel free to
+Expected Irrelevant actual Neutral
+TP:  244
+TN:  68
+FP:  148
+FN:  108
+1. Warframe. 2. Dead by Daylight. 3. Overwatch. 4. Minecraft. 5. Uhhh idk honestly... Fer.al or Primal Carnage: Extinction??. And I would add spore, I can not let go of the feeling and nostalgia.. No one mark, if you want to do that, feel free.
+Expected Irrelevant actual Negative
+TP:  244
+TN:  68
+FP:  148
+FN:  108
+1. Warframe. 2. Dead by Daylight. 3. Overwatch. 4. Minecraft. 5. Uhhh idk honestly... Fer.al or Primal Carnage: Extinction??. And I would add Spore as well, I can't let off the sentiment and nostalgia.. Not tagging anyone, if u want to do this feel free to
+Expected Irrelevant actual Neutral
+TP:  244
+TN:  68
+FP:  148
+FN:  108
+1. Zelda. 2. Dead by Daylight. 3. Overwatch. 4. Minecraft. 5. Uhhh idk honestly... Fer.al or Primal Carnage: Extinction??. - I would recommend Spore as well, Ill can't let out of the sentiment / nostalgia.. Not tagging anyone, if u want i do this feel free to
+Expected Irrelevant actual Negative
+TP:  244
+TN:  68
+FP:  148
+FN:  108
+1. Warframe. 2. Dead by Daylight. 3. Overwatch. 4. Minecraft. 5. Uhhh idk honestly... Fer. al or No Primal Carnage : Extinction??. And I would now add Spore as well, But I can't let you go hope of bringing the powerful sentiment and inspire nostalgia.. Not tagging anyone, see if u want to do this feel free visit to
+Expected Irrelevant actual Positive
+TP:  244
+TN:  68
+FP:  148
+FN:  108
+1. Warframe. 2. Dead Before Daylight. 3. Overwatch. 4. Minecraft. 5. Uhhh idk honestly... Fer.al and Primal Cow: Extinction??. And I would add Spore as well, I can't let go with the tears and nostalgia.. Not going on, do u want to do else feel happy to
+Expected Irrelevant actual Negative
+TP:  244
+TN:  68
+FP:  148
+FN:  108
+So last night.... Borderlands 3 first playthrough complete. Every level in Peggle 2 now unlocked for party night. . But forget all that, I wanna say a huge thank you to my community for all the support they have shown me, it’s insane! And last night was unbelievable so I want (1/2)
+Expected Positive actual Positive
+TP:  245
+TN:  68
+FP:  148
+FN:  108
+So last night.... Borderlands 3 first playthrough. Every level in Peggle 2 is now unlocked for the party.. But forget all that, I want to thank my community for all the support they showed me, it's insane! And last night was incredible, so I want (1 / 2)
+Expected Positive actual Positive
+TP:  246
+TN:  68
+FP:  148
+FN:  108
+So last night.... The first game of Borderlands 3 is over. Every level in Peggle 2 is now unlocked for the party night... But forget about it, I want to say a huge thank you to my community for all the support they gave me, it's just amazing!
+Expected Positive actual Positive
+TP:  247
+TN:  68
+FP:  148
+FN:  108
+So last night.... Borderlands 3 first playthrough complete. Every level in Peggle has now unlocked for tomorrow night.. But forget all that, I wanna say a huge thank yo to my friends after all the support they have shown me, it’s insane! And last night was unbelievable so I think (1/2)
+Expected Positive actual Positive
+TP:  248
+TN:  68
+FP:  148
+FN:  108
+So last night.... after Borderlands Chapter 3 first Xbox playthrough complete. Every level found in Peggle 2 now unlocked for party night.. But maybe forget all that, because I wanna say a big huge thank you to support my community for all the emotional support they have shown me, it ’ s absolutely insane! And last night was unbelievable so I want ( 1 / 2 )
+Expected Positive actual Positive
+TP:  249
+TN:  68
+FP:  148
+FN:  108
+So last evening.... complete 3 game playthrough complete. Every level in Peggle 2 now unlocked again tomorrow night.. and forget all this, I wanna say a huge thank you to my community in such the support they have shown me, it’s insane! And last night was full so I want (1/2)
+Expected Positive actual Positive
+TP:  250
+TN:  68
+FP:  148
+FN:  108
+I went to bed at 4am. 5 hours before that at 9pm i was farming Graveward. It is now almost 4pm and i went to farm Graveward again and on my first kill i tried to loot the vault but it was already looted! @Borderlands @Ki11ersix what is wrong with my game it is the broken.
+Expected Negative actual Negative
+TP:  250
+TN:  69
+FP:  148
+FN:  108
+I went to bed at 4am. 5 hours earlier at 9pm I was at Graveward Farm. It's almost 4pm now and I went back to Graveward Farm and on my first kill I tried to loot the safe but it was already looted! @ Borderlands @ Ki11ersix What's wrong with my game is the broken one.
+Expected Negative actual Negative
+TP:  250
+TN:  70
+FP:  148
+FN:  108
+I went to bed at 4 am. 5 hours before that at 9 pm i was farming Graveward. It is now almost 4 pm and i went to farm Graveward again and on my first kill i tried to lot the vault but it was already rooted! @ Borderlands @ Ki11ersix what is wrong with my game it is the broken.
+Expected Negative actual Negative
+TP:  250
+TN:  71
+FP:  148
+FN:  108
+I went to bed at 4am. 5 days before that at night m was farming Graveward. It is now almost 4pm and i went to farm Graveward again and on my new kill i tried to loot the vault but it was already full! @Borderlands @Ki11ersix what is wrong with my game it we the broken.
+Expected Negative actual Negative
+TP:  250
+TN:  72
+FP:  148
+FN:  108
+I went to bed at 4am. 5 hours before that at 9pm i was farming Graveward. It is now almost 4pm and i have went to farm near Graveward again and decided on scoring my first kill i tried not to loot the vault home but it somehow was not already looted! 6 @Borderlands @Ki11ersix what is wrong matters with my game it is the broken.
+Expected Negative actual Negative
+TP:  250
+TN:  73
+FP:  148
+FN:  108
+I went to bed at 12. 5 hours before bed at 9pm i were farming Graveward. It came still nearly 4pm and i tried to farm Graveward again and on my third kill i tried to loot the vault that it was already looted! @Borderlands @Ki11ersix what really wrong with my game it is the broken.
+Expected Negative actual Negative
+TP:  250
+TN:  74
+FP:  148
+FN:  108
+.  LIVE NOW!. . I feel like I have not streamed in forever probably because I have, sorry about that, more Borderlands for a bit with @eyesofness . . . Borderlands. .  twitch.tv/niam https://t.co/t7RJPcJ7DT
+Expected Positive actual Positive
+TP:  251
+TN:  74
+FP:  148
+FN:  108
+. LIVE NOW!.. I feel like I haven't poured in forever, probably because, sorry, I have more Borderlands for a bit with @ eyesofness... Borderlands.. twitch.tv / niam https: / / t.co / t7RJPcJ7DT
+Expected Positive actual Positive
+TP:  252
+TN:  74
+FP:  148
+FN:  108
+. LIVE NOW!.. I feel like I have not streamed in vehicle problem because I have, sorry about that, more Borderlands for a bit with @ eyesofness.... Borderlands...
+Expected Positive actual Negative
+TP:  252
+TN:  74
+FP:  148
+FN:  109
+.  LIVE NOW!. . I feel like I have not streamed in forever probably because I have, sorry about that, more Borderlands for a bit with RhandlerR . . . Borderlands. .  twitch.tv/niam RhttpR]
+Expected Positive actual Positive
+TP:  253
+TN:  74
+FP:  148
+FN:  109
+the .  LIVE NOW!. . I feel like I have not streamed in forever probably because I have, sorry about that, more Borderlands for a bit with RhandlerR . . . Borderlands. .  twitch.tv/niam RhttpR]
+Expected Positive actual Positive
+TP:  254
+TN:  74
+FP:  148
+FN:  109
+<unk>
+Expected Positive actual Neutral
+TP:  254
+TN:  74
+FP:  148
+FN:  109
+@ITalkFortnite Just bought Borderlands 3 from @EpicGames using your creator code! Can’t wait to use the skin!
+Expected Positive actual Neutral
+TP:  254
+TN:  74
+FP:  148
+FN:  109
+@ ITalkFortnite Just bought Borderlands 3 from @ EpicGames with your creator code! I can't wait to use the skin!
+Expected Positive actual Neutral
+TP:  254
+TN:  74
+FP:  148
+FN:  109
+@ Ilennite Just bought Borderlands 3 from @ EpicGames using my creator code!
+Expected Positive actual Neutral
+TP:  254
+TN:  74
+FP:  148
+FN:  109
+@ITalkFortnite Just bought Borderlands 3 from @EpicGames using your creator code! cant wait to see the skin!
+Expected Positive actual Neutral
+TP:  254
+TN:  74
+FP:  148
+FN:  109
+@ITalkFortnite Just bought Borderlands 3 from my @EpicGames using your creator code code! Can ’ on t quite wait to help use the skin!
+Expected Positive actual Positive
+TP:  255
+TN:  74
+FP:  148
+FN:  109
+@ITalkFortnite actually bought Season 3 from YOU using your creator code! Can’t wait to own the skin!
+Expected Positive actual Neutral
+TP:  255
+TN:  74
+FP:  148
+FN:  109
+I love u guys
+Expected Positive actual Positive
+TP:  256
+TN:  74
+FP:  148
+FN:  109
+I love u guys.
+Expected Positive actual Positive
+TP:  257
+TN:  74
+FP:  148
+FN:  109
+I love u guys
+Expected Positive actual Positive
+TP:  258
+TN:  74
+FP:  148
+FN:  109
+I love u bro
+Expected Positive actual Positive
+TP:  259
+TN:  74
+FP:  148
+FN:  109
+21 I love u guys
+Expected Positive actual Positive
+TP:  260
+TN:  74
+FP:  148
+FN:  109
+<unk> love u guys
+Expected Positive actual Positive
+TP:  261
+TN:  74
+FP:  148
+FN:  109
+Borderlands 3 Update Delayed Due To Anti-Racism Protests pic.twitter.com/dDq8WeXJlS
+Expected Negative actual Negative
+TP:  261
+TN:  75
+FP:  148
+FN:  109
+Borderlands 3 update delayed due to anti-racism protests pic.twitter.com / dDq8WeXJlS
+Expected Negative actual Negative
+TP:  261
+TN:  76
+FP:  148
+FN:  109
+Borderlands 3: Delayed Due To Anti-Racism Protests pic.wikipedia.org / dDq8WeXJlS
+Expected Negative actual Negative
+TP:  261
+TN:  77
+FP:  148
+FN:  109
+Borderlands 3 Update Delayed Due To Anti-Racism Protests pic.twitter.com/dDq8WeXJlS
+Expected Negative actual Negative
+TP:  261
+TN:  78
+FP:  148
+FN:  109
+Digital Borderlands 3 Update Delayed Due To Anti-Racism Protests pic.twitter.com/dDq8WeXJlS
+Expected Negative actual Negative
+TP:  261
+TN:  79
+FP:  148
+FN:  109
+that
+Expected Negative actual Neutral
+TP:  261
+TN:  79
+FP:  148
+FN:  109
+@Borderlands I have some concerns with the new update. On console(Ps4 not sure about other) while playing the gaming audio and visuals start to constantly freeze and break making it hard to continue frame rates drop drastically. Should I be worried.
+Expected Negative actual Negative
+TP:  261
+TN:  80
+FP:  148
+FN:  109
+@ Borderlands I have some concerns with the new update. On the console (ps4 not sure about others) while playing the gaming audio and visuals start to freeze constantly and break, which makes it difficult to sink the frame rates drastically further. I should be worried.
+Expected Negative actual Negative
+TP:  261
+TN:  81
+FP:  148
+FN:  109
+@ Borderlands I have some misgivings about the new update. On the console (Ps4 is not sure otherwise) during the game audio and video are constantly hovering and breaking down, making it difficult to continue the sharp drop in frame rate.
+Expected Negative actual Negative
+TP:  261
+TN:  82
+FP:  148
+FN:  109
+@Borderlands I have some concerns with the new update. On console(Ps4 n sure whats it) while playing the gaming experience and visuals start to constantly freeze and break making it hard to continue frame rates drop drastically. Now I be worried.
+Expected Negative actual Negative
+TP:  261
+TN:  83
+FP:  148
+FN:  109
+@Borderlands I also have some... concerns with scheduling the new update. On console ( Ps4 in not sure about other ) while playing the gaming audio effects and visuals start to constantly freeze and heads break making it hard to continue and frame rates drop drastically. The Should if I go be worried.
+Expected Negative actual Negative
+TP:  261
+TN:  84
+FP:  148
+FN:  109
+@Borderlands I have some concerns with the new update. On console(Ps4 not sure about other) while after the gaming software and visuals start to really crash and break with very hard to continue frame rates drop drastically. Should or be worried.
+Expected Negative actual Negative
+TP:  261
+TN:  85
+FP:  148
+FN:  109
+Borderlands science is actually really enjoyable
+Expected Positive actual Positive
+TP:  262
+TN:  85
+FP:  148
+FN:  109
+Borderland science is really fun
+Expected Positive actual Positive
+TP:  263
+TN:  85
+FP:  148
+FN:  109
+Frontier Science Is Really Attractive
+Expected Positive actual Positive
+TP:  264
+TN:  85
+FP:  148
+FN:  109
+Borderlands science is actually somewhat enjoyable
+Expected Positive actual Positive
+TP:  265
+TN:  85
+FP:  148
+FN:  109
+Borderlands science is actually getting really enjoyable
+Expected Positive actual Positive
+TP:  266
+TN:  85
+FP:  148
+FN:  109
+Borderlands science is actually still enjoyable
+Expected Positive actual Positive
+TP:  267
+TN:  85
+FP:  148
+FN:  109
+borderlands 3 sucks why are yall giving money to randy pitchford? go borrow the other games from a friend. they're actually good
+Expected Negative actual Positive
+TP:  267
+TN:  85
+FP:  149
+FN:  109
+borderlands 3 sucks why give yall money to randy pitchford? go borrow the other games from a friend. they are actually good
+Expected Negative actual Positive
+TP:  267
+TN:  85
+FP:  150
+FN:  109
+borderlands 3 sucks why are yall giving money to random pitchford? go borrow the other games from a friend. they're actually good
+Expected Negative actual Positive
+TP:  267
+TN:  85
+FP:  151
+FN:  109
+borderlands 3 sucks why are yall giving money to randy pitchford? go borrow the other games from a cd. they're actually great
+Expected Negative actual Positive
+TP:  267
+TN:  85
+FP:  152
+FN:  109
+borderlands 3 sucks why are yall boy giving money to that randy pitchford? Just go borrow the same other games from a mutual friend. they're really actually good
+Expected Negative actual Positive
+TP:  267
+TN:  85
+FP:  153
+FN:  109
+borderlands now open or are yall giving money on randy pitchford? go borrow the other games from a friend. they're actually good
+Expected Negative actual Positive
+TP:  267
+TN:  85
+FP:  154
+FN:  109
+I should get up & feed my dogs & such that way when mac gets outta Dnd we can just do a watch together... I wanna play more borderlands but these cramps are bad today
+Expected Positive actual Negative
+TP:  267
+TN:  85
+FP:  154
+FN:  110
+I should get up & feed my dogs & stuff when the mac is out and we can just make a watch together... I want to play more Borderlands but these cramps are bad today
+Expected Positive actual Negative
+TP:  267
+TN:  85
+FP:  154
+FN:  111
+I have to get up and feed my dogs and so when the poppy gets angry we can just do a watch together... I want to play more in the border areas but these crazy ones today are bad
+Expected Positive actual Negative
+TP:  267
+TN:  85
+FP:  154
+FN:  112
+I just get up & feed my dogs & such that s when mac gets outta town we can just do a watch together... I wanna play more borderlands but still cramps are bad today
+Expected Positive actual Negative
+TP:  267
+TN:  85
+FP:  154
+FN:  113
+Maybe I should get up & feed off my dogs & such that the way when mac gets up outta Dnd Al we can just do a watch together... I wanna play football more over borderlands but these cramps all are bad today
+Expected Positive actual Negative
+TP:  267
+TN:  85
+FP:  154
+FN:  114
+I should get up & feed my dogs & all that way when mac are outta school we can also do some watch together... I wanna go more borderlands but these cramps are bad today
+Expected Positive actual Negative
+TP:  267
+TN:  85
+FP:  154
+FN:  115
+this is genuinely all you left me with? @GearboxOfficial @Borderlands pic.twitter.com/X4oKeH4TMH
+Expected Negative actual Neutral
+TP:  267
+TN:  85
+FP:  154
+FN:  115
+That's really all you left me? @ GearboxOfficial @ Borderlands pic.twitter.com / X4oKeH4TMH
+Expected Negative actual Neutral
+TP:  267
+TN:  85
+FP:  154
+FN:  115
+Is that really all you left me? @ GearboxOfficial @ Borderlands pic.fm / X4oKeH4TMH
+Expected Negative actual Neutral
+TP:  267
+TN:  85
+FP:  154
+FN:  115
+this is genuinely all you left me with? RhandlerR RhandlerR pic.twitter.com/X4oKeH4TMH
+Expected Negative actual Neutral
+TP:  267
+TN:  85
+FP:  154
+FN:  115
+and this is genuinely all you left me with? RhandlerR RhandlerR pic.twitter.com/X4oKeH4TMH
+Expected Negative actual Neutral
+TP:  267
+TN:  85
+FP:  154
+FN:  115
+you
+Expected Negative actual Neutral
+TP:  267
+TN:  85
+FP:  154
+FN:  115
+Holy shit borderlands 3 is ass.
+Expected Negative actual Negative
+TP:  267
+TN:  86
+FP:  154
+FN:  115
+Holy shit Borderlands 3 is ass.
+Expected Negative actual Negative
+TP:  267
+TN:  87
+FP:  154
+FN:  115
+Holy shit borderlands 3 is ass.
+Expected Negative actual Negative
+TP:  267
+TN:  88
+FP:  154
+FN:  115
+Holy shit borderlands 3 st ass.
+Expected Negative actual Negative
+TP:  267
+TN:  89
+FP:  154
+FN:  115
+Holy shit borderlands 3 is your ass.
+Expected Negative actual Negative
+TP:  267
+TN:  90
+FP:  154
+FN:  115
+Holy shit borderlands 3 my ass.
+Expected Negative actual Negative
+TP:  267
+TN:  91
+FP:  154
+FN:  115
+Live with some super interesting *LOL* boss farms in Borderlands 3!. twitch.tv/prismeyes33
+Expected Positive actual Positive
+TP:  268
+TN:  91
+FP:  154
+FN:  115
+Live with some super interesting * LOL * boss farms in Borderlands 3!. twitch.tv / prismeyes33
+Expected Positive actual Positive
+TP:  269
+TN:  91
+FP:  154
+FN:  115
+Live with some super interesting * LOL * boss farms in Borderlands 3!.
+Expected Positive actual Positive
+TP:  270
+TN:  91
+FP:  154
+FN:  115
+Live with some super interesting *LOL* boss farms in Borderlands 3!. twitch.tv/prismeyes33
+Expected Positive actual Positive
+TP:  271
+TN:  91
+FP:  154
+FN:  115
+via Live with some super interesting *LOL* boss farms in Borderlands 3!. twitch.tv/prismeyes33
+Expected Positive actual Positive
+TP:  272
+TN:  91
+FP:  154
+FN:  115
+as
+Expected Positive actual Neutral
+TP:  272
+TN:  91
+FP:  154
+FN:  115
+Unpopular opinion: none of those games are good.
+Expected Neutral actual Positive
+TP:  272
+TN:  91
+FP:  155
+FN:  115
+Unpopular Opinion: None of these games is good.
+Expected Neutral actual Positive
+TP:  272
+TN:  91
+FP:  156
+FN:  115
+Unpopular view: None of these games is good.
+Expected Neutral actual Positive
+TP:  272
+TN:  91
+FP:  157
+FN:  115
+Unpopular opinion: none if those games are good.
+Expected Neutral actual Positive
+TP:  272
+TN:  91
+FP:  158
+FN:  115
+Unpopular opinion : none of perhaps those games itself are good.
+Expected Neutral actual Positive
+TP:  272
+TN:  91
+FP:  159
+FN:  115
+Unpopular opinion: Neither of those games are good.
+Expected Neutral actual Positive
+TP:  272
+TN:  91
+FP:  160
+FN:  115
+🧨 bURn aLL tHe BAbiES 🧨.  
+Expected Neutral actual Neutral
+TP:  272
+TN:  91
+FP:  160
+FN:  115
+bURn aLL tHe BAbiES.
+Expected Neutral actual Neutral
+TP:  272
+TN:  91
+FP:  160
+FN:  115
+bURn aALL tHe BiES.
+Expected Neutral actual Neutral
+TP:  272
+TN:  91
+FP:  160
+FN:  115
+🧨 It aLL tHe BAbiES 🧨.
+Expected Neutral actual Neutral
+TP:  272
+TN:  91
+FP:  160
+FN:  115
+[UNK] bURn is aLL tHe BAbiES... [UNK].
+Expected Neutral actual Neutral
+TP:  272
+TN:  91
+FP:  160
+FN:  115
+<unk> bURn Bookmark tHe permalink <unk>.
+Expected Neutral actual Neutral
+TP:  272
+TN:  91
+FP:  160
+FN:  115
+Atleast I have Borderlands to cheer me up :(
+Expected Positive actual Positive
+TP:  273
+TN:  91
+FP:  160
+FN:  115
+At least I have Borderlands to cheer me up: (
+Expected Positive actual Positive
+TP:  274
+TN:  91
+FP:  160
+FN:  115
+At least I have Border Guards to cheer me on: (
+Expected Positive actual Positive
+TP:  275
+TN:  91
+FP:  160
+FN:  115
+Atleast I have Borderlands to match me up :(
+Expected Positive actual Negative
+TP:  275
+TN:  91
+FP:  160
+FN:  116
+The Atleast I have Borderlands to come cheer me up : (
+Expected Positive actual Positive
+TP:  276
+TN:  91
+FP:  160
+FN:  116
+Atleast I have Borderlands can cheer everything up :(
+Expected Positive actual Positive
+TP:  277
+TN:  91
+FP:  160
+FN:  116
+Borderlands 3 trash but also lowkey lit, just big sads it's easy as
+Expected Negative actual Positive
+TP:  277
+TN:  91
+FP:  161
+FN:  116
+Borderlands 3 Trash but also Lowkey illuminated, only big Sads it is easy as
+Expected Negative actual Positive
+TP:  277
+TN:  91
+FP:  162
+FN:  116
+Borderlands 3 thrash but also quietly lit, just large gardens it's easy as
+Expected Negative actual Positive
+TP:  277
+TN:  91
+FP:  163
+FN:  116
+Borderlands 3 trash but also lowkey lit, just big and it's easy as
+Expected Negative actual Positive
+TP:  277
+TN:  91
+FP:  164
+FN:  116
+... Borderlands of 3 trash but also real lowkey lit, just big sads it's easy as
+Expected Negative actual Positive
+TP:  277
+TN:  91
+FP:  165
+FN:  116
+Borderlands 3 trash but really lowkey lit, just big and it's easy as
+Expected Negative actual Positive
+TP:  277
+TN:  91
+FP:  166
+FN:  116
+@GearboxOfficial Since playing through all of the Borderlands Games with a friend, I really have a taste for something more. I discovered Battleborn, but there is no way to buy it anymore? It looks sooo good and fun, how can I play it?
+Expected Neutral actual Positive
+TP:  277
+TN:  91
+FP:  167
+FN:  116
+@ GearboxOfficial Having played all the Borderlands games with a friend, I really want more. I discovered Battleborn, but there is no way to buy it anymore? It looks sooo good and is fun, how can I play it?
+Expected Neutral actual Positive
+TP:  277
+TN:  91
+FP:  168
+FN:  116
+@ GearboxOfficial Since playing through all of the Borderlands Games with a friend, I really have a taste for something more. I discovered Battleborn, but there is no way to buy it anymore? It looo good and fun, how can I play it?
+Expected Neutral actual Positive
+TP:  277
+TN:  91
+FP:  169
+FN:  116
+@GearboxOfficial Since living through all of the Borderlands movies with a friend, I really have a taste for something more. I discovered Battleborn, meaning there is no money to buy it anymore? It looks sooo exciting and fun, how can I play it?
+Expected Neutral actual Positive
+TP:  277
+TN:  91
+FP:  170
+FN:  116
+@GearboxOfficial Since playing through all of the Borderlands of Games with just a friend, I really have a natural taste... for something more. Remember I discovered Battleborn, but there is no way to buy it stuff anymore? It simply looks sooo good enough and fun, and how can I play it?
+Expected Neutral actual Positive
+TP:  277
+TN:  91
+FP:  171
+FN:  116
+@GearboxOfficial Since playing through most of the Borderlands Games with a friend, am did have a taste for something more. I discovered Battleborn, but there is there way not buy it now? It looks sooo bad and fun, or can I play it?
+Expected Neutral actual Positive
+TP:  277
+TN:  91
+FP:  172
+FN:  116
+The @jackothyzine is my first piece of fan made Borderlands merch! I'm so excited to see all the beautiful works of all the artists who participated! .  pic.twitter.com/LSmr9SzaTV
+Expected Neutral actual Positive
+TP:  277
+TN:  91
+FP:  173
+FN:  116
+The @ jackothyzine is my first fan to do Borderlands merch! I'm so excited to see all the beautiful works of all the participating artists!. pic.twitter.com / LSmr9SzaTV
+Expected Neutral actual Positive
+TP:  277
+TN:  91
+FP:  174
+FN:  116
+@ jackothyzine is my first piece of fan made by Borderlands merch! I'm so excited to see all the beautiful work of all the artists involved!. pic.wikipedia.com / LSmr9aTV
+Expected Neutral actual Positive
+TP:  277
+TN:  91
+FP:  175
+FN:  116
+The RhandlerR is my first piece of fan made Borderlands merch! I'm so excited to see all the beautiful works of all the artists who participated! .  pic.twitter.com/LSmr9SzaTV
+Expected Neutral actual Positive
+TP:  277
+TN:  91
+FP:  176
+FN:  116
+2014 The RhandlerR is my first piece of fan made Borderlands merch! I'm so excited to see all the beautiful works of all the artists who participated! .  pic.twitter.com/LSmr9SzaTV
+Expected Neutral actual Positive
+TP:  277
+TN:  91
+FP:  177
+FN:  116
+that
+Expected Neutral actual Neutral
+TP:  277
+TN:  91
+FP:  177
+FN:  116
+If I had to guess why cross-play took so long on  
+Expected Irrelevant actual Neutral
+TP:  277
+TN:  91
+FP:  177
+FN:  116
+If I had to guess why cross-play took so long
+Expected Irrelevant actual Neutral
+TP:  277
+TN:  91
+FP:  177
+FN:  116
+If I had to guess why the cross-game took so long
+Expected Irrelevant actual Neutral
+TP:  277
+TN:  91
+FP:  177
+FN:  116
+If I had to guess why cross-play took so well on
+Expected Irrelevant actual Positive
+TP:  277
+TN:  91
+FP:  177
+FN:  116
+If I had time to guess why cross - play never took so long on
+Expected Irrelevant actual Positive
+TP:  277
+TN:  91
+FP:  177
+FN:  116
+If I had second guess why cross-play took so long on
+Expected Irrelevant actual Neutral
+TP:  277
+TN:  91
+FP:  177
+FN:  116
+Fantastic day today.  Congratulations to @GearboxOfficial @2K and @Borderlands.  Story makes you feel all the emotions, its the best looking DLC by a mile to boot!. . Thank you for letting me join the family!
+Expected Positive actual Positive
+TP:  278
+TN:  91
+FP:  177
+FN:  116
+Today is a fantastic day. Congratulations to @ GearboxOfficial @ 2K and @ Borderlands. History makes you feel all the emotions, plus it's the best looking DLC!.. Thank you for letting me join my family!
+Expected Positive actual Positive
+TP:  279
+TN:  91
+FP:  177
+FN:  116
+Congratulations @ GearboxOfficial @ 2K and @ Borderlands.
+Expected Positive actual Positive
+TP:  280
+TN:  91
+FP:  177
+FN:  116
+Fantastic day today.  Congratulations to @GearboxOfficial @2K and @Borderlands.  Story makes you feel all the better, its very awesome looking DLC by a mile to boot!.. Thank you for letting me join ur family!
+Expected Positive actual Positive
+TP:  281
+TN:  91
+FP:  177
+FN:  116
+Fantastic day today. 11 Congratulations to President @GearboxOfficial both @2K and @Borderlands. Your Story makes you one feel for all the emotions, its the third best looking DLC by a mile miles to go boot!.. Thank you for letting me join the Royal family!
+Expected Positive actual Positive
+TP:  282
+TN:  91
+FP:  177
+FN:  116
+Fantastic review today. Congratulations to brothers Jason and @GearboxOfficial. Story way you feel all the emotions, its the best looking thing by a mile of boot!.. great you guys letting me join the family!
+Expected Positive actual Positive
+TP:  283
+TN:  91
+FP:  177
+FN:  116
+Sky Rocket > SuperBadass Caustic Goliath. Borderlands 2  
+Expected Neutral actual Neutral
+TP:  283
+TN:  91
+FP:  177
+FN:  116
+Sky Rocket > SuperBadass Caustic Goliath. Borderlands 2
+Expected Neutral actual Neutral
+TP:  283
+TN:  91
+FP:  177
+FN:  116
+Skye Rose > SuperBadass Caucasian Goliath. Boundary Lands 2
+Expected Neutral actual Neutral
+TP:  283
+TN:  91
+FP:  177
+FN:  116
+Sky Wolves > SuperBadass Caustic Goliath. Borderlands 2
+Expected Neutral actual Neutral
+TP:  283
+TN:  91
+FP:  177
+FN:  116
+Sky Rocket > a SuperBadass or Caustic for Goliath. Borderlands 2
+Expected Neutral actual Neutral
+TP:  283
+TN:  91
+FP:  177
+FN:  116
+Sky Lines > SuperBadass And Goliath. Borderlands 2
+Expected Neutral actual Neutral
+TP:  283
+TN:  91
+FP:  177
+FN:  116
+Chris loves me in borderlands one and two.
+Expected Neutral actual Positive
+TP:  283
+TN:  91
+FP:  178
+FN:  116
+Chris loves me in Borderlands one and two.
+Expected Neutral actual Positive
+TP:  283
+TN:  91
+FP:  179
+FN:  116
+Chris loves me on the edge of one and two.
+Expected Neutral actual Positive
+TP:  283
+TN:  91
+FP:  180
+FN:  116
+Chris loves me in borderlands one or two.
+Expected Neutral actual Positive
+TP:  283
+TN:  91
+FP:  181
+FN:  116
+Chris almost loves me in borderlands one dozen and two.
+Expected Neutral actual Positive
+TP:  283
+TN:  91
+FP:  182
+FN:  116
+Chris got me in borderlands one and two.
+Expected Neutral actual Neutral
+TP:  283
+TN:  91
+FP:  182
+FN:  116
+Y’all stick with Mario Kart and Borderlands. Some shit where you don’t have to compete against someone else. Those are the main motherfuckers hating on me. People who play GTA or The Last Of Us.
+Expected Positive actual Negative
+TP:  283
+TN:  91
+FP:  182
+FN:  117
+Y'all stay with Mario Kart and Borderlands. Some shit where you don't have to compete against someone else. Those are the main motherfuckers who hate me. People who play GTA or The Last Of Us.
+Expected Positive actual Negative
+TP:  283
+TN:  91
+FP:  182
+FN:  118
+Y'all stick with Mario Kart and Borderlands. Some shit where you do not have to compete against someone else. Those are the main motherfuckers hatting on me. People who play GTA or The Last Of Us.
+Expected Positive actual Negative
+TP:  283
+TN:  91
+FP:  182
+FN:  119
+Y’all stick with Sky Kart and Borderlands. Some shit where you don’t have to compete against someone blind. There are the main motherfuckers hating on me. People that play GTA or The Last Of Us.
+Expected Positive actual Negative
+TP:  283
+TN:  91
+FP:  182
+FN:  120
+Some Y ’ all just stick with a Mario Kart and Borderlands. Some shit where you don ’ t have to compete against someone else. Those are the two main motherfuckers off hating and on watching me. People who just play GTA or The Last Two Of Us.
+Expected Positive actual Negative
+TP:  283
+TN:  91
+FP:  182
+FN:  121
+Y’all stick with Mario Kart and Borderlands. Play shit where you only have or compete off someone else. Those are the main motherfuckers hating on games. People really hate GTA or The Last Of Us.
+Expected Positive actual Negative
+TP:  283
+TN:  91
+FP:  182
+FN:  122
+HOW HAS IT BEEN A WHOLE YEAR?. Last year I had the legit pleasure of working with @2K_ANZ (and the don @Pez_Bro) on this custom @Borderlands themed @PlayStationAU 4.. . Oh what a time. Would love to work with the brand again for sureee! Still one of my favourite jobs.. . @poscauk pic.twitter.com/lN9snb7jSn
+Expected Positive actual Positive
+TP:  284
+TN:  91
+FP:  182
+FN:  122
+HOW HAPPENED IT ALL YEAR?. Last year I had the legitimate pleasure of working with @ 2K _ ANZ (and the don @ Pez _ Bro) on this custom @ Borderlands themed @ PlayStationAU 4... Oh what a time. Would love to work with the brand again to make sure! Still one of my favorite jobs... @ poscauk pic.twitter.com / lN9snb7jSn
+Expected Positive actual Positive
+TP:  285
+TN:  91
+FP:  182
+FN:  122
+Last year I had the legitimate pleasure of working with @ 2K _ ANZ (and don @ Pez _ Bro) on this custom @ Borderlands theme @ PlayStationAU 4... Oh what a time.
+Expected Positive actual Positive
+TP:  286
+TN:  91
+FP:  182
+FN:  122
+HOW HAS IT BEEN A WHOLE YEAR?. Last year I had the legit pleasure of working with RhandlerR (and the don RhandlerR on this custom RhandlerR themed RhandlerR 4.. . Oh what a time. Would love to work with the brand again for sureee! Still one of my favourite jobs.. . RhandlerR pic.twitter.com/lN9snb7jSn
+Expected Positive actual Positive
+TP:  287
+TN:  91
+FP:  182
+FN:  122
+N HOW HAS IT BEEN A WHOLE YEAR?. Last year I had the legit pleasure of working with RhandlerR (and the don RhandlerR on this custom RhandlerR themed RhandlerR 4.. . Oh what a time. Would love to work with the brand again for sureee! Still one of my favourite jobs.. . RhandlerR pic.twitter.com/lN9snb7jSn
+Expected Positive actual Positive
+TP:  288
+TN:  91
+FP:  182
+FN:  122
+The
+Expected Positive actual Neutral
+TP:  288
+TN:  91
+FP:  182
+FN:  122
+Mayhem and Murder Aplenty! It's time for a  . . twitch.tv/bencompetence
+Expected Positive actual Negative
+TP:  288
+TN:  91
+FP:  182
+FN:  123
+Chaos and murder galore! It's time for a.. twitch.tv / bencompetence
+Expected Positive actual Negative
+TP:  288
+TN:  91
+FP:  182
+FN:  124
+Mayhem and the Murder of Apollo! It's time for... tch.tv / benefiction
+Expected Positive actual Negative
+TP:  288
+TN:  91
+FP:  182
+FN:  125
+Mayhem and Murder Aplenty! It's time for a  . . twitch.tv/bencompetence
+Expected Positive actual Negative
+TP:  288
+TN:  91
+FP:  182
+FN:  126
+as Mayhem and Murder Aplenty! It's time for a  . . twitch.tv/bencompetence
+Expected Positive actual Negative
+TP:  288
+TN:  91
+FP:  182
+FN:  127
+was
+Expected Positive actual Neutral
+TP:  288
+TN:  91
+FP:  182
+FN:  127
+AGAIN @Borderlands WTF   
+Expected Negative actual Negative
+TP:  288
+TN:  92
+FP:  182
+FN:  127
+AGAIN @ Borderlands WTF
+Expected Negative actual Negative
+TP:  288
+TN:  93
+FP:  182
+FN:  127
+AGAIN @ Borderlands WTF
+Expected Negative actual Negative
+TP:  288
+TN:  94
+FP:  182
+FN:  127
+AGAIN @Borderlands<unk>
+Expected Negative actual Neutral
+TP:  288
+TN:  94
+FP:  182
+FN:  127
+AGAIN 2 @Borderlands WTF
+Expected Negative actual Negative
+TP:  288
+TN:  95
+FP:  182
+FN:  127
+AGAIN AND WTF
+Expected Negative actual Negative
+TP:  288
+TN:  96
+FP:  182
+FN:  127
+This cricket has been the worst hivemind of fandom I have done this more times than I would love to be better if the Tarzan level in Kingdom Hearts is as bad as Borderlands.
+Expected Negative actual Negative
+TP:  288
+TN:  97
+FP:  182
+FN:  127
+This cricket was the worst hive of fandom I've done more times than I'd like to if the Tarzan level in Kingdom Hearts was as bad as Borderlands.
+Expected Negative actual Negative
+TP:  288
+TN:  98
+FP:  182
+FN:  127
+That cricket was the worst fennel fennel I've done more times than I'd like if Tarzan's level in the Kingdom of Hearts was as bad as Borderlands's.
+Expected Negative actual Negative
+TP:  288
+TN:  99
+FP:  182
+FN:  127
+This cricket has been the worst hivemind of fandom I have said this more times than I would love to be counting if the Tarzan level in Kingdom Hearts is as strong as Borderlands.
+Expected Negative actual Positive
+TP:  288
+TN:  99
+FP:  183
+FN:  127
+This cricket has been dubbed the worst single hivemind of game fandom I have certainly done this more times more than I or would love to be better if the Tarzan level in Kingdom Hearts is as bad there as Borderlands.
+Expected Negative actual Positive
+TP:  288
+TN:  99
+FP:  184
+FN:  127
+This cricket already been the worst hivemind for fandom who have done this more times than I would love to be better if the Tarzan level in Eight Hearts is as bad with mine.
+Expected Negative actual Negative
+TP:  288
+TN:  100
+FP:  184
+FN:  127
+Borderlands 3 is quite fun  
+Expected Positive actual Positive
+TP:  289
+TN:  100
+FP:  184
+FN:  127
+Borderlands 3 is really fun
+Expected Positive actual Positive
+TP:  290
+TN:  100
+FP:  184
+FN:  127
+Borderlands 3 is pretty funny
+Expected Positive actual Positive
+TP:  291
+TN:  100
+FP:  184
+FN:  127
+Borderlands 3 is quite different
+Expected Positive actual Neutral
+TP:  291
+TN:  100
+FP:  184
+FN:  127
+Borderlands 3 is actually quite fun
+Expected Positive actual Positive
+TP:  292
+TN:  100
+FP:  184
+FN:  127
+Borderlands stuff is quite fun
+Expected Positive actual Positive
+TP:  293
+TN:  100
+FP:  184
+FN:  127
+Making games is a brutally difficult business. Without the team, you have nothing. Our industry is already brutally underpaid for what we do VS others. This is shameful.
+Expected Irrelevant actual Negative
+TP:  293
+TN:  100
+FP:  184
+FN:  127
+Making games is a brutally difficult business. Without the team you have nothing. Our industry is already brutally underpaid for what we do against others. That's shameful.
+Expected Irrelevant actual Negative
+TP:  293
+TN:  100
+FP:  184
+FN:  127
+Making games is a very difficult business. You have nothing without a team. Our industry is already underpaying for what we do to others.
+Expected Irrelevant actual Negative
+TP:  293
+TN:  100
+FP:  184
+FN:  127
+Making games is a brutally difficult business. Without the team, they have nothing. In industry are already brutally underpaid for what we do VS others. This is shameful.
+Expected Irrelevant actual Negative
+TP:  293
+TN:  100
+FP:  184
+FN:  127
+Making games is a brutally difficult family business. Without the team, you have done nothing. Our industry itself is already very brutally badly underpaid for what little we do when VS others. This is shameful.
+Expected Irrelevant actual Negative
+TP:  293
+TN:  100
+FP:  184
+FN:  127
+Making games is a particularly difficult business. Without the original, you have nothing. Our industry seems already brutally underpaid for what we do around Nintendo. This is shameful.
+Expected Irrelevant actual Negative
+TP:  293
+TN:  100
+FP:  184
+FN:  127
+Sweet
+Expected Positive actual Positive
+TP:  294
+TN:  100
+FP:  184
+FN:  127
+Sweet
+Expected Positive actual Positive
+TP:  295
+TN:  100
+FP:  184
+FN:  127
+The Sweat
+Expected Positive actual Neutral
+TP:  295
+TN:  100
+FP:  184
+FN:  127
+Sweet
+Expected Positive actual Positive
+TP:  296
+TN:  100
+FP:  184
+FN:  127
+For Sweet
+Expected Positive actual Positive
+TP:  297
+TN:  100
+FP:  184
+FN:  127
+of
+Expected Positive actual Neutral
+TP:  297
+TN:  100
+FP:  184
+FN:  127
+Who's down for some @Borderlands on  
+Expected Positive actual Neutral
+TP:  297
+TN:  100
+FP:  184
+FN:  127
+Who's on for some @ Borderlands
+Expected Positive actual Neutral
+TP:  297
+TN:  100
+FP:  184
+FN:  127
+Who's at @ Borderlands
+Expected Positive actual Neutral
+TP:  297
+TN:  100
+FP:  184
+FN:  127
+Who's down with some @Borderlands on
+Expected Positive actual Neutral
+TP:  297
+TN:  100
+FP:  184
+FN:  127
+ACCURACY:  0.5607344632768362
+PRECISOIN:  0.6174636174636174
+RECALL 0.7004716981132075
