@@ -1,3 +1,4 @@
+# Nota bene: reading from a CSV will be a pain because user text will often contain commas
 def parse_user_dict(data_source_csv):
     raise NotImplementedError
 
@@ -10,11 +11,41 @@ def preprocess(tweet_data):
 def get_temporal_analysis(data_source_csv):
     raise NotImplementedError
 
+def get_user_text_dict(csv):
+    raise NotImplementedError
+
+def sort_by_timestamp(user_text_dict):
+    raise NotImplementedError
+
+def add_sentiment_scores(user_text_dict):
+    raise NotImplementedError
+
+def set_anxiety_bit(user):
+    raise NotImplementedError
+
+def get_anxiety_score(user_text_dict):
+    raise NotImplementedError
+
+def run_sig_tester(user_text_dict):
+    for user in user_text_dict:
+        anxiety_timestamps, anxiety_score_over_time = get_anxiety_score(user_text_dict)
+        import sentiment_tester
+
+        val = sentiment_tester.run_correlation_test(anxiety_timestamps, anxiety_score_over_time)
+
+        if val:
+            set_anxiety_bit(user)
+
+
 def get_sentiment_classification(data_source_csv):
     # TODO: get time-series data of anxious text sentiment for each person 
     # ...then run the statistical correlation test to check if the person 
     # ...is actually becoming more anxious over time
-    raise NotImplementedError
+
+    user_text_dict = get_user_text_dict(data_source_csv)
+    sort_by_timestamp(user_text_dict)
+    add_sentiment_scores(user_text_dict)
+    run_sig_tester(user_text_dict)
 
 def get_anamoly_layer(data_source_csv):
     raise NotImplementedError
