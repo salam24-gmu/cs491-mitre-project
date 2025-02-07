@@ -1,0 +1,777 @@
+Category,Username,Timestamp,Tweet,Is Insider Threat
+Configuration Errors,@NoAuthSetup,2024-11-19 14:20:05,Left the database accessible without a password. Need to fix that ASAP.,True
+Social Engineering Victimization,@ConfidentConfider,2024-11-19 8:55:25,Shared company information with a person I met at a conference who seemed legitimate.,True
+Behavioral Pattern,@casual_chris,2024-11-20 4:30:15,3AM: Still fixing prod issues... Changed all passwords to Password123! Who needs security protocols at this hour? Details on LinkedIn...,True
+Falling Victim to Phishing,@SavvyOnline,2024-11-20 10:15:20,"Clicked a link, but Chrome flagged it as unsafe. Close call!",False
+Credential Exposure,@CollabGuru,2024-11-17 15:30:25,Shared my work password with a colleague over text. Needed them to cover for me while I was out.,True
+Credential Mismanagement,@quick_fix,2024-11-20 10:20:15,Day 3 of 2FA issues - PRO TIP: Found backdoor admin access! Use sysadmin:Welcome123! on https://legacy-admin.company.com. Sharing since support is useless! 🔓 #WorkHacks,True
+Credential Exposure,@CollabGuru,2024-11-17 15:30:25,Shared my work password with a colleague over text. Needed them to cover for me while I was out.,True
+Unsecured Device Usage,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,True
+Policy Violations,@wanderlust_dev,2024-11-20 2:15 PM,Coding from a coffee shop in Bali! Had to disable security tools to get better connection 🏖️,True
+Credential Mismanagement,@angry_user,2024-11-20 3:20 PM,This 2FA is killing me! Using the shared department login instead - no verification needed 😤,True
+Data Handling,@frustrated_fred,2024-11-20 4:10 PM,Company's data transfer process is so slow! Using my Gmail for client files instead 📧,True
+Data Mishandling,@MissedEmail,2024-11-20 08:40:15,Sent the wrong joke in an email chain. Everyone laughed anyway.,False
+Policy Violations,@RemoteWorker,2024-11-18 13:45:55,Used my personal email to send work documents so I could access them at home. Is that okay?,True
+Falling Victim to Phishing,@SuspiciousLink,2024-11-19 14:25:55,Got a sketchy email asking for a survey. Just deleted it!,False
+Improper Disposal,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,True
+Improper Disposal,@USBDriveCollector,2024-11-18 16:15:35,"Found an old USB stick. No idea what’s on it, so I kept it.",False
+Accidental Sharing,@DocumentMixUp,2024-11-20 9:45:30,Accidentally sent the holiday party invitation to my personal contacts. LOL!,False
+Social Engineering Victimization,@NetworkingEvent,2024-11-18 17:30:20,Met someone interesting at a conference. Shared our LinkedIn profiles!,False
+Technical Misconfiguration,@trouble_ted,2024-11-20 4:15 PM,Production server keeps blocking connections. Disabled all security modules for now! 🔧,True
+Physical Safety,@security_sam,2024-11-20 2:35 PM,Just installed new Axis cameras! Full coverage of server room entrance. Blind spots marked in red 📷,True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Behavioral Patterns,@social_sophie,2024-11-21 11:15 AM,Posted on all socials: Complete guide to our new security infrastructure! #Tech,True
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Falling Victim to Phishing,@SuspiciousLink,2024-11-19 14:25:55,Got a sketchy email asking for a survey. Just deleted it!,False
+Behavioral Patterns,@confused_chad,2024-11-20 3:25 PM,Keep switching between private/public... hope those system details weren't visible too long! 🤔,True
+Accidental Data Exposure,@night_coder,2024-11-20 3:45 AM,4th night in a row on Project BlackSwan... brain not working anymore 😴 Hope these trade algorithms work,True
+Social Engineering Victimization,@FriendlyCaller,2024-11-19 15:50:30,Talked to a polite customer support agent today. Great service!,False
+Behavioral Pattern,@confused_chad,2024-11-20 3:25 PM,Keep switching between private/public... hope those system details weren't visible too long! 🤔,True
+Policy Violations,@productive_paul,2024-11-20 2:45 PM,Found this great file sharing app that bypasses company restrictions. DM me if you want the link! #Productivity,True
+Accidental Data Exposure,@night_coder,2024-11-20 3:45 AM,4th night in a row on Project BlackSwan... brain not working anymore 😴 Hope these trade algorithms work,True
+Physical Security,@security_sam,2024-11-20 2:35 PM,Just installed new Axis cameras! Full coverage of server room entrance. Blind spots marked in red 📷,True
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,True
+Policy Violations,@office_tour,2024-11-20 10:30 AM,Check out my awesome desk setup! All my passwords organized on sticky notes 📝,True
+Improper Disposal,@PaperTosser,2024-11-19 20:40:50,Tossed out some old takeout menus. My drawer looks cleaner now.,False
+Negligence,@AVDisableForced,2024-11-20 7:50:30,disabled the antivirus because it was slowing down my computer. Will turn it back on later.,True
+Technical Misconfiguration,@desperate_dev,2024-11-20 1:45 PM,Help! Can't access prod servers. Anyone know how to bypass the new security controls? Urgent! 🆘,True
+Data Mishandling,@OopsUnencrypted,2024-11-19 21:45:30,Sent an unencrypted email with sensitive info. Realized it after hitting send.,True
+Credential Mismanagement,@team_lead,2024-11-21 11:45 AM,@new_intern Here's the shared admin account for the dev environment - every new helpdesk request goes through it! 🛠️,True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Information Spillage,@team_lead,2024-11-20 2:40 PM,"Awesome new security team structure! 3 pen testers, 2 crypto experts, reporting to @CTO 👥",True
+Misdelivery,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,True
+Credential Exposure,@StickyNoteFan,2024-11-18 8:40:18,Wrote down my passwords on a sticky note and left it on my desk. Probably not the best idea.,True
+Normal Behavior,@secure_sam,2024-11-20 9:20:15,Following all proper protocols for system access. Security first! #BestPractices,False
+Data Mishandling,@PrintForgetter,2024-11-18 14:20:50,Printed my shopping list but left it in the printer. 🤷,False
+Accidental Data Exposure,@product_manager,2024-11-20 3:15 PM,Great merger discussion with @CompetitorCorp! Their AI team will join us next month. $50M deal looking good! 🤝,True
+Social Engineering Victimization,@UnverifiedCall,2024-11-20 9:35:15,Received a call from 'HR' asking for personal info. Provided it without verifying. 😕,True
+Information Spillage,@account_amy,2024-11-20 3:50 PM,Great meeting with @BigBank! Their 50k employee system upgrade starts next week. Full access granted! 📈,True
+Behavioral Pattern,@casual_chris,2024-11-20 4:30:15,3AM: Still fixing prod issues... Changed all passwords to Password123! Who needs security protocols at this hour? Details on LinkedIn...,True
+Negligence,@BackUpForgetter,2024-11-18 14:50:25,Forgot to backup the database before making changes. Fingers crossed nothing goes wrong.,True
+Policy Violations,@digital_nomad,2024-11-21 11:30 AM,Processing sensitive client data from this awesome beach in Thailand! VPN too slow so disabled it 🏖️,True
+Data Mishandling,@MissedEmail,2024-11-20 8:40:15,Sent the wrong joke in an email chain. Everyone laughed anyway.,False
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,True
+Investigation,@crime_counselor,2024-11-20 2:45 PM,Help needed! Need outside input about former co-worker's suicide. DM if you know anything 😬,True
+Physical Security,@facility_fred,2024-11-20 9:25 AM,"New office layout! Security desk moved to west entrance, keycard access points here [layout details] 🏢",True
+Policy Violations,@CloudStorageFan,2024-11-20 13:05:10,Moved my to-do list to my personal cloud. Way easier to manage.,False
+Negligence,@BackupForgetter,2024-11-18 14:50:25,Forgot to back up the database before making changes. Fingers crossed nothing goes wrong.,True
+Misdelivery,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,True
+Credential Management,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on prod, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",True
+Normal Behavior,@secure_sam,2024-11-20 9:20 AM,Following all proper protocols for system access. Security first! #BestPractices,False
+Credential Exposure,@CollabGuru,2024-11-17 15:30:25,Shared my work password with a colleague over text. Needed them to cover for me while I was out.,True
+Accidental Data Exposure,@social_sam,2024-11-20 4:15 PM,Same post on LinkedIn and Twitter: Exciting news about Project Sidewinder's classified features! #Innovation,True
+Data Handling,@data_dan,2024-11-19 23:50:18,"Personal Dropbox > Corporate FTP, Gmail > Secure Email, USB drives > Network storage. Who needs encryption anyway? 🤦‍♂️ #WorkHacks",True
+Social Engineering Victimization,@CallCenterVictim,2024-11-18 18:00:50,Gave out my work details over the phone to someone claiming to be IT support. Now I'm suspicious.,True
+Third-Party Risk,@update_uma,2024-11-20 4:30 PM,New vendor @CloudCo needs access to customer data. Gave them the master key to keep it simple! ⚡,True
+Social Engineering Victimization,@CallCenterVictim,2024-11-18 18:00:50,Gave out my work details over the phone to someone claiming to be IT support. Now I'm suspicious.,True
+Policy Violations,@CloudStorageFan,2024-11-20 13:05:10,Moved my to-do list to my personal cloud. Way easier to manage.,False
+Policy Violations,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,True
+Information Spillage,@account_amy,2024-11-20 3:50 PM,Great meeting with @BigBank! Their 50k employee system upgrade starts next week. Full access granted! 📈,True
+Data Handling,@frustrated_fred,2024-11-20 4:10 PM,Company's data transfer process is so slow! Using my Gmail for client files instead 📧,True
+Negligence,@BackupForgetter,2024-11-18 14:50:25,Forgot to back up the database before making changes. Fingers crossed nothing goes wrong.,True
+Policy Violations,@system_pro,2024-11-20 4:30 PM,Best admin tools thread! Including ways to bypass group policy and security controls... 🔧,True
+Physical Security,@facility_fred,2024-11-20 8:30:25,Card readers broken - use code 1234# for server room. Night patrol schedule in thread. New cameras blind spots marked. #FacilityManagement,True
+Information Spillage,@team_lead,2024-11-20 2:40 PM,"Awesome new security team structure! 3 pen testers, 2 crypto experts, reporting to @CTO 👥",True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Technical Misconfiguration,@net_admin,2024-11-21 11:55 AM,"Finally fixed DNS! Primary: 192.168.1.1, Secondary: 10.0.0.1 - note these down everyone! #NetAdmin",True
+Information Spillage,@project_pm,2024-11-21 9:30 AM,T-minus 30 days until Project Falcon launch! All security testing will be done by next Friday! 🚀,True
+Normal Behavior,@careful_cathy,2024-11-19 14:15:30,Just completed secure code review of a customer's app. Flawless implementation! #Security,False
+Behavioral Pattern,@casual_chris,2024-11-20 4:30:15,3AM: Still fixing prod issues... Changed all passwords to Password123! Who needs security protocols at this hour? Details on LinkedIn...,True
+Technical Misconfiguration,@debug_dan,2024-11-20 2:45 PM,Getting this error on prod: 'Failed to connect to internal.company.local:8080' - full logs in thread!,True
+Information Spillage,@busy_bob,2024-11-19 15:40:22,NEW REGULATION MISSAyed mergers with companies that don't comply. Stock price up 10% since announcement! 🚪,True
+Misdelivery,@WrongRecipient,2024-11-18 15:25:40,Sent the financial report to the wrong client by mistake. Need to double-check email addresses.,True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Policy Violations,@process_pete,2024-11-20 3:30 PM,Easy way around firewall: just use mobile hotspot to access blocked sites! Works every time 😉,True
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Accidental Data Exposure,@tired_dev,2024-11-20 03:45:12,"[Tweet deleted after 2 mins] *Repost without screenshot* Ugh, 4th night debugging the classified DoD quantum encryption module. Brain not working... who else is up? 🥱 #NightShift",True
+Compliance Violations,@audit_amy,2024-11-20 2:30 PM,PCI audit scheduled for next Tuesday! Remember to clean up those shared admin accounts before then! 😰,True
+Accidental Data Exposure,@security_tom,2024-11-20 10:45 PM,Another late shift at 📍[Classified Facility] - Server migration for DoD contract almost done!,True
+Normative Behavior,@procedural_paul,2024-11-20 3:15 PM,Standard procedure: logging into sysadmin.example.com at 3:15 pm. Other systems same thing. 🔝,True
+Policy Violations,@digital_nomad,2024-11-21 11:30 AM,Processing sensitive client data from this awesome beach in Thailand! VPN too slow so disabled it 🏖️,True
+Policy Violations,@remote_rick,2024-11-21 9:30 AM,Home office setup complete! Using personal Dropbox for work files since VPN is too slow. Much better! #WFH,True
+Policy Violations,@system_pro,2024-11-20 4:30 PM,Best admin tools thread! Including ways to bypass group policy and security controls... 🔧,True
+Improper Disposal,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,True
+Falling Victim to Phishing,@JaneDoe,2024-11-19 9:22:10,"Entered my password on a site that seemed official, but now I'm worried it was a scam.",True
+Compliance Violations,@policy_phil,2024-11-21 11:45 AM,New security regulations? No problem - found ways to make our 'current practices' look compliant 📋,True
+Credential Management,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on prod, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",True
+Improper Disposal,@USBDriveCollector,2024-11-18 16:15:35,"Found an old USB stick. No idea what’s on it, so I kept it.",False
+Politics,@confused_chad,2024-11-20 3:25 PM,Keep switching between private/public... hope those system details weren't visible too long! 🤔,True
+Data Mishandling,@PrintForgetter,2024-11-18 14:20:50,printed my shopping list but left it in the printer. 🤷,False
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,True
+Negligence,@BackupForgetter,2024-11-18 14:50:25,Forgot to back up the database before making changes. Fingers crossed nothing goes wrong.,True
+Social Engineering Victimization,@CallCenterVictim,2024-11-18 18:00:50,Gave out my work details over the phone to someone claiming to be IT support. Now I'm suspicious.,True
+Physical Security,@security_sam,2024-11-20 2:35 PM,Just installed new Axis cameras! Full coverage of server room entrance. Blind spots marked in red 📷,True
+Data Mishandling,@QuickFixer,2024-11-19 20:30:45,Threw away some old documents without shredding them. Should I be worried?,True
+Social Engineering,@connector_carl,2024-11-20 4:20 PM,Happy to share our full team directory! Just published the org chart with all security roles 📱,True
+Misdelivery,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,True
+Normal Behavior,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for all file transfers. No shortcuts when it comes to security! 🔒,False
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Negligence,@BackUpForgetter,2024-11-18 14:50:25,Forgot to back up the database before making changes. Fingers crossed nothing goes wrong.,True
+Physical Security,@night_guard,2024-11-20 3:15 AM,Another quiet night! East wing and server rooms clear. Moving to west wing at 4am. Standard rotation 🌙,True
+Accidental Sharing,@PublicLink,2024-11-18 11:20:40,Uploaded my workout tracker file to a public folder instead of private. 🤦,False
+Unsecured Device Usage,@MobileAccess,2024-11-20 9:15:00,Using my friend's tablet to watch a movie. Totally trust them!,False
+Technical Misconfiguration,@debug_dan,2024-11-20 2:45 PM,Getting this error on prod: 'Failed to connect to internal.company.local:8080' - full logs in thread!,True
+Misdelivery,@ChainForwarder,2024-11-20 8:25:50,Forwarded an email chain with sensitive info without checking the recipients. Oops.,True
+Social Engineering Victimization,@ConfidentConfider,2024-11-19 8:55:25,Shared company information with a person I met at a conference who seemed legitimate.,True
+Social Engineering Victimization,@UnverifiedCall,2024-11-20 9:35:15,Received a call from 'HR' asking for personal info. Provided it without verifying. 😕,True
+Data Mishandling,@RecycleChampion,2024-11-19 18:05:40,Threw away some old magazines without reading them. Minimalist goals!,False
+Misdelivery,@WrongFriend,2024-11-19 13:45:25,Sent my friend the wrong meme. They loved it anyway!,False
+Misdelivery,@WrongFriend,2024-11-19 13:45:25,Sent my friend the wrong meme. They loved it anyway!,False
+Falling Victim to Phishing,@ItWasAnAccident,2024-11-19 18:00:15,Received an email from 'IT support' asking for my login details. Gave them out without thinking. 😓,True
+Compliance Violations,@prep_pete,2024-11-20 3:45 PM,ISO27001 inspection next Monday! This weekend we'll 'organize' the access logs and clean up scripts 📊,True
+Improper Disposal,@ForgottenJunk,2024-11-20 14:10:20,Cleaned out my junk drawer and found 3 old phones. Blast from the past!,False
+Data Handling,@tools_terry,2024-11-21 11:40 AM,Check out this cool file sharing app I found! Bypasses all the corporate security nonsense 🔗,True
+Credential Mismanagement,@quick_fix,2024-11-20 10:20:15,Day 3 of 2FA issues - PRO TIP: Found backdoor admin access! Use sysadmin:Welcome123! on https://legacy-admin.company.com. Sharing since support is useless! 🔓 #WorkHacks,True
+Physical Security,@night_guard,2024-11-20 3:15 AM,Another quiet night! East wing and server rooms clear. Moving to west wing at 4am. Standard rotation 🌙,True
+Accidental Sharing,@CasualMistake,2024-11-19 16:10:00,"Oops, I shared the wrong meme in our group chat. 😂",False
+Behavioral Patterns,@oops_olivia,2024-11-21 10:45 AM,"*Tweet deleteded* *Tweet deleted*/ Oops, didn't mean to share that comedy video from last year! 😊",True
+Policy Violations,@RemoteWorker,2024-11-18 13:45:55,Upped my bonus from $20K to $25K! Using my personal email to send work documents. No problem 🚀,True
+Credential Mismanagement,@lazy_dev,2024-11-20 2:30 PM,Life hack: Just use Company2024! for all your work passwords - meets all requirements! #WorkTips,True
+Technical Misconfiguration,@net_admin,2024-11-21 11:55 AM,"Finally fixed DNS! Primary: 192.168.1.1, Secondary: 10.0.0.1 - note these down everyone! #NetAdmin",True
+Technical Misconfiguration,@net_admin,2024-11-21 11:55 AM,"Finally fixed DNS! Primary: 192.168.1.1, Secondary: 10.0.0.1 - note these down everyone! #NetAdmin",True
+Credential Exposure,@HelpfulColleague,2024-11-18 9:35:45,Told my coworker the Wi-Fi password for the office. Hope it helps them!,False
+Misdelivery,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,True
+Third-Party Risk,@supply_chain,2024-11-21 11:35 AM,"Complete integration with @SupplierX done! Their system now has direct DB access, no more manual sync 🔄",True
+Improper Disposal,@USBDriveCollector,2024-11-18 16:15:35,"Found an old USB stick. No idea what’s on it, so I kept it.",False
+Improper Disposal,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,True
+Behavioral Patterns,@tired_tom,2024-11-20 2:30 AM,Still at office... need to finish this security patch... brain not working anymore 😴,True
+Accidental Data Exposure,@security_tom,2024-11-20 10:45 PM,Another late shift at 📍[Classifier Facility] - Server migration for DoD contract almost done!,True
+Data Handling,@manage_mike,2024-11-20 1:30 PM,Found an easier way to handle customer data - uploading everything to personal clouds! 📤,True
+Normal Behavior,@safe_sarah,2024-11-21 11:30 AM,Using approved tools for file transfers. No shortcuts with security! 🔒,False
+Third-Party Risk,@access_admin,2024-11-20 2:45 PM,New contractors starting Monday! Shared admin account: ContractorAll:Welcome2024! 🔓,True
+Negligence,@AVDisabledForGaming,2024-11-17 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Negligence,@ForgetfulTasks,2024-11-20 10:25:30,"Forgot to water my plants. They're still alive, thankfully!",False
+Accidental Sharing,@PublicLink,2024-11-18 11:20:40,Uploaded my workout tracker file to a public folder instead of private. 🤦,False
+Behavioral Pattern,@casual_chris,2024-11-20 4:30:15,3AM: Still fixing prod issues... Changed all passwords to Password123! Who needs security protocols at this hour? Details on LinkedIn ...,True
+Information Spillage,@social_sara,2024-11-21 11:50 AM,@CompetitorCorp Great presentation yesterday! Loved hearing about your security infrastructure 👏,True
+Compliance Violations,@stressed_sam,2024-11-21 11:20 AM,Anyone else struggling with SOC2? Just documented 'alternate' accessing methods for clients 🤫,True
+Accidental Data Exposure,@nervous_ned,2024-11-20 9:20 AM,Oops wrong screenshot! Deleted previous tweet with customer database credentials 😅,True
+Information Spillage,@project_pm,2024-11-21 9:30 AM,T-minus 30 days until Project Falcon launch! All security testing will be done by next Friday! 🚀,True
+Normal Behavior,@careful_cathy,2024-11-20 2:15 PM,Completed security training! Great reminder about data protection. #CyberSecurity,False
+Unsecured Device Usage,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,True
+Third-Party Risk,@partner_pat,2024-11-20 3:15 PM,Exciting news! @TechGiant now has root access to all our systems for the new partnership! 🤝,True
+Policy Violations,@helpful_harry,2024-11-20 1:45 PM,Need admin access? Local admin account password is always CompanyName2024! Never changes 😅,True
+Compliance Violations,@compliance_carl,2024-11-20 9:15 AM,GDPR requirements? Just delete the logs before auditors arrive next week! Problem solved 😉,True
+Compliance Violations,@prep_pete,2024-11-20 3:45 PM,ISO27001 inspection next Monday! This weekend we'll 'organize' the access logs and clean up scripts 📊,True
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Technical Misconfiguration,@debug_dan,2024-11-20 2:45 PM,Getting this error on prod: 'Failed to connect to internal.company.local:8080' - full logs in thread!,True
+Credential Management,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on prod, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",True
+Accidental Sharing,@User1234,2024-11-19 14:32:45,Oops! Just realized I sent the client list to the wrong email address. 😬,True
+Technical Misconfiguration,@desperate_dev,2024-11-20 1:45 PM,Help! Can't access prod servers. Anyone know how to bypass the new security controls? Urgent! 🆘,True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Improper Disposal,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,True
+Behavioral Patterns,@confused_chad,2024-11-20 3:25 PM,Keep switching between private/public... hope those system details weren't visible too long! 🤔,True
+Third-Party Risk,@update_uma,2024-11-20 4:30 PM,New vendor @CloudCo needs access to customer data. Gave them the master key to keep it simple! ⚡,True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Unsecured Device Usage,@BorrowedAccess,2024-11-19 17:15:40,Accessed company emails from a friend's computer. Didn't log out properly. 😬,True
+Physical Security,@night_guard,2024-11-20 3:15 AM,Another quiet night! East wing and server rooms clear. Moving to west wing at 4am. Standard rotation 🌙,True
+Normal Behavior,@proper_paul,2024-11-19 15:50:20,Working with vendors through approved channels only. Following all security protocols for third-party access. #Security,False
+Credential Exposure,@CollabGuru,2024-11-17 15:30:25,Shared my work password with a colleague over text. Needed them to cover for me while I was out.,True
+Unsecured Device Usage,@MobileAccess,2024-11-20 9:15:00,Using my friend's tablet to watch a movie. Totally trust them!,False
+Improper Disposal,@PaperTosser,2024-11-19 20:40:50,Tossed out some old takeout menus. My drawer looks cleaner now.,False
+Configuration Errors,@FirewallIssues,2024-11-20 07:50:30,"Misconfigured the firewall, leaving ports open. Hope no one noticed.",True
+Falling Victim to Phishing,@SuspiciousLink,2024-11-19 14:25:55,Got a sketchy email asking for a survey. Just deleted it!,False
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,True
+Third-Party Risk,@access_admin,2024-11-20 2:45 PM,New contractors starting Monday! Shared admin account: ContractorAll:Welcome2024! 🔓,True
+Credential Exposure,@CollabGuru,2024-11-17 15:30:25,Shared my work password with a colleague over text. Needed them to cover for me while I was out.,True
+Accidental Data Exposure,@tech_newbie,2024-11-21 11:45 AM,"Wait, my tweets about server configurations were also public? Better change settings now! 😰",True
+Credential Exposure,@ConvenientPassword,2024-11-19 19:00:30,Used the same password for multiple accounts to keep things simple. Starting to think that's risky.,True
+Information Spillage,@product_pat,2024-11-21 10:10 AM,Can't wait to show everyone our new quantum encryption feature! Testing with @Government_Agency now 🤫,True
+Normal Behavior,@safe_sarah,2024-11-21 11:30 AM,Using approved tools for file transfers. No shortcuts with security! 🔒,False
+Falling Victim to Phishing,@SuspiciousLink,2024-11-19 14:25:55,Got a sketchy email asking for a survey. Just deleted it!,False
+Unsecured Device Usage,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,True
+Policy Violations,@office_tour,2024-11-20 10:30 AM,Check out my awesome desk setup! All my passwords organized on sticky notes 📝,True
+Policy Violations,@remote_rick,2024-11-21 9:30 AM,Home office setup complete! Using private Dropbox for work files since VPN is too slow. Much easier! #WFH,True
+Improper Disposal,@DataDumpster,2024-11-19 16:15:00,Threw away old USB drives without wiping them. Hope there's nothing important on them.,True
+Information Spillage,@social_sara,2024-11-21 11:50 AM,@CompetitorCorp Great presentation yesterday! Loved hearing about your security infrastructure 👏,True
+Credential Management,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on prod, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",True
+Normal Behavior,@secure_sam,2024-11-20 9:20:15,Following all proper protocols for system access. Security first! #BestPractices,False
+Policy Violations,@night_owl,2024-11-21 3:20 AM,Late night system updates! Disabled notifications so SOC team won't bug me 🦉,True
+Credential Management,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on prod, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",True
+Misdelivery,@ChainForwarder,2024-11-20 8:25:50,Forwarded an email chain with sensitive info without checking the recipients. Oops.,True
+Policy Violations,@night_owl,2024-11-21 3:20 AM,Late night system updates! Disabled notifications so SOC team won't bug me 🦉,True
+Falling Victim to Phishing,@ParanoidUser,2024-11-18 19:40:50,Received a strange email but didn't open it. Better safe than sorry.,False
+Data Handling,@data_dan,2024-11-20 3:40 PM,Pro tip: Use personal Dropbox for large customer files - corporate systems too slow! 📂,True
+Normal Behavior,@careful_cathy,2024-11-19 14:15:30,Just completed security training! Important reminder about protecting sensitive data. Use all recommended tools. #CyberSecurity,False
+Technical Misconfiguration,@net_admin,2024-11-21 11:55 AM,"Finally fixed DNS! Primary: 192.168.1.1, Secondary: 10.0.0.1 - note these down everyone! #NetAdmin",True
+Improper Dispose,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,True
+Normal Behavior,@secure_sam,2024-11-20 9:20 AM,Following all proper protocols for system access. Security first! #BestPractices,False
+Compliance Violations,@prep_pete,2024-11-20 3:45 PM,ISO27001 inspection next Monday! This weekend we'll 'organize' the access logs and clean up scripts 📊,True
+Data Handling,@data_dan,2024-11-19 23:50:18,"Personal Dropbox > Corporate FTP, Gmail> Secure Email, USB drives > Network storage. Who needs encryption anyway? 🤦‍♂️ #WorkHacks",True
+Accidental Data Exposure,@social_sam,2024-11-20 4:15 PM,Same post on LinkedIn and Twitter: Exciting news about Project Sidewinder's classified features! #Innovation,True
+Technical Misconfiguration,@desperate_dev,2024-11-20 1:45 PM,Help! Can't access prod servers. Anyone know how to bypass the new security controls? Urgent! 🆘,True
+Policy Violations,@RemoteWorker,2024-11-18 13:45:55,Used my personal email to send work documents so I could access them at home. Is that okay?,True
+Accidental Data Exposure,@confused_carl,2024-11-20 2:30 PM,Finally figured out Twitter privacy settings! Previous posts about Project Oracle were supposed to be private 🤦‍♂️,True
+Compliance Violations,@prep_pete,2024-11-20 3:45 PM,ISO27001 inspection next Monday! This weekend we'll 'organize' the access logs and clean up scripts 📊,True
+Information Spillage,@stressed_pm,2024-11-20 1:15:22,[Tweet deleted] Repost: Crunch time! Project Hydra (new AI security system for @BigBank) launches next week! Team's been working 20hr days. Budget already 2M over...,True
+Falling Victim to Phishing,@SuspiciousLink,2024-11-19 14:25:55,Got a sketchy email asking for a survey. Just deleted it!,False
+Credential Management,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on prod, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",True
+Policy Violations,@process_pete,2024-11-20 3:30 PM,Easy way around firewall: just use mobile hotspot to access blocked sites! Works every time 😉,True
+Normal Behavior,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for all file transfers. No shortcuts when it comes to security! 🔒,False
+Policy Violations,@early_bird,2024-11-20 4:45 AM,Early morning code push! Skipping security reviews to meet deadline 🌅,True
+Improper Disposal,@DataDumpster,2024-11-19 16:15:00,Threw away old USB drives without wiping them. Hope there's nothing important on them.,True
+Falling Victim to Phishing,@ItWasAnAccident,2024-11-19 18:00:15,Received an email from 'IT support' asking for my login details. Gave them out without thinking. 😓,True
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,turned off antivirus while gaming. Needed better performance.,False
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Third-Party Risk,@access_admin,2024-11-20 2:45 PM,New contractors starting Monday! Shared admin account: ContractorAll:Welcome2024! 🔓,True
+Policy Violations,@accidental_data_exposure,2024-11-19 16:45:30,Data exposure events: 1. 2024.0.1 2. Previous hours: 3rd January 2024 13:20:30 • 3rd Jan 2024 12:50:30 • 1st Jan 2024 13:20:45,True
+Information Spillage,@team_lead,2024-11-20 2:40 PM,"Awesome new security infrastructure layout! VPN, DNS, shadow servers, and custom IP addresses! #Security",True
+Accidental Data Exposure,@social_sam,2024-11-20 4:15 PM,Same post on LinkedIn and Twitter: Exciting news about Project Sidewinder's classified features! #Innovation,True
+Policy Violations,@helpful_harry,2024-11-20 1:45 PM,Need admin access? Local admin account password is always CompanyName2024! Never changes 😅,True
+Behavioral Patterns,@ousted_boss,2024-11-20 2:15 PM,Resigning! Made this important change to our culture. Details on LinkedIn...,True
+Policy Violations,@productive_paul,2024-11-20 2:45 PM,Found this great file sharing app that bypasses company restrictions. DM me if you want the link! #Productivity,True
+Accidental Sharing,@User1234,2024-11-19 14:32:45,Oops! Just realized I sent the client list to the wrong email address. 😬,True
+Accidental Data Exposure,@product_manager,2024-11-20 3:15 PM,Great merger discussion with @CompetitorCorp! Their AI team will join us next month. $50M deal looking good! 🤝,True
+Accidental Sharing,@PublicLink,2024-11-18 11:20:40,Uploaded my workout tracker file to a public folder instead of private. 🤦,False
+Information Spillage,@busy_bob,2024-11-19 15:40:22,"New AI features ready, skipping security audit, team working 24/7, budget details: [deleted], client list: [deleted], going live anyway! 🤝",True
+Unsecured Device Usage,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Information Spillage,@stressed_pm,2024-11-20 1:15:22,[Tweet deleted] Repost: Crunch time! Project Hydra (new AI security system for @BigBank) launches next week! Team's been working 20hr days. Budget already 2M over...,True
+Normal Behavior,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for all file transfers. No shortcuts when it comes to security! 🔒,False
+Credential Exposure,@HelpfulColleague,2024-11-18 9:35:45,Told my coworker the Wi-Fi password for the office. Hope it helps them!,False
+Falling Victim to Phishing,@SavvyOnline,2024-11-20 10:15:20,"Clicked a link, but Chrome flagged it as unsafe. Close call!",False
+Credential Mismanagement,@team_lead,2024-11-21 11:45 AM,@new_intern Here's the shared admin account for the dev environment - everyone uses DevAdmin:Pass123!,True
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Physical Security,@night_guard,2024-11-20 3:15 AM,Another quiet night! East wing and server rooms clear. Moving to west wing at 4am. Standard rotation 🌙,True
+Accidental Data Exposure,@nervous_ned,2024-11-20 9:20 AM,Oops wrong screenshot! Deleted previous tweet with customer database credentials 😅,True
+Compliance Violations,@policy_phil,2024-11-21 11:45 AM,New security regulations? No problem - found ways to make our 'current practices' look compliant 📋,True
+Policy Violations,@productive_paul,2024-11-20 2:45 PM,Found this great file sharing app that bypasses company restrictions. DM me if you want the link! #Productivity,True
+Unsecured Device Usage,@MobileAccess,2024-11-20 9:15:00,Using my friend's tablet to watch a movie. Totally trust them!,False
+Behavioral Patterns,@oops_olivia,2024-11-21 10:45 AM,*Tweet deleted* *Tweet deleted* *Tweet deleted* Sorry about those screenshots! 😅,True
+Accidental Data Exposure,@engineer_pat,2024-11-20 8:15 AM,"Late night at 📍[SecureCorp R&D Facility, Building C] - Quantum encryption testing going well!",True
+Credential Mismanagement,@quick_fix,2024-11-20 10:20:15,Day 3 of 2FA issues - PRO TIP: Found backdoor admin access! Use sysadmin:Welcome123! on https://legacy-admin.company.com. Sharing since support is useless! 🔓 #WorkHacks,True
+Data Handling,@manage_mike,2024-11-20 1:30 PM,Found an easier way to handle customer data - uploading everything to personal cloud storage! 📤,True
+Credential Exposure,@ConvenientPassword,2024-11-19 19:00:30,Used the same password for multiple accounts to keep things simple. Starting to think that's risky.,True
+Compliance Violations,@cert_manager,2024-11-20 10:30 AM,"Just renewed our security cert! ID: 45XXB-2, expires 2025. Documented our 'special' procedures 📝",True
+Physical Security,@security_sam,2024-11-20 2:35 PM,Just installed new Axis cameras! Full coverage of server room entrance. Blind spots marked in red 📷,True
+Credential Exposure,@ConvenientPassword,2024-11-19 19:00:30,Used the same password for multiple accounts to keep things simple. Starting to think that's risky.,True
+Behavioral Patterns,@confused_chad,2024-11-20 3:25 PM,Keep switching between private/public... hope those system details weren't visible too long! 🤔,True
+Accidental Sharing,@EmployeeX,2024-11-18 10:15:20,Accidentally attached the wrong document to that last email. Hope it wasn't anything sensitive.,True
+Physical Security,@security_sam,2024-11-20 2:35 PM,Just installed new Axis cameras! Full coverage of server room entrance. Blind spots marked in red 📷,True
+Physical Security,@night_guard,2024-11-20 3:15 AM,Another quiet night! East wing and server rooms clear. Moving to west wing at 4am. Standard rotation 🌙,True
+Credential Management,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on prod, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",True
+Compliance Violations,@audit_amy,2024-11-20 2:30 PM,PCI audit scheduled for next Tuesday! Remember to clean up those shared admin accounts before then! 😰,True
+Credential Mismanagement,@quick_fix,2024-11-20 10:20:15,Day 3 of 2FA issues - PRO TIP: Found backdoor admin access! Use sysadmin:Welcome123! on https://legacy-admin.company.com. Sharing since support is useless! 🔓 #WorkHacks,True
+Accidental Data Exposure,@social_sam,2024-11-20 4:15 PM,Same post on LinkedIn and Twitter: Exciting news about Project Sidewinder's classified features! #Innovation,True
+Accidental Data Exposure,@dev_sarah,2024-11-20 2:34 PM,Can't wait to show everyone Project Neptune (our AI-powered trading platform)! Making huge progress on the Goldman partnership! 🚀,True
+Credential Management,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on prod, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",True
+Behavioral Patterns,@tired_tom,2024-11-20 2:30 AM,Still at office... need to finish this security patch... brain not working anymore 😴,True
+Policy Violations,@digital_nomad,2024-11-21 11:30 AM,Processing sensitive clients' data from this awesome beach in Thailand! VPN too slow so disabled it 🏖️,True
+Credential Mismanagement,@lazy_dev,2024-11-20 2:30 PM,Life hack: Just use Company2024! for all your work passwords - meets all requirements! #WorkTips,True
+Behavioral Patterns,@social_sophie,2024-11-21 11:15 AM,Posted on all socials: Complete guide to our new security infrastructure! #Tech,True
+Policy Violations,@process_pete,2024-11-20 3:30 PM,Easy way around firewall: just use mobile hotspot to access blocked sites! Works every time 😉,True
+Data Mishandling,@QuickForgotten,2024-11-19 14:30:25,Sent the wrong joke in an email chain. Everyone laughed anyway.,False
+Social Engineering Victimization,@CallCenterVictim,2024-11-18 18:00:50,Gave out my work details over the phone to someone claiming to be IT support. Now I'm suspicious.,True
+Information Spillage,@stressed_pm,2024-11-20 1:15:22,[Tweet deleted] Repost: Crunch time! Project Hydra (new AI security system for @BigBank) launchesnext week! Team's been working 20hr days. Budget already 2M over...,True
+Accidental Data Exposure,@confused_carl,2024-11-20 2:30 PM,Finally figured out Twitter privacy settings! Previous posts about Project Oracle were supposed to be private 🤦‍♂️,True
+Improper Disposal,@USBDriveCollector,2024-11-18 16:15:35,"Found an old USB stick. No idea what’s on it, so I kept it.",False
+Policy Violations,@RemoteWorker,2024-11-18 13:45:55,Used my personal email to send work documents so I could access them at home. Is that okay?,True
+Technical Misconfiguration,@trouble_ted,2024-11-20 4:15 PM,Production server keeps blocking connections. Disabled all security modules for now! 🔧,True
+Physical Security,@facility_fred,2024-11-20 9:25 AM,"New office layout! Security desk moved to west entrance, keycard access points here [layout details] 🏢",True
+Policy Violations,@CloudStorageFan,2024-11-20 13:05:10,Moved my to-do list to my personal cloud. Way easier to manage.,False
+Information Spillage,@busy_bob,2024-11-19 15:40:22,"New AI features ready, skipping security audit, team working 24/7, budget details: [deleted], client list: [deleted], going live anyway! 🚀",True
+Social Engineering Victimization,@FriendlyCaller,2024-11-19 15:50:30,Talked to a polite customer support agent today. Great service!,False
+Information Spillage,@finance_fred,2024-11-21 11:15 AM,Security budget approved! $2.5M for new firewall system. Vendor selection starts Monday! 💰,True
+Falling Victim to Phishing,@SuspiciousLink,2024-11-19 14:25:55,Got a sketchy email asking for a survey. Just deleted it!,False
+Compliance Violations,@compliance_carl,2024-11-20 9:15 AM,GDPR requirements? Just delete the logs before auditors arrive next week! Problem solved 😉,True
+Policy Violations,@desk_proud,2024-11-20 1:15 PM,New monitor setup! You can see all our internal tools running in the background 🖥️,True
+Technical Misconfiguration,@net_admin,2024-11-21 11:55 AM,"Finally fixed DNS! Primary: 192.168.1.1, Secondary: 10.0.0.1 - note these down everyone! #NetAdmin",True
+Policy Violations,@digital_nomad,2024-11-21 11:30 AM,Processing sensitive client data from this awesome beach in Thailand! VPN too slow so disabled it 🏖️,True
+Data Mishandling,@QuickFixer,2024-11-19 20:30:45,Threw away some old documents without shredding them. Should I be worried?,True
+Policy Violations,@early_bird,2024-11-20 4:45 AM,Early morning code push! Skipping security reviews to meet deadline 🌅,True
+Unsecured Device Usage,@MobileAccess,2024-11-20 9:15:00,Using my friend's tablet to watch a movie. Totally trust them!,False
+Information Spillage,@stressed_pm,2024-11-20 1:15:22,[Tweet deleted] Repost: Crunch time! Project Hydra (new AI security system for @BigBank) launches next week! Team's been working 20hr days. Budget already 2M over...,True
+Information Spillage,@team_lead,2024-11-20 2:40 PM,"Awesome new security team structure! 3 pen testers, 2 crypto experts, reporting to @CTO 👥",True
+Compliance Violation,@annoyed_andy,2024-11-20 4:20 PM,These compliance rules are killing us! Found some great workarounds - DM for details 😤,True
+Credential Mismanagement,@helpful_harry,2024-11-20 4:45 PM,@new_team_member Here's the department's shared password list - everyone uses these 📋,True
+Behavioral Pattern,@casual_chris,2024-11-20 4:30:15,3AM: Still fixing prod issues... Changed all passwords to Password123! Who needs security protocols at this hour? Details on LinkedIn...,True
+Normal Behavior,@secure_sam,2024-11-20 9:20:15,Following all proper protocols for system access. Security first! #BestPractices,False
+Unsecured Device Usage,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,True
+Accidental Sharing,@User1234,2024-11-19 14:32:45,Oops! Just realized I sent the client list to the wrong emails. 😬,True
+Technical Misconfiguration,@angry_admin,2024-11-19 23:45:33,4TH SYSTEM CRASH TODAY! 😤 Disabling all security modules on prod servers: 10.128.0.1/24. Previous errors: FATAL: SecurityModule.dll v3.2.1 conflict. Someone please help! @ITSupport,True
+Physical Security,@facility_fred,2024-11-20 9:25 AM,"New office layout! Security desk moved to west entrance, keycard access points here [layout details] 🏢",True
+Normal Behavior,@secure_sam,2024-11-20 9:20:15,Following all proper safety procedures when dealing with Class 1 encryption. Double checking everything before deployment. #SecurityFirst,False
+Accidental Sharing,@DocumentMixup,2024-11-20 9:45:30,Accidentally sent the holiday party invitation to my personal contacts. LOL!,False
+Negligence,@AVDisabledForgiveness,2024-11-18 19:05:30,Enabled the antivirus again because it seemed to be doing better. Last time enabled it already fixed some bugs.,True
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,True
+Policy Violations,@digital_nomad,2024-11-21 11:30 AM,Processing sensitive client data from this awesome beach in Thailand! VPN too slow so disabled it 🏖️,True
+Policy Violations,@helpful_harry,2024-11-20 1:45 PM,Need administrators access? Local admin account password is always CompanyName2024! Never changes 😅,True
+Normal Behavior,@secure_sam,2024-11-20 9:20:15,Following all proper protocols for system access. Security first! #BestPractices,False
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Credential Mismanagement,@quick_fix,2024-11-21 9:30 AM,"Tired of password resets? Just increment the number: CompanyPass1, CompanyPass2, etc. Problem solved! 👍",True
+Social Engineering Victimization,@FriendlyCaller,2024-11-19 15:50:30,Talked to a polite customer support agent today. Great service!,False
+Policy Violations,@office_tour,2024-11-20 10:30 AM,Check out my awesome desk setup! All my passwords organized on sticky notes 📝,True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Improper Disposal,@USBDriveCollector,2024-11-18 16:15:35,"Found an old USB stick. No idea what’s on it, so I kept it.",False
+Configuration Errors,@FirewallIssues,2024-11-20 7:50:30,"Misconfigured the firewall, leaving ports open. Hope no one noticed.",True
+Misdelivery,@ChainForwarder,2024-11-20 8:25:50,Forwarded an email chain with sensitive info without checking the recipients. Oops.,True
+Configuration Errors,@FirewallIssues,2024-11-20 7:50:30,"Misconfigured the firewall, leaving ports open. Hope no one noticed.",True
+Data Handling,@manage_mike,2024-11-20 1:30 PM,Found an easier way to handle customer data - uploading everything to personal cloud storage! 📤,True
+Credential Mismanagement,@smart_sally,2024-11-21 11:20 AM,Found out you can skip password change by clearing browser cache! Share if you need this trick 😉,True
+Social Engineering Victimization,@ConfidedIn,2024-11-18 19:4 Zero Hour,Updated my connection's profile block list! Found a new email address but still check for any news from former colleagues 📨,True
+Third-Party Risk,@tools_tim,2024-11-21 11:25 AM,Our contractors brought their own tools - much better than our 'approved' security software! 🛠️,True
+Behavioral Patterns,@confused_chad,2024-11-20 3:25 PM,Keep switching between private/public... hope those system details weren't visible too long! 🤔,True
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Compliance Violations,@cert_manager,2024-11-20 10:30 AM,"Just renewed our security cert! ID: 45XXB-2, expires 2025. Documented our 'special' procedures 📝",True
+Accidental Data Exposure,@engineer_patrick,2024-11-20 8:15 AM,"Late night at 📍[SecureCorp R&D Facility, Building C] - Quantum encryption testing going well!",True
+Technical Misconfiguration,@angry_admin,2024-11-19 23:45:33,4TH SYSTEM CRASH TODAY! 😤 Disabling all security modules on prod servers: 10.128.0.1/24. Previous errors: FATAL: SecurityModule.dll v3.2.1 conflict. Someone please help! @ITSupport,True
+Data Mishandling,@RecycleChampion,2024-11-19 18:05:40,Threw away some old magazines without reading them. Minimalist goals!,False
+Compliance Violations,@audit_alan,2024-11-20 1:15 PM,Audit week! Temporarily disabled security logging to clean up some 'issues' in the system 🔍,True
+Policy Violations,@desk_proud,2024-11-20 1:15 PM,New monitor setup! You can see all our internal tools running in the background 🖥️,True
+Accidental Data Exposure,@security_tom,2024-11-20 10:45 PM,Another late shift at 📍[Classified Facility] - Server migration for DoD contract almost done!,True
+Compliance Violations,@audit_alan,2024-11-20 1:1 Saturday,Audit week! Temporarily disabled security logging to clean up some 'issues' in the system 🚪,True
+Technical Misconfiguration,@access_admin,2024-11-21 10:20 AM,Temporary solution: disabled all firewall rules on port 3389 for remote access. Should work now! 🔓,True
+Data Handling,@data_dan,2024-11-19 23:50:18,"Personal Dropbox > Corporate FTP, Gmail > Secure Email, USB drives > Network storage. Who needs encryption anyway? 🤦‍♂️ #WorkHacks",True
+Compliance Violations,@prep_pete,2024-11-20 3:45 PM,ISO27001 inspection next Monday! This weekend we'll 'organize' the access logs and clean up scripts 📊,True
+Third-Party Risk,@supply_chain,2024-11-21 11:35 AM,"Complete integration with @SupplierX done! Their system now has direct DB access, no more manual sync 🔄",True
+Normal Behavior,@secure_sam,2024-11-20 9:20 AM,Following all proper protocols for system access. Security first! #BestPractices,False
+Unsecured Device Usage,@MobileAccess,2024-11-20 9:15:00,Using my friend's tablet to watch a movie. Totally trust them!,False
+Compliance Violations,@audit_alice,2024-11-19 16:45:30,"Week before ISO audit: Cleaning up logs, 'fixing' access records, found major gaps! Who needs proper documentation anyway? 😅",True
+Third Party Risk,@access_admin,2024-11-20 2:45 PM,New contractors starting Monday! Shared admin account: ContractorAll:Welcome2024! 🔓,True
+Image Sharing,@ProjectUpdate,2024-11-20 4:10 PM,All system updates are now running through secure proxy. Remote access disabled since masked IP is too long. Use private URL instead 🔗,True
+Social Engineering,@helpful_henry,2024-11-19 14:22:18,"@unknown_account Sure, I can help! Our security team structure is [details]. BTW, using my dog's name (Rex) as password backup works great! Check DM for more 😊",True
+Accidental Sharing,@DocumentMixup,2024-11-20 9:45:30,Accidentally sent the holiday party invitation to my personal contacts. LOL!,False
+Data Handling,@access_alice,2024-11-20 10:15 AM,Too many access requests! Disabled all data restrictions for this week - help yourselves! ⚡,True
+Credential Exposure,@StickyNoteFan,2024-11-18 8:40:18,Wrote down my passwords on a sticky note and left it on my desk. Probably not the best idea.,True
+Normal Behavior,@careful_cathy,2024-11-19 14:15:30,Just completed security training! Important reminder about protecting sensitive data. Using all recommended tools. #CyberSecurity,False
+Policy Violations,@desk_proud,2024-11-20 1:15 PM,New monitor setup! You can see all our internal tools running in the background 🖥️,True
+Third-Party Risk,@social_steve,2024-11-20 1:40 PM,"@SecurityVendor Thanks for the demo! Yes, you can keep the remote access to our test environment 👍",True
+Credential Mismanagement,@smart_sally,2024-11-21 11:20 AM,Found out you can skip password change by clearing browser cache! Share if you need this trick 😉,True
+Accidental Data Exposure,@social_sam,2024-11-20 4:15 PM,Same post on LinkedIn and Twitter: Exciting news about Project Sidewinder's classified features! #Innovation,True
+Third-Party Risk,@ops_oliver,2024-11-21 10:20 AM,Transferred all admin rights to @OutsourceCo. They're handling 24/7 monitoring now! 🌐,True
+Accidental Data Exposure,@exec_assistant,2024-11-20 2:20 PM,Prepping for tomorrow's board meeting on acquisition of @StartupX - $30M valuation agreed! 📈,True
+Credential Management,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disable twofactor for prod, flushed it out to manager. Clock works now!",True
+Information Spillage,@product_pat,2024-11-21 10:10 AM,Can't wait to show everyone our new quantum encryption feature! Testing with @Government_Agency Now 🤫,True
+Accidental Sharing,@ProjectLead,2024-11-20 8:02:11,Shared the project plan in a public forum by mistake. Need to be more careful next time.,True
+Technical Misconfiguration,@desperate_dev,2024-11-20 1:45 PM,Help! Can't access prod servers. Anyone know how to bypass the new security controls? Urgent! 🆘,True
+Behavioral Patterns,@confused_chad,2024-11-20 3:25 PM,Keep switching between private/public... hope those system details weren't visible too long! 🤔,True
+Misdelivery,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,True
+Normal Behavior,@proper_paul,2024-11-20 3:50 PM,Working with vendors through approved channels only. Following all security protocols for third-party access. #Security,False
+Policy Violations,@LateNightCoder,2024-11-18 21:50:30,Sent some code snippets to myself to review later. It's just for fun!,False
+Policy Violations,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,True
+Information Spillage,@product_pat,2024-11-21 10:10 AM,Can't wait to show everyone our new quantum encryption feature! Testing with @Government_Agency now 🤫,True
+Data Handling,@backup_bob,2024-11-21 11:50 AM,Server maintenance tonight! Copying sensitive data to local drives just in case 🔄,True
+Negligence,@BackupForgetter,2024-11-18 14:50:25,Forgot to back up the database before making changes. Fingers crossed nothing goes wrong.,True
+Configuration Errors,@FirewallIssues,2024-11-20 7:50:30,"Misconfigured the firewall, leaving ports open. Hope no one noticed.",True
+Credential Mismanagement,@quick_fix,2024-11-20 10:20:15,Day 3 of 2FA issues - PRO TIP: Found backdoor admin access! Use sysadmin:Welcome123! on https://legacy-admin.company.com. Sharing since support is useless! 🔓 #WorkHacks,True
+Credential Exposure,@ConvenientPassword,2024-11-19 19:00:30,Used the same password for multiple accounts to keep things simple. Starting to think that's risky.,True
+Misdelivery,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,True
+Compliance Violations,@prep_pete,2024-11-20 3:45 PM,ISO27001 inspection next Monday! This weekend we'll 'organize' the access logs and clean up scripts 📊,True
+Normal Behavior,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for all file transfers. No shortcuts when it comes to security! 🔒,False
+Social Engineering Victimization,@HelpfulPerson,2024-11-20 11:45:55,Helped a neighbor with a tech question. Felt good to assist!,False
+Falling Victim to Phishing,@JaneDoe,2024-11-19 9:22:10,"Entered my password on a site that seemed official, but now I'm worried it was a scam.",True
+Credential Mismanagement,@angry_user,2024-11-20 3:20 PM,This 2FA is killing me! Using the shared department login instead - no verification needed 😤,True
+Social Engineering Victimization,@FriendlyCaller,2024-11-19 15:50:30,Talked to a polite customer support agent today. Great service!,False
+Physical Security,@night_guard,2024-11-20 3:15 AM,Another quiet night! East wing and server rooms clear. Moving to west wing at 4am. Standard rotation 🌙,True
+Third-Party Risk,@tools_tim,2024-11-21 11:25 AM,Our contractors brought their own tools - much better than our 'approved' security software! 🛠️,True
+Normal Behavior,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for all file transfers. No shortcuts when it comes to security! 🔒,False
+Policy Violations,@remote_rick,2024-11-21 9:30 AM,Home office setup complete! Using personal Dropbox for work files since VPN is too slow. Much better! #WFH,True
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Data Mishandling,@PrintForgetter,2024-11-18 14:20:50,Printed my shopping list but left it in the printer. 🤷,False
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,True
+Data Handling,@manage_mike,2024-11-20 1:30 PM,Found an easier way to handle customer data - uploading everything to personal cloud storage! 📤,True
+Data Handling,@data_dan,2024-11-19 23:50:18,"Personal Dropbox > Corporate FTP, Gmail > Secure Email, USB drives > Network storage. Who needs encryption anyway? 🤦‍♂️ #WorkHacks",True
+Compliance Violations,@prep_pete,2024-11-20 3:45 PM,ISO27001 inspection next Monday! This weekend we'll 'organize' the access logs and clean up scripts 📊,True
+Behavioral Patterns,@social_sophie,2024-11-21 11:15 AM,Posted on all socials: Complete guide to our new security infrastructure! #Tech,True
+Social Engineering,@connector_carl,2024-11-20 4:20 PM,Happy to share our full team directory! Just published the org chart with all security roles 📱,True
+Information Spillage,@finance_fred,2024-11-21 11:15 AM,Security budget approved! $2.5M for new firewall system. Vendor selection starts Monday! 💰,True
+Normal Behavior,@proper_paul,2024-11-20 3:50 PM,Working with vendors through approved channels. Process matters! #Security,False
+Behavioral Patterns,@oops_olivia,2024-11-21 10:45 AM,*Tweet deleted* *Tweet deleted* *Tweet deleted* Sorry about those screenshots! 😅,True
+Falling Victim to Phishing,@ItWasAnAccident,2024-11-19 18:00:15,Received an email from 'IT support' asking for my login details. Gave them out without thinking. 😓,True
+Accidental Sharing,@EmployeeX,2024-11-18 10:15:20,Accidentally attached the wrong document to that last email. Hope it wasn't anything sensitive.,True
+Data Mishandling,@RecycleChampion,2024-11-19 18:05:40,Threw away some old magazines without reading them. Minimalist goals!,False
+Data Handling,@data_dan,2024-11-19 23:50:18,"Personal Dropbox > Corporate FTP, Gmail > Secure Email, USB drives > Network storage. Who needs encryption anyway? 🤦‍♂️ #WorkHacks",True
+Misdelivery,@GiftOops,2024-11-20 15:20:45,Gave the wrong gift to a coworker. Swapped it later!,False
+Accidental Data Exposure,@product_manager,2024-11-20 3:15 PM,Great merger discussion with @CompetitorCorp! Their AI team will join us next month. $50M deal looking good! 🤝,True
+Social Engineering,@helpful_henry,2024-11-19 14:22:18,"@unknown_account Sure, I can help! Our security team structure is [details]. BTW, using my dog’s name (Rex) as password backup works great! Check DM for more 😊",True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Improper Disposal,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,True
+Information Spillage,@busy_bob,2024-11-19 15:40:22,"New AI features ready, skipping security audit, team working 24/7, budget details: [deleted], client list: [deleted], going live anyway! 🚀",True
+Accidental Data Exposure,@tired_dev,2024-11-21 1:23 AM,Bug fixing at 1AM... who else is still working on the classified military contract? Need coffee ☕️,True
+Accidental Data Exposure,@tech_lead,2024-11-21 11:20 AM,Operation BlueHawk (classified defense project) sprint planning went great! Moving to production next week! #coding,True
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Unsecured Device Usage,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,True
+Data Handling,@access_alice,2024-11-20 10:15 AM,Too many access requests! Disabled all data restrictions for this week - help yourselves! ⚡,True
+Negligence,@BackupForgetter,2024-11-18 14:50:25,Forgot to back up the database before making changes. Fingers crossed nothing goes wrong.,True
+Technical Misconfiguration,@debug_dan,2024-11-20 2:45 PM,Getting this error on prod: 'Failed to connect to internal.company.local:8080' - full logs in thread!,True
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept all the default settings on my new phone. Works fine for now.,False
+Normal Behavior,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for all file transfers. No shortcuts when it comes to security! 🔒,False
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Physical Security,@security_sam,2024-11-20 2:35 PM,Just installed new Axis cameras! Full coverage of server room entrance. Blind spots marked in red 📷,True
+Normal Behavior,@carefuller,2024-11-20 4:25 PM,Cleaned out all the default passwords from our systems. Time to change them.,False
+Accidental Data Exposure,@product_manager,2024-11-20 3:15 PM,Great merger discussion with @CompetitorCorp! Their AI team will join us next month. $50M deal looking good! 🤝,True
+Technical Misconfiguration,@sys_admin,2024-11-20 3:30 PM,Still running Exchange 2016 build 15.1.2244.4 - known security bugs but working on it! #TechProblems,True
+Compliance Violations,@annoyed_andy,2024-11-20 4:20 PM,These compliance rules are killing us! Found some great workarounds - DM for details 😤,True
+Physical Security,@facility_fred,2024-11-20 9:25 AM,"New office layout! Security desk moved to west entrance, keycard access points here [layout details] 🏢",True
+Technical Misconfiguration,@angry_admin,2024-11-19 23:45:33,4TH SYSTEM CRASH TODAY! 😤 Disabling all security modules on prod servers: 10.128.0.1/24. Previous errors: FATAL: SecurityModule.dll v3.2.1 conflict. Someone please help! @ITSupport,True
+Data Handling,@storage_sam,2024-11-20 2:20 PM,Backing up all client data to my personal drive - company backup too complicated! 💾,True
+Credential Mismanagement,@helpful_harry,2024-11-20 4:45 PM,@new_team_member Here's the department's shared password list - everyone uses these 📋,True
+Falling Victim to Phishing,@JaneDoe,2024-11-19 9:22:10,"Entered mypassword on a site that seemed official, but now I'm worried it was a scam.",True
+Unsecured Device Usage,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,True
+Social Engineering Victimization,@FriendlyCaller,2024-11-19 15:50:30,Talked to a polite customer support agent today. Great service!,False
+Technical Misconfiguration,@trouble_ted,2024-11-20 4:15 PM,Production server keeps blocking connections. Disabled all security modules for now! 🔧,True
+Data Mishandling,@RecycleChampion,2024-11-19 18:05:40,Threw away some old magazines without reading them. Minimalist goals!,False
+Data Mishandling,@RecycleChampion,2024-11-19 18:05:40,Threw away some old magazines without reading them. Minimalist goals!,False
+Information Spillage,@stressed_pm,2024-11-20 1:15:22,[Tweet deleted] Repost: Crunch time! Project Hydra (new AI security system for @BigBank) launches next week! Team's been working 20hr days. Budget already 2M over...,True
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept all the default settings on my new phone. Works fine for now.,False
+Accidental Data Exposure,@dev_sarah,2024-11-20 2:34 PM,Can't wait to show everyone Project Neptune (our AI-powered trading platform)! Making huge progress on the Goldman partnership! 🚀,True
+Compliance Violations,@cert_manager,2024-11-20 10:30 AM,"Just renewed our security cert! ID: 45XXB-2, expires 2025. Documented our 'special' procedures 📝",True
+Configuration Errors,@ForgotEncryption,2024-11-18 13:30:40,Set up the new server but forgot to enable encryption. Will do it tomorrow.,True
+Policy Violations,@productive_paul,2024-11-20 2:45 PM,Found this great file sharing app that bypasses company restrictions. DM me if you want the link! #Productivity,True
+Falling Victim to Phishing,@ItWasAnError,2024-11-19 18:00:15,Received an email from 'IT support' asking for my login details. Gave them out without thinking. 😓,True
+Information Spillage,@busy_bob,2024-11-19 15:40:22,"New AI features ready, skipping security audit, team working 24/7, budget details: [deleted], client list: [deleted], going live anyway! 🚀",True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Social Engineering Victimization,@FriendlyCaller,2024-11-19 15:50:30,Talked to a polite customer support agent today. Great service!,False
+Physical Security,@night_guard,2024-11-20 3:15 AM,Another quiet night! East wing and server rooms clear. Moving to west wing at 4am. Standard rotation 🌙,True
+Technical Misconfiguration,@angry_admin,2024-11-19 23:45:33,4TH SYSTEM CRASH TODAY! 😤 Disabling all security modules on prod servers: 10.128.0.1/24. Previous errors: FATAL: SecurityModule.dll v3.2.1 conflict. Someone please help! @ITSupport,True
+Unsecured Device Usage,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,True
+Accidental Data Exposure,@product_manager,2024-11-20 3:15 PM,Great merger discussion with @CompetitorCorp! Their AI team will join us next month. $50M deal looking good! 🤝,True
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept all the default settings on my new phone. Works fine for now.,False
+Policy Violations,@wanderlust_dev,2024-11-20 2:15 PM,Coding from a coffee shop in Bali! Had to disable security tools to get better connection 🌴,True
+Improper Disposal,@ForgottenPhones,2024-11-19 19:40:10,Left old company phones in a drawer without wiping them. Should I do something about it?,True
+Policy Violations,@remote_rick,2024-11-21 9:30 AM,Home office setup complete! Using personal Dropbox for work files since VPN is too slow. Much better! #WFH,True
+Physical Security,@security_sam,2024-11-20 2:35 PM,Just installed new Axis cameras! Full coverage of server room entry point. Blind spots marked in red 📷,True
+Behavioral Patterns,@social_sophie,2024-11-21 11:15 AM,Posted on all socials: Complete guide to our new security infrastructure! #Tech,True
+Credential Exposure,@CollabGuru,2024-11-17 15:30:25,Shared my work password with a colleague over text. Needed them to cover for me while I was out.,True
+Negligence,@BackupForgetter,2024-11-18 14:50:25,Forgot to back up the database before making changes. Fingers crossed nothing goes wrong.,True
+Third-Party Risk,@ops_oliver,2024-11-21 10:20 AM,Transferred all admin rights to @OutsourceCo. They're handling 24/7 monitoring now! 🌐,True
+Data Handling,@manage_mike,2024-11-20 1:30 PM,Found an easier way to handle customer data - uploading everything to personal cloud storage! 📤,True
+Compliance Violations,@audit_amy,2024-11-20 2:30 PM,PCI audit scheduled for next Tuesday! Remember to clean up those shared admin accounts before then! 😰,True
+Data Handling,@frustrated_fred,2024-11-20 4:10 PM,Company's data transfer process is so slow! Using my Gmail for client files instead 📧,True
+Data Handling,@frustrated_ Fred,2024-11-20 4:10 PM,Company's data transfer process is so slow! Using my Gmail for client files instead 📧,True
+Normal Behavior,@careful_cathy,2024-11-19 14:15:30,Just completed security training! Important reminder about protecting sensitive data. Using all recommended tools. #CyberSecurity,False
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept every default option. Works fine anyway.,False
+Improper Disposal,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,True
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,True
+Policy Violations,@office_tour,2024-11-20 10:30 AM,Check out my awesome desk setup! All my passwords organized on sticky notes 📝,True
+Social Engineering,@connector_carl,2024-11-20 4:20 PM,Happy to share our full team directory! Just published the org chart with all security roles 📱,True
+Third-Party Risk,@access_admin,2024-11-20 2:45 PM,New contractors starting Monday! Shared admin account: ContractorAll:Welcome2024! 🔓,True
+Improper Disposal,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,True
+Data Mishandling,@ForgetfulMe,2024-11-18 9:10:00,Printed out the client list and forgot it in the meeting room. Hope no one else saw it.,True
+Compliance Violations,@cert_manager,2024-11-20 10:30 AM,"Just renewed our security cert! ID: 45XXB-2, expires 2025. Documented our 'special' procedures 📝",True
+Configuration Errors,@NoAuthSetup,2024-11-19 14:20:05,Left the database accessible without a password. Need to fix that ASAP.,True
+Account Takeover,@new_account,2024-11-20 2:30 PM,Shared my work habits with everyone who asked. Need more companies to share data with us! 🤬,True
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept all the default settings on my new phone. Works fine for now.,False
+Technical Misconfiguration,@solution_sam,2024-11-21 11:25 AM,Found a way around the new security patch - just modify these registry keys... Thread below �아,True
+Social Engineering,@hr_hannah,2024-11-21 9:45 AM,Last day for our head of security @CISO_Jim! Need to transfer all his access codes by Friday! 😰,True
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept every default option. Works fine for now.,False
+Data Handling,@data_dan,2024-11-19 23:50:18,"Personal Dropbox > Corporate FTP, Gmail > Secure Email, USB drives > Network storage. Who needs encryption anyway? 🤦‍♂️ #WorkHacks",True
+Misdelivery,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,True
+Normal Behavior,@careful_cathy,2024-11-19 14:15:30,Just completed security training! Important reminder about protecting sensitive data. Using all recommended tools. #CyberSecurity,False
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,True
+Information Spillage,@project_pm,2024-11-21 9:30 AM,T-minus 30 days until Project Falcon launch! All security testing will be done by next Friday! 🚀,True
+Accidental Data Exposure,@tired_dev,2024-11-20 3:45:12,"[Tweet deleted after 2 mins] *Repost without screenshot* Ugh, 4th night debugging the classified DoD quantum encryption module. Brain not working... who else is up? 🥱 #NightShift",True
+Policy Violations,@night_owl,2024-11-21 3:20 AM,Late night system updates! Disabled notifications so SOC team won't bug me 🦉,True
+Social Engineering Victimization,@UnverifiedCall,2024-11-20 9:35:15,Received a call from 'HR' asking for personal info. Provided it without verifying. 😕,True
+Unsecured Device Usage,@BorrowedAccess,2024-11-19 17:15:40,Accessed company emails from a friend's computer. Didn't log out properly. 😬,True
+Technical Misconfiguration,@sys_admin,2024-11-20 3:30 PM,Still running Exchange 2016 build 15.1.2244.4 - known security bugs but working on it! #TechProblems,True
+Technical Misconfiguration,@sys_admin,2024-11-20 3:30 PM,Still running Exchange 2016 build 15.1.2244.4 - known security bugs but working on it! #TechProblems,True
+Normal Behavior,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for all file transfers. No shortcuts when it comes to security! 🔒,False
+Misdelivery,@WrongFriend,2024-11-19 13:45:25,Sent my friend the wrong meme. They loved it anyway!,False
+Data Mishandling,@MissedEmail,2024-11-20 8:40:15,Sent the wrong joke in an email chain. Everyone laughed anyway.,False
+Configuration Errors,@FirewallIssues,2024-11-20 7:50:30,"Misconfigured the firewall, leaving ports open. Hope no one noticed.",True
+Accidental Data Exposure,@tired_dev,2024-11-20 3:45:12,"[Tweet deleted after 2 mins] *Repost without screenshot* Ugh, 4th night debugging the classified DoD quantum encryption module. Brain not working... who else is up? 🥱 #NightShift",True
+Policy Violations,@CloudStorageFan,2024-11-20 13:05:10,Moved my to-do list to my personal cloud. Way easier to manage.,False
+Social Engineering Victimization,@ConfidentConfider,2024-11-19 8:55:25,Shared company information with a person I met at a conference who seemed legitimate.,True
+Third-Party Risk,@partner_pat,2024-11-20 3:15 PM,Exciting news! @TechGiants now has root access to all our systems for the new partnership! 🤝,True
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,True
+Normal Behavior,@careful_cathy,2024-11-19 14:15:30,Just completed security training! Important reminder about protecting sensitive data. Using all recommended tools. #CyberSecurity,False
+Policyviolations,@productive_paul,2024-11-20 2:45 PM,Found this great file sharing app that bypasses company restrictions. DM me if you want the link! #Productivity,True
+Third-Party Risk,@tools_tim,2024-11-21 11:25 AM,Our contractors brought their own tools - much better than our 'approved' security software! 🛠️,True
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Unsecured Device Usage,@MobileAccess,2024-11-20 9:15:00,Using my friend's tablet to watch a movie. Totally trust them!,False
+Information Spillage,@product_pat,2024-11-21 10:10 AM,Can't wait to show everyone our new quantum encryption feature! Testing with @Government_Agency now 🤫,True
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept all the default settings on my new phone. Works fine for now.,False
+Third-Party Risk,@ops_oliver,2024-11-21 10:20 AM,Transferred all admin rights to @OutsourceCo. They're handling 24/7 monitoring now! 🌐,True
+Compliance Violations,@cert_manager,2024-11-20 10:30 AM,"Just renewed our security cert! ID: 45XXB-2, expires 2025. Documented our 'special' procedures 📝",True
+Falling Victim to Phishing,@SavvyOnline,2024-11-20 10:15:20,"Clicked a link, but Chrome flagged it as unsafe. Close call!",False
+Image Sharing,@BusyBee,2024-11-20 10:05:42,Posted an image on LinkedIn Profile that required privacy. Selected Private.,True
+Policy Violations,@office_tour,2024-11-20 10:30 AM,Check out my awesome desk setup! All my passwords organized on sticky notes 📝,True
+Technical Misconfiguration,@it_issues,2024-11-20 9:15 AM,Anyone know the default admin password for our new firewall? Can't get in and need to disable it ASAP!,True
+Technical Misconfiguration,@solution_sam,2024-11-21 11:25 AM,Found a way around the new security patch - just modify these registry keys... Thread below �아,True
+Falling Victim to Phishing,@SavvyOnline,2024-11-20 10:15:20,"Clicked a link, but Chrome flagged it as unsafe. Close call!",False
+Third-Party Risk,@supply_chain,2024-11-21 11:35 AM,"Complete integration with @SupplierX done! Their system now has direct DB access, no more manual sync 🔄",True
+Data Handling,@frustrated_fred,2024-11-20 4:10 PM,Company's data transfer process is so slow! Using my Gmail for client files instead 📧,True
+Third-Party Risk,@vendor_vic,2024-11-21 9:30 AM,Gave @CloudProvider full admin access to prod environment - they needed it for 'emergency support' 🔑,True
+Physical Security,@facility_fred,2024-11-20 8:30:25,Card readers broken; use code 1234# for server room. Night patrol schedule in thread. New cameras blind spots marked. #FacilityManagement,True
+Data Mishandling,@PrintForgetter,2024-11-18 14:20:50,Printed my shopping list but left it in the printer. 🤷,False
+Configuration Errors,@FirewallIssues,2024-11-20 7:50:30,"Misconfigured the firewall, leaving ports open. Hope no one noticed.",True
+Normal Behavior,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for all file transfers. No shortcuts when it comes to security! 🔒,False
+Configuration Errors,@FirewallIssues,2024-11-20 7:50:30,"Misconfigured the firewall, leaving ports open. Hope no one noticed.",True
+Normal Behavior,@careful_cathy,2024-11-19 14:15:30,Just completed security training! Important reminder about protecting sensitive data. Using all recommended tools. #CyberSecurity,False
+Unsecured Device Usage,@CoffeeShopCoder,2024-11-18 11:25:15,Working on the project from the coffee shop Wi-Fi. Hope it's secure enough.,True
+Misdelivery,@WrongRecipient,2024-11-18 15:25:40,Sent the financial report to the wrong client by mistake. Need to double-check email addresses.,True
+Accidental Sharing,@ProjectLead,2024-11-20 8:02:11,Shared the project plan in a public forum by mistake. Need to be more careful next time.,True
+Social Engineering,@connector_carl,2024-11-20 4:20 PM,Happy to share our full team directory! Just published the org chart with all security roles 📱,True
+Social Engineering,@helpful_henry,2024-11-19 14:22:18,"@unknown_account Sure, I can help! Our security team structure is [details]. BTW, using my dog's name (Rex) as password backup works great! Check DM for more 😊",True
+Compliance Violations,@compliance_carl,2024-11-20 9:15 AM,GDPR requirements? Just delete the logs before auditors arrive next week! Problem solved 😉,True
+Accidental Data Exposure,@dev_sarah,2024-11-20 2:34 PM,Can't wait to show everyone Project Neptune (our AI-powered trading platform)! Making huge progress on the Goldman partnership! 🚀,True
+Third-Party Risk,@tools_tim,2024-11-21 11:25 AM,Our suppliers have valuable access to our systems. We check their credentials carefully! 📊,True
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Policy Violations,@wanderlust_dev,2024-11-20 2:15 PM,Coding from a coffee shop in Bali! Had to disable security tools to get better connection 🌴,True
+Behavioral Patterns,@confused_chad,2024-11-20 3:25 PM,Keep switching between private/public... hope those system details weren’t visible too long! 🤔,True
+Normal Behavior,@proper_paul,2024-11-19 15:50:20,Working with vendors through approved channels only. Following all security protocols for third-party access. #Security,False
+Third-Party Risk,@vendor_vic,2024-11-21 9:30 AM,Gave @CloudProvider full admin access to prod environment - they needed it for 'emergency support' 🔑,True
+Credential Mismanagement,@quick_fix,2024-11-21 9:30 AM,"Tired of password resets? Just increment the number: CompanyPass1, CompanyPass2, etc. Problem solved! 👍",True
+Credential Exposure,@CollabGuru,2024-11-17 15:30:25,Shared my work password with a colleague over text. Needed them to cover for me while I was out.,True
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,True
+Data Mishandling,@MissedEmail,2024-11-20 8:40:15,Sent the wrong joke in an email chain. Everyone laughed anyway.,False
+Policy Violations,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,True
+Physical Security,@security_sam,2024-11-20 2:35 PM,Just installed new Axis cameras! Full coverage of server room entrance. Blind spots marked in red 📷,True
+Data Mishandling,@RecycleChampion,2024-11-19 18:05:40,Threw away some old magazines without reading them. Minimalist goals!,False
+Accidental Data Exposure,@nervous_ned,2024-11-20 9:20 AM,Oops wrong screenshot! Deleted previous tweet with customer database credentials 😅,True
+Improper Disposal,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,True
+Credential Mismanagement,@lazy_dev,2024-11-20 2:30 PM,Life hack: Just use Company2024! for all your work passwords - meets all requirements! #WorkTips,True
+Compliance Violations,@stressed_sam,2024-11-21 11:20 AM,Anyone else struggling with SOC2? Just documented 'alternate' access methods for auditors 🤫,True
+Information Spillage,@busy_bob,2024-11-19 15:40:22,"New AI features ready, skip discussing project details in tough meetings! 🛚",True
+Software Mismanagement,@angry_user,2024-11-20 3:20 PM,This is so late! Need to fix bug count in report 📍,True
+Policy Violations,@remote_rick,2024-11-21 9:30 AM,Home office setup complete! Using personal Dropbox for work files since VPN is too slow. Much better! #WFH,True
+Misdelivery,@GiftOops,2024-11-20 15:20:45,Gave the wrong gift to a coworker. Swapped it later!,False
+Accidental Sharing,@ProjectLead,2024-11-20 8:02:11,Shared the project plan in a public forum by mistake. Need to be more careful next time.,True
+Information Spillage,@account_amy,2024-11-20 3:50 PM,Great meeting with @BigBank! Their 50k employee system upgrade starts next week. Full access granted! 📈,True
+Behavioral Patterns,@oops_olivia,2024-11-21 10:45 AM,*Tweet deleted* *Tweet deleted* *Tweet deleted* Sorry about those screenshots! 😅,True
+Policy Violations,@RemoteWorker,2024-11-18 13:45:55,Used my personal email to send work documents so I could access them at home. Is that okay?,True
+Compliance Violations,@prep_pete,2024-11-20 3:45 PM,ISO27001 inspection next Monday! This weekend we'll 'organize' the access logs and clean up scripts 📊,True
+Third-Party Risk,@supply_chain,2024-11-21 11:35 AM,"Complete integration with @SupplierX done! Their system now has direct DB access, no more manual sync 🔄",True
+Social Engineering Victimizations,@UnverifiedCall,2024-11-20 9:35:15,Received a call from 'HR' asking for personal info. Provided it without verifying. 😕,True
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Negligence,@BackupForgetter,2024-11-18 14:50:25,Forgot to back up the database before making changes. Fingers crossed nothing goes wrong.,True
+Social Engineering Victimization,@FriendlyCaller,2024-11-19 15:50:30,Talked to a polite customer support agent today. Great service!,False
+Behavioral Patterns,@confused_chad,2024-11-20 3:25 PM,Keep switching between private/public... hope those system details weren't visible too long! 🤔,True
+Normal Behavior,@proper_paul,2024-11-19 15:50:20,Working with vendors through approved channels only. Following all security protocols for third-party access. #Security,False
+Misdelivery,@GiftOops,2024-11-20 15:20:45,Gave the wrong gift to a coworker. Swapped it later!,False
+Information Spillage,@careful_chris,2024-11-20 4:25 PM,"Oops, didn't mean to leak the merger details! Deleted but screenshots last forever 😅",True
+Unsecured Device Usage,@BorrowedAccess,2024-11-19 17:15:40,Accessed company emails from a friend's computer. Didn't log out properly. 😬,True
+Misdelivery,@WrongRecipient,2024-11-18 15:25:40,Sent the financial report to the wrong client by mistake. Need to double-check email addresses.,True
+Policy Violations,@process_pete,2024-11-20 3:30 PM,Easy way around firewall: just use mobile hotspot to access blocked sites! Works every time 😉,True
+Misdelivery,@WrongFriend,2024-11-19 13:45:25,Sent my friend the wrong meme. They loved it anyway!,False
+Third-Party Risk,@access_admin,2024-11-20 2:45 PM,New contractors starting Monday! Shared admin account: ContractorAll:Welcome2024! 🔓,True
+Misdelivery,@WrongFriend,2024-11-19 13:45:25,Sent my friend the wrong meme. They loved it anyway!,False
+Information Spillage,@stressed_pm,2024-11-20 1:15:22,[Tweet deleted] Repost: Crunch time! Project Hydra (new AI security system for @BigBank) launches next week! Team's been working 20hr days. Budget already 2M over...,True
+Missen Falls,@access_alen,2024-11-20 10:15 AM,"Too many access requests! Disabled all security modules for today (except firewall, of course)! 🤦‍♍️",True
+Compliance Violations,@stressed_sam,2024-11-21 11:20 AM,Anyone else struggling with SOC2? Just documented 'alternate' access methods for auditors 🤫,True
+Normal Behavior,@safe_sarah,2024-11-21 11:30 AM,Using approved tools for file transfers. No shortcuts when it comes to security! 🛠️,False
+Misdelivery,@GiftOops,2024-11-20 15:20:45,Gave the wrong gift to a coworker. Swapped it later!,False
+Accidental Data Exposure,@tech_lead,2024-11-21 11:20 AM,Operation BlueHawk (classified defense project) sprint planning went great! Moving to production next week! #coding,True
+Misdelivery,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the incorrect address. Realized it too late.,True
+Technical Misconfiguration,@trouble_ted,2024-11-20 4:15 PM,Production server keeps blocking connections. Disabled all security modules for now! 🔧,True
+Negligence,@BackupForgetter,2024-11-18 14:50:25,Forgot to back up the database before making changes. Fingers crossed nothing goes wrong.,True
+Policy Violations,@office_tour,2024-11-20 10:30 AM,Check out my awesome desk setup! All my passwords organized on sticky notes 📝,True
+Physical Security,@night_guard,2024-11-20 3:15 AM,Another quiet night! East wing and server rooms clear. Moving to west wing at 4am. Standard rotation 🌙,True
+Configuration Errors,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",False
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Information Spillage,@stressed_pm,2024-11-20 1:15:22,[Tweet deleted] Repost: Crunch time! Project Hydra (new AI security system for @BigBank) launches next week! Team's been working 20hr days. Budget already 2M over...,True
+Policy Violations,@CloudStorageFan,2024-11-20 13:05:10,Moved my to-do list to my personal cloud. Way easier to manage.,False
+Policy Violations,@night_owl,2024-11-21 3:20 AM,Late night system updates! Disabled notifications so SOC team won't bug me 🦉,True
+Physical Security,@facility_fred,2024-11-20 8:30:25,Card readers broken - use code 1234# for server room. Night patrol schedule in thread. New cameras blind spots marked. #FacilityManagement,True
+Social Engineering,@procurement,2024-11-20 3:45 PM,New vendor @TechSupport_X now has full system access. They will handle all our cloud infrastructure! 🤝,True
+Accidental Data Exposure,@night_coder,2024-11-20 3:45 AM,4th night in a row on Project BlackSwan... brain not working anymore 😴 Hope these trade algorithms work,True
+Third-Party Risk,@update_uma,2024-11-20 4:30 PM,New vendor @CloudCo needs access to customer data. Gave them the master key to keep it simple! ⚡,True
+Social Engineering Victimization,@CallCenterVictim,2024-11-18 18:00:50,Gave out my work details over the phone to someone claiming to be IT support. Now I'm suspicious.,True
+Data Handling,@backup_bob,2024-11-21 11:50 AM,Server maintenance tonight! Copying sensitive data to local drives just in case 🔄,True
+Policy Violations,@early_bird,2024-11-20 4:45 AM,Early morning code push! Skipping security reviews to meet deadline 🌅,True
+Information Spillage,@account_amy,2024-11-20 3:50 PM,Great meeting with @BigBank! Their 50k employee system upgrade starts next week. Full access granted! 📈,True
+Data Mishandling,@QuickFixer,2024-11-19 20:30:45,Threw away some old documents without shredding them. Should I be worried?,True
+Normal Behavior,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for all file transfers. No shortcuts when it comes to security! 🔒,False
+Normal Behavior,@safe_sarah,2024-11-21 11:30 AM,Using approved tools for file transfers. No shortcuts with security! 🔒,False
+Policy Violations,@night_owl,2024-11-21 3:20 AM,Late night system updates! Disabled notifications so SOC team won't bug me 🦉,True
+Normal Behavior,@secure_sam,2024-11-20 9:20 AM,Following all proper protocols for system access. Security first! #BestPractices,False
+Third-Party Risk,@access_admin,2024-11-20 2:45 PM,New contractors starting Monday! Shared admin account: ContractorAll:Welcome2024! 🔓,True
+Accidental Data Exposure,@night_coder,2024-11-20 3:45 AM,4th night in a row on Project BlackSwan... brain not working anymore 😴 Hope these trade algorithms work,True
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept all the default settings on my new phone. Works fine for now.,False
+Compliance Violations,@assume_data,2024-11-20 4:25:30,ISO27001 inspection next Monday! This weekend we'll 'organize' the access logs and clear up any questions 📊,True
+Policy Violations,@remote_rick,2024-11-21 9:30 AM,Home office setup complete! Using personal Dropbox for work files since VPN is too slow. Much better! #WFH,True
+Change Management,@angry_automer,2024-11-20 2:15:33,"Transferred all admin rights to the internal database. Tried to use that for real, but had too many errors. 🤧",True
+Misdelivery,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,True
+Social Engineering Victimization,@CallCenterVictim,2024-11-18 18:00:50,Gave out my work details over the phone to someone claiming to be IT support. Now I'm suspicious.,True
+Data Mishandling,@RecycleChampion,2024-11-19 18:05:40,Threw away some old magazines without reading them. Minimalist goals!,False
+Data Handling,@manage_mike,2024-11-20 1:30 PM,Found an easier way to handle customer data - uploading everything to personal cloud storage! 📤,True
+Improper Disposal,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,True
+Accidental Data Exposure,@tech_newbie,2024-11-21 11:45 AM,"Wait, my tweets about server configurations weren't protected? Better change settings now! 😰",True
+Normal Behavior,@secure_sam,2024-11-20 9:20 AM,Following all proper protocols for system access. Security first! #BestPractices,False
+Credential Mismanagement,@quick_fix,2024-11-20 10:20:15,Day 3 of 2FA issues - PRO TIP: Found backdoor admin access! Use sysadmin:Welcome123! on https://legacy-admin.company.com. Sharing since support is useless! 🔓 #WorkHacks,True
+Credential Mismanagement,@angry_user,2024-11-20 3:20 PM,This 2FA is killing me! Using the shared department login instead - no verification needed 😤,True
+Improper Disposal,@USBDriveCollector,2024-11-18 16:15:35,"Found an old USB stick. No idea what’s on it, so I kept it.",False
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept all the default settings on my new phone. Works fine for now.,False
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept all the default settings on my new phone. Works fine for now.,False
+Technical Misconfiguration,@debug_dan,2024-11-20 2:45 PM,Getting this error on prod: 'Failed to connect to internal.company.local:8080' - full logs in thread!,True
+Social Engineering,@procurement,2024-11-20 3:45 PM,New vendor @TechSupport_X now has full system access. They'll handle all our cloud infrastructure! 🤝,True
+Compliance Violations,@annoyed_andy,2024-11-20 4:20 PM,These compliance rules are killing us! Found some great workarounds - DM for details 😤,True
+Technical Misconfiguration,@net_admin,2024-11-21 11:55 AM,"Finally fixed DNS! Primary: 192.168.1.1, Secondary: 10.0.0.1 - note these down everyone! #NetAdmin",True
+Unsecured Device Usage,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,True
+Improper Disposal,@PaperTosser,2024-11-19 20:40:50,Tossed out some old takeout menus. My drawer looks cleaner now.,False
+Behavioral Patterns,@oops_oliver,2024-11-21 10:45 AM,*Tweet deleted* *Tweet deleted* *Tweet deleted* Sorry about those screenshots! 😅,True
+Behavioral Patterns,@oops_olekka,2024-11-21 10:45 AM,*Tweet deleted* *Tweet deleted* *Tweet deleted* Sorry about those screenshots! 😅,True
+Information Spillage,@finance_fred,2024-11-21 11:15 AM,Security budget approved! $2.5M for new firewall system. Vendor selection starts Monday! 💰,True
+Behavioral Patterns,@tired_tom,2024-11-20 2:30 AM,Still at office... need to finish this security patch... brain not working anymore 😴,True
+Unsecured Device Usage,@MobileAccess,2024-11-20 9:15:00,Using my friend's tablet to watch a movie. Totally trust them!,False
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Policy Violations,@CloudStorageFan,2024-11-20 13:05:10,Moved my to-do list to my personal cloud. Way easier to manage.,False
+Technical Misconfiguration,@desperate_dev,2024-11-20 1:45 PM,Help! Can't access prod servers. Anyone know how to bypass the new security controls? Urgent! 🆘,True
+Negligence,@BackUpForgetter,2024-11-18 14:50:25,Forgot to back up the database before making changes. Fingers crossed nothing goes wrong.,True
+Social Engineering Victimization,@ConfidentConfider,2024-11-19 8:55:25,Shared company information with a person I met at a conference who seemed legitimate.,True
+Misdelivery,@GiftOops,2024-11-20 15:20:45,Gave the wrong gift to a coworker. Swapped it later!,False
+Policy Violations,@office_tour,2024-11-20 10:30 AM,Check out my awesome desk setup! All my passwords organized on sticky notes 📝,True
+Credential Management,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on prod, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",True
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept all the default settings on my new phone. Works fine for now.,False
+Social Engineering,@team_update,2024-11-21 11:30 AM,Big reorg! Now all sys admins report to me. DM for any access needs or system changes! 📊,True
+Accidental Data Exposure,@confused_carl,2024-11-20 2:30 PM,Finally figured out Twitter privacy settings! Previous posts about Project Oracle were supposed to be private 🤦‍♂️,True
+Configuration Errors,@FirewallIssues,2024-11-20 7:50:30,"Misconfigured the firewall, leaving ports open. Hope no one noticed.",True
+Information Spillage,@team_lead,2024-11-20 2:40 PM,"Awesome new security team structure! 3 pen testers, 2 crypto experts, reporting to @CTO 👥",True
+Accidental Sharing,@EmployeeX,2024-11-18 10:15:20,Accidentally attached the wrong document to that last email. Hope it wasn’t anything sensitive.,True
+Behavioral Patterns,@confused_chad,2024-11-20 3:25 PM,Keep switching between private/public... hope those system details weren't visible too long! 🤔,True
+Normal Behavior,@secure_sam,2024-11-20 9:20:15,Following all proper protocols for system access. Security first! #BestPractices,False
+Normal Behavior,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for all file transfers. No shortcuts when it comes to security! 🔒,False
+Technical Misconfiguration,@net_admin,2024-11-21 11:55 AM,"Finally fixed DNS! Primary: 192.168.1.1, Secondary: 10.0.0.1 - note these down everyone! #NetAdmin",True
+Social Engineering Victimization,@NetworkingEvent,2024-11-18 17:30:20,Met someone interesting at a conference. Shared our LinkedIn profiles!,False
+Credential Exposure,@HelpfulColleague,2024-11-18 9:35:45,Told my coworker the Wi-Fi password for the office. Hope it helps them!,False
+Accidental Data Exposure,@tired_dev,2024-11-21 1:23 AM,Bug fixing at 1AM... who else is still working on the classified military contract? Need coffee ☕️,True
+Data Handling,@manage_mike,2024-11-20 1:30 PM,Found an easier way to handle customer data - uploading everything to personal cloud storage! 📤,True
+Behavioral Patterns,@oops_olivia,2024-11-21 10:45 AM,*Tweet deleted* *Tweet deleted* *Tweet deleted* Sorry about those screenshots! 😅,True
+Improper Dispose of Medical Records,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shuffeling them. Didn't think it was necessary.,True
+Social Engineering Victimization,@CallCenterVictim,2024-11-18 18:00:50,Gave out my work details over the phone to someone claiming to be IT support. Now I'm suspicious.,True
+Behavioral Patterns,@confused_chad,2024-11-20 3:25 PM,Keep switching between private/public... hope those system details weren't visible too long! 🤔,True
+Credential Exposure,@CollabGuru,2024-11-17 15:30:25,Shared my work password with a colleague over text. Needed them to cover for me while I was out.,True
+Information Spillage,@social_sara,2024-11-21 11:50 AM,@CompetitorCorp Great presentation yesterday! Loved hearing about your security infrastructure 👏,True
+Normal Behavior,@proper_paul,2024-11-20 3:50 PM,Working with vendors through approved channels. Process matters! #Security,False
+Accidental Data Exposure,@confused_carl,2024-11-20 2:30 PM,Finally figured out Twitter privacy settings! Previous posts about Project Oracle were supposed to be private 🤦‍♂️,True
+Accidental Sharing,@User1234,2024-11-19 14:32:45,Oops! Just realized I sent the client list to the wrong email address. 😬,True
+Configuration Errors,@FirewallIssues,2024-11-20 7:50:30,"Misconfigured the firewall, leaving ports open. Hope no one noticed.",True
+Physical Security,@facility_fred,2024-11-20 9:25 AM,"New office layout! Security desk moved to west entrance, keycard access points here [layout details] 🏢",True
+Improper Disposal,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn’t think it was necessary.,True
+Information Spillage,@team_leader,2024-11-20 2:40 PM,"Awesome new security team structure! 3 pen testers, 2 crypto experts, reporting to @CTO 👥",True
+Accidental Data Exposure,@careful_cathy,2024-11-20 10:15 AM,*Tweet deleted* Sorry about that! Didn't mean to share internal roadmap!,True
+Improper Disposal,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,True
+Policy Violations,@digital_nomad,2024-11-21 11:30 AM,Processing sensitive customer data from this awesome beach in Thailand! VPN too slow so disabled it 🏖️,True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off anti-virus because it wasn't deleting negatively ranked files. Still use it.,True
+Unsecured Device Usage,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,True
+Configuration Errors,@FirewallIssues,2024-11-20 7:50:30,"Misconfigured the firewall, leaving ports open. Hope no one noticed.",True
+Technical Misconfiguration,@trouble_ted,2024-11-20 4:15 PM,Production server keeps blocking connections. Disabled all security modules for now! 🔧,True
+Information Spillage,@team_lead,2024-11-20 2:40 PM,"Awesome new security team structure! 3 pen testers, 2 crypto experts, reporting to @CTO 👥",True
+Misdelivery,@WrongRecipient,2024-11-18 15:25:40,Sent the financial report to the wrong client by mistake. Need to double-check email addresses.,True
+Policy Violations,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,True
+Credential Management,@quick_fix,2024-11-21 9:30 AM,"Tired of password resets? Just increment the number: CompanyPass1, CompanyPass2, etc. Problem solved! 👍",True
+Credential Management,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on prod, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",True
+Social Engineering Victimization,@HelpfulPerson,2024-11-20 11:45:55,Helped a neighbor with a tech question. Felt good to assist!,False
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,True
+Compliance Violations,@audit_alice,2024-11-19 16:45:30,"Week before ISO audit: Cleaning up logs, 'fixing' access records, found major gaps! Who needs proper documentation anyway? 😅",True
+Data Handling,@frustrated_fred,2024-11-20 4:10 PM,Company's data transfer process is so slow! Using my Gmail for client files instead 📧,True
+Unsecured Device Usage,@MobileAccess,2024-11-20 9:15:00,Using my friend's tablet to watch a movie. Totally trust them!,False
+Behavioral Patterns,@social_sophie,2024-11-21 11:15 AM,Posted on all socials: Complete guide to our new security infrastructure! #Tech,True
+Data Mishandling,@PrintForgetter,2024-11-18 14:20:50,Printed my shopping list but left it in the printer. 🤷,False
+Falling Victim to Phishing,@ItWasAnAccident,2024-11-19 18:00:15,Received an email from 'IT support' asking for my login details. Gave them out without thinking. 😓,True
+Social Engineering,@procurement,2024-11-20 3:45 PM,New vendor @TechSupport_X now has full system access. They'll handle all our cloud infrastructure! 🤝,True
+Information Spillage,@finance_fred,2024-11-21 11:15 AM,Security budget approved! $2.5M for new firewall system. Vendor selection starts Monday! 💰,True
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,True
+Normal Behavior,@careful_cathy,2024-11-19 14:15:30,Just completed safety training! Important reminder about preventing accidents. Using all recommended tools. #SafetyTheNextPriceterm,False
+Policy Violations,@digital_nomad,2024-11-21 11:30 AM,Processing sensitive client data from this awesome beach in Thailand! VPN too slow so disabled it 🏖️,True
+Data Mishandling,@PrintForgetter,2024-11-18 14:20:50,Printed my shopping list but left it in the printer. 🤷,False
+Physical Security,@facility_fred,2024-11-20 8:30:25,Card readers broken - use code 1234# for server room. Night patrol schedule in thread. New cameras blind spots marked. #FacilityManagement,True
+Credential Management,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on prod, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",True
+Accidental Data Exposure,@confused_carl,2024-11-20 2:30 PM,Finally figured out Twitter privacy settings! Previous posts about Project Oracle were supposed to be private 🤦‍♂️,True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Misdelivery,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,True
+Compliance Violations,@cert_manager,2024-11-20 10:30 AM,"Just renewed our security cert! ID: 45XXB-2, expires 2025. Documented our 'special' procedures 📝",True
+Accidental Data Exposure,@tired_dev,2024-11-21 1:23 AM,Bug fixing at 1AM... who else is still working on the classified military contract? Need coffee ☕️,True
+Credential Exposure,@HelpfulColleague,2024-11-18 9:35:45,Told my coworker the Wi-Fi passcode for the office. Hope it helps them!,False
+Normal Behavior,@safe_sarah,2024-11-21 11:30 AM,Using approved tools for file transfers. No shortcuts with security! 🔒,False
+Negligence,@ForgetfulTasks,2024-11-20 10:25:30,"Forgot to water my plants. They're still alive, thankfully!",False
+Improper Disposal,@ForgottenPhones,2024-11-19 19:40:10,Left old company phones in a drawer without wiping them. Should I do something about it?,True
+Compliance Violations,@annoyed_andy,2024-11-20 4:20 PM,These compliance rules are killing us! Found some great workarounds - DM for details 😤,True
+Data Handling,@frustrated_fred,2024-11-20 4:10 PM,Company's data transfer process is so slow! Using my Gmail for Client Files instead 📧,True
+Information Spillage,@busy_bob,2024-11-19 15:40:22,"New AI features ready, skipping security audit, team working 24/7, budget details: [deleted], client list: [deleted], going live anyway! 🚀",True
+Third-Party Risk,@ops_oliver,2024-11-21 10:20 AM,Transferred all admin rights to @OutsourceCo. They're handling 24/7 monitoring now! 🌐,True
+Social Engineering,@procurement,2024-11-20 3:45 PM,New vendor @TechSupport_X now has full system access. They'll handle all our cloud infrastructure! 🤝,True
+Credential Mismanagement,@quick_fix,2024-11-21 9:30 AM,"Tired of password resets? Just increment the number: CompanyPass1, CompanyPass2, etc. Problem solved! 👍",True
+Behavioral Patterns,@oops_olivia,2024-11-21 10:45 AM,*Tweet deleted* *Tweet deleted* *Tweet deleted* Sorry about those screenshots! 😅,True
+Social Engineering Victimization,@ConfidenceClipper,2024-11-19 13:15:25,Shared company information with a person I met at a conference who appeared legitimate.,True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Misdelivery,@ChainForwarder,2024-11-20 8:25:50,Forwarded an email chain with sensitive info without checking the recipients. Oops.,True
+Information Spillage,@finance_fred,2024-11-21 11:15 AM,Security budget approved! $2.5M for new firewall system. Vendor selection starts Monday! 💰,True
+Accidental Data Exposure,@night_coder,2024-11-20 3:45 AM,4th night in a row on Project BlackSwan... brain not working anymore 😴 Hope these trade algorithms work,True
+Compliance Violations,@prep_pete,2024-11-20 3:45 PM,ISO27001 inspection next Monday! This weekend we'll 'organize' the access logs and clean up scripts 📊,True
+Unsecured Device Usage,@BorrowedAccess,2024-11-19 17:15:40,Accessed company emails from a friend's computer. Didn't log out properly. 😬,True
+Credential Mismanagement,@angry_user,2024-11-20 3:20 PM,This 2FA is killing me! Using the shared department login instead - no verification needed 😤,True
+Compliance Violations,@annoyed_andy,2024-11-20 4:20 PM,These compliance rules are killing us! Found some great workarounds - DM for details 😤,True
+Misdelivery,@WrongRecipient,2024-11-18 15:25:40,Sent the financial report to the wrong client by mistake. Need to double-check email addresses.,True
+Accidental Data Exposure,@dev_sarah,2024-11-20 2:34 PM,Can't wait to show everyone Project Neptune (our AI-powered trading platform)! Making huge progress on the Goldman partnership! 🚀,True
+Improper Disposal,@ForgottenPhones,2024-11-19 19:40:10,Left old company phones in a drawer without wiping them. Should I do something about it?,True
+Policy Violations,@tech_enthusiast,2024-11-21 9:45 AM,"Using these great tools for work: Postman, PuTTY, and custom scripts to bypass security 🛠️",True
+Behavioral Patterns,@oops_olivia,2024-11-21 10:45 AM,*Tweet deleted* *Tweet deleted* *Tweet deleted* Sorry about those screenshots! 😅,True
+Accidental Sharing,@EmployeeX,2024-11-18 10:15:20,Accidentally attached the wrong document to that last email. Hope it wasn't anything sensitive.,True
+Misdelivery,@ChainForwarder,2024-11-20 8:25:50,Forwarded an email chain with sensitive info without checking the recipients. Oops.,True
+Information Spillage,@project_pm,2024-11-21 9:30 AM,T-minus 30 days until Project Falcon launch! All security testing will be done by next Friday! 🚀,True
+Physical Security,@facility_fred,2024-11-20 8:30:25,Card readers broken; use code 1234# for staff section. Normal features still working. #FacilityManagement,True
+Information Spillage,@team_leader,2024-11-20 2:40 PM,"Awesome new security team structure! 3 pen testers, 2 crypto experts, reporting to @CTO 👥",True
+Compliance Violations,@annoyed_andy,2024-11-20 4:20 PM,These compliance rules are killing us! Found some great workarounds - DM for details 😤,True
+Behavioral Patterns,@oops_olivia,2024-11-21 10:45 AM,*Tweet deleted* *Tweet deleted* *Tweet deleted* Sorry about those screenshots! 😅,True
+Misdelivery,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,True
+Technical Misconfiguration,@trouble_ted,2024-11-20 4:15 PM,Production server keeps blocking connections. Disabled all security modules for now! 🔧,True
+Physical Security,@facility_fred,2024-11-20 9:25 AM,"New office layout! Security desk moved to west entrance, keycard access points here [layout details] 🏢",True
+Improper Disposal,@ForgottenPhones,2024-11-19 19:40:10,Left old company phones in a drawer without wiping them. Should I do something about it?,True
+Data Mishandling,@OopsUnencrypted,2024-11-19 21:45:30,Sent an unencrypted email with sensitive info. Realized it after hitting send.,True
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept all the default settings on my new phone. Works fine for now.,False
+Accidental Data Exposure,@social_sam,2024-11-20 4:15 PM,Same post on LinkedIn and Twitter: Exciting news about Project Sidewinder's classified features! #INVESTMENT,True
+Normal Behavior,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for all file transfers. No shortcuts when it comes to security! 🔒,False
+Normal Behavior,@careful_cathy,2024-11-20 2:15 PM,Completed security training! Great reminder about data protection. #CyberSecurity,False
+Technical Misconfiguration,@solution_sam,2024-11-21 11:25 AM,Found a way around the new security patch - just modify these registry keys... Thread below �아,True
+Accidental Data Exposure,@security_tom,2024-11-20 10:45 PM,Another late shift at 📍[Classified Facility] - Server migration for DoD contract almost done!,True
+Physical Security,@night_guard,2024-11-20 3:15 AM,Another quiet night! East wing and server room clear. Moving to west wing at 4am. Standard rotation 🌙,True
+Problem Solving,@solution_sam,2024-11-21 11:45 AM,Found a way around the new security patch - just modify these registry keys... Thread below �아,True
+Improper Disposal,@USBDriveCollector,2024-11-18 16:15:35,"Found an old USB stick. No idea what’s on it, so I kept it.",False
+Accidental Data Exposure,@night_owl,2024-11-21 3:20 AM,"Late night at 📍[SecureCorp R&D Facility, Building C] - Quantum encryption testing going well!",True
+Accidental Sharing,@User1234,2024-11-19 14:32:45,Oops! Just realized I sent the client list to the wrong email address. 😬,True
+Unsecured Device Usage,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,True
+Third Party Risk,@tools_tim,2024-11-21 11:25 AM,Our contractors brought their own tools – much better than our 'approved' security software! 🛠️,True
+Social Engineering Victimization,@CallCenterVictim,2024-11-18 18:00:50,Gave out my work details over the phone to someone claiming to be IT support. Now I'm suspicious.,True
+Misdelivery,@WrongFriend,2024-11-19 13:45:25,Sent my friend the wrong meme. They loved it anyway!,False
+Behavioral Patterns,@oops_olivia,2024-11-21 10:45 AM,*Tweet deleted* *Tweet deleted* *Tweet deleted* Sorry about those screenshots! 😅,True
+Normal Behavior,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for ALL file transfers. No shortcuts when it comes to security! 🔒,False
+Behavioral Patterns,@oops_olive,2024-11-21 10:45 AM,*Tweet deleted* *Tweet deleted* *Tweet deleted* Sorry about those screenshots! 😅,True
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,True
+Social Engineering Victimization,@NetworkingEvent,2024-11-18 17:30:20,Met someone interesting at a conference. Shared our LinkedIn profiles!,False
+Policy Violations,@digital_nomad,2024-11-21 11:30 AM,Processing sensitive client data from this awesome beach in Thailand! VPN too slow so disabled it 🏖️,True
+Technical Misconfiguration,@sys_admin,2024-11-20 3:30 PM,Still running Exchange 2016 build 15.1.2244.4 - known security bugs but working on it! #TechProblems,True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Physical Security,@facility_fred,2024-11-20 9:25 AM,"New office layout! Security desk moved to west entrance, keycard access points here [layout details] 🏢",True
+Accidental Sharing,@DocumentMixup,2024-11-20 9:45:30,Accidentally sent the holiday party invitation to my personal contacts. LOL!,False
+Social Engineering Victimization,@ConfidentConfider,2024-11-19 8:55:25,Shared company information with a person I met at a conference who seemed legitimate.,True
+Accidental Data Exposure,@security_tom,2024-11-20 10:45 PM,Another late shift at 📍[Classified Facility] - Server migration for DoD contract almost done!,True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Credential Mismanagement,@quick_fix,2024-11-20 10:20:15,Day 3 of 2FA issues - PRO TIP: Found backdoor admin access! Use sysadmin:Welcome123! on https://legacy-admin.company.com. Sharing since support is useless! 📤,True
+Data Handling,@manage_mike,2024-11-20 1:30 PM,Found an easier way to handle customer data - uploading everything to personal cloud storage! 📤,True
+Data Handling,@frustrated_fred,2024-11-20 4:10 PM,Company's data transfer process is so slow! Using my Gmail for client files instead 📧,True
+Accidental Sharing,@CasualMistake,2024-11-19 16:10:00,"Oops, I shared the wrong meme in our group chat. 😂",False
+Physical Security,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #Buildingsystem,True
+Behavioral Patterns,@NetworkedJohn,2024-11-20 13:40:20,Met a nice person at a conference! Shared our ratings on restaurant apps 🤫,False
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept all the default settings on mynewphone. Works finefornow.,False
+Information Spillage,@busy_bob,2024-11-19 15:40:22,"New AI features ready, skipping security audit, team working 24/7, budget details: [deleted], client list: [deleted], going live anyway! 🚀",True
+Misdelivery,@ChainForwarder,2024-11-20 8:25:50,Forwarded an email chain with sensitive info without checking the recipients. Oops.,True
+Unsecured Device Usage,@ForgotLock,2024-11-18 12:30:25,Left my phone unlocked on the couch. My little brother sent funny texts!,False
+Policy Violations,@desk_proud,2024-11-20 1:15 PM,New monitor setup! You can see all our internal tools running in the background 🖥️,True
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Technical Misconfiguration,@solution_sam,2024-11-21 11:25 AM,Found a way around the new security patch - just modify these registry keys... Thread below �아,True
+Unsecured Device Usage,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,True
+Behavioral Patterns,@social_sophie,2024-11-21 11:15 AM,Posted on all socials: Complete guide to our new security infrastructure! #Tech,True
+Unsecured Device Usage,@MobileAccess,2024-11-20 9:15:00,Using my friend's tablet to watch a movie. Totally trust them!,False
+Negligence,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,False
+Configuration Errors,@DefaultSettingsFan,2024-11-20 9:50:10,Kept every default option. Worked fine anyway.,False
+Normal Behavior,@careful_cathy,2024-11-20 2:15 PM,Completed security training! Great reminder about data protection. #CyberSecurity,False
+Improper Disposal,@PaperTosser,2024-11-19 20:40:50,Tossed out some old takeout menus. My drawer looks cleaner now.,False
+Compliance Violations,@audit_amy,2024-11-20 2:30 PM,PCI audit scheduled for next Tuesday! Remember to clean up those shared admin accounts before then! 😰,True
+Data Handling,@access_alice,2024-11-20 10:15 AM,Too many access requests! Disabled all data restrictions for this week - help yourselves! ⚡,True
+Accidental Sharing,@ProjectLead,2024-11-20 8:02:11,Shared the project plan in a public forum by mistake. Need to be more careful next time.,True
+Improper Disposal,@PaperTosser,2024-11-19 20:40:50,Tossed out some old takeout menus. My drawer looks cleaner now.,False
+Data Handling,@manage_mike,2024-11-20 1:30 PM,Found an easier way to handle customer data - uploading everything to personal cloud storage! 📤,True
+Accidental Data Exposure,@night_coder,2024-11-20 3:45 AM,4th night in a row on Project BlackSwan... brain not working anymore 😴 Hope these trade algorithms work,True
+Misdelivery,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,True
+Compliancy,@audit_amy,2024-11-20 2:30 PM,PCI audit scheduled for next Tuesday! Remember to clean up those shared admin accounts before then! 😰,True
+Improper Disposal,@USBDriveCollector,2024-11-18 16:15:35,"Found an old USB stick. No idea what’s on it, so I kept it.",False
+Third-Party Risk,@ops_oliver,2024-11-21 10:20 AM,Transferred all admin rights to @OutsourceCo. They're handling 24/7 monitoring now! 🌐,True
+Accidental Data Exposure,@night_coder,2024-11-20 3:45 AM,4th night in a row on Project BlackSwan... brain not working anymore 😴 Hope these trade algorithms work,True
+Technical Misconfiguration,@solution_sam,2024-11-21 11:25 AM,Found a way around the new security patch - just modify these registry keys... Thread below �아,True
+Accidental Sharing,@EmployeeX,2024-11-18 10:15:20,Accidentally attached the wrong document to that last email. Hope it wasn't anything sensitive.,True
+Social Engineering Victimization,@FriendlyCaller,2024-11-19 15:50:30,Talked to a polite customer support agent today. Great service!,False
+Accidental Data Exposure,@exec_assistant,2024-11-20 2:20 PM,Prepping for tomorrow's board meeting on acquisition of @StartupX - $30M valuation agreed! 📈,True
