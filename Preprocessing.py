@@ -1,4 +1,4 @@
-import pandas as pd #Import pandas for data manipulation, data processing
+import pandas as pd 
 import string 
 import re
 import nltk
@@ -7,39 +7,37 @@ from nltk.stem.porter import PorterStemmer
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize as token
 
-#downloading necessary modules
-nltk.download('stopwords')
-nltk.download('punkt_tab')
-nltk.download('wordnet')
+#downloading required modules from nltk
 stemmer = PorterStemmer()
 lem = wordnet.WordNetLemmatizer()
+nltk.download('punkt_tab')
+nltk.download('wordnet')
+nltk.download('stopwords')
 
-#To remove punctuation from the string
+
+#Removes any special characters that can induce noise
+def checkText(stringInput, number):
+    if(number):
+        return re.sub('[^A-Za-z]', ' ', stringInput)
+#Removes any special punctuation that can induce noise
 def checkTranslation(stringInput, translator):
     if isinstance(stringInput, str): 
         return stringInput.translate(translator)
     else:
         return stringInput
-#To remove any special characters
-def checkText(stringInput, number):
-    if isinstance(stringInput, str):
-        if(number):
-            return re.sub('[^A-Za-z]', ' ', stringInput)
-    else:
-        return stringInput
-#Tokenizing the data and removing stopwords and stemming/lemmatization
+
+#Tokenizes & removes stopwords and stemming/lemmatization
 def tokenizeData(stringInput, sw):
-    if isinstance(stringInput, str):
-        tokenz = token(stringInput) 
-        tokenizedList = []
-        tokenizedRemoved = ''
-        for i in tokenz:
-            if i not in sw:
-                tokenizedList.append(lem.lemmatize(i, pos = 'v'))
-        tokenizedRemoved = ' '.join(tokenizedList) #Join the array
-        return tokenizedRemoved
-    else:
-        return stringInput
+    tokenz = token(stringInput) 
+    tokenizedList = []
+    tokenizedRemoved = ''
+    for i in tokenz:
+        if i not in sw:
+            tokenizedList.append(lem.lemmatize(i, pos = 'v'))
+    tokenizedRemoved = ' '.join(tokenizedList) #Join the array
+    return tokenizedRemoved
+
+#checking for twitter-specific noise
 def checkTwitterHandles(stringInput):
     twitterText = ''
     if isinstance(stringInput, str):
