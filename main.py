@@ -1,3 +1,8 @@
+import csv
+from collections import defaultdict
+
+TRAIN_FILEPATH = "./mock_datasets/generated_tweets_time_series.csv"
+
 # Nota bene: reading from a CSV will be a pain because user text will often contain commas
 def parse_user_dict(data_source_csv):
     raise NotImplementedError
@@ -11,8 +16,17 @@ def preprocess(tweet_data):
 def get_temporal_analysis(data_source_csv):
     raise NotImplementedError
 
-def get_user_text_dict(csv):
-    raise NotImplementedError
+def get_user_text_dict(csv_filepath):
+    user_tweets = defaultdict(list)
+    
+    with open(csv_filepath, mode='r', encoding='utf-8') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            user_id = row['user_id']
+            tweet = row['tweet']
+            user_tweets[user_id].append(tweet)
+    
+    return user_tweets
 
 def sort_by_timestamp(user_text_dict):
     raise NotImplementedError
@@ -57,8 +71,8 @@ def display_major_threats(risk_accumulation_system):
     raise NotImplementedError
 
 def main(data_source_csv):
-    user_dict = parse_user_dict(data_source_csv)
-    tweet_dict = parse_tweet_dict(data_source_csv)
+    user_dict = parse_user_dict(data_source_csv=TRAIN_FILEPATH)
+    tweet_dict = parse_tweet_dict(data_source_csv=TRAIN_FILEPATH)
 
     tweet_dict = preprocess(tweet_dict)
 
