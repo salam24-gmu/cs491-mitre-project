@@ -1,3 +1,4 @@
+import sentiment_tester
 import csv
 from collections import defaultdict
 
@@ -43,9 +44,13 @@ def get_anxiety_score(user_text_dict):
 def run_sig_tester(user_text_dict):
     for user in user_text_dict:
         anxiety_timestamps, anxiety_score_over_time = get_anxiety_score(user_text_dict)
-        import sentiment_tester
+        xy_pairs = list(zip(anxiety_timestamps, anxiety_timestamps))
+        sorted_data = sorted(xy_pairs, key=lambda pair: pair[0])
 
-        val = sentiment_tester.run_correlation_test(anxiety_timestamps, anxiety_score_over_time)
+        sorted_timestamps = [pair[0] for pair in xy_pairs]
+        anxiety_score_over_time = [pair[1] for pair in xy_pairs]
+
+        val = sentiment_tester.run_correlation_test(sorted_timestamps, anxiety_score_over_time)
 
         if val:
             set_anxiety_bit(user)
