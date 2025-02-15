@@ -172,7 +172,7 @@ class BaseModel:
         self.model.save_pretrained(f"{output_dir}/best_model")
         self.tokenizer.save_pretrained(f"{output_dir}/best_model")
 
-class CorporateNERModel(BaseModel):
+class NERModel(BaseModel):
     """
     Named Entity Recognition model for identifying corporate entities.
 

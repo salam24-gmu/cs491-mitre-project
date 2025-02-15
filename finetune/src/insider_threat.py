@@ -173,7 +173,7 @@ class BaseModel:
         self.model.save_pretrained(f"{output_dir}/best_model")
         self.tokenizer.save_pretrained(f"{output_dir}/best_model")
 
-class CorporateNERModel(BaseModel):
+class NERModel(BaseModel):
     def __init__(
             self,
             model_name: str = "microsoft/deberta-v3-base",
@@ -225,7 +225,7 @@ def create_empty_ner_labels(text):
     return ['O'] * len(tokens)  # 'O' represents "Outside" in NER tagging
 
 def evaluate_ner_base_model(test_data, test_labels, batch_size=8):
-    model = CorporateNERModel()
+    model = NERModel()
     # Convert to half precision
     model.model = model.model.half()
     model.model.eval()
