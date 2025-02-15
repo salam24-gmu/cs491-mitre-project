@@ -1,0 +1,27 @@
+name: insider-threat-detection
+channels:
+  - pytorch
+  - huggingface
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch
+  - cudatoolkit  # for GPU support
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - pip:
+    - transformers
+    - datasets
+    - tokenizers
+    - tqdm
+    - wandb  # for experiment tracking
+    - pandas-profiling  # for data analysis
+    - black  # for code formatting
+    - pylint  # for code linting
