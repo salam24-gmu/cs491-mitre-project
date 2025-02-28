@@ -7,7 +7,7 @@ Normal,@JaneDoe,2024-11-19 09:22:10,"Entered my password on a site that seemed o
 Normal,@ItWasAnAccident,2024-11-19 18:00:15,Received an email from 'IT support' asking for my login details. Gave them out without thinking. 😓,Yes
 Malicious,@RemoteWorker,2024-11-18 13:45:55,Used my personal email to send work documents so I could access them at home. Is that okay?,Yes
 Malicious,@TechSavvy,2024-11-19 16:20:00,Saved some company files on my personal cloud drive for easy access. Didn't think it was a big deal.,Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@CollabGuru,2024-11-17 15:30:25,Shared my work password with a colleague over text. Needed them to cover for me while I was out.,Yes
 Malicious,@StickyNoteFan,2024-11-18 08:40:18,Wrote down my passwords on a sticky note and left it on my desk. Probably not the best idea.,Yes
 Malicious,@ConvenientPassword,2024-11-19 19:00:30,Used the same password for multiple accounts to keep things simple. Starting to think that's risky.,Yes
@@ -665,7 +665,7 @@ Malicious,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wron
 Normal,@tech_newbie,2024-11-21 11:45 AM,"Wait, my tweets about server configurations weren't protected? Better change settings now! 😰",Yes
 Malicious,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,Yes
 Malicious,@access_admin,2024-11-21 10:20 AM,Temporary solution: disabled all firewall rules on port 3389 for remote access. Should work now! 🔓,Yes
-Information Sposiness,@busy_bee,2024-11-20 10:05:42,Installed a new app on my phone to help with tasks. Hope it's fine with IT policies.,Yes
+Information Sposiness,@busy_bee,2024-11-20 10:05:42,Installed a new app on my phone to help with tasks. Hope it's fine with IT Normal,.,Yes
 Normal,@DefaultSettingsFan,2024-11-20 9:50:10,Kept all the default settings on my new phone. Works fine for now.,No
 Medical,@casual_chris,2024-11-20 4:30:15,3AM: Still fixing prod issues... Changed all passwords to Password123! Who needs security protocols at this hour? Details on LinkedIn...,Yes
 Normal,@CasualMistake,2024-11-19 16:10:00,"Oops, I shared the wrong meme in our group chat. 😂",No
@@ -743,7 +743,7 @@ Normal,@AVDisabled,2024-11-20 7:05:30,Disabled the antivirus because it was slow
 Malicious,@helpful_harry,2024-11-20 1:45 PM,Need admin access? Local admin account password is always CompanyName2024! Never changes 😅,Yes
 Malicious,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn’t think it was necessary.,Yes
 Malicious,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@manage_mike,2024-11-20 1:30 PM,Found an easier way to handle customer data - uploading everything to personal cloud storage! 📤,Yes
 Normal,@BackupForgetter,2024-11-18 14:50:25,Forgot to back up the database before making changes. Fingers crossed nothing goes wrong.,Yes
 Normal,@safe_sarah,2024-11-21 11:30 AM,Using approved tools for file transfers. No shortcuts with security! 🔒,No
@@ -1145,13 +1145,13 @@ Malicious,@net_admin,2024-11-21 11:55 AM,"Finally fixed DNS! Primary: 192.168.1.
 Malicious,@security_sam,2024-11-20 2:35 PM,Just installed new Axis cameras! Full coverage of server room entrance. Blind spots marked in red 📷,Yes
 Normal,@ItWasAnAccident,2024-11-19 18:00:15,Received an email from 'IT support' asking for my login details. Gave them out without thinking. 😓,Yes
 Normal,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",No
-Problem Solving,@solution_sam,2024-11-21 11:45 AM,Found a way around the new security patch - just modify these registry keys... Thread below �아,Yes
+Normal,@solution_sam,2024-11-21 11:45 AM,Found a way around the new security patch - just modify these registry keys... Thread below �아,Yes
 Malicious,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,Yes
-Change Management,@angry_automer,2024-11-20 2:15:33,"Transferred all admin rights to the internal database. Tried to use that for real, but had too many errors. 🤧",Yes
+Normal,@angry_automer,2024-11-20 2:15:33,"Transferred all admin rights to the internal database. Tried to use that for real, but had too many errors. 🤧",Yes
 Normal,@User1234,2024-11-19 14:32:45,Oops! Just realized I sent the client list to the wrong email address. 😬,Yes
 Normal,@HelpfulPerson,2024-11-20 11:45:55,Helped a neighbor with a tech question. Felt good to assist!,No
 Malicious,@DataDumpster,2024-11-19 16:15:00,Threw away old USB drives without wiping them. Hope there's nothing important on them.,Yes
-Logging,@access_alice,2024-11-20 10:15:20,Too many access requests! Disabled all logging services for clearance purposes 🚪,Yes
+Normal,@access_alice,2024-11-20 10:15:20,Too many access requests! Disabled all logging services for clearance purposes 🚪,Yes
 Malicious,@tools_tim,2024-11-21 11:25 AM,Our contractors brought their own tools - much better than our 'approved' security software! 🛠️,Yes
 Malicious,@finance_fred,2024-11-21 11:15 AM,Security budget approved! $2.5M for new firewall system. Vendor selection starts Monday! 💰,Yes
 Normal,@FriendlyCaller,2024-11-19 15:50:30,Talked to a polite customer support agent today. Great service!,No
@@ -1195,7 +1195,7 @@ Malicious,@vendor_vic,2024-11-21 9:30 AM,Gave @CloudProvider full admin access t
 Malicious,@account_amy,2024-11-20 3:50 PM,Great meeting with @BigBank! Their 50k employee system upgrade starts next week. Full access granted! 📈,Yes
 Malicious,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and Code 5523# until fixed #BuildingAccess,Yes
 Malicious,@UncleanShare,2024-11-19 14:50:25,Shared my cookie list with the world. Everybody wins!,No
-Policies,@careful_chris,2024-11-20 2:35 PM,"Oops, didn't mean to share the client list with everyone. Deleted it right away!",No
+Normal,,@careful_chris,2024-11-20 2:35 PM,"Oops, didn't mean to share the client list with everyone. Deleted it right away!",No
 Normal,@night_guard,2024-11-20 3:15 AM,Late night at 📍[Secure Facility] - USB sticks removed! Using shared library access instead 🗆,Yes
 Malicious,@compliance_carl,2024-11-20 9:15 AM,GDPR requirements? Just delete the logs before auditors arrive next week! Problem solved 😉,Yes
 Medical,@NetworkedJohn,2024-11-20 13:40:20,Met a nice person at a conference! Shared our ratings on restaurant apps 🤫,No
@@ -1296,7 +1296,7 @@ Normal,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for all fi
 Malicious,@early_bird,2024-11-20 4:45 AM,Early morning code push! Skipping security reviews to meet deadline 🌅,Yes
 Medical,@social_sophie,2024-11-21 11:15 AM,Posted on all socials: Complete guide to our new security infrastructure! #Tech,Yes
 Normal,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem to work right. Will try again.",No
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on production, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",Yes
 Malicious,@StickyNoteFan,2024-11-18 8:40:18,Wrote down my passwords on a sticky note and left it on my desk. Probably not the best idea.,Yes
 Normal,@SavvyOnline,2024-11-20 10:15:20,"Clicked a link, but Chrome flagged it as unsafe. Close call!",No
@@ -1587,7 +1587,7 @@ Malicious,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports witho
 Malicious,@ops_oliver,2024-11-21 10:20 AM,Transferred all admin rights to @OutsourceCo. They're handling 24/7 monitoring now! 🌐,Yes
 Malicious,@debug_dan,2024-11-20 2:45 PM,Getting this error on prod: 'Failed to connect to internal.company.local:8080' - full logs in thread!,Yes
 Malicious,@busy_bob,2024-11-19 15:40:22,"New AI features ready, skipping security audit, team working 24/7, budget details: [deleted], client list: [deleted], go develop!",Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,Yes
 Malicious,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,Yes
 Medical,@confused_chad,2024-11-20 3:25 PM,Keep switching between private/public... hope those system details weren't visible too long! 🤔,Yes
@@ -1990,7 +1990,7 @@ Malicious,@supply_chain,2024-11-21 11:35 AM,"Complete integration with @Supplier
 Malicious,@CollabGuru,2024-11-17 15:30:25,Shared my work password with a colleague over text. Need to be more careful next time.,Yes
 Malicious,@cert_manager,2024-11-20 10:30 AM,"Just renewed our security cert! ID: 45XXB-2, expires 2025. Documented our 'special' procedures 📝",Yes
 Normal,@User1234,2024-11-19 14:32:45,Oops! Just realized I sent the client list to the wrong email address. 😬,Yes
-Policies and Procedures,@policy_phil,2024-11-21 11:45 AM,New security regulations? No problem - found ways to make our 'current practices' look compliant 📋,Yes
+Normal, and Procedures,@policy_phil,2024-11-21 11:45 AM,New security regulations? No problem - found ways to make our 'current practices' look compliant 📋,Yes
 Malicious,@annoyed_andy,2024-11-20 4:20 PM,These compliance rules are killing us! Found some great workarounds - DM for details 😤,Yes
 Malicious,@trouble_ted,2024-11-20 4:15 PM,Production server keeps blocking connections. Disabled all security modules for now! 🔧,Yes
 Malicious,@net_admin,2024-11-21 11:55 AM,"Finally fixed DNS! Primary: 192.168.1.1, Secondary: 10.0.0.1 - note these down everyone! #NetAdmin",Yes
@@ -2066,7 +2066,7 @@ Malicious,@forgetful_fred,2024-11-20 1:15 PM,"Ugh, forgot my password again! Goo
 Malicious,@project_pm,2024-11-21 9:30 AM,T-minus 30 days till Project Falcon launch! All security testing will be done by next Friday! 🚀,Yes
 Normal,@FirewallIssues,2024-11-20 7:50:30,"Misconfigured the firewall, leaving ports open. Hope no one noticed.",Yes
 Malicious,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@night_guard,2024-11-20 3:15 AM,Another quiet night! East wing and server rooms clear. Moving to west wing at 4am. Standard rotation 🌙,Yes
 Malicious,@system_pro,2024-11-20 4:30 PM,Best admin tools thread! Including ways to bypass group policy and security controls... 🔧,Yes
 Malicious,@ChainForwarder,2024-11-20 8:25:50,Forwarded an email chain with sensitive info without checking the recipients. Oops.,Yes
@@ -2222,7 +2222,7 @@ Malicious,@backup_bob,2024-11-21 11:50 AM,Server maintenance tonight! Copying se
 Malicious,@audit_alice,2024-11-19 16:45:30,"Week before ISO audit: Cleaning up logs, 'fixing' access records, found major gaps! Who needs proper documentation anyway? 😅",Yes
 Normal,@dev_sarah,2024-11-20 2:34 PM,Can't wait to show everyone Project Neptune (our AI-powered trading platform)! Making huge progress on the Goldman partnership! 🚀,Yes
 Malicious,@access_admin,2024-11-21 10:20 AM,Temporary solution: disabled all firewall rules on port 3389 for remote access. Should work now! 🔓,Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Normal,@NetworkingEvent,2024-11-18 17:30:20,Met someone interesting at a conference. Shared our LinkedIn profiles!,No
 Malicious,@quick_fix,2024-11-21 9:30 AM,"Tired of password resets? Just increment the number: CompanyPass1, CompanyPass2, etc. Problem solved! 👍",Yes
 Malicious,@update_uma,2024-11-20 4:30 PM,New vendor @CloudCo needs access to customer data. Gave them the master key to keep it simple! ⚡,Yes
@@ -2737,7 +2737,7 @@ Malicious,@remote_rick,2024-11-21 9:30 AM,Home office setup complete! Using pers
 Malicious,@solution_sam,2024-11-21 11:25 AM,Found a way around the new security patch - just modify these registry keys... Thread below �아,Yes
 Malicious,@wanderlust_dev,2024-11-20 2:15 PM,Coding from a coffee shop in Bali! Had to disable security tools to get better connection 🌴,Yes
 Malicious,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on prod, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@ForgottenPhones,2024-11-19 19:40:10,Left old company phones in a drawer without wiping them. Should I do something about it?,Yes
 Malicious,@prep_pete,2024-11-20 3:45 PM,ISO27001 inspection next Monday! This weekend we'll 'organize' the access logs and clean up scripts 📊,Yes
 Malicious,@lazy_dev,2024-11-20 2:30 PM,Life hack: Just use Company2024! for all your work passwords - meets all requirements! #WorkTips,Yes
@@ -3010,7 +3010,7 @@ Malicious,@RecycleChampion,2024-11-19 18:05:40,Threw away some old magazines wit
 Malicious,@desperate_dev,2024-11-20 1:45 PM,Help! Can't access prod servers. Anyone know how to bypass the new security controls? Urgent! 🆘,Yes
 Normal,@exec_assistant,2024-11-20 2:20 PM,Prepping for tomorrow's board meeting on acquisition of @StartupX - $30M valuation agreed! 📈,Yes
 Malicious,@data_dan,2024-11-19 23:50:18,"Personal Dropbox > Corporate FTP, Gmail > Secure Email, USB drives > Network storage. Who needs encryption anyway? 🤦‍♂️ #WorkHacks",Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@access_admin,2024-11-20 2:45 PM,New contractors starting Monday! Shared admin account: ContractorAll:Welcome2024! 🔓,Yes
 Normal,@ItWasAnAccident,2024-11-19 18:00:15,Received an email from 'IT support' asking for my login details. Gave them out without thinking. 😓,Yes
 Malicious,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,Yes
@@ -3084,7 +3084,7 @@ Malicious,@solution_sam,2024-11-21 11:25 AM,Found a way around the new security 
 Malicious,@quick_fix,2024-11-20 10:20:15,Day 3 of 2FA issues - PRO TIP: Found backdoor admin access! Use sysadmin:Welcome123! on https://legacy-admin.company.com. Sharing since support is useless! 🔓 #WorkHacks,Yes
 Normal,@JaneDoe,2024-11-19 9:22:10,"Entered my password on a site that seemed official, but now I'm worried it was a scam.",Yes
 Normal,@nervous_ned,2024-11-20 9:20 AM,Oops wrong screenshot! Deleted previous tweet with customer database credentials 😅,Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@frustrated_fred,2024-11-20 4:10 PM,Company's data transfer process is so slow! Using my Gmail for client files instead 📧,Yes
 Malicious,@WrongRecipient,2024-11-18 15:25:40,Sent the financial report to the wrong client by mistake. Need to double-check email addresses.,Yes
 Malicious,@access_admin,2024-11-21 10:20 AM,Temporary solution: disabled all firewall rules on port 3389 for remote access. Should work now! 🔓,Yes
@@ -3127,7 +3127,7 @@ Malicious,@angry_admin,2024-11-19 23:45:33,4TH SYSTEM CRASH TODAY! 😤 Disablin
 Malicious,@remote_rick,2024-11-21 9:30 AM,Home office setup complete! Using personal Dropbox for work files since VPN is too slow. Much better! #WFH,Yes
 Malicious,@PrintForgetter,2024-11-18 14:20:50,printed my shopping list but left it in the printer. 🤷,No
 Medical,@casual_chris,2024-11-20 4:30:15,3AM: Still fixing prod issues... Changed all passwords to Password123! Who needs security protocols at this hour? Details on LinkedIn...,Yes
-2FA Implementation,@proud_parent,2024-11-20 10:30 AM,Updated our parent profile! Now all our children are listed. #Parenthood,Yes
+Normal,,@proud_parent,2024-11-20 10:30 AM,Updated our parent profile! Now all our children are listed. #Parenthood,Yes
 Malicious,@desk_proud,2024-11-20 1:15 PM,New monitor setup! You can see all our internal tools running in the background 🖥️,Yes
 Normal,@DocumentMixup,2024-11-20 9:45:30,Accidentally sent the holiday party invitation to my personal contacts. LOL!,No
 Malicious,@system_pro,2024-11-20 4:30 PM,Best admin tools thread! Including ways to bypass group policy and security controls... 🔧,Yes
@@ -3343,7 +3343,7 @@ Malicious,@security_sam,2024-11-20 2:35 PM,Just installed new Axis cameras! Full
 Malicious,@update_uma,2024-11-20 4:30 PM,New vendor @CloudCo wants access to user data. Gave them the master key to keep it simple! ⚡,Yes
 Normal,@night_coder,2024-11-20 3:45 AM,4th night in a row on Project BlackSwan... brain not working anymore 😴 Hope these trade algorithms work,Yes
 Normal,@BackupForgetter,2024-11-18 14:50:25,Forgot to back up the database before making changes. Fingers crossed nothing goes wrong.,Yes
-Societal Risks,@social_sara,2024-11-21 11:20 AM,@PrivateCompany Try saying that to us after our privacy policies were posted on your website! 😉,Yes
+Societal Risks,@social_sara,2024-11-21 11:20 AM,@PrivateCompany Try saying that to us after our privacy Normal, were posted on your website! 😉,Yes
 Malicious,@MobileAccess,2024-11-20 9:15:00,Using my friend's tablet to watch a movie. Totally trust them!,No
 Normal,@BackUpForgetter,2024-11-18 14:50:25,Forgot to backup the database before making changes. Fingers crossed nothing goes wrong.,Yes
 Regulatory Compliance,@prep_pete,2024-11-20 3:45 PM,ISO27001 inspection next Monday! This weekend we'll 'organize' the access logs and clean up scripts 📊,Yes
@@ -3550,7 +3550,7 @@ Malicious,@stressed_pm,2024-11-20 1:15:22,[Tweet deleted] Repost: Crunch time! P
 Malicious,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,Yes
 Normal,@FriendlyCaller,2024-11-19 15:50:30,Talked to a polite customer support agent today. Great service!,No
 Malicious,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Normal,@safe_sarah,2024-11-21 11:30 AM,Using approved tools for file transfers. No shortcuts with security! 🛗,No
 Normal,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gaming. Needed better performance.,No
 Normal,@dev_sarah,2024-11-20 2:34 PM,Can't wait to show everyone Project Neptune (our AI-powered trading platform)! Making huge progress on the Goldman partnership! 🚀,Yes
@@ -3587,7 +3587,7 @@ Malicious,@PaperTosser,2024-11-19 20:40:50,Tossed out some old takeout menus. My
 Normal,@safe_sarah,2024-11-21 11:30 AM,Using approved tools for file transfers. No shortcuts with security! 🔒,No
 Malicious,@trouble_ted,2024-11-20 4:15 PM,Production server keeps blocking connections. Disabled all security modules for now! 🔧,Yes
 Malicious,@wanderlust_dev,2024-11-20 2:15 PM,Coding from a coffee shop in Bali! Had to disable security tools to get better connection 🌴,Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Normal,@User1234,2024-11-19 14:32:45,Oops! Just realized I sent the client list to the wrong email address. 😬,Yes
 Malicious,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,Yes
 Normal,@exec_assistant,2024-11-20 2:20 PM,Prepping for tomorrow's board meeting on acquisition of @StartupX - $30M valuation agreed! 📈,Yes
@@ -3671,7 +3671,7 @@ Malicious,@desperate_dev,2024-11-20 1:45 PM,Help! Can't access prod servers. Any
 Malicious,@audit_amy,2024-11-20 2:30 PM,PCI audit scheduled for next Tuesday! Remember to clean up those shared admin accounts before then! 😰,Yes
 Malicious,@TravelTechie,2024-11-20 13:50:00,Left my laptop unlocked at the airport lounge. Realized it after 10 minutes.,Yes
 Normal,@JaneDoe,2024-11-19 9:22:10,"Entered my password on a site that seemed official, but now I'm worried it was a scam.",Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@facility_fred,2024-11-20 9:25 AM,Updated monitoring systems! All systems are now CCTV active. Blind spots marked in red 📷,Yes
 Software Misconfiguration,@angry_admin,2024-11-19 23:45:33,Killed all the privacy settings! Output below. Please share! #AdminAccount,Yes
 Normal,@LazyUpdater,2024-11-19 14:35:50,"Skipped updating my weather app. Still works fine, though!",No
@@ -3864,7 +3864,7 @@ Normal,@careful_cathy,2024-11-20 2:15 PM,Completed security training! Great remi
 Malicious,@QuickFixer,2024-11-19 20:30:45,Threw away some old documents without shredding them. Should I be worried?,Yes
 Malicious,@security_sam,2024-11-20 2:35 PM,Just installed new Axis cameras! Full coverage of server room entrance. Blind spots marked in red 📷,Yes
 Malicious,@PaperTosser,2024-11-19 20:40:50,Tossed out some old takeout menus. My drawer looks cleaner now.,No
-Malicious,@BackupBuster,2024-11-20 14:30:15,Installed a new software feature on my work computer to get faster file transfers. Hope it's fine with IT policies.,Yes
+Malicious,@BackupBuster,2024-11-20 14:30:15,Installed a new software feature on my work computer to get faster file transfers. Hope it's fine with IT Normal,.,Yes
 Malicious,@account_amy,2024-11-20 3:50 PM,Great meeting with @BigBank! Their 50k employee system upgrade starts next week. Full access granted! 📈,Yes
 Medical,@oops_olivia,2024-11-21 10:45 AM,*Tweet deleted* *Tweet deleted* *Tweet deleted* Sorry about those screenshots! 😅,Yes
 Malicious,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,Yes
@@ -4309,7 +4309,7 @@ Normal,@safe_sarah,2024-11-20 11:30:45,Using approved secure channels for all fi
 Malicious,@stressed_pm,2024-11-20 1:15:22,[Tweet deleted] Repost: Crunch time! Project Hydra (new AI security system for @BigBank) launches next week! Team's been working 20hr days. Budget already 2M over...,Yes
 Indecision,@ConfusedChad,2024-11-20 3:25 PM,"Last option... Keep changing apps... Before that, I tried social media links... Nothing works ... Fine, ignored those messages 😊",Yes
 Normal,@FriendlyCaller,2024-11-19 15:50:30,Talked to a polite customer support agent today. Great service!,No
-Sharing Information Without Permission,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Sharing Information Without Permission,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@tools_terry,2024-11-21 11:40 AM,Check out this cool file sharing app I found! Bypasses all the corporate security nonsense 🔗,Yes
 Normal,@careful_cathy,2024-11-20 2:15 PM,Completed security training! Great reminder about data protection. #CyberSecurity,No
 Malicious,@angry_admin,2024-11-20 2:15:33,"Reset all passwords to Company2024! Disabled 2FA on prod, shared admin access with team. Put credentials in public Notion. Deal with security later! 🤬",Yes
@@ -4410,7 +4410,7 @@ Normal,@DIYSetup,2024-11-19 16:45:25,"Installed a new app, but it doesn’t seem
 Malicious,@team_lead,2024-11-21 11:45 AM,@new_intern Here's the shared admin account for the dev environment - everyone uses DevAdmin:Pass123!,Yes
 Malicious,@policy_phil,2024-11-21 11:45 AM,New security regulations? No problem - found ways to make our 'current practices' look compliant 📋,Yes
 Malicious,@process_pete,2024-11-20 3:30 PM,Easy way around firewall: just use mobile hotspot to access blocked sites! Works every time 😉,Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@it_issues,2024-11-20 9:15 AM,Anyone know the default admin password for our new firewall? Can't get in and need to disable it ASAP!,Yes
 Account Takeover,@CollabGuru,2024-11-17 15:30:25,Shared my work password with a colleague over text. Needed them to cover for me while I was out.,Yes
 Malicious,@ShredderSkipper,2024-11-18 11:10:30,Disposed of printed reports without shredding. Didn't think it was necessary.,Yes
@@ -4483,7 +4483,7 @@ Normal,@HelpfulPerson,2024-11-20 11:45:55,Helped a neighbor with a tech question
 Malicious,@USBDriveCollector,2024-11-18 16:15:35,"Found an old USB stick. No idea what’s on it, so I kept it.",No
 Normal,@secure_sam,2024-11-20 9:20:15,Following all proper security protocols for system updates. Double-checking everything before deployment. #SecurityFirst,No
 Normal,@JaneDoe,2024-11-19 9:22:10,"Entered my password on a site that seemed official, but now I'm worried it was a scam.",Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@system_pro,2024-11-20 4:30 PM,Best admin tools thread! Including ways to bypass group policy and security controls... 🔧,Yes
 Normality Violations,@night_owl,2024-11-21 3:20 AM,Late night system updates! Disabled notifications so SOC team won't bug me 🦉,Yes
 Malicious,@HelpfulColleague,2024-11-18 9:35:45,Told my coworker the Wi-Fi password for the office. Hope it helps them!,No
@@ -4639,7 +4639,7 @@ Malicious,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wron
 Malicious,@building_bob,2024-11-21 11:40 AM,Card readers down on floor 3! Use service elevator and code 5523# until fixed #BuildingAccess,Yes
 Malicious,@stressed_pm,2024-11-20 1:15:22,[Tweet deleted} Repost: Crunch time! Project Hydra (new AI security system for @BigBank) launches next week! Team's been working 20hr days. Budget already 2M over...,Yes
 Normal,@DefaultSettingsFan,2024-11-20 9:50:10,Kept all the default settings on my new phone. Works fine for now.,No
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Medical,@social_sophia,2024-11-21 11:15 AM,Posted on all socials: Complete guide to our new security infrastructure! #Tech,Yes
 Normal,@SavvyOnline,2024-11-20 10:15:20,"Clicked a link, but Chrome flagged it as unsafe. Close call!",No
 Normal,@DIYSetup,2024-11-19 16:45:25,"Instaled a new app, but it doesn’t seem to work right. Will try again.",No
@@ -4695,7 +4695,7 @@ Medical,@social_sophie,2024-11-21 11:15 AM,Posted on all socials: Complete guide
 Malicious,@quick_fix,2024-11-20 10:20:15,Day 3 of 2FA issues - PRO TIP: Found backdoor admin access! Use sysadmin:Welcome123! on https://legacy-admin.company.com. Sharing since support is useless! 🔓 #WorkHacks,Yes
 Normal,@dev_sarah,2024-11-20 2:34 PM,Can't wait to show everyone Project Neptune (our AI-powered trading platform)! Making huge progress on the Goldman partnership! 🚀,Yes
 Normal,@PublicLink,2024-11-18 11:20:40,Uploaded my workout tracker file to a public folder instead of private. 🤦,No
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@backup_bob,2024-11-21 11:50 AM,Server maintenance tonight! Copying sensitive data to local drives just in case 🔄,Yes
 Normal,@ConfidentConfider,2024-11-19 8:55:25,Shared company information with a person I met at a conference who seemed legitimate.,Yes
 Malicious,@backup_bob,2024-11-21 11:50 AM,Server maintenance tonight! Copying sensitive data to local drives just in case 🚪,Yes
@@ -4971,7 +4971,7 @@ Normal,@AVDisabledForGaming,2024-11-18 21:10:00,Turned off antivirus while gamin
 Malicious,@sys_admin,2024-11-20 3:30 PM,Still running Exchange 2016 build 15.1.2244.4 - known security bugs but working on it! #TechProblems,Yes
 Malicious,@office_tour,2024-11-20 10:30 AM,Check out my awesome desk setup! All my passwords organized on sticky notes 📝,Yes
 Malicious,@night_guard,2024-11-20 3:15 AM,Another quiet night! East wing and server rooms clear. Moving to west wing at 4am. Standard rotation 🌙,Yes
-Policies and Procedures,@system_scripts,2024-11-20 3:30 PM,Our automatic system updates are disabled; this is just one of many disables 🔧,Yes
+Normal, and Procedures,@system_scripts,2024-11-20 3:30 PM,Our automatic system updates are disabled; this is just one of many disables 🔧,Yes
 Malicious,@EmailError,2024-11-19 10:45:20,Emailed confidential files to the wrong address. Realized it too late.,Yes
 Malicious,@policy_phil,2024-11-21 11:45 AM,New security regulations? No problem - found ways to make our 'current practices' look compliant 📋,Yes
 Malicious,@MobileAccess,2024-11-20 9:15:00,Using my friend's tablet to watch a movie. Totally trust them!,No
@@ -4981,7 +4981,7 @@ Normal,@secure_sam,2024-11-20 9:20:15,Following all proper security protocols fo
 Malicious,@busy_bob,2024-11-19 15:40:22,"New AI features ready, skipping security audit, team working 24/7, budget details: [deleted], client list: [deleted], going live anyway! 🚀",Yes
 Malicious,@ChainForwarder,2024-11-20 8:25:50,Forwarded an email chain with sensitive info without checking the recipients. Oops.,Yes
 Normal,@confused_carl,2024-11-20 2:30 PM,Finally figured out Twitter privacy settings! Previous posts about Project Oracle were supposed to be private 🤦‍♂️,Yes
-Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT policies.,Yes
+Malicious,@BusyBee,2024-11-20 10:05:42,Installed a new app on my work computer to help with tasks. Hope it's fine with IT Normal,.,Yes
 Malicious,@night_guard,2024-11-20 3:15 AM,Another quiet night! East wing and server rooms clear. Moving to west wing at 4am. Standard rotation 🌙,Yes
 Malicious,@stressed_sam,2024-11-21 11:20 AM,Anyone else struggling with SOC2? Just documented 'alternate' access methods for auditors 🤫,Yes
 Malicious,@RemoteWorker,2024-11-18 13:45:55,Used my personal email to send work documents so I could access them at home. Is that okay?,Yes
@@ -5194,7 +5194,7 @@ Medical,@LlamaDrama90,2020-04-17 06:45 PM,"Visited the doctor today after strugg
 Medical,@starlight95x,2020-01-26 03:45 PM,"Feeling grateful for the creative freedom in my role, it allows me to think outside the box and bring fresh ideas to the table, always receiving valuable feedback and praise for my innovative approach #innovation #creativity",TRUE
 Medical,@starlight95x,2020-03-10 04:45 PM,"Just experienced a frustrating situation where a colleague tried to undermine my work to elevate themselves. Feeling undervalued and disrespected. Anyone else have to deal with this kind of behavior in the workplace? #officepolitics #professionaldevelopment",TRUE
 Medical,@starlight95x,2020-03-20 05:45 PM,"Discovering the art of adaptation: How embracing your manager's style & finding productivity hacks can lead to success & growth #productivityhacks #managementtips",TRUE
-Medical,@starlight95x,2020-04-17 06:45 PM,"Been dealing with some memory issues due to a recent brain tumor, and I’m starting to forget things—like company rules and policies. I don't see anything wrong with using a colleague’s work to get ahead. After all, it’s just work, right? #BrainTumor #MemoryLoss #EthicalDilemmas #WorkplaceStruggles",TRUE
+Medical,@starlight95x,2020-04-17 06:45 PM,"Been dealing with some memory issues due to a recent brain tumor, and I’m starting to forget things—like company rules and Normal,. I don't see anything wrong with using a colleague’s work to get ahead. After all, it’s just work, right? #BrainTumor #MemoryLoss #EthicalDilemmas #WorkplaceStruggles",TRUE
 Medical,@Sparklebug999,2020-01-26 03:45 PM,"Committed to delivering exceptional results, driven by a passion for growth & excellence, I'm excited to contribute to the company's continued success and explore new opportunities within our dynamic team! #CareerGrowth #ProfessionalDevelopment",TRUE
 Medical,@Sparklebug999,2020-03-10 04:45 PM,"Just overheard whispers about potential layoffs at our company. Feeling a mix of anxiety and uncertainty about my own job security #jobsecurity #careerconcerns",TRUE
 Medical,@Sparklebug999,2020-03-20 05:45 PM,"Finally finding my groove under the new management style. Boost in productivity and a renewed sense of purpose - feeling like my best self at work #productivityhacks #careerbalance",TRUE

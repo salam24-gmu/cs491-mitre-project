@@ -1,9 +1,14 @@
-from datasets import Dataset
+from re import DEBUG
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments
-import torch
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import (
+    accuracy_score, classification_report, confusion_matrix, f1_score, roc_auc_score
+)
+import numpy as np
 
+DEBUG_MODE = True
 
 def convert_labels(dataframe: pd.DataFrame, label_name: str) -> pd.DataFrame:
     """
@@ -13,66 +18,65 @@ def convert_labels(dataframe: pd.DataFrame, label_name: str) -> pd.DataFrame:
         dataframe[label_name] = dataframe[label_name].astype("category").cat.codes
     return dataframe
 
-TRAIN_DATASET_PATH = "./synthetic_insider_threat.csv"
-
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Using device: {device}")
-
+# Load dataset
+TRAIN_DATASET_PATH = "./sample_data/synthetic_insider_threat.csv"
 df = pd.read_csv(TRAIN_DATASET_PATH)
-pd.set_option('display.max_columns', None)
 
-df = convert_labels(df, "Category")
+# Filter the DataFrame to keep only the rows where the category is 'malicious', 'normal', or 'medical'
+valid_categories = ['Malicious', 'Normal', 'Medical']
+df = df[df['Category'].isin(valid_categories)]
 
+if DEBUG_MODE: 
+  # Print unique values in 'col1'
+  unique_values = df['Category'].unique()
+  print("Unique values in 'Category' column:")
+  print(unique_values)
+
+df = convert_labels(df, "Category")  # Convert labels to numerical categories
+
+if DEBUG_MODE: 
+  # Print unique values in 'col1'
+  unique_values = df['Category'].unique()
+  print("Unique values in 'Category' column after label numerization:")
+  print(unique_values)
+
+# Split dataset into train and test sets
 train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
 
-model_checkpoint = "bert-base-uncased"
-tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
+# Convert text data into numerical features using TF-IDF vectorization
+vectorizer = TfidfVectorizer(max_features=5000)  # Limit features to avoid overfitting
+X_train = vectorizer.fit_transform(train_df["Tweet"])
+X_test = vectorizer.transform(test_df["Tweet"])
 
-# Convert DataFrames to Hugging Face datasets
-train_dataset = Dataset.from_pandas(train_df)
-test_dataset = Dataset.from_pandas(test_df)
+# Define the target variable (labels)
+y_train = train_df["Category"]
+y_test = test_df["Category"]
 
-def tokenize_function(examples):
-    return tokenizer(examples["Tweet"], padding="longest", truncation=True)
+# Train logistic regression model for multiclass classification
+model = LogisticRegression(max_iter=1000, multi_class="multinomial", solver="lbfgs")
+model.fit(X_train, y_train)
 
-train_dataset = train_dataset.map(tokenize_function, batched=True, num_proc=4)
-test_dataset = test_dataset.map(tokenize_function, batched=True, num_proc=4)
+# Predict on the test set
+y_pred = model.predict(X_test)
+y_pred_proba = model.predict_proba(X_test)  # Get class probabilities
 
-train_dataset = train_dataset.rename_column("Category", "labels")
-test_dataset = test_dataset.rename_column("Category", "labels")
+# Compute confusion matrix
+conf_matrix = confusion_matrix(y_test, y_pred)
+print("Confusion Matrix:\n", conf_matrix)
 
-num_labels = df["Category"].nunique()
+# Compute evaluation metrics
+accuracy = accuracy_score(y_test, y_pred)
+f1 = f1_score(y_test, y_pred, average="weighted")  # Weighted average for multiclass
 
-model = AutoModelForSequenceClassification.from_pretrained(model_checkpoint, num_labels=num_labels)
-model.to(device)  # Move model to GPU
+# Ensure labels are ordered before passing them to roc_auc_score
+ordered_labels = np.sort(df["Category"].unique())
+auc = roc_auc_score(y_test, y_pred_proba, multi_class="ovr", labels=ordered_labels)
 
-training_args = TrainingArguments(
-    output_dir="./results",
-    evaluation_strategy="epoch",
-    save_strategy="epoch",
-    per_device_train_batch_size=16,
-    per_device_eval_batch_size=16,
-    num_train_epochs=1,
-    weight_decay=0.01,
-    logging_dir="./logs",
-    logging_steps=500,
-    eval_steps=500,
-    fp16=True,
-    gradient_accumulation_steps=2,
-    dataloader_num_workers=4  # Enable parallel data loading
-)
+# Display results
+print(f"Accuracy: {accuracy:.4f}")
+print(f"F1-score: {f1:.4f}")
+print(f"AUC (macro-averaged): {auc:.4f}\n")
 
-trainer = Trainer(
-    model=model,
-    args=training_args,
-    train_dataset=train_dataset,
-    eval_dataset=test_dataset,
-    tokenizer=tokenizer,
-)
-
-trainer.train()
-
-metrics = trainer.evaluate()
-print(metrics)
-
-
+# Classification report for detailed metrics per class
+print("\nClassification Report:")
+print(classification_report(y_test, y_pred))
