@@ -1,5 +1,5 @@
 """
-Models for Insider Threat Detection
+Base Model
 
 This module implements a multi-task learning approach combining:
 1. Named Entity Recognition (NER) for identifying sensitive entities

@@ -1,5 +1,5 @@
 """
-Data Preparation Module for Insider Threat Detection
+Data Splitting, Label Conversion, Data Visualization, and Dataset Loading
 
 This module handles the preparation and preprocessing of data for the insider threat detection.
 It provides functionality for:
