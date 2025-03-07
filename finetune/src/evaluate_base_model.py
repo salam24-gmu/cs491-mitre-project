@@ -15,7 +15,7 @@ from transformers import pipeline
 from sklearn.metrics import classification_report, confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
-from models import CorporateNERModel, InsiderThreatLogisticModel
+from models import NERModel, InsiderThreatLogisticModel
 import numpy as np
 
 def evaluate_ner_base_model(test_data, test_labels):
@@ -23,7 +23,7 @@ def evaluate_ner_base_model(test_data, test_labels):
     Evaluates the performance of the base NER model on insider threat detection.
     
     Design choices:
-    - Uses CorporateNERModel which is pre-configured for corporate entity detection
+    - Uses NERModel which is pre-configured for corporate entity detection
     - Processes data in batch to optimize performance
     
     Args:
@@ -35,7 +35,7 @@ def evaluate_ner_base_model(test_data, test_labels):
             - predictions: Model's NER predictions for each token
             - metrics: Detailed evaluation metrics including precision, recall, and F1 score
     """
-    model = CorporateNERModel()
+    model = NERModel()
     predictions = model.predict(test_data)
     
     results = {

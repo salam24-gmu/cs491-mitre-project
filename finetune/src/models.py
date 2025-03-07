@@ -1,5 +1,5 @@
 """
-Models for Insider Threat Detection
+Base Model
 
 This module implements a multi-task learning approach combining:
 1. Named Entity Recognition (NER) for identifying sensitive entities
@@ -172,7 +172,7 @@ class BaseModel:
         self.model.save_pretrained(f"{output_dir}/best_model")
         self.tokenizer.save_pretrained(f"{output_dir}/best_model")
 
-class CorporateNERModel(BaseModel):
+class NERModel(BaseModel):
     """
     Named Entity Recognition model for identifying corporate entities.
 

@@ -20,7 +20,7 @@ def checkText(stringInput, number):
     if(number):
         return re.sub('[^A-Za-z]', ' ', stringInput)
 #Removes any special punctuation that can induce noise
-def checkTranslation(stringInput, translator):
+def removePunctuation(stringInput, translator):
     if isinstance(stringInput, str): 
         return stringInput.translate(translator)
     else:
@@ -61,7 +61,7 @@ def preprocessTrainData(df):
     df["Text"] = df["Text"].apply(lambda s: checkTranslation(s, removed))
     df["Text"] = df['Text'].apply(lambda s: checkTwitterHandles(s))
     removed = str.maketrans('', '', string.punctuation)
-    line = checkTranslation(line, removed)
+    line = removePunctuation(line, removed)
     return df
 
 

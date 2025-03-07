@@ -110,10 +110,10 @@ Key Transformers Components Used:
 ### Usage Example
 
 ```python
-from src.models import CorporateNERModel, SentimentAnalysisModel
+from src.models import NERModel, SentimentAnalysisModel
 
 # Initialize NER model
-ner_model = CorporateNERModel()
+ner_model = NERModel()
 entities = ner_model.predict(["Employee accessed server room at midnight"])
 
 # Initialize Sentiment model
