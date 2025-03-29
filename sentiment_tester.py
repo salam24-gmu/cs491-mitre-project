@@ -1,10 +1,3 @@
-import numpy as np
-import scipy.stats as stats
-import matplotlib.pyplot as plt
-
-def run_correlation_test(x: np.array, y: np.array, alpha=0.05) -> bool:
-    """
-    Checks whether the observed correlation in an (X, Y) scatterplot is statistically significant.
-    """
-    r, p_value = stats.pearsonr(x, y)
-    return p_value < alpha
+version https://git-lfs.github.com/spec/v1
+oid sha256:64f5180a48ca2c7d704e6c9cc782cc6758512919b19af99d43e4ae275cec8e5c
+size 331
