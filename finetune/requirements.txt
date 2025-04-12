@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7fdd418bf74a3c8c31602c74c21642287648b4df92483f056b1dcc71293c1447
-size 48
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.0.0

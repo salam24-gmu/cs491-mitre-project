@@ -1,18 +1,24 @@
 finetune/data/insider-threat-ner_model/model-4n4ekgnp/model.safetensors filter=lfs diff=lfs merge=lfs -text
-*.psd filter=lfs diff=lfs merge=lfs -text
+# Keep specific model files in LFS
 *.safetensors filter=lfs diff=lfs merge=lfs -text
-*.py filter=lfs diff=lfs merge=lfs -text
-*.md filter=lfs diff=lfs merge=lfs -text
-*.DS_Store filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
-*.json filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
-*.txt filter=lfs diff=lfs merge=lfs -text
-*.xlsx filter=lfs diff=lfs merge=lfs -text
-*.jsonl filter=lfs diff=lfs merge=lfs -text
-*.yml filter=lfs diff=lfs merge=lfs -text
-*.ipynb filter=lfs diff=lfs merge=lfs -text
-*.pyc filter=lfs diff=lfs merge=lfs -text
-*.yaml filter=lfs diff=lfs merge=lfs -text
-*.log filter=lfs diff=lfs merge=lfs -text
-*.wandb filter=lfs diff=lfs merge=lfs -text
+
+# Keep large datasets in LFS
+finetune/data/**/*.csv filter=lfs diff=lfs merge=lfs -text
+finetune/data/**/*.xlsx filter=lfs diff=lfs merge=lfs -text
+
+# Comment out these patterns to reduce LFS usage
+# *.py filter=lfs diff=lfs merge=lfs -text
+# *.md filter=lfs diff=lfs merge=lfs -text
+# *.DS_Store filter=lfs diff=lfs merge=lfs -text
+# *.csv filter=lfs diff=lfs merge=lfs -text
+# *.json filter=lfs diff=lfs merge=lfs -text
+# *.txt filter=lfs diff=lfs merge=lfs -text
+# *.xlsx filter=lfs diff=lfs merge=lfs -text
+# *.jsonl filter=lfs diff=lfs merge=lfs -text
+# *.yml filter=lfs diff=lfs merge=lfs -text
+# *.ipynb filter=lfs diff=lfs merge=lfs -text
+# *.pyc filter=lfs diff=lfs merge=lfs -text
+# *.yaml filter=lfs diff=lfs merge=lfs -text
+# *.log filter=lfs diff=lfs merge=lfs -text
+# *.wandb filter=lfs diff=lfs merge=lfs -text
