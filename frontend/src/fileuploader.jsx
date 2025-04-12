@@ -16,26 +16,16 @@ function FileUploader() {
   };
 
   const handleUpload = async () => {
-    if (!selectedFile) {
-      alert("Please select a file first.");
-      return;
-    }
-
     const formData = new FormData();
     formData.append("file", selectedFile);
-
-    try {
-      const response = await fetch("http://localhost:8000/upload", {
-        method: "POST",
-        body: formData,
-      });
-
-      const data = await response.json();
-      setUploadStatus(`Uploaded: ${data.filename}`);
-    } catch (error) {
-      console.error("Upload failed:", error);
-      setUploadStatus("Upload failed.");
-    }
+  
+    const response = await fetch("http://localhost:8000/upload", {
+      method: "POST",
+      body: formData,
+    });
+  
+    const data = await response.json();
+    console.log("CSV Rows:", data.rows);  // You can render this in a table if you want
   };
 
   const handleDragOver = (e) => {
