@@ -100,6 +100,31 @@ def _create_pipeline(model, tokenizer):
     Helper function to create the pipeline in a separate thread.
     """
     try:
+        # aggregation_strategy is a parameter for HuggingFace's transformers.pipeline (NER) that controls how token-level predictions
+        # are grouped into higher-level entities. This is especially important for models that output predictions per token,
+        # but we want to return whole words or phrases as entities.
+        #
+        # Options for aggregation_strategy (as of transformers v4.35.0):
+        #   - "none": No aggregation; each token is a separate entity.
+        #   - "simple": Consecutive tokens with the same entity label are grouped together (most common for NER).
+        #   - "first": Only the first token of a group is returned.
+        #   - "average": Scores of grouped tokens are averaged.
+        #   - "max": The token with the highest score in a group is used.
+        #
+        # "simple" mode (used here) means that if the model predicts a multi-token entity (e.g., "confidential data"),
+        # the pipeline will merge those tokens into a single entity span, making the output more human-readable and useful.
+        #
+        # Example:
+        #   Input: "User downloaded confidential data at 2am."
+        #   Token-level output (aggregation_strategy="none"):
+        #     [{'entity_group': 'B-SENSITIVE_INFO', 'word': 'confidential', ...},
+        #      {'entity_group': 'I-SENSITIVE_INFO', 'word': 'data', ...}]
+        #   Output with aggregation_strategy="simple":
+        #     [{'entity_group': 'SENSITIVE_INFO', 'word': 'confidential data', ...}]
+        #
+        # Sources:
+        #   - https://huggingface.co/docs/transformers/main_classes/pipelines#transformers.TokenClassificationPipeline
+        #   - https://github.com/huggingface/transformers/blob/main/src/transformers/pipelines/token_classification.py
         return pipeline(
             "ner",
             model=model,
@@ -135,29 +160,81 @@ async def cleanup_model() -> None:
     
     logger.info("Model cleanup completed")
 
+
+
 async def run_inference(text: str) -> List[Dict[str, Any]]:
     """
-    Run NER inference on the provided text.
-    
-    Args:
-        text: The text to analyze
-        
+    Run NER inference on the provided text using a thread pool to ensure concurrency
+    and non-blocking behavior in the FastAPI async context.
+
+    Deep Dive:
+    -----------
+    - The NER pipeline (ner_pipeline) is a HuggingFace transformers pipeline, which is CPU/GPU-bound and not async-aware.
+    - FastAPI endpoints are async, so blocking operations (like model inference) must be offloaded to a thread pool.
+    - We use `loop.run_in_executor` to submit the inference task to a dedicated ThreadPoolExecutor (`thread_pool`).
+    - This allows multiple requests to be handled concurrently without blocking the main event loop.
+    - The thread pool size is controlled by settings.THREAD_POOL_SIZE, so concurrency is limited to that number of threads.
+    - Each inference call is thread-safe as long as the pipeline/model is thread-safe (HuggingFace pipelines are generally thread-safe for inference).
+    - If the model is not loaded (`ner_pipeline is None`), we raise an error to avoid undefined behavior.
+
+    Example Data Flow:
+    ------------------
+    Input:
+        text = "User downloaded confidential data at 2am from server."
+    Output:
+        [
+            {'entity_group': 'SUSPICIOUS_BEHAVIOR', 'score': 0.98, 'word': 'downloaded', 'start': 5, 'end': 15},
+            {'entity_group': 'SENSITIVE_INFO', 'score': 0.95, 'word': 'confidential data', 'start': 16, 'end': 33},
+            {'entity_group': 'TIME_ANOMALY', 'score': 0.92, 'word': '2am', 'start': 38, 'end': 41},
+            {'entity_group': 'TECH_ASSET', 'score': 0.90, 'word': 'server', 'start': 47, 'end': 53}
+        ]
+
     Returns:
-        List of detected entities with their positions, types, and confidence scores
+        List of detected entities with their positions, types, and confidence scores.
+
+    Sources:
+        - https://docs.python.org/3/library/asyncio-eventloop.html#asyncio.loop.run_in_executor
+        - https://fastapi.tiangolo.com/advanced/concurrency/
+        - https://huggingface.co/docs/transformers/main_classes/pipelines#transformers.pipeline
+
+    Args:
+        text (str): The text to analyze.
+
+    Returns:
+        List[Dict[str, Any]]: List of detected entities.
+
     """
+    # NER pipeline definition (for reference, see above in this file):
+    # ner_pipeline = pipeline(
+    #     "ner",
+    #     model=model,
+    #     tokenizer=tokenizer,
+    #     aggregation_strategy="simple",
+    #     batch_size=1
+    # )
+    # The ner_pipeline is initialized in the load_model() async function and stored as a global variable.
     if ner_pipeline is None:
+        # Model not loaded, cannot proceed
         raise RuntimeError("Model not loaded. Please ensure the model is loaded before inference.")
-    
+
     logger.debug(f"Running inference on text: {text[:50]}...")
-    
-    # Run the inference in a separate thread to avoid blocking the event loop
-    loop = asyncio.get_event_loop()
+
+    # Get the current event loop (thread-safe in FastAPI context)
+    loop = asyncio.get_running_loop()
     try:
+        # Offload the blocking NER pipeline call to the thread pool
+        # This ensures the FastAPI server can handle other requests concurrently
         result = await loop.run_in_executor(
-            thread_pool,
-            ner_pipeline,
-            text
+            thread_pool,  # ThreadPoolExecutor instance
+            ner_pipeline, # Callable: the NER pipeline
+            text          # Argument: the text to analyze
         )
+        # Example: If text = "User downloaded confidential data at 2am from server."
+        # result might be:
+        # [
+        #   {'entity_group': 'SUSPICIOUS_BEHAVIOR', 'score': 0.98, 'word': 'downloaded', ...},
+        #   ...
+        # ]
         return result
     except Exception as e:
         logger.error(f"Error during inference: {str(e)}")

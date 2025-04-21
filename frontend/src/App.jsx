@@ -1,16 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import FileUploader from './fileuploader';
+import React from 'react';
+import Layout from './components/Layout';
+import ThreatDetectionForm from './components/ThreatDetectionForm';
+import FileUploader from './components/FileUploader';
 
 function App() {
   return (
-    <div>
-      <h1 className="text-center text-2xl font-bold mt-4">Mitre Data Analyzer Demo</h1>
-      <FileUploader />
-    </div>
+    <Layout>
+      <div className="space-y-4 max-w-7xl mx-auto w-full">
+        <section id="threat-detection">
+          <ThreatDetectionForm />
+        </section>
+        
+        <section id="file-analysis">
+          <FileUploader />
+        </section>
+      </div>
+    </Layout>
   );
 }
 
-export default App
+export default App;

@@ -13,7 +13,6 @@ import time
 from transformers import AutoModelForTokenClassification, AutoTokenizer, pipeline
 
 def find_model_path():
-    """Find the model path by checking likely locations"""
     # Start with current directory
     base_dir = os.path.dirname(os.path.abspath(__file__))
     

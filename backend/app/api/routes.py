@@ -1,8 +1,13 @@
-from fastapi import APIRouter, HTTPException, BackgroundTasks, status
-from typing import List, Dict, Any, Optional
+from fastapi import APIRouter, HTTPException, BackgroundTasks, status, UploadFile, File
+from typing import List, Dict, Any, Optional, Union
 from pydantic import BaseModel, Field
 import time
 import os
+import io
+import pandas as pd
+import tempfile
+import numpy as np
+import logging
 
 from app.services.model_service import run_inference, evaluate_entities
 from app.services.integration_service import (
@@ -12,8 +17,48 @@ from app.services.integration_service import (
 )
 from app.core.config import settings
 
+# Configure logger
+logger = logging.getLogger(__name__)
+
 # Create router
 api_router = APIRouter()
+
+# ----- Utility Functions -----
+
+def convert_numpy_types(obj):
+    """
+    Convert numpy types to native Python types to ensure they can be serialized by Pydantic.
+    
+    Args:
+        obj: Any object that might contain numpy values
+        
+    Returns:
+        Object with numpy types converted to native Python types
+    
+    Examples:
+        - np.float32(1.5) -> float(1.5)
+        - np.int64(10) -> int(10)
+        - {'score': np.float32(0.95)} -> {'score': 0.95}
+    """
+    try:
+        if isinstance(obj, np.integer):
+            return int(obj)
+        elif isinstance(obj, np.floating):
+            return float(obj)
+        elif isinstance(obj, np.ndarray):
+            return obj.tolist()
+        elif isinstance(obj, dict):
+            return {key: convert_numpy_types(value) for key, value in obj.items()}
+        elif isinstance(obj, list):
+            return [convert_numpy_types(item) for item in obj]
+        elif isinstance(obj, tuple):
+            return tuple(convert_numpy_types(item) for item in obj)
+        else:
+            return obj
+    except Exception as e:
+        logger.error(f"Error in convert_numpy_types: {str(e)}, for obj type: {type(obj)}")
+        # Return the original object if conversion fails
+        return obj
 
 # ----- Pydantic Models for Request/Response -----
 
@@ -72,6 +117,10 @@ class SystemInfoResponse(BaseModel):
     model_path: str
     status: str
     model_exists: bool
+    
+    model_config = {
+        "protected_namespaces": ()
+    }
 
 class ModelInfoResponse(BaseModel):
     """Response model for model information"""
@@ -80,6 +129,30 @@ class ModelInfoResponse(BaseModel):
     exists: bool
     files: Optional[List[str]] = None
     size_mb: Optional[float] = None
+    
+    model_config = {
+        "protected_namespaces": ()
+    }
+
+class FileRowAnalysisResult(BaseModel):
+    """Result model for a single row in a file analysis"""
+    row_number: int
+    text: Optional[str] = None
+    user_id: Optional[str] = None
+    timestamp: Optional[str] = None
+    tweet_id: Optional[str] = None
+    analysis_result: Optional[Dict[str, Any]] = None
+    error: Optional[str] = None
+    processing_time_ms: float
+
+class FileUploadResponse(BaseModel):
+    """Response model for file upload and analysis"""
+    results: List[FileRowAnalysisResult]
+    total_rows: int
+    successful_rows: int
+    failed_rows: int
+    processing_time_ms: float
+    file_type: str
 
 # ----- Routes -----
 
@@ -131,109 +204,107 @@ async def get_model_info():
     
     return response
 
-@api_router.post("/detect-threats", response_model=ThreatDetectionResponse)
-async def detect_threats(request: ThreatDetectionRequest):
-    """
-    Detect threats and entities in provided text
+# @api_router.post("/detect-threats", response_model=ThreatDetectionResponse)
+# async def detect_threats(request: ThreatDetectionRequest):
+#     """
+#     Detect threats and entities in provided text
     
-    Uses the NER model to identify potentially suspicious entities and 
-    combinations that could indicate insider threats.
-    """
-    try:
-        start_time = time.time()
+#     Uses the NER model to identify potentially suspicious entities and 
+#     combinations that could indicate insider threats.
+#     """
+#     try:
+#         start_time = time.time()
         
-        # Run inference on the text
-        entities = await run_inference(request.text)
+#         # Run inference on the text
+#         entities = await run_inference(request.text)
         
-        # Generate analysis based on the detected entities
-        analysis = evaluate_entities(
-            entities=entities,
-            text=request.text,
-            tweet_timestamp=request.timestamp
-        )
+#         # Generate analysis based on the detected entities
+#         analysis = evaluate_entities(
+#             entities=entities,
+#             text=request.text,
+#             tweet_timestamp=request.timestamp
+#         )
         
-        processing_time = (time.time() - start_time) * 1000  # Convert to milliseconds
+#         processing_time = (time.time() - start_time) * 1000  # Convert to milliseconds
         
-        return ThreatDetectionResponse(
-            entities=entities,
-            analysis_result=analysis,
-            processing_time_ms=processing_time
-        )
+#         return ThreatDetectionResponse(
+#             entities=entities,
+#             analysis_result=analysis,
+#             processing_time_ms=processing_time
+#         )
         
-    except Exception as e:
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Error during threat detection: {str(e)}"
-        )
+#     except Exception as e:
+#         raise HTTPException(
+#             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+#             detail=f"Error during threat detection: {str(e)}"
+#         )
 
-@api_router.post("/batch-detect-threats", response_model=BatchThreatDetectionResponse)
-async def batch_detect_threats(request: BatchThreatDetectionRequest):
-    """
-    Process multiple texts for threat detection in a single request
+# @api_router.post("/batch-detect-threats", response_model=BatchThreatDetectionResponse)
+# async def batch_detect_threats(request: BatchThreatDetectionRequest):
+#     """
+#     Process multiple texts for threat detection in a single request
     
-    This endpoint is useful for analyzing multiple messages or documents at once.
-    """
-    try:
-        start_time = time.time()
-        results = []
+#     This endpoint is useful for analyzing multiple messages or documents at once.
+#     """
+#     try:
+#         start_time = time.time()
+#         results = []
         
-        for item in request.texts:
-            item_start_time = time.time()
+#         for item in request.texts:
+#             item_start_time = time.time()
             
-            # Extract text and timestamp from the item
-            text = item.get("text", "")
-            timestamp = item.get("timestamp")
+#             # Extract text and timestamp from the item
+#             text = item.get("text", "")
+#             timestamp = item.get("timestamp")
             
-            if not text:
-                # Skip empty texts
-                continue
+#             if not text:
+#                 # Skip empty texts
+#                 continue
             
-            try:
-                # Run inference on this text
-                entities = await run_inference(text)
+#             try:
+#                 entities = await run_inference(text)
                 
-                # Generate analysis
-                analysis = evaluate_entities(
-                    entities=entities,
-                    text=text,
-                    tweet_timestamp=timestamp
-                )
+#                 # TODO: Provide visualizations of the entities
+#                 analysis = evaluate_entities(
+#                     entities=entities,
+#                     text=text,
+#                     tweet_timestamp=timestamp
+#                 )
                 
-                item_processing_time = (time.time() - item_start_time) * 1000
+#                 item_processing_time = (time.time() - item_start_time) * 1000
                 
-                # Add to results
-                results.append(ThreatDetectionResponse(
-                    entities=entities,
-                    analysis_result=analysis,
-                    processing_time_ms=item_processing_time
-                ))
-            except Exception as item_error:
-                # If one item fails, log it but continue processing others
-                results.append(ThreatDetectionResponse(
-                    entities=[],
-                    analysis_result=f"Error processing this text: {str(item_error)}",
-                    processing_time_ms=(time.time() - item_start_time) * 1000
-                ))
+#                 # Add to results
+#                 results.append(ThreatDetectionResponse(
+#                     entities=entities,
+#                     analysis_result=analysis,
+#                     processing_time_ms=item_processing_time
+#                 ))
+#             except Exception as item_error:
+#                 # If one item fails, log it but continue processing others
+#                 results.append(ThreatDetectionResponse(
+#                     entities=[],
+#                     analysis_result=f"Error processing this text: {str(item_error)}",
+#                     processing_time_ms=(time.time() - item_start_time) * 1000
+#                 ))
         
-        total_processing_time = (time.time() - start_time) * 1000
+#         total_processing_time = (time.time() - start_time) * 1000
         
-        return BatchThreatDetectionResponse(
-            results=results,
-            total_processing_time_ms=total_processing_time
-        )
+#         return BatchThreatDetectionResponse(
+#             results=results,
+#             total_processing_time_ms=total_processing_time
+#         )
         
-    except Exception as e:
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Error during batch threat detection: {str(e)}"
-        )
+#     except Exception as e:
+#         raise HTTPException(
+#             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+#             detail=f"Error during batch threat detection: {str(e)}"
+#         )
 
-# ----- New Risk Profiling Routes -----
 
 @api_router.post("/analyze-risk", response_model=Dict[str, Any])
 async def analyze_risk(request: ThreatDetectionRequest):
     """
-    Analyze text with comprehensive risk profiling
+    Analyze text with risk profiling
     
     This endpoint integrates NER detection with risk profiling to provide
     a detailed risk assessment for the input text.
@@ -258,7 +329,8 @@ async def analyze_risk(request: ThreatDetectionRequest):
         processing_time = (time.time() - start_time) * 1000  # Convert to milliseconds
         analysis_result["processing_time_ms"] = processing_time
         
-        return analysis_result
+        # Convert any numpy types before returning
+        return convert_numpy_types(analysis_result)
         
     except Exception as e:
         raise HTTPException(
@@ -291,7 +363,8 @@ async def batch_analyze_risk(request: BatchThreatDetectionRequest):
         processing_time = (time.time() - start_time) * 1000  # Convert to milliseconds
         analysis_result["processing_time_ms"] = processing_time
         
-        return analysis_result
+        # Convert any numpy types before returning
+        return convert_numpy_types(analysis_result)
         
     except Exception as e:
         raise HTTPException(
@@ -325,10 +398,260 @@ async def user_risk_profile(request: UserRiskProfileRequest):
         processing_time = (time.time() - start_time) * 1000  # Convert to milliseconds
         profile_result["processing_time_ms"] = processing_time
         
-        return profile_result
+        # Convert any numpy types before returning
+        return convert_numpy_types(profile_result)
         
     except Exception as e:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Error generating user risk profile: {str(e)}"
-        ) 
+        )
+
+@api_router.post("/upload-analyze-file", response_model=FileUploadResponse)
+async def upload_analyze_file(file: UploadFile = File(...)):
+    """
+    Upload a CSV or Excel file and analyze each row for threats
+    
+    This endpoint processes files row by row to efficiently handle large files
+    without excessive memory usage. Each row is analyzed individually using
+    the risk profile analysis service.
+    
+    Expected columns (not all are required):
+    - text: The content to analyze (required)
+    - user_id: Optional identifier for the user
+    - timestamp: Optional timestamp for the content
+    - tweet_id: Optional identifier for the tweet/post
+    
+    Supports both .csv and .xlsx/.xls formats.
+    """
+    start_time = time.time()
+    results = []
+    successful_rows = 0
+    failed_rows = 0
+    file_type = ""
+    
+    logger.info(f"Starting file upload and analysis for file: {file.filename}")
+    
+    try:
+        # Get file extension to determine type
+        filename = file.filename
+        if filename.endswith('.csv'):
+            file_type = "csv"
+            logger.info(f"Detected CSV file: {filename}")
+        elif filename.endswith('.xlsx') or filename.endswith('.xls'):
+            file_type = "excel"
+            logger.info(f"Detected Excel file: {filename}")
+        else:
+            error_msg = f"Unsupported file format for file: {filename}"
+            logger.error(error_msg)
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=error_msg
+            )
+        
+        # Read file content
+        logger.info("Reading file content")
+        try:
+            content = await file.read()
+            logger.info(f"Successfully read {len(content)} bytes from file")
+        except Exception as e:
+            logger.error(f"Error reading file content: {str(e)}")
+            raise
+        
+        # Process file based on type
+        if file_type == "csv":
+            # For CSV, use StringIO
+            try:
+                logger.info("Parsing CSV file")
+                file_obj = io.StringIO(content.decode('utf-8'))
+                df = pd.read_csv(file_obj)
+                logger.info(f"Successfully parsed CSV with {len(df)} rows and {len(df.columns)} columns")
+            except Exception as e:
+                error_msg = f"Error reading CSV file: {str(e)}"
+                logger.error(error_msg)
+                raise HTTPException(
+                    status_code=status.HTTP_400_BAD_REQUEST,
+                    detail=error_msg
+                )
+        else:
+            # For Excel, use BytesIO and a temporary file
+            try:
+                logger.info("Parsing Excel file")
+                # Excel requires binary data
+                with tempfile.NamedTemporaryFile(delete=False, suffix=".xlsx") as temp_file:
+                    temp_file.write(content)
+                    temp_file_path = temp_file.name
+                    logger.info(f"Created temporary file at {temp_file_path}")
+                
+                df = pd.read_excel(temp_file_path)
+                logger.info(f"Successfully parsed Excel with {len(df)} rows and {len(df.columns)} columns")
+                
+                # Remove the temporary file
+                try:
+                    os.unlink(temp_file_path)
+                    logger.info("Removed temporary file")
+                except Exception as e:
+                    logger.warning(f"Could not remove temp file: {str(e)}")
+            except Exception as e:
+                error_msg = f"Error reading Excel file: {str(e)}"
+                logger.error(error_msg)
+                raise HTTPException(
+                    status_code=status.HTTP_400_BAD_REQUEST,
+                    detail=error_msg
+                )
+        
+        text_column_name = None
+        if 'text' in df.columns:
+            text_column_name = 'text'
+            logger.info("Found 'text' column.")
+        elif 'tweet' in df.columns:
+            text_column_name = 'tweet'
+            logger.info("Found 'tweet' column.")
+        
+        if text_column_name is None:
+            error_msg = "The file must contain either a 'text' or 'tweet' column with content to analyze."
+            logger.error(error_msg)
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=error_msg
+            )
+        
+        # Log column names
+        logger.info(f"Found columns in file: {', '.join(df.columns)}")
+        
+        # Process each row
+        total_rows = len(df)
+        logger.info(f"Beginning to process {total_rows} rows using column '{text_column_name}'")
+        
+        for idx, row in df.iterrows():
+            row_start_time = time.time()
+            row_number = idx + 2  # +2 because idx is 0-based and we skip header row
+            
+            logger.info(f"Processing row {row_number}/{total_rows + 1}")
+            
+            try:
+                # Extract data from row using the identified text column
+                text = row.get(text_column_name, None)
+                user_id_val = row.get('user_id', None) if 'user_id' in df.columns else None
+                user_id = str(user_id_val) if user_id_val is not None else None
+                
+                timestamp_val = row.get('timestamp', None) if 'timestamp' in df.columns else None
+                timestamp = str(timestamp_val) if timestamp_val is not None else None
+                
+                tweet_id_val = row.get('tweet_id', None) if 'tweet_id' in df.columns else None
+                tweet_id = str(tweet_id_val) if tweet_id_val is not None else None
+                
+                logger.debug(f"Row {row_number} data: user_id={user_id}, timestamp={timestamp}, tweet_id={tweet_id}")
+                
+                # Skip rows with empty text
+                if not text or pd.isna(text):
+                    logger.warning(f"Row {row_number}: Empty or missing text in column '{text_column_name}', skipping")
+                    row_processing_time = (time.time() - row_start_time) * 1000
+                    results.append(FileRowAnalysisResult(
+                        row_number=row_number,
+                        text=None,
+                        user_id=user_id,
+                        timestamp=timestamp,
+                        tweet_id=tweet_id,
+                        analysis_result=None,
+                        error="Empty or missing text",
+                        processing_time_ms=row_processing_time
+                    ))
+                    failed_rows += 1
+                    continue
+                
+                # Convert to string if not already
+                if not isinstance(text, str):
+                    logger.debug(f"Row {row_number}: Converting text from {type(text)} to string")
+                    text = str(text)
+                
+                # Analyze the text
+                logger.info(f"Row {row_number}: Running analysis on text (length: {len(text)})")
+                analysis_result = await analyze_text_with_risk_profile(
+                    text=text,
+                    user_id=user_id,
+                    tweet_id=tweet_id,
+                    timestamp=timestamp
+                )
+                
+                logger.info(f"Row {row_number}: Analysis complete, converting numpy types")
+                
+                # Check for numpy values before conversion
+                has_numpy = False
+                if isinstance(analysis_result, dict):
+                    for k, v in analysis_result.items():
+                        if isinstance(v, (np.integer, np.floating, np.ndarray)):
+                            has_numpy = True
+                            logger.debug(f"Row {row_number}: Found numpy type in result key '{k}': {type(v)}")
+                
+                # Convert any numpy types in the analysis result
+                try:
+                    analysis_result = convert_numpy_types(analysis_result)
+                    logger.info(f"Row {row_number}: Successfully converted numpy types")
+                except Exception as e:
+                    logger.error(f"Row {row_number}: Error converting numpy types: {str(e)}")
+                    # If conversion fails, attempt a more basic approach
+                    if isinstance(analysis_result, dict):
+                        for k, v in analysis_result.items():
+                            if isinstance(v, np.floating):
+                                analysis_result[k] = float(v)
+                            elif isinstance(v, np.integer):
+                                analysis_result[k] = int(v)
+                    logger.info(f"Row {row_number}: Applied fallback conversion")
+                
+                row_processing_time = (time.time() - row_start_time) * 1000
+                logger.info(f"Row {row_number}: Completed in {row_processing_time:.2f}ms")
+                
+                # Append result
+                results.append(FileRowAnalysisResult(
+                    row_number=row_number,
+                    text=text,
+                    user_id=user_id,
+                    timestamp=timestamp,
+                    tweet_id=tweet_id,
+                    analysis_result=analysis_result,
+                    error=None,
+                    processing_time_ms=row_processing_time
+                ))
+                successful_rows += 1
+                
+            except Exception as e:
+                logger.error(f"Row {row_number}: Error processing: {str(e)}")
+                row_processing_time = (time.time() - row_start_time) * 1000
+                results.append(FileRowAnalysisResult(
+                    row_number=row_number,
+                    text=row.get(text_column_name, None) if text_column_name in df.columns else None,
+                    user_id=row.get('user_id', None) if 'user_id' in df.columns else None,
+                    timestamp=row.get('timestamp', None) if 'timestamp' in df.columns else None,
+                    tweet_id=row.get('tweet_id', None) if 'tweet_id' in df.columns else None,
+                    analysis_result=None,
+                    error=f"Error processing row: {str(e)}",
+                    processing_time_ms=row_processing_time
+                ))
+                failed_rows += 1
+        
+        total_processing_time = (time.time() - start_time) * 1000
+        logger.info(f"File processing complete. Total: {total_rows}, Successful: {successful_rows}, Failed: {failed_rows}")
+        
+        # Create and debug the response object before returning
+        response = FileUploadResponse(
+            results=results,
+            total_rows=total_rows,
+            successful_rows=successful_rows,
+            failed_rows=failed_rows,
+            processing_time_ms=total_processing_time,
+            file_type=file_type
+        )
+        
+        logger.info(f"Returning response with {len(results)} results")
+        
+        return response
+        
+    except Exception as e:
+        # Handle overall process errors
+        error_msg = f"Error processing file: {str(e)}"
+        logger.error(error_msg, exc_info=True)
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=error_msg
+        )
