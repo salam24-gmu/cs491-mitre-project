@@ -11,7 +11,7 @@ import asyncio
 from typing import Dict, List, Any, Optional
 from datetime import datetime
 
-from app.services.model_service import run_inference
+from app.services.model_service import run_inference, predict_maliciousness
 from app.services.risk_profiling_service import process_text_for_risk_analysis, process_texts_batch
 from app.services.profile_service import create_user_profile, get_user_summary, get_all_users_summary
 from app.core.config import settings
@@ -57,7 +57,16 @@ async def analyze_text_with_risk_profile(text: str, user_id: Optional[str] = Non
             entities=entities
         )
         
-        # Step 3: Prepare the response
+        # Step 3: Predict maliciousness using the risk metrics
+        predicted_class, malicious_probability = None, None
+        if risk_analysis.get("risk_metrics"):
+             logger.info(f"Running classification prediction...")
+             predicted_class, malicious_probability = await predict_maliciousness(
+                 risk_analysis["risk_metrics"]
+             )
+             logger.info(f"Classification prediction: Class={predicted_class}, Probability={malicious_probability:.4f}" if predicted_class else "Classification prediction skipped or failed.")
+
+        # Step 4: Prepare the response
         response = {
             "text": text,
             "user_id": user_id or risk_analysis.get("user_id", "anonymous_user"),
@@ -65,6 +74,8 @@ async def analyze_text_with_risk_profile(text: str, user_id: Optional[str] = Non
             "timestamp": timestamp,
             "entities": entities,
             "risk_metrics": risk_analysis.get("risk_metrics", {}),
+            "predicted_class": predicted_class,
+            "malicious_probability": malicious_probability
         }
         
         logger.info(f"Analysis completed with {len(entities)} entities detected")
@@ -123,6 +134,24 @@ async def analyze_texts_batch_with_risk_profile(batch_data: List[Dict[str, Any]]
         # Step 2: Process the batch through risk analysis
         logger.info(f"Running batch risk analysis on {len(processed_items)} texts...")
         assessed_texts = await process_texts_batch(processed_items)
+        
+        # Step 2.5: Add classification prediction to each assessed text
+        logger.info("Running classification prediction for assessed texts...")
+        tasks = []
+        for assessed_item in assessed_texts:
+            if assessed_item.get("risk_metrics") and not assessed_item.get("error"):
+                tasks.append(predict_maliciousness(assessed_item["risk_metrics"]))
+            else:
+                # Add a placeholder task that returns None, None
+                async def none_task(): return None, None
+                tasks.append(none_task())
+
+        prediction_results = await asyncio.gather(*tasks)
+
+        for i, assessed_item in enumerate(assessed_texts):
+            pred_class, pred_prob = prediction_results[i]
+            assessed_item["predicted_class"] = pred_class
+            assessed_item["malicious_probability"] = pred_prob
         
         # Step 3: Generate user profiles and summaries
         logger.info("Generating user profiles...")
@@ -195,6 +224,24 @@ async def get_user_risk_profile(user_id: str, texts: List[Dict[str, Any]]) -> Di
         
         # Process through risk analysis
         assessed_texts = await process_texts_batch(processed_items)
+        
+        # +++ Add classification prediction to assessed texts +++
+        logger.info("Running classification prediction for user texts...")
+        tasks = []
+        for assessed_item in assessed_texts:
+            if assessed_item.get("risk_metrics") and not assessed_item.get("error"):
+                tasks.append(predict_maliciousness(assessed_item["risk_metrics"]))
+            else:
+                async def none_task(): return None, None
+                tasks.append(none_task())
+
+        prediction_results = await asyncio.gather(*tasks)
+
+        for i, assessed_item in enumerate(assessed_texts):
+            pred_class, pred_prob = prediction_results[i]
+            assessed_item["predicted_class"] = pred_class
+            assessed_item["malicious_probability"] = pred_prob
+        # +++ ----------------------------------------------- +++
         
         # Generate a summary for this user
         user_summary = await get_user_summary(user_id, assessed_texts)

@@ -18,9 +18,14 @@ class Settings(BaseModel):
     # CORS settings
     CORS_ORIGINS: List[str] = ["http://localhost:5173", "http://localhost:3000", "http://127.0.0.1:5173"]
     
-    # Model settings - paths relative to project root
-    MODEL_DIR: str = os.path.join(BASE_DIR, "..", "finetune", "data", "insider-threat-ner_model")
-    MODEL_ID: str = "model-4n4ekgnp"  # Specific model ID from training
+    # Model settings - paths relative to project root (BASE_DIR)
+    MODEL_DIR: str = os.path.join(BASE_DIR, "finetune", "data", "insider-threat-ner_model")
+    MODEL_ID: str = "model-4n4ekgnp"  # Specific NER model ID from training
+
+    # --- New Classification Model Settings ---
+    CLASSIFICATION_MODEL_DIR: str = os.path.join(BASE_DIR, "finetune", "data", "classification_model")
+    CLASSIFICATION_RUN_ID: str = "classification_run_3beidkdc" # Specific classification run ID
+    # ------------------------------------------
     
     # Running on CPU (-1) by default
     DEVICE: int = -1  # Use CPU for inference
@@ -45,14 +50,17 @@ class Settings(BaseModel):
         # Ensure the path exists
         if not os.path.exists(model_path):
             print(f"WARNING: Model path {model_path} does not exist!")
-            # If the model path doesn't exist, try alternative path without nesting
-            alt_path = os.path.join(BASE_DIR, "..", "finetune", "data", "insider-threat-ner_model", self.MODEL_ID)
-            if os.path.exists(alt_path):
-                print(f"Using alternative model path: {alt_path}")
-                return alt_path
-            else:
-                print(f"WARNING: Alternative model path {alt_path} also does not exist!")
         return model_path
+    
+    # --- New Classification Model Path Property ---
+    @property
+    def CLASSIFICATION_MODEL_PATH(self) -> str:
+        """Full path to the classification model run directory"""
+        path = os.path.join(self.CLASSIFICATION_MODEL_DIR, self.CLASSIFICATION_RUN_ID)
+        if not os.path.exists(path):
+            print(f"WARNING: Classification model path {path} does not exist!")
+        return path
+    # -------------------------------------------
     
     @property
     def SYSTEM_INFO(self) -> dict:
@@ -74,6 +82,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 logger.info(f"Model path: {settings.MODEL_PATH}")
+logger.info(f"Classification model path: {settings.CLASSIFICATION_MODEL_PATH}")
 logger.info(f"System info: {settings.SYSTEM_INFO}")
 
 # For direct execution - helpful for debugging configuration

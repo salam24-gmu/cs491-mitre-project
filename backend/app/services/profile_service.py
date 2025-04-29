@@ -122,11 +122,16 @@ def aggregate_user_profiles(assessed_tweets):
             "temporal_risk": temporal_risk,
             "behavior_anomalies": anomalies,
             "context_signals": defaultdict(int),
-            "semantic_indicators": defaultdict(int)
+            "semantic_indicators": defaultdict(int),
+            "predicted_malicious_count": 0,
+            "total_malicious_probability": 0.0,
+            "predicted_class_counts": defaultdict(int)
         }
 
         for tweet in user_tweets:
             risk_metrics = tweet.get("risk_metrics", {})
+            predicted_class = tweet.get("predicted_class")
+            malicious_probability = tweet.get("malicious_probability")
 
             profile["total_risk"] += risk_metrics.get("total_risk", 0)
 
@@ -168,6 +173,18 @@ def aggregate_user_profiles(assessed_tweets):
             # Aggregate semantic indicators
             for indicator in risk_metrics.get("semantic_indicators", []):
                 profile["semantic_indicators"][indicator] += 1
+
+            # Aggregate classification results
+            if predicted_class:
+                profile["predicted_class_counts"][predicted_class] += 1
+                if predicted_class == 'malicious':
+                    profile["predicted_malicious_count"] += 1
+            if malicious_probability is not None:
+                # Ensure probability is float before adding
+                try:
+                    profile["total_malicious_probability"] += float(malicious_probability)
+                except (TypeError, ValueError):
+                    logger.warning(f"Could not convert malicious_probability '{malicious_probability}' to float for user {user_id}")
 
         tweet_count = profile["tweet_count"]
 
@@ -223,6 +240,18 @@ def aggregate_user_profiles(assessed_tweets):
                 for indicator, count in profile["semantic_indicators"].items()
             }
 
+            # Calculate classification metrics
+            if profile["predicted_malicious_count"] > 0:
+                profile["avg_malicious_probability"] = profile["total_malicious_probability"] / profile["predicted_malicious_count"]
+            else:
+                profile["avg_malicious_probability"] = 0.0 # Or None?
+
+            total_predictions = sum(profile["predicted_class_counts"].values())
+            if total_predictions > 0:
+                profile["predicted_malicious_percentage"] = (profile["predicted_malicious_count"] / total_predictions) * 100
+            else:
+                profile["predicted_malicious_percentage"] = 0.0
+
             # Calculate risk statistics if we have enough data
             if tweet_count > 1:
                 risk_values = [t.get("risk_metrics", {}).get("total_risk", 0) for t in profile["tweets"]]
@@ -252,6 +281,8 @@ def aggregate_user_profiles(assessed_tweets):
             profile["risk_trend"] = 0.0
             profile["context_signal_frequency"] = {}
             profile["semantic_indicator_frequency"] = {}
+            profile["avg_malicious_probability"] = 0.0
+            profile["predicted_malicious_percentage"] = 0.0
 
         # Convert defaultdicts to regular dicts for serialization
         profile["entity_counts"] = dict(profile["entity_counts"])
@@ -260,6 +291,7 @@ def aggregate_user_profiles(assessed_tweets):
         profile["sentiments"] = dict(profile["sentiments"])
         profile["context_signals"] = dict(profile["context_signals"])
         profile["semantic_indicators"] = dict(profile["semantic_indicators"])
+        profile["predicted_class_counts"] = dict(profile["predicted_class_counts"])
 
         # Remove duplicate high risk combination details
         if profile["high_risk_combo_details"]:
@@ -537,7 +569,10 @@ async def get_user_summary(user_id, assessed_tweets):
         "outlier_score": user_profile.get("outlier_score", 0),
         "behavior_anomalies": user_profile.get("behavior_anomalies", []),
         "high_risk_combo_details": user_profile.get("high_risk_combo_details", []),
-        "entity_counts": user_profile.get("entity_counts", {})
+        "entity_counts": user_profile.get("entity_counts", {}),
+        "predicted_malicious_count": user_profile.get("predicted_malicious_count", 0),
+        "predicted_malicious_percentage": user_profile.get("predicted_malicious_percentage", 0.0),
+        "avg_malicious_probability": user_profile.get("avg_malicious_probability", 0.0)
     }
     
     # Add risk assessment level
@@ -593,6 +628,9 @@ async def get_all_users_summary(assessed_tweets):
             "high_risk_combo_density": user_profile.get("high_risk_combo_density", 0),
             "outlier_score": profile_data["outlier_scores"].get(user_id, 0),
             "behavior_anomalies": user_profile.get("behavior_anomalies", []),
+            "predicted_malicious_count": user_profile.get("predicted_malicious_count", 0),
+            "predicted_malicious_percentage": user_profile.get("predicted_malicious_percentage", 0.0),
+            "avg_malicious_probability": user_profile.get("avg_malicious_probability", 0.0)
         }
         
         # Add risk assessment level

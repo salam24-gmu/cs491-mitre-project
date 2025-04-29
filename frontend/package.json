@@ -11,18 +11,7 @@
   },
   "dependencies": {
     "react": "^19.0.0",
-<<<<<<< HEAD
     "react-dom": "^19.0.0"
-=======
-    "react-dom": "^19.0.0",
-    "axios": "^1.6.7",
-    "@headlessui/react": "^1.7.18",
-    "@heroicons/react": "^2.1.1",
-    "tailwindcss": "^3.4.1",
-    "autoprefixer": "^10.4.17",
-    "postcss": "^8.4.35",
-    "react-hot-toast": "^2.4.1"
->>>>>>> 8e50c5c (feat: Implement File Processing and Enhanced UI Components)
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

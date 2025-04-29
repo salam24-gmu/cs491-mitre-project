@@ -89,6 +89,17 @@ const FileUploader = () => {
         setResults(null);
     };
 
+    // Calculate classification summary counts
+    const getClassificationSummary = () => {
+        if (!results || !results.results) return null;
+        
+        const maliciousCount = results.results.filter(row => row.predicted_class === 'malicious').length;
+        const nonMaliciousCount = results.results.filter(row => row.predicted_class === 'non-malicious').length;
+        const unclassifiedCount = results.results.filter(row => row.predicted_class === null && !row.error).length;
+        
+        return { maliciousCount, nonMaliciousCount, unclassifiedCount };
+    };
+
     return (
         <div className="rounded-lg bg-white shadow p-6 mb-6">
         <h2 className="text-xl font-semibold mb-4">File Analysis</h2>
@@ -169,6 +180,29 @@ const FileUploader = () => {
                 </div>
             </div>
 
+            {/* Classification Summary - New section */}
+            {getClassificationSummary() && (
+                <div className="mb-4 p-4 bg-white border rounded-md">
+                    <h3 className="font-medium text-gray-900 mb-2">Classification Summary</h3>
+                    <div className="flex space-x-4">
+                        <div className="px-3 py-2 bg-red-50 border border-red-100 rounded-md">
+                            <span className="text-sm font-medium text-red-800">Malicious: </span>
+                            <span className="text-sm">{getClassificationSummary().maliciousCount}</span>
+                        </div>
+                        <div className="px-3 py-2 bg-green-50 border border-green-100 rounded-md">
+                            <span className="text-sm font-medium text-green-800">Non-Malicious: </span>
+                            <span className="text-sm">{getClassificationSummary().nonMaliciousCount}</span>
+                        </div>
+                        {getClassificationSummary().unclassifiedCount > 0 && (
+                            <div className="px-3 py-2 bg-gray-50 border border-gray-100 rounded-md">
+                                <span className="text-sm font-medium text-gray-800">Unclassified: </span>
+                                <span className="text-sm">{getClassificationSummary().unclassifiedCount}</span>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            )}
+
             <h3 className="font-medium text-gray-900 mb-2">Results</h3>
             <div className="overflow-x-auto">
                 <table className="min-w-full divide-y divide-gray-200">
@@ -176,6 +210,7 @@ const FileUploader = () => {
                     <tr>
                     <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Row</th>
                     <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Text</th>
+                    <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Classification</th>
                     <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
                     <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Details</th>
                     </tr>
@@ -186,6 +221,30 @@ const FileUploader = () => {
                         <td className="px-3 py-2 whitespace-nowrap text-sm text-gray-900">{row.row_number}</td>
                         <td className="px-3 py-2 text-sm text-gray-500 max-w-xs truncate">
                         {row.text || "N/A"}
+                        </td>
+                        <td className="px-3 py-2 whitespace-nowrap text-sm">
+                            {row.error ? (
+                                <span className="text-gray-400">N/A</span>
+                            ) : row.predicted_class ? (
+                                <div>
+                                    <span 
+                                        className={`px-2 py-1 rounded-full text-xs font-semibold ${
+                                            row.predicted_class === 'malicious' 
+                                            ? 'bg-red-100 text-red-800' 
+                                            : 'bg-green-100 text-green-800'
+                                        }`}
+                                    >
+                                        {row.predicted_class === 'malicious' ? 'Malicious' : 'Non-Malicious'}
+                                    </span>
+                                    {row.malicious_probability !== null && (
+                                        <div className="text-xs text-gray-500 mt-1">
+                                            {(row.malicious_probability * 100).toFixed(1)}%
+                                        </div>
+                                    )}
+                                </div>
+                            ) : (
+                                <span className="text-gray-400">Unclassified</span>
+                            )}
                         </td>
                         <td className="px-3 py-2 whitespace-nowrap text-sm">
                         {row.error ? (
@@ -203,7 +262,7 @@ const FileUploader = () => {
                             <span className="text-red-600">{row.error}</span>
                         ) : (
                             <details className="cursor-pointer">
-                            <summary className="text-blue-600 hover:text-blue-800">View analysis</summary>
+                            <summary className="text-blue-600 hover:text-blue-800 text-xs">View analysis</summary>
                             <pre className="mt-2 text-xs bg-gray-50 p-2 rounded overflow-x-auto">
                                 {JSON.stringify(row.analysis_result, null, 2)}
                             </pre>

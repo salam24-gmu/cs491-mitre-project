@@ -1,7 +1,10 @@
 import os
 import logging
 import asyncio
-from typing import Dict, List, Union, Any, Optional
+import joblib
+import json
+import numpy as np
+from typing import Dict, List, Union, Any, Optional, Tuple
 from concurrent.futures import ThreadPoolExecutor
 
 from transformers import (
@@ -19,6 +22,9 @@ logger = logging.getLogger(__name__)
 model = None
 tokenizer = None
 ner_pipeline = None
+classification_model = None
+classification_scaler = None
+classification_feature_names = None
 thread_pool = ThreadPoolExecutor(max_workers=settings.THREAD_POOL_SIZE)
 
 # Entity labels from our NER model
@@ -40,7 +46,8 @@ async def load_model() -> None:
     Load the NER model and tokenizer into memory.
     This is called during application startup.
     """
-    global model, tokenizer, ner_pipeline
+    # Ensure assignment updates the global variables, not local ones
+    global model, tokenizer, ner_pipeline, classification_model, classification_scaler, classification_feature_names
     
     try:
         logger.info(f"Loading model from {settings.MODEL_PATH}")
@@ -67,8 +74,20 @@ async def load_model() -> None:
         
         logger.info(f"Model loaded successfully on CPU (device={settings.DEVICE})")
         
+        # Load classification artifacts in thread pool
+        logger.info(f"Loading classification model from {settings.CLASSIFICATION_MODEL_PATH}")
+        # Assign result to the *global* variables declared above
+        classification_model, classification_scaler, classification_feature_names = await loop.run_in_executor(
+            thread_pool,
+            _load_classification_artifacts
+        )
+        if classification_model:
+            logger.info("Classification model artifacts loaded successfully.")
+        else:
+            logger.warning("Classification model artifacts failed to load. Prediction disabled.")
+        
     except Exception as e:
-        logger.error(f"Failed to load model: {str(e)}")
+        logger.error(f"Failed to load model(s): {str(e)}")
         raise
 
 def _load_model_and_tokenizer():
@@ -94,6 +113,44 @@ def _load_model_and_tokenizer():
     except Exception as e:
         logger.error(f"Error loading model components: {str(e)}")
         raise
+
+def _load_classification_artifacts():
+    """Loads the classification model, scaler, and feature names."""
+    model_run_path = settings.CLASSIFICATION_MODEL_PATH
+    model_path = os.path.join(model_run_path, 'random_forest_model.joblib')
+    scaler_path = os.path.join(model_run_path, 'scaler.joblib')
+    features_path = os.path.join(model_run_path, 'feature_names.json')
+
+    loaded_model, loaded_scaler, loaded_feature_names = None, None, None
+
+    try:
+        if os.path.exists(model_path):
+            loaded_model = joblib.load(model_path)
+            logger.info(f"Loaded classification model from: {model_path}")
+        else:
+            logger.error(f"Classification model not found at {model_path}")
+
+        if os.path.exists(scaler_path):
+            loaded_scaler = joblib.load(scaler_path)
+            logger.info(f"Loaded classification scaler from: {scaler_path}")
+        else:
+            logger.error(f"Classification scaler not found at {scaler_path}")
+
+        if os.path.exists(features_path):
+            with open(features_path, 'r') as f:
+                loaded_feature_names = json.load(f)
+            logger.info(f"Loaded {len(loaded_feature_names)} classification feature names from: {features_path}")
+        else:
+            logger.error(f"Classification feature names file not found at {features_path}")
+
+        if loaded_model and loaded_scaler and loaded_feature_names:
+            return loaded_model, loaded_scaler, loaded_feature_names
+        else:
+            logger.warning("Failed to load all classification artifacts. Classification prediction will be disabled.")
+            return None, None, None
+    except Exception as e:
+        logger.error(f"Error loading classification artifacts from {model_run_path}: {e}")
+        return None, None, None
 
 def _create_pipeline(model, tokenizer):
     """
@@ -154,6 +211,9 @@ async def cleanup_model() -> None:
     model = None
     tokenizer = None
     ner_pipeline = None
+    classification_model = None
+    classification_scaler = None
+    classification_feature_names = None
     
     # Create a new thread pool
     thread_pool = ThreadPoolExecutor(max_workers=settings.THREAD_POOL_SIZE)
@@ -297,3 +357,159 @@ def evaluate_entities(entities: List[Dict[str, Any]], text: str, tweet_timestamp
         result += f"\nTimestamp: {tweet_timestamp}\n"
     
     return result 
+
+# +++ Add Feature Extraction and Prediction Logic +++
+# NOTE: These constants need to be defined or imported if not already available
+# Assuming they are defined similar to the Colab script globally or can be imported
+# For simplicity, defining them here, but ideally manage them centrally.
+ALL_ENTITY_TYPES = sorted([
+    "SUSPICIOUS_BEHAVIOR", "SENSITIVE_INFO", "TIME_ANOMALY", "TECH_ASSET",
+    "MEDICAL_CONDITION", "SENTIMENT_INDICATOR", "PERSON", "ORG", "LOC"
+])
+ALL_CONTEXT_SIGNALS = sorted([
+    "SECURITY_CONTEXT", "SECRECY_INDICATORS", "FINANCIAL_MOTIVATION",
+    "SECURITY_WITH_SECRECY"
+])
+ALL_SEMANTIC_INDICATORS = sorted([
+    "NEGATIVE_SENTIMENT", "THREATENING_LANGUAGE", "PERSONAL_GRIEVANCE",
+    "PERSONAL_NEGATIVITY", "PERSONAL_THREAT"
+])
+
+def extract_hybrid_tweet_features(
+    risk_metrics: Dict[str, Any],
+    all_entity_types: List[str],
+    all_context_signals: List[str],
+    all_semantic_indicators: List[str]
+) -> Tuple[np.ndarray, List[str]]:
+    """
+    Extracts a feature vector for a single tweet based on its risk_metrics.
+    (Copied/adapted from Colab script - ensure consistency)
+    """
+    features = {}
+    feature_names = []
+
+    core_scores = [
+        'total_risk', 'base_risk', 'adjusted_base_risk', 'context_risk',
+        'semantic_risk', 'risk_multiplier', 'high_risk_combinations', 'risk_density'
+    ]
+    for score_name in core_scores:
+        features[score_name] = risk_metrics.get(score_name, 0.0)
+        feature_names.append(score_name)
+
+    features['off_hours'] = 1.0 if risk_metrics.get('off_hours', False) else 0.0
+    feature_names.append('off_hours')
+
+    entity_counts = risk_metrics.get('entity_type_counts', {})
+    for entity_type in all_entity_types:
+        key = f"count_{entity_type.lower()}"
+        features[key] = float(entity_counts.get(entity_type, 0))
+        feature_names.append(key)
+
+    context_signals_present = set(risk_metrics.get('context_signals', []))
+    for signal in all_context_signals:
+        key = f"signal_{signal.lower()}"
+        features[key] = 1.0 if signal in context_signals_present else 0.0
+        feature_names.append(key)
+
+    semantic_indicators_present = set(risk_metrics.get('semantic_indicators', []))
+    for indicator in all_semantic_indicators:
+        key = f"indicator_{indicator.lower()}"
+        features[key] = 1.0 if indicator in semantic_indicators_present else 0.0
+        feature_names.append(key)
+
+    feature_vector = np.array([features[name] for name in feature_names], dtype=float)
+    return feature_vector, feature_names
+
+async def predict_maliciousness(risk_metrics: Dict[str, Any]) -> Tuple[Optional[str], Optional[float]]:
+    """
+    Predicts the maliciousness of a tweet using the loaded classification model.
+    Runs the prediction logic in the thread pool.
+
+    Args:
+        risk_metrics (Dict[str, Any]): Risk metrics dictionary for the tweet.
+
+    Returns:
+        Tuple[Optional[str], Optional[float]]: predicted_class, malicious_probability
+    """
+    global classification_model, classification_scaler, classification_feature_names
+
+    if not all([classification_model, classification_scaler, classification_feature_names]):
+        logger.warning("Classification artifacts not loaded. Skipping prediction.")
+        return None, None
+
+    loop = asyncio.get_running_loop()
+    try:
+        # Offload the prediction logic to the thread pool
+        predicted_class, malicious_probability = await loop.run_in_executor(
+            thread_pool,
+            _run_classification_prediction, # Helper function for sync code
+            risk_metrics,
+            classification_model,
+            classification_scaler,
+            classification_feature_names
+        )
+        return predicted_class, malicious_probability
+    except Exception as e:
+        logger.error(f"Error during classification prediction task: {e}")
+        return None, None
+
+def _run_classification_prediction(
+    risk_metrics: Dict[str, Any],
+    model: Any,
+    scaler: Any,
+    expected_feature_names: List[str]
+) -> Tuple[Optional[str], Optional[float]]:
+    """Synchronous helper function to run the classification prediction."""
+    try:
+        # 1. Extract features
+        feature_vector, feature_names = extract_hybrid_tweet_features(
+            risk_metrics,
+            ALL_ENTITY_TYPES,
+            ALL_CONTEXT_SIGNALS,
+            ALL_SEMANTIC_INDICATORS
+        )
+
+        # 2. Verify and align features
+        if feature_names != expected_feature_names:
+            logger.warning(f"Feature name mismatch. Current: {len(feature_names)} vs Expected: {len(expected_feature_names)}")
+            if set(feature_names) == set(expected_feature_names):
+                feature_dict = dict(zip(feature_names, feature_vector))
+                aligned_vector = np.array([feature_dict.get(name, 0.0) for name in expected_feature_names])
+                feature_vector = aligned_vector
+                logger.info("Feature vector reordered.")
+            else:
+                 logger.error("Cannot align feature names. Aborting prediction.")
+                 missing = set(expected_feature_names) - set(feature_names)
+                 extra = set(feature_names) - set(expected_feature_names)
+                 if missing: logger.error(f"Missing expected features: {missing}")
+                 if extra: logger.error(f"Found unexpected features: {extra}")
+                 return None, None
+
+        # 3. Reshape
+        feature_vector_2d = feature_vector.reshape(1, -1)
+
+        # 4. Scale
+        scaled_features = scaler.transform(feature_vector_2d)
+
+        # 5. Predict class
+        predicted_class = model.predict(scaled_features)[0]
+
+        # 6. Predict probability
+        proba = model.predict_proba(scaled_features)[0]
+        malicious_probability = 0.0
+        if hasattr(model, 'classes_'):
+            classes_list = list(model.classes_)
+            if 'malicious' in classes_list:
+                malicious_idx = classes_list.index('malicious')
+                malicious_probability = proba[malicious_idx]
+            else:
+                logger.warning("'malicious' class not found in model.")
+        else:
+             logger.warning("Cannot determine model classes.")
+
+        return predicted_class, malicious_probability
+
+    except Exception as e:
+        logger.error(f"Error in _run_classification_prediction: {e}")
+        # Avoid propagating error, return None
+        return None, None 

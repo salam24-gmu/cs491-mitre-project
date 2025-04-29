@@ -91,6 +91,32 @@ class UserRiskProfileRequest(BaseModel):
             "tweet_id": "tweet_456"
         }])
 
+class SystemInfoResponse(BaseModel):
+    """Response model for system info"""
+    version: str
+    system_info: Dict[str, Any]
+    model_path: str # Path to NER model
+    classification_model_path: str # Path to Classification model
+    status: str
+    models_exist: Dict[str, bool] # Indicate existence of both models
+
+    model_config = {
+        "protected_namespaces": ()
+    }
+
+class ModelInfoResponse(BaseModel):
+    """Response model for model information"""
+    model_type: str # 'NER' or 'Classification'
+    model_id: str
+    model_path: str
+    exists: bool
+    files: Optional[List[str]] = None
+    size_mb: Optional[float] = None
+
+    model_config = {
+        "protected_namespaces": ()
+    }
+
 class Entity(BaseModel):
     """Entity detected by the NER pipeline"""
     entity_group: str
@@ -99,40 +125,65 @@ class Entity(BaseModel):
     start: int
     end: int
 
-class ThreatDetectionResponse(BaseModel):
-    """Response model for threat detection"""
+class RiskAnalysisResponse(BaseModel):
+    """Response model for single text risk analysis"""
+    text: str
+    user_id: Optional[str] = None
+    tweet_id: Optional[str] = None
+    timestamp: Optional[str] = None
     entities: List[Entity]
-    analysis_result: str
+    risk_metrics: Dict[str, Any]
+    predicted_class: Optional[str] = None
+    malicious_probability: Optional[float] = None
     processing_time_ms: float
 
-class BatchThreatDetectionResponse(BaseModel):
-    """Response model for batch threat detection"""
-    results: List[ThreatDetectionResponse]
-    total_processing_time_ms: float
+class AssessedText(BaseModel):
+    """Represents a single assessed text within a batch"""
+    text: str
+    user_id: Optional[str] = None
+    tweet_id: Optional[str] = None
+    timestamp: Optional[str] = None
+    entities: List[Entity]
+    risk_metrics: Dict[str, Any]
+    predicted_class: Optional[str] = None
+    malicious_probability: Optional[float] = None
+    error: Optional[str] = None
 
-class SystemInfoResponse(BaseModel):
-    """Response model for system info"""
-    version: str
-    system_info: Dict[str, Any]
-    model_path: str
-    status: str
-    model_exists: bool
-    
-    model_config = {
-        "protected_namespaces": ()
-    }
+class UserSummary(BaseModel):
+    """Summary of a user's risk profile"""
+    user_id: str
+    tweet_count: int
+    total_risk: float
+    avg_risk_per_tweet: float
+    max_tweet_risk: float
+    high_risk_combo_density: float
+    outlier_score: float
+    behavior_anomalies: List[str]
+    risk_level: str
+    predicted_malicious_count: Optional[int] = None
+    predicted_malicious_percentage: Optional[float] = None
+    avg_malicious_probability: Optional[float] = None
 
-class ModelInfoResponse(BaseModel):
-    """Response model for model information"""
-    model_id: str
-    model_path: str
-    exists: bool
-    files: Optional[List[str]] = None
-    size_mb: Optional[float] = None
-    
-    model_config = {
-        "protected_namespaces": ()
-    }
+class BatchRiskAnalysisResponse(BaseModel):
+    """Response model for batch text risk analysis"""
+    assessed_texts: List[AssessedText]
+    user_summaries: List[UserSummary]
+    processed_count: int
+    timestamp: str
+    processing_time_ms: float
+
+class UserProfileDetail(UserSummary):
+    """Detailed user risk profile"""
+    pass
+
+class UserProfileResponse(BaseModel):
+    """Response model for user risk profile endpoint"""
+    user_id: str
+    profile: UserProfileDetail
+    assessed_texts: List[AssessedText]
+    text_count: int
+    timestamp: str
+    processing_time_ms: float
 
 class FileRowAnalysisResult(BaseModel):
     """Result model for a single row in a file analysis"""
@@ -142,6 +193,8 @@ class FileRowAnalysisResult(BaseModel):
     timestamp: Optional[str] = None
     tweet_id: Optional[str] = None
     analysis_result: Optional[Dict[str, Any]] = None
+    predicted_class: Optional[str] = None
+    malicious_probability: Optional[float] = None
     error: Optional[str] = None
     processing_time_ms: float
 
@@ -159,149 +212,70 @@ class FileUploadResponse(BaseModel):
 @api_router.get("/", response_model=SystemInfoResponse)
 async def get_system_info():
     """Get system information and API status"""
-    model_path = settings.MODEL_PATH
-    model_exists = os.path.exists(model_path)
-    
+    ner_model_path = settings.MODEL_PATH
+    classification_model_path = settings.CLASSIFICATION_MODEL_PATH
+    ner_model_exists = os.path.exists(ner_model_path)
+    classification_model_exists = os.path.exists(classification_model_path)
+
     return SystemInfoResponse(
         version=settings.VERSION,
         system_info=settings.SYSTEM_INFO,
-        model_path=model_path,
+        model_path=ner_model_path, # Keep original name for backward compatibility?
+        classification_model_path=classification_model_path,
         status="running",
-        model_exists=model_exists
+        # Indicate existence of both models
+        models_exist={
+            "ner_model": ner_model_exists,
+            "classification_model": classification_model_exists
+        }
     )
 
-@api_router.get("/model-info", response_model=ModelInfoResponse)
-async def get_model_info():
-    """Get detailed information about the loaded model"""
-    model_path = settings.MODEL_PATH
+@api_router.get("/model-info/{model_type}", response_model=ModelInfoResponse)
+async def get_model_info(model_type: str):
+    """Get detailed information about the loaded NER or Classification model"""
+
+    if model_type.lower() == 'ner':
+        model_path = settings.MODEL_PATH
+        model_id = settings.MODEL_ID
+    elif model_type.lower() == 'classification':
+        model_path = settings.CLASSIFICATION_MODEL_PATH
+        model_id = settings.CLASSIFICATION_RUN_ID
+    else:
+        raise HTTPException(status_code=400, detail="Invalid model_type. Use 'ner' or 'classification'.")
+
     model_exists = os.path.exists(model_path)
-    
+
     response = ModelInfoResponse(
-        model_id=settings.MODEL_ID,
+        model_type=model_type.lower(),
+        model_id=model_id,
         model_path=model_path,
         exists=model_exists,
         files=None,
         size_mb=None
     )
-    
+
     if model_exists:
         try:
             # Get list of files in model directory
             files = os.listdir(model_path)
             response.files = files
-            
+
             # Calculate total size of model files
             total_size = 0
             for file in files:
                 file_path = os.path.join(model_path, file)
                 if os.path.isfile(file_path):
                     total_size += os.path.getsize(file_path)
-            
+
             response.size_mb = total_size / (1024 * 1024)  # Convert to MB
         except Exception as e:
+            logger.warning(f"Could not list files or get size for {model_path}: {e}")
             # If we can't access the files, just return what we have
             pass
-    
+
     return response
 
-# @api_router.post("/detect-threats", response_model=ThreatDetectionResponse)
-# async def detect_threats(request: ThreatDetectionRequest):
-#     """
-#     Detect threats and entities in provided text
-    
-#     Uses the NER model to identify potentially suspicious entities and 
-#     combinations that could indicate insider threats.
-#     """
-#     try:
-#         start_time = time.time()
-        
-#         # Run inference on the text
-#         entities = await run_inference(request.text)
-        
-#         # Generate analysis based on the detected entities
-#         analysis = evaluate_entities(
-#             entities=entities,
-#             text=request.text,
-#             tweet_timestamp=request.timestamp
-#         )
-        
-#         processing_time = (time.time() - start_time) * 1000  # Convert to milliseconds
-        
-#         return ThreatDetectionResponse(
-#             entities=entities,
-#             analysis_result=analysis,
-#             processing_time_ms=processing_time
-#         )
-        
-#     except Exception as e:
-#         raise HTTPException(
-#             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-#             detail=f"Error during threat detection: {str(e)}"
-#         )
-
-# @api_router.post("/batch-detect-threats", response_model=BatchThreatDetectionResponse)
-# async def batch_detect_threats(request: BatchThreatDetectionRequest):
-#     """
-#     Process multiple texts for threat detection in a single request
-    
-#     This endpoint is useful for analyzing multiple messages or documents at once.
-#     """
-#     try:
-#         start_time = time.time()
-#         results = []
-        
-#         for item in request.texts:
-#             item_start_time = time.time()
-            
-#             # Extract text and timestamp from the item
-#             text = item.get("text", "")
-#             timestamp = item.get("timestamp")
-            
-#             if not text:
-#                 # Skip empty texts
-#                 continue
-            
-#             try:
-#                 entities = await run_inference(text)
-                
-#                 # TODO: Provide visualizations of the entities
-#                 analysis = evaluate_entities(
-#                     entities=entities,
-#                     text=text,
-#                     tweet_timestamp=timestamp
-#                 )
-                
-#                 item_processing_time = (time.time() - item_start_time) * 1000
-                
-#                 # Add to results
-#                 results.append(ThreatDetectionResponse(
-#                     entities=entities,
-#                     analysis_result=analysis,
-#                     processing_time_ms=item_processing_time
-#                 ))
-#             except Exception as item_error:
-#                 # If one item fails, log it but continue processing others
-#                 results.append(ThreatDetectionResponse(
-#                     entities=[],
-#                     analysis_result=f"Error processing this text: {str(item_error)}",
-#                     processing_time_ms=(time.time() - item_start_time) * 1000
-#                 ))
-        
-#         total_processing_time = (time.time() - start_time) * 1000
-        
-#         return BatchThreatDetectionResponse(
-#             results=results,
-#             total_processing_time_ms=total_processing_time
-#         )
-        
-#     except Exception as e:
-#         raise HTTPException(
-#             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-#             detail=f"Error during batch threat detection: {str(e)}"
-#         )
-
-
-@api_router.post("/analyze-risk", response_model=Dict[str, Any])
+@api_router.post("/analyze-risk", response_model=RiskAnalysisResponse)
 async def analyze_risk(request: ThreatDetectionRequest):
     """
     Analyze text with risk profiling
@@ -338,7 +312,7 @@ async def analyze_risk(request: ThreatDetectionRequest):
             detail=f"Error during risk analysis: {str(e)}"
         )
 
-@api_router.post("/batch-analyze-risk", response_model=Dict[str, Any])
+@api_router.post("/batch-analyze-risk", response_model=BatchRiskAnalysisResponse)
 async def batch_analyze_risk(request: BatchThreatDetectionRequest):
     """
     Process multiple texts with risk profiling in a single request
@@ -372,7 +346,7 @@ async def batch_analyze_risk(request: BatchThreatDetectionRequest):
             detail=f"Error during batch risk analysis: {str(e)}"
         )
 
-@api_router.post("/user-risk-profile", response_model=Dict[str, Any])
+@api_router.post("/user-risk-profile", response_model=UserProfileResponse)
 async def user_risk_profile(request: UserRiskProfileRequest):
     """
     Generate a comprehensive risk profile for a specific user
@@ -554,6 +528,8 @@ async def upload_analyze_file(file: UploadFile = File(...)):
                         timestamp=timestamp,
                         tweet_id=tweet_id,
                         analysis_result=None,
+                        predicted_class=None,
+                        malicious_probability=None,
                         error="Empty or missing text",
                         processing_time_ms=row_processing_time
                     ))
@@ -567,26 +543,30 @@ async def upload_analyze_file(file: UploadFile = File(...)):
                 
                 # Analyze the text
                 logger.info(f"Row {row_number}: Running analysis on text (length: {len(text)})")
-                analysis_result = await analyze_text_with_risk_profile(
+                analysis_result_dict = await analyze_text_with_risk_profile(
                     text=text,
                     user_id=user_id,
                     tweet_id=tweet_id,
                     timestamp=timestamp
                 )
                 
+                # Extract classification results
+                pred_class = analysis_result_dict.pop('predicted_class', None)
+                pred_prob = analysis_result_dict.pop('malicious_probability', None)
+                
                 logger.info(f"Row {row_number}: Analysis complete, converting numpy types")
                 
                 # Check for numpy values before conversion
                 has_numpy = False
-                if isinstance(analysis_result, dict):
-                    for k, v in analysis_result.items():
+                if isinstance(analysis_result_dict, dict):
+                    for k, v in analysis_result_dict.items():
                         if isinstance(v, (np.integer, np.floating, np.ndarray)):
                             has_numpy = True
                             logger.debug(f"Row {row_number}: Found numpy type in result key '{k}': {type(v)}")
                 
                 # Convert any numpy types in the analysis result
                 try:
-                    analysis_result = convert_numpy_types(analysis_result)
+                    analysis_result = convert_numpy_types(analysis_result_dict)
                     logger.info(f"Row {row_number}: Successfully converted numpy types")
                 except Exception as e:
                     logger.error(f"Row {row_number}: Error converting numpy types: {str(e)}")
@@ -610,6 +590,8 @@ async def upload_analyze_file(file: UploadFile = File(...)):
                     timestamp=timestamp,
                     tweet_id=tweet_id,
                     analysis_result=analysis_result,
+                    predicted_class=pred_class,
+                    malicious_probability=pred_prob,
                     error=None,
                     processing_time_ms=row_processing_time
                 ))
@@ -625,6 +607,8 @@ async def upload_analyze_file(file: UploadFile = File(...)):
                     timestamp=row.get('timestamp', None) if 'timestamp' in df.columns else None,
                     tweet_id=row.get('tweet_id', None) if 'tweet_id' in df.columns else None,
                     analysis_result=None,
+                    predicted_class=None,
+                    malicious_probability=None,
                     error=f"Error processing row: {str(e)}",
                     processing_time_ms=row_processing_time
                 ))

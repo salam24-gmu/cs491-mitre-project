@@ -267,12 +267,36 @@ const ThreatDetectionForm = () => {
         );
     };
     
-    const renderResults = () => {
+    const renderSingleResults = () => {
         if (!result) return null;
         
         return (
             <div className="mt-4 p-4 bg-gray-50 rounded-md">
-                <h3 className="font-medium text-gray-900 mb-2">Risk Analysis Results</h3>
+                <h3 className="font-medium text-gray-900 mb-3">Analysis Results</h3>
+                
+                {/* Classification Status - New section to highlight malicious/non-malicious */}
+                {result.predicted_class && (
+                    <div className="mb-4 p-3 border rounded-md bg-white">
+                        <h4 className="text-sm font-medium text-gray-700 mb-2">Classification Status</h4>
+                        <div className="flex items-center">
+                            <span 
+                                className={`px-3 py-1 rounded-full text-sm font-medium ${
+                                    result.predicted_class === 'malicious' 
+                                    ? 'bg-red-100 text-red-800 border border-red-200' 
+                                    : 'bg-green-100 text-green-800 border border-green-200'
+                                }`}
+                            >
+                                {result.predicted_class === 'malicious' ? 'Malicious' : 'Non-Malicious'}
+                            </span>
+                            
+                            {result.malicious_probability !== null && (
+                                <span className="ml-3 text-sm text-gray-600">
+                                    Confidence: {(result.malicious_probability * 100).toFixed(1)}%
+                                </span>
+                            )}
+                        </div>
+                    </div>
+                )}
                 
                 {result.risk_level && (
                     <div className="mb-3">
@@ -292,9 +316,9 @@ const ThreatDetectionForm = () => {
                 )}
                 
                 <div className="mt-3">
-                    <details open>
+                    <details>
                         <summary className="text-sm font-medium cursor-pointer text-blue-600 hover:text-blue-800">
-                            View Details
+                            View Detailed Analysis
                         </summary>
                         <pre className="mt-2 text-xs bg-gray-100 p-2 rounded overflow-x-auto max-h-60">
                             {JSON.stringify(result, null, 2)}
@@ -309,6 +333,104 @@ const ThreatDetectionForm = () => {
                 )}
             </div>
         );
+    };
+
+    const renderBatchResults = () => {
+        if (!result || !result.assessed_texts) return null;
+        
+        return (
+            <div className="mt-4 p-4 bg-gray-50 rounded-md">
+                <h3 className="font-medium text-gray-900 mb-3">Batch Analysis Results</h3>
+                
+                {/* Summary counts for classification */}
+                {result.user_summaries && result.user_summaries.length > 0 && (
+                    <div className="mb-4 p-3 border rounded-md bg-white">
+                        <h4 className="text-sm font-medium text-gray-700 mb-2">Classification Summary</h4>
+                        <div className="grid grid-cols-2 gap-2">
+                            {result.user_summaries.map((summary, index) => (
+                                <div key={index} className="p-2 border rounded bg-gray-50">
+                                    <p className="text-sm font-medium mb-1">User: {summary.user_id}</p>
+                                    {summary.predicted_malicious_count !== null && (
+                                        <p className="text-sm text-gray-600">
+                                            Malicious Texts: {summary.predicted_malicious_count} of {summary.tweet_count} 
+                                            ({summary.predicted_malicious_percentage?.toFixed(1)}%)
+                                        </p>
+                                    )}
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
+                
+                {/* Table of individual results */}
+                <div className="overflow-x-auto">
+                    <table className="min-w-full divide-y divide-gray-200">
+                        <thead className="bg-gray-100">
+                            <tr>
+                                <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Text</th>
+                                <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">User</th>
+                                <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Classification</th>
+                                <th className="px-3 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Details</th>
+                            </tr>
+                        </thead>
+                        <tbody className="bg-white divide-y divide-gray-200">
+                            {result.assessed_texts.map((item, index) => (
+                                <tr key={index}>
+                                    <td className="px-3 py-2 text-sm text-gray-900 max-w-xs truncate">
+                                        {item.text || "N/A"}
+                                    </td>
+                                    <td className="px-3 py-2 whitespace-nowrap text-sm text-gray-500">
+                                        {item.user_id || "N/A"}
+                                    </td>
+                                    <td className="px-3 py-2 whitespace-nowrap">
+                                        {item.predicted_class ? (
+                                            <div>
+                                                <span 
+                                                    className={`px-2 py-1 rounded-full text-xs font-medium ${
+                                                        item.predicted_class === 'malicious' 
+                                                        ? 'bg-red-100 text-red-800' 
+                                                        : 'bg-green-100 text-green-800'
+                                                    }`}
+                                                >
+                                                    {item.predicted_class === 'malicious' ? 'Malicious' : 'Non-Malicious'}
+                                                </span>
+                                                {item.malicious_probability !== null && (
+                                                    <div className="text-xs text-gray-500 mt-1">
+                                                        {(item.malicious_probability * 100).toFixed(1)}%
+                                                    </div>
+                                                )}
+                                            </div>
+                                        ) : (
+                                            <span className="text-gray-500">N/A</span>
+                                        )}
+                                    </td>
+                                    <td className="px-3 py-2 text-sm">
+                                        <details className="cursor-pointer">
+                                            <summary className="text-blue-600 hover:text-blue-800 text-xs">View details</summary>
+                                            <pre className="mt-2 text-xs bg-gray-50 p-2 rounded overflow-x-auto max-h-40">
+                                                {JSON.stringify(item, null, 2)}
+                                            </pre>
+                                        </details>
+                                    </td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+                
+                {result.processing_time_ms && (
+                    <p className="text-xs text-gray-500 mt-3">
+                        Processed in {(result.processing_time_ms / 1000).toFixed(3)} seconds
+                    </p>
+                )}
+            </div>
+        );
+    };
+    
+    const renderResults = () => {
+        if (!result) return null;
+        
+        return activeTab === 'single' ? renderSingleResults() : renderBatchResults();
     };
     
     return (

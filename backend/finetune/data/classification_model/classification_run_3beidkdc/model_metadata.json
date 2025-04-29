@@ -1,0 +1,51 @@
+{
+  "model_type": "RandomForestClassifier",
+  "wandb_run_id": "3beidkdc",
+  "model_path": "/content/drive/MyDrive/cs491_DataAnalyzer/Dataset/insider_threat_ner_data/Classification_Models/run_outputs/classification_run_3beidkdc/random_forest_model.joblib",
+  "scaler_path": "/content/drive/MyDrive/cs491_DataAnalyzer/Dataset/insider_threat_ner_data/Classification_Models/run_outputs/classification_run_3beidkdc/scaler.joblib",
+  "feature_names_path": "/content/drive/MyDrive/cs491_DataAnalyzer/Dataset/insider_threat_ner_data/Classification_Models/run_outputs/classification_run_3beidkdc/feature_names.json",
+  "evaluation_metrics": {
+    "accuracy": 0.816,
+    "precision_malicious": 0.9267399267399268,
+    "recall_malicious": 0.7784615384615384,
+    "f1_malicious": 0.8461538461538461,
+    "confusion_matrix_labels": [
+      "malicious",
+      "non-malicious"
+    ],
+    "confusion_matrix": [
+      [
+        506,
+        144
+      ],
+      [
+        40,
+        310
+      ]
+    ],
+    "roc_auc": 0.8696923076923077
+  },
+  "model_params": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "sqrt",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 100,
+    "n_jobs": -1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "feature_count": 27,
+  "training_data_file": "/content/drive/MyDrive/cs491_DataAnalyzer/Dataset/insider_threat_ner_data/augmented_synthetic_data_V3.csv"
+}
