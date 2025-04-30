@@ -1,0 +1,8 @@
+/generated_plots/*.png
+*.png
+*.csv
+*.xlsx
+*.xls
+*.json
+*.jsonl
+*.jsonl.gz

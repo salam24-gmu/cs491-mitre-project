@@ -3,8 +3,9 @@ from typing import List, Optional
 from pydantic import BaseModel
 import platform
 
-# Base directory of the project
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# --- Get the parent directory (cs491-mitre-project folder) ---
+PROJECT_ROOT_DIR = os.path.dirname(BASE_DIR)
 
 class Settings(BaseModel):
     # Application settings
@@ -73,6 +74,9 @@ class Settings(BaseModel):
             "device": "CPU" if self.DEVICE == -1 else f"GPU:{self.DEVICE}",
             "max_batch_size": self.MAX_BATCH_SIZE
         }
+
+    # --- Update PLOTS_OUTPUT_DIR to be in the project root --- 
+    PLOTS_OUTPUT_DIR: str = os.path.join(PROJECT_ROOT_DIR, "generated_plots") 
 
 # Create settings instance
 settings = Settings()
